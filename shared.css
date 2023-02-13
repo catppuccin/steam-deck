@@ -1,0 +1,253 @@
+/* Color Palette */
+@import url('https://unpkg.com/@catppuccin/palette/css/catppuccin.css');
+
+/*
+HOME PAGE
+*/
+
+/* header art filter */
+.gamepadhomerecentgames_RecentGamesBackground_1SRox {}
+
+/* hovered game glow */
+.gpfocuswithin ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf,
+:hover ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
+  opacity: 0.5;
+}
+
+/* home backgrounds */
+.gamepadui_BasicHome_3LYP1.gamepadui_OpaqueBackground_b084m {
+  background: var(--ctp-base) !important;
+}
+.gamepadhome_TabbedContent_cE1Sa {
+  background: var(--ctp-base) !important;
+}
+.gamepadhomerecentgames_RecentGamesBackgroundFadeGradient_1ksIq {
+  background: -webkit-gradient(
+      linear,
+      left 80%,
+      left 90%,
+      from(rgba(0, 0, 0, 0)),
+      to(var(--ctp-base)))
+    ),
+    -webkit-gradient(linear, 0% 0%, 100% 0%, color-stop(1%, var(--ctp-base)), color-stop(5%, rgba(0, 0, 0, 0)), color-stop(95%, rgba(0, 0, 0, 0)), color-stop(99%, var(--obsidian-main-color)));
+}
+
+/* badges */
+.shared_svg_library_SteamDeckCompatVerified_3mvZq {
+  color: var(--ctp-green) !important;
+}
+.shared_svg_library_SteamDeckCompatPlayable_S7BDm {
+  color: var(--ctp-peach);
+}
+
+.shared_svg_library_SteamDeckCompatUnsupported_1SeOP, .shared_svg_library_SteamDeckCompatUnknown_15dEs {
+  color: var(--ctp-red);
+}
+.basicgamecarousel_Play_12eKc .basicgamecarousel_ActionIcon_25Qbo {
+  color: var(--ctp-green);
+}
+
+/*
+LIBRARY
+*/
+
+.gamepadlibrary_GamepadLibrary_ZBBhe {
+  background: var(--ctp-base);
+}
+.steamdeckcompatfilter_CompatFilterDialog_21qvB {
+  background: var(--ctp-base) !important;
+}
+.allcollections_Collection_3IWn- {
+  background: var(--ctp-base) !important;
+}
+
+/*
+GAME DETAILS
+*/
+
+.basicappdetailssectionstyler_AppDetailsRoot_3fp5y {
+  background: var(--ctp-base) !important;
+}
+.DeckVerifiedModalDialogClient .DialogContent,
+.DeckVerifiedModalDialog .DialogContent {
+  background: var(--ctp-base) !important;
+}
+
+/* 
+STEAM INPUT
+*/
+
+/* Make hovered buttons glow white instead of blue */
+.controllerconfiguratorchoosebinding_TriggerButton_2MjBd.gpfocus,
+.controllerconfiguratorchoosebinding_BumperButton_2swvc.gpfocus {
+  filter: drop-shadow(0px 0px 10px var(--catppuccin-button-glow));
+}
+.controllerconfiguratorchoosebinding_SelectButton_3i-XV.gpfocus,
+.controllerconfiguratorchoosebinding_StartButton_3s28A.gpfocus {
+  filter: drop-shadow(0px 0px 10px var(--catppuccin-button-glow));
+}
+.controllerconfiguratorchoosebinding_MouseKey_19SMS.gpfocus {
+  filter: drop-shadow(0px 0px 10px var(--catppuccin-button-glow));
+}
+.controllerconfiguratorchoosebinding_KeyboardKey_NoRFS.gpfocus {
+  filter: drop-shadow(0px 0px 10px var(--catppuccin-button-glow));
+}
+.controllerconfiguratorchoosebinding_ControllerActionKey_3yP_p.gpfocus {
+  filter: drop-shadow(0px 0px 10px var(--catppuccin-button-glow));
+}
+.controllerconfiguratorchoosebinding_ControllerActionKey_3yP_p.gpfocus {
+  filter: drop-shadow(0px 0px 10px var(--catppuccin-button-glow));
+}
+
+/* Turn backgrounds black */
+.controllerconfigurator_TopSection_20sN9 {
+  background: var(--ctp-base) !important;
+}
+.controllerconfigurator_ControllerConfiguratorMain_APY6j {
+  background: var(--ctp-base) !important;
+}
+.controllerconfigurator_BottomSection_3RsRf {
+  background: var(--ctp-base) !important;
+}
+.gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle {
+  background: var(--ctp-base) !important;
+}
+.gamepadpagedsettings_PagedSettingsDialog_PageListColumn_2EZ3o {
+  background: var(--ctp-base) !important;
+}
+.gamepadpage_GamepadPage_2FqpD.gamepadpage_DialogBackground_2msTK {
+  background: var(--ctp-base) !important;
+}
+.controllerconfigurator_interstitial_ConfiguratorInterstitialContainer_3FS5u {
+  background: var(--ctp-base) !important;
+}
+.controllerconfiguratorsummary_ControllerConfiguratorSummary_3TvBV {
+  background: var(--ctp-base) !important;
+}
+
+/* 
+FRIENDS & CHAT
+*/
+
+/* Get rid of glow */
+.SteamDeckChats.gpfocuswithin .chattabs_ChatTab_1WfqA {
+  box-shadow: none;
+}
+/* Turn backgrounds black */
+.GamepadMode.friendlist.gpfocuswithin .FriendsListSteamDeckTopSection {
+  background: var(--ctp-base) !important;
+}
+.GamepadMode.friendlist {
+  background-color: var(--ctp-base) !important;
+  background: var(--ctp-base) !important;
+}
+.GamepadMode.friendlist.gpfocuswithin {
+  background-color: var(--ctp-base) !important;
+  background: var(--ctp-base) !important;
+}
+.multiChatDialog.GamepadMode,
+.GamepadMode .multiChatDialog {
+  background: var(--ctp-base) !important;
+}
+.multiChatDialog.GamepadMode.gpfocuswithin,
+.GamepadMode .multiChatDialog.gpfocuswithin {
+  background-color: var(--ctp-base) !important;
+  background: var(--ctp-base) !important;
+}
+
+/*
+DOWNLOADS
+*/
+
+/* Disable blue glow on hero */
+.downloadgraph_HeroAndLogo_3mZ2r
+  .downloadgraph_HeroContainer_3WauY
+  .downloadgraph_HeroGradient_edQzw {
+  background: none;
+}
+/* Turn backgrounds black */
+.downloads_DownloadsPage_1bq4x {
+  background: var(--ctp-base) !important;
+}
+.downloadgraph_HeroAndLogo_3mZ2r.downloadgraph_Empty_pHDI1 {
+  background: var(--ctp-base) !important;
+}
+.downloadgraph_GraphAndStats_3KDkL {
+  background: var(--ctp-base) !important;
+}
+.BasicUI .libraryassetimage_GreyBackground_2E7G8 {
+  background: var(--ctp-base) !important;
+}
+.downloads_SectionItem_1VNuY.downloads_Active_IbePL {
+  background: var(--ctp-base) !important;
+}
+
+/*
+SETTINGS
+*/
+
+/* Turn backgrounds black */
+.BasicUI .librarysettings_LibrarySettings_2nsOY {
+  background: var(--ctp-base) !important;
+}
+.BasicUI .contentmanagement_ContentManagement_3wk64 {
+  background: var(--ctp-base) !important;
+}
+
+/*
+QUICK ACCESS
+*/
+
+/* Turn backgrounds black */
+.quickaccessmenu_QuickAccessMenu_V0cr- {
+  background: var(--ctp-base) !important;
+}
+.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu {
+  background-color: #22262b !important;
+}
+.quickaccessmenu_Tab_1S76C {
+  background-color: var(--ctp-base) !important;
+}
+.quickaccessmenu_Title_34nl5 {
+  background: var(--ctp-base) !important;
+  box-shadow: none;
+}
+.GamepadMode.friendlist {
+  background: var(--ctp-base) !important;
+}
+.GamepadMode.friendlist .FriendsListSteamDeckTabs {
+  background-color: var(--ctp-base) !important;
+}
+
+/*
+OTHER
+*/
+
+/* Navigation */
+.mainmenu_Menu_23IDi {
+  background: var(--ctp-base) !important;
+}
+}
+.mainmenu_Item_2w9Tp .mainmenu_ActiveDot_1uLVH {
+  background: var(--ctp-blue) !important;
+}
+/* Power menu */
+.gamepadui_GamepadDialogOverlay_34Euf .ModalOverlayBackground {
+  background: var(--ctp-base) 000dd !important;
+}
+/* Search */
+.gamepadsearch_GamepadSearch_P_AlE {
+  background: var(--ctp-base) !important;
+}
+/* Media upload */
+.gamepaddialog_ModalPosition_30VHl > .gamepaddialog_GamepadDialogContent_3joNk {
+  background: var(--ctp-base) !important;
+}
+/* Lock screen */
+.lockscreen_Container_3rFFU {
+  background: var(--ctp-base) !important;
+}
+/* Footer */
+.footer_BasicFooter_3T1iF {
+  background: var(--ctp-base)
+}

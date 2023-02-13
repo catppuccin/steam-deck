@@ -1,0 +1,10 @@
+:root {
+  --ctp-base: var(--ctp-mocha-base);
+  --ctp-surface0: var(--ctp-mocha-surface0);
+  
+  /* colors */
+  --ctp-green: var(--ctp-mocha-green);
+  --ctp-blue: var(--ctp-mocha-blue);
+  --ctp-red: var(--ctp-mocha-red);
+  --ctp-peach: var(--ctp-mocha-peach);
+}

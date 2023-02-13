@@ -1,0 +1,29 @@
+{
+    "name": "Catppuccin",
+    "author": "ozwaldorf",
+    "manifest_version": 3,
+    "target": "Other",
+    "description": "Catppuccin Steam Deck",
+    "inject": {
+        "shared.css": ["SP", "MainMenu", "QuickAccess"]
+    },
+    "patches": {
+        "Flavor": {
+            "type": "slider",
+            "values": {
+                "Mocha": {
+                    "mocha.css": ["SP", "MainMenu", "QuickAccess"]
+                },
+                "Macchiato": {
+                    "macchiato.css": ["SP", "MainMenu", "QuickAccess"]
+                },
+                "Frappe": {
+                    "frappe.css": ["SP", "MainMenu", "QuickAccess"]
+                },
+                "Latte": {
+                    "latte.css": ["SP", "MainMenu", "QuickAccess"]
+                }
+            }
+        } 
+    }
+}

@@ -1,0 +1,10 @@
+:root {
+  --ctp-base: var(--ctp-latte-base);
+  --ctp-surface0: var(--ctp-latte-surface0);
+  
+  /* colors */
+  --ctp-green: var(--ctp-latte-green);
+  --ctp-blue: var(--ctp-latte-blue);
+  --ctp-red: var(--ctp-latte-red);
+  --ctp-peach: var(--ctp-latte-peach);
+}

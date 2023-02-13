@@ -1,0 +1,10 @@
+:root {
+  --ctp-base: var(--ctp-frappe-base);
+  --ctp-surface0: var(--ctp-frappe-surface0);
+  
+  /* colors */
+  --ctp-green: var(--ctp-frappe-green);
+  --ctp-blue: var(--ctp-frappe-blue);
+  --ctp-red: var(--ctp-frappe-red);
+  --ctp-peach: var(--ctp-frappe-peach);
+}
