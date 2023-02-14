@@ -22,15 +22,9 @@ HOME PAGE
   background: var(--ctp-base) !important;
 }
 .gamepadhomerecentgames_RecentGamesBackgroundFadeGradient_1ksIq {
-  background: -webkit-gradient(
-      linear,
-      left 80%,
-      left 90%,
-      from(rgba(0, 0, 0, 0)),
-      to(var(--ctp-base)))
-    ),
-    -webkit-gradient(linear, 0% 0%, 100% 0%, color-stop(1%, var(--ctp-base)), color-stop(5%, rgba(0, 0, 0, 0)), color-stop(95%, rgba(0, 0, 0, 0)), color-stop(99%, var(--ctp-base)));
+  background: none;
 }
+
 
 /* badges */
 .shared_svg_library_SteamDeckCompatVerified_3mvZq {
@@ -74,6 +68,10 @@ HOME PAGE
 /*
 TOP BAR
 */
+
+.header_Header_1E_SL::before {
+  background: var(--ctp-crust);
+}
 
 /* online status */
 .online .personanameandstatus_richPresenceLabel_1k82N.GamepadMode, 
