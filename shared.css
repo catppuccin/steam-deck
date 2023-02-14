@@ -29,7 +29,7 @@ HOME PAGE
       from(rgba(0, 0, 0, 0)),
       to(var(--ctp-base)))
     ),
-    -webkit-gradient(linear, 0% 0%, 100% 0%, color-stop(1%, var(--ctp-base)), color-stop(5%, rgba(0, 0, 0, 0)), color-stop(95%, rgba(0, 0, 0, 0)), color-stop(99%, var(--obsidian-main-color)));
+    -webkit-gradient(linear, 0% 0%, 100% 0%, color-stop(1%, var(--ctp-base)), color-stop(5%, rgba(0, 0, 0, 0)), color-stop(95%, rgba(0, 0, 0, 0)), color-stop(99%, var(--ctp-base)));
 }
 
 /* badges */
@@ -45,6 +45,61 @@ HOME PAGE
 }
 .basicgamecarousel_Play_12eKc .basicgamecarousel_ActionIcon_25Qbo {
   color: var(--ctp-green);
+}
+.appdetailsfriendssection_FriendsPlayingNowBadge_38sNQ.appdetailsfriendssection_InFriendsTab_15Vpl {
+  background-color: var(--ctp-green);
+  color: var(--ctp-base);
+}
+.appdetailsfriendssection_FriendsPlayingNowBadge_38sNQ.appdetailsfriendssection_InFriendsTab_15Vpl.appdetailsfriendssection_TabSelected_mHKj- {
+  background-color: var(--ctp-green);
+  color: var(--ctp-base);
+}
+.gamepadtabbedpage_Tab_3eEbS.gpfocus {
+  background-color: var(--ctp-rosewater) !important;
+  color: var(--ctp-base) !important;
+}
+.gamepadtabbedpage_Tab_3eEbS {
+  color: var(--ctp-text) !important;
+}
+.gamepadtabbedpage_Selected_3Gp1b {
+  background-color: var(--ctp-overlay0) !important;
+  color: var(--ctp-base) !important;
+}
+
+/* whats new */
+.gamepadhomewhatsnew_EventInfo_6TGe7 {
+  background: var(--ctp-surface0) !important;
+}
+
+/*
+TOP BAR
+*/
+
+/* online status */
+.online .personanameandstatus_richPresenceLabel_1k82N.GamepadMode, 
+.GamepadMode .online .personanameandstatus_richPresenceLabel_1k82N,
+.online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a.GamepadMode,
+.GamepadMode .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a,
+.online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover.GamepadMode,
+.GamepadMode .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover,
+.online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active.GamepadMode,
+.GamepadMode .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active,
+.online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited.GamepadMode,
+.GamepadMode .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited {
+  color: var(--ctp-blue) !important;          
+}
+.online .steamavatar_avatarStatus_1yIzy.GamepadMode, .GamepadMode .online .steamavatar_avatarStatus_1yIzy {
+  background: var(--ctp-blue) !important; 
+}
+
+/* battery */
+.header_BatteryIcon_1_6kL svg svg rect,
+.quickaccesscontrols_BatteryIcon_39aNh svg svg rect {
+  fill: var(--ctp-green);
+  color: var(--ctp-base);
+}
+.header_HeaderItem_2HnVd.header_BatteryIcon_1_6kL {
+  color: var(--ctp-text);
 }
 
 /*
@@ -71,6 +126,28 @@ GAME DETAILS
 .DeckVerifiedModalDialogClient .DialogContent,
 .DeckVerifiedModalDialog .DialogContent {
   background: var(--ctp-base) !important;
+}
+.BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX.Focusable:focus,
+.BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX.Focusable:hover,
+.BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX.Focusable:focus .appactionbutton_ButtonText_33cnX,
+.BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX.Focusable:hover .appactionbutton_ButtonText_33cnX {
+  background: var(--ctp-green) !important;
+  color: var(--ctp-base) !important;  
+}
+.BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX {
+  background: var(--ctp-overlay0) !important;
+}
+
+/* protondb */
+.protondb-decky-indicator {
+  border-radius: 3px;
+  color: var(--ctp-base) !important;
+}
+.protondb-decky-indicator-gold {
+  background: var(--ctp-yellow) !important;
+}
+.protondb-decky-indicator-borked {
+  background: var(--ctp-red) !important;
 }
 
 /* 
@@ -231,10 +308,42 @@ OTHER
 .mainmenu_Item_2w9Tp .mainmenu_ActiveDot_1uLVH {
   background: var(--ctp-blue) !important;
 }
+
+button.gamepaddialog_Button_1kn70.DialogButton,
+button.gamepaddialog_Button_1kn70.DialogButton.Primary, 
+button.gamepaddialog_Button_1kn70.DialogButton:enabled, 
+button.gamepaddialog_Button_1kn70.DialogButton:enabled.Primary, 
+button.gamepaddialog_Button_1kn70.DialogButton:active, 
+button.gamepaddialog_Button_1kn70.DialogButton:active.Primary, 
+button.gamepaddialog_Button_1kn70.DialogButton:hover, 
+button.gamepaddialog_Button_1kn70.DialogButton:hover.Primary, 
+button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover,
+button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary {
+  background: var(--ctp-surface0) !important;
+}
+
+button.gamepaddialog_Button_1kn70.DialogButton.gpfocus, 
+button.gamepaddialog_Button_1kn70.DialogButton:active, 
+button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus, 
+button.gamepaddialog_Button_1kn70.DialogButton:enabled:active, 
+button.gamepaddialog_Button_1kn70.DialogButton:active.gpfocus, 
+button.gamepaddialog_Button_1kn70.DialogButton:active:active, 
+button.gamepaddialog_Button_1kn70.DialogButton:hover.gpfocus, 
+button.gamepaddialog_Button_1kn70.DialogButton:hover:active, 
+button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.gpfocus, 
+button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
+  background: var(--ctp-rosewater) !important;
+  color: var(--ctp-base) !important;
+}
+
+.basiccontextmenu_contextMenuItem_3PqLg {
+  background: var(--ctp-mantle) !important;
+}
 /* Power menu */
 .gamepadui_GamepadDialogOverlay_34Euf .ModalOverlayBackground {
   background: var(--ctp-base) 000dd !important;
 }
+
 /* Search */
 .gamepadsearch_GamepadSearch_P_AlE {
   background: var(--ctp-base) !important;
@@ -249,5 +358,5 @@ OTHER
 }
 /* Footer */
 .footer_BasicFooter_3T1iF {
-  background: var(--ctp-base)
+  background: var(--ctp-crust) !important;
 }

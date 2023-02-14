@@ -1,10 +1,16 @@
 :root {
+  --ctp-text: var(--ctp-mocha-text);
   --ctp-base: var(--ctp-mocha-base);
+  --ctp-mantle: var(--ctp-mocha-mantle);
+  --ctp-crust: var(--ctp-mocha-crust);
   --ctp-surface0: var(--ctp-mocha-surface0);
+  --ctp-overlay0: var(--ctp-mocha-overlay0);
   
   /* colors */
   --ctp-green: var(--ctp-mocha-green);
   --ctp-blue: var(--ctp-mocha-blue);
   --ctp-red: var(--ctp-mocha-red);
   --ctp-peach: var(--ctp-mocha-peach);
+  --ctp-yellow: var(--ctp-mocha-yellow);
+  --ctp-rosewater: var(--ctp-mocha-rosewater);
 }
