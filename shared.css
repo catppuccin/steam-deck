@@ -60,14 +60,14 @@ HOME PAGE
 }
 .gamepadtabbedpage_Tab_3eEbS.gpfocus {
   background-color: var(--ctp-rosewater);
-  color: var(--ctp-base);
+  color: var(--ctp-base) !important;
 }
 .gamepadtabbedpage_Tab_3eEbS {
   color: var(--ctp-text);
 }
 .gamepadtabbedpage_Selected_3Gp1b {
   background-color: var(--ctp-overlay0);
-  color: var(--ctp-text);
+  color: var(--ctp-text) !important;
 }
 
 /* whats new */
@@ -88,6 +88,12 @@ HOME PAGE
 /*
 TOP BAR
 */
+.searchbar_SearchBox_2a1-s,
+.searchbar_SearchContainer_161Tj .searchbar_SearchIconRight_1Ka4T,
+.header_Clock_1HhLU,
+.BasicUI .header_Header_1E_SL {
+  color: var(--ctp-text);
+}
 
 .header_HeaderDownloadContainer_2ssr3 .header_HeaderAppPortraitContainer_1PbL3 .header_HeaderDownloadProgressBarBackground_vo3Tt .header_HeaderDownloadProgressBar_AK_Ax {
   background-color: var(--ctp-blue);
@@ -166,13 +172,26 @@ LIBRARY
 .gamepadtabbedpage_TabCount_1ui4I {
   color: var(--ctp-text);
 }
+.BasicUI .appdetailsplaysection_MenuButton_3qDWQ.Focusable:focus,
+.appactionbutton_ShutdownAppButton_1WVYD.gpfocus {
+  background-color: var(--ctp-rosewater);
+  color: var(--ctp-base);
+}
 
 /*
 GAME DETAILS
 */
 
 .basicappdetailssectionstyler_AppDetailsRoot_3fp5y {
-  background: var(--ctp-base);
+  background: var(--ctp-base) !important;
+}
+.BasicUI .appdetailsplaysection_PlayBarDetailLabel_2TYVG,
+.BasicUI .appdetailsplaysection_LastPlayed_3pS8k .appdetailsplaysection_LastPlayedInfo_1nfJN,
+.BasicUI .appdetailssectionheader_Label_1SQ30 .appdetailssectionheader_LabelText_3i0ko {
+  color: var(--ctp-text);
+}
+.BasicUI .appdetailsplaysection_PlayBarLabel_34lrt {
+  color: var(--ctp-subtext1);
 }
 .DeckVerifiedModalDialogClient .DialogContent,
 .DeckVerifiedModalDialog .DialogContent {
@@ -198,7 +217,7 @@ GAME DETAILS
   color: var(--ctp-base);
 }
 .appdetailsfriendssection_FriendsPlayingNowBadge_38sNQ {
-  background: var(--ctp-green);
+  background: var(--ctp-green) !important;
   color: var(--ctp-base);
 }
 .appdetailsfriendssection_FriendsSectionPlayingNow_fPAoc .appdetailsfriendssection_PlayingNowBody_17fER {
@@ -231,7 +250,6 @@ GAME DETAILS
 .BasicUI .appdetailsachievementssection_AchievementProgressContainer_3ns91 .appdetailsachievementssection_AchievementProgress_3Rm36 {
   background: var(--ctp-blue);
 }
-
 .appdetailsachievementssection_AchievementCarouselItem_mbFSn.appdetailsachievementssection_Detailed_3KGi6 {
   background: var(--ctp-overlay0);
 }
@@ -241,7 +259,6 @@ GAME DETAILS
 .BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
   background: var(--ctp-surface0);
 }
-
 .appactivityday_PartnerEventMediumImage_Container_1HZy7 {
   background: var(--ctp-surface0);
 }
@@ -250,23 +267,36 @@ GAME DETAILS
   color: var(--ctp-base);
 }
 
+button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary,
+button.gamepaddialog_Button_1kn70.DialogButton:active.Primary,
+button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus.Primary,
+button.gamepaddialog_Button_1kn70.DialogButton:enabled:active.Primary,
+button.gamepaddialog_Button_1kn70.DialogButton:active.gpfocus.Primary,
+button.gamepaddialog_Button_1kn70.DialogButton:active:active.Primary,
+button.gamepaddialog_Button_1kn70.DialogButton:hover.gpfocus.Primary,
+button.gamepaddialog_Button_1kn70.DialogButton:hover:active.Primary,
+button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.gpfocus.Primary,
+button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active.Primary {
+  background: var(--ctp-blue);
+  color: var(--ctp-base);
+}
+
 /* protondb */
 .protondb-decky-indicator {
   border-radius: 3px;
-  color: var(--ctp-base);
+  color: var(--ctp-base) !important;
 }
 .protondb-decky-indicator-gold {
-  background: var(--ctp-yellow);
+  background: var(--ctp-yellow) !important;
 }
 .protondb-decky-indicator-borked {
-  background: var(--ctp-red);
+  background: var(--ctp-red) !important;
 }
 
 /* 
 STEAM INPUT
 */
 
-/* Make hovered buttons glow white instead of blue */
 .controllerconfiguratorchoosebinding_TriggerButton_2MjBd.gpfocus,
 .controllerconfiguratorchoosebinding_BumperButton_2swvc.gpfocus {
   filter: drop-shadow(0px 0px 10px var(--catppuccin-button-glow));
@@ -288,7 +318,6 @@ STEAM INPUT
   filter: drop-shadow(0px 0px 10px var(--catppuccin-button-glow));
 }
 
-/* Turn backgrounds black */
 .controllerconfigurator_TopSection_20sN9 {
   background: var(--ctp-base);
 }
@@ -322,7 +351,6 @@ FRIENDS & CHAT
 .SteamDeckChats.gpfocuswithin .chattabs_ChatTab_1WfqA {
   box-shadow: none;
 }
-/* Turn backgrounds black */
 .GamepadMode.friendlist.gpfocuswithin .FriendsListSteamDeckTopSection {
   background: var(--ctp-base);
 }
@@ -398,7 +426,6 @@ DOWNLOADS
 SETTINGS
 */
 
-/* Turn backgrounds black */
 .BasicUI .librarysettings_LibrarySettings_2nsOY {
   background: var(--ctp-base);
 }
@@ -521,7 +548,7 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
 }
 /* Power menu */
 .gamepadui_GamepadDialogOverlay_34Euf .ModalOverlayBackground {
-  background: var(--ctp-base) 000dd;
+  background: var(--ctp-base);
 }
 
 /* Search */
@@ -540,9 +567,13 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
 .footer_BasicFooter_3T1iF {
   background: var(--ctp-crust);
 }
-.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus, .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin {
+.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus,
+.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin {
   background: var(--ctp-overlay0);
 }
 .gamepaddialog_ToggleRail_2JtC3::before {
   background: var(--ctp-blue);
+}
+.actionbuttonlegenditem_ActionButtonLegend_Mbyhb .actionbuttonlegenditem_ActionButtonLabel_31Jnn {
+  color: var(--ctp-text);
 }

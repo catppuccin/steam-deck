@@ -1,5 +1,6 @@
 :root {
-  --ctp-text: var(--ctp-macchiato-text);  
+  --ctp-text: var(--ctp-macchiato-text); 
+  --ctp-subtext1: var(--ctp-macchiato-subtext1);
   --ctp-base: var(--ctp-macchiato-base);
   --ctp-mantle: var(--ctp-macchiato-mantle);
   --ctp-crust: var(--ctp-macchiato-crust);
