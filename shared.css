@@ -2,13 +2,6 @@
 @import url('https://unpkg.com/@catppuccin/palette/css/catppuccin.css');
 
 /*
-TOP BAR
-*/
-.header_HeaderDownloadContainer_2ssr3 .header_HeaderAppPortraitContainer_1PbL3 .header_HeaderDownloadProgressBarBackground_vo3Tt .header_HeaderDownloadProgressBar_AK_Ax {
-  background-color: var(--ctp-blue) !important;
-}
-
-/*
 HOME PAGE
 */
 
@@ -20,20 +13,19 @@ HOME PAGE
 :hover ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
   opacity: 0.5;
 }
-
 .BasicUI .appportrait_FriendsBar_3dncO.appportrait_IconsView_1WWmQ {
   bottom: -40px;
 }
-
 .basicgamecarousel_SubMessage_1BtXg.basicgamecarousel_FriendsInGame_3z5U1 {
-  color: var(--ctp-green) !important;
+  color: var(--ctp-green);
 }
+
 /* home backgrounds */
 .gamepadui_BasicHome_3LYP1.gamepadui_OpaqueBackground_b084m {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 .gamepadhome_TabbedContent_cE1Sa {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 .gamepadhomerecentgames_RecentGamesBackgroundFadeGradient_1ksIq {
   background: none;
@@ -42,19 +34,17 @@ HOME PAGE
   background: var(--ctp-surface0)
 }
 .BasicUI .appdetailscommunityfeed_Title_2xEgU {
-  color: var(--ctp-text) !important;
+  color: var(--ctp-text);
 }
-
 
 /* badges */
 .deckverified_Verified_2NlWs,
 .shared_svg_library_SteamDeckCompatVerified_3mvZq {
-  color: var(--ctp-green) !important;
+  color: var(--ctp-green);
 }
 .shared_svg_library_SteamDeckCompatPlayable_S7BDm {
   color: var(--ctp-peach);
 }
-
 .shared_svg_library_SteamDeckCompatUnsupported_1SeOP, .shared_svg_library_SteamDeckCompatUnknown_15dEs {
   color: var(--ctp-red);
 }
@@ -69,44 +59,44 @@ HOME PAGE
   color: var(--ctp-base);
 }
 .gamepadtabbedpage_Tab_3eEbS.gpfocus {
-  background-color: var(--ctp-rosewater) !important;
-  color: var(--ctp-base) !important;
+  background-color: var(--ctp-rosewater);
+  color: var(--ctp-base);
 }
 .gamepadtabbedpage_Tab_3eEbS {
-  color: var(--ctp-text) !important;
+  color: var(--ctp-text);
 }
 .gamepadtabbedpage_Selected_3Gp1b {
-  background-color: var(--ctp-overlay0) !important;
-  color: var(--ctp-base) !important;
+  background-color: var(--ctp-overlay0);
+  color: var(--ctp-text);
 }
 
 /* whats new */
 .gamepadhomewhatsnew_EventInfo_6TGe7 {
-  background: var(--ctp-surface0) !important;
+  background: var(--ctp-surface0);
 }
-
 .recentlycompleted_RecentlyCompletedItem_3OC7i {
-  background: var(--ctp-crust) !important;
+  background: var(--ctp-crust);
 }
 .recentlycompleted_BottomSection_3LyF6 {
-  background: var(--ctp-mantle) !important;
+  background: var(--ctp-mantle);
 }
-
 .gamecapsule_InLibrary_fyHna,
 .gamecapsule_GameCapsule_fXdhj .gamecapsule_BottomBar_3-GyQ {
-  background: var(--ctp-blue) !important;
+  background: var(--ctp-blue);
 }
 
 /*
 TOP BAR
 */
 
-.header_Header_1E_SL::before {
-  background: var(--ctp-crust) !important;
+.header_HeaderDownloadContainer_2ssr3 .header_HeaderAppPortraitContainer_1PbL3 .header_HeaderDownloadProgressBarBackground_vo3Tt .header_HeaderDownloadProgressBar_AK_Ax {
+  background-color: var(--ctp-blue);
 }
-
+.header_Header_1E_SL::before {
+  background: var(--ctp-crust);
+}
 .mainbrowser_URLBar_1CwIx .mainbrowser_URL_2aM-J {
-  background: var(--ctp-crust) !important;
+  background: var(--ctp-crust);
 }
 
 /* online status */
@@ -120,16 +110,16 @@ TOP BAR
 .GamepadMode .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active,
 .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited.GamepadMode,
 .GamepadMode .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited {
-  color: var(--ctp-teal) !important;          
+  color: var(--ctp-teal);          
 }
 .awayOrSnooze.online .personanameandstatus_richPresenceLabel_1k82N.GamepadMode, .GamepadMode .awayOrSnooze.online .personanameandstatus_richPresenceLabel_1k82N, .awayOrSnooze.online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a.GamepadMode, .GamepadMode .awayOrSnooze.online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a, .awayOrSnooze.online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover.GamepadMode, .GamepadMode .awayOrSnooze.online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover, .awayOrSnooze.online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active.GamepadMode, .GamepadMode .awayOrSnooze.online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active, .awayOrSnooze.online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited.GamepadMode, .GamepadMode .awayOrSnooze.online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited {
-  color: var(--ctp-blue) !important;
+  color: var(--ctp-blue);
 }
 .online .steamavatar_avatarStatus_1yIzy.GamepadMode, .GamepadMode .online .steamavatar_avatarStatus_1yIzy {
-  background: var(--ctp-teal) !important; 
+  background: var(--ctp-teal); 
 }
 .ingame .steamavatar_avatarStatus_1yIzy.GamepadMode, .GamepadMode .ingame .steamavatar_avatarStatus_1yIzy {
-  background: var(--ctp-green) !important;
+  background: var(--ctp-green);
 }
 .ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N.GamepadMode, 
 .GamepadMode .ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N, 
@@ -143,7 +133,7 @@ TOP BAR
 .GamepadMode .ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited, 
 .ingame.personanameandstatus_twoLine_27M2G .personanameandstatus_richPresenceLabel_1k82N.GamepadMode, 
 .GamepadMode .ingame.personanameandstatus_twoLine_27M2G .personanameandstatus_richPresenceLabel_1k82N {
-  color: var(--ctp-green) !important;
+  color: var(--ctp-green);
 }
 
 /* battery */
@@ -164,17 +154,17 @@ LIBRARY
   background: var(--ctp-base);
 }
 .steamdeckcompatfilter_CompatFilterDialog_21qvB {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 .allcollections_Collection_3IWn- {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 .gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b > .gamepadtabbedpage_TabCount_1ui4I, 
 .gamepadtabbedpage_Tab_3eEbS.gpfocus .gamepadtabbedpage_TabCount_1ui4I {
-  color: var(--ctp-base) !important;
+  color: var(--ctp-base);
 }
 .gamepadtabbedpage_TabCount_1ui4I {
-  color: var(--ctp-text) !important;
+  color: var(--ctp-text);
 }
 
 /*
@@ -182,94 +172,94 @@ GAME DETAILS
 */
 
 .basicappdetailssectionstyler_AppDetailsRoot_3fp5y {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 .DeckVerifiedModalDialogClient .DialogContent,
 .DeckVerifiedModalDialog .DialogContent {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 .BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX.Focusable:focus,
 .BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX.Focusable:hover {
-  background: var(--ctp-green) !important;
-  color: var(--ctp-base) !important;  
+  background: var(--ctp-green);
+  color: var(--ctp-base);  
 }
 .BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX.Focusable:focus .appactionbutton_ButtonText_33cnX,
 .BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX.Focusable:hover .appactionbutton_ButtonText_33cnX {
-  color: var(--ctp-base) !important;
+  color: var(--ctp-base);
 }
 .BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX {
-  background: var(--ctp-overlay0) !important;
+  background: var(--ctp-overlay0);
 }
 .BasicUI .appactionbutton_ButtonChild_2AzIX.Focusable:focus {
-  background: var(--ctp-blue) !important;
-  color: var(--ctp-base) !important;
+  background: var(--ctp-blue);
+  color: var(--ctp-base);
 }
 .BasicUI .appactionbutton_ButtonChild_2AzIX.Focusable:focus .appactionbutton_ButtonText_33cnX {
-  color: var(--ctp-base) !important;
+  color: var(--ctp-base);
 }
 .appdetailsfriendssection_FriendsPlayingNowBadge_38sNQ {
-  background: var(--ctp-green) !important;
-  color: var(--ctp-base) !important;
+  background: var(--ctp-green);
+  color: var(--ctp-base);
 }
 .appdetailsfriendssection_FriendsSectionPlayingNow_fPAoc .appdetailsfriendssection_PlayingNowBody_17fER {
-  background: var(--ctp-surface0) !important;
+  background: var(--ctp-surface0);
 }
 .BasicUI .appdetailsplaysection_DetailsProgressContainer_25YVD .appdetailsplaysection_DetailsProgressBar_1FnTq {
-  background: var(--ctp-blue) !important;
+  background: var(--ctp-blue);
 }
 .BasicUI .spotlightgameplaysummary_SummaryCarouselContainer_wgbDI {
-  background: var(--ctp-surface0) !important;
+  background: var(--ctp-surface0);
 }
 .BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq {
-  background: var(--ctp-mantle) !important;
+  background: var(--ctp-mantle);
 }
 .appdetailsgameinfopanel_DeckVerifiedInfo_IIJei {
-  background: var(--ctp-surface0) !important;  
+  background: var(--ctp-surface0);  
 }
 .appdetailsgameinfopanel_DeckVerifiedInfo_IIJei .appdetailsgameinfopanel_Details_3sfpA {
-  background: var(--ctp-overlay0) !important;
+  background: var(--ctp-overlay0);
 }
 .BasicUI .appdetailsprimarylinkssection_Anchor_DY4_w {
-  background: var(--ctp-overlay0) !important;
+  background: var(--ctp-overlay0);
 }
 .BasicUI .appdetailssection_Highlight_38t1m {
-  background: var(--ctp-mantle) !important;
+  background: var(--ctp-mantle);
 }
 .BasicUI .appdetailsachievementssection_AchievementProgressContainer_3ns91 {
-  background: var(--ctp-crust) !important;
+  background: var(--ctp-crust);
 }
 .BasicUI .appdetailsachievementssection_AchievementProgressContainer_3ns91 .appdetailsachievementssection_AchievementProgress_3Rm36 {
-  background: var(--ctp-blue) !important;
+  background: var(--ctp-blue);
 }
 
 .appdetailsachievementssection_AchievementCarouselItem_mbFSn.appdetailsachievementssection_Detailed_3KGi6 {
-  background: var(--ctp-overlay0) !important;
+  background: var(--ctp-overlay0);
 }
 .BasicUI .appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI {
-  background: var(--ctp-surface0) !important;
+  background: var(--ctp-surface0);
 }
 .BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
-  background: var(--ctp-surface0) !important;
+  background: var(--ctp-surface0);
 }
 
 .appactivityday_PartnerEventMediumImage_Container_1HZy7 {
-  background: var(--ctp-surface0) !important;
+  background: var(--ctp-surface0);
 }
 .BasicUI .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2 {
-  background: var(--ctp-overlay0) !important;
-  color: var(--ctp-base) !important;
+  background: var(--ctp-overlay0);
+  color: var(--ctp-base);
 }
 
 /* protondb */
 .protondb-decky-indicator {
   border-radius: 3px;
-  color: var(--ctp-base) !important;
+  color: var(--ctp-base);
 }
 .protondb-decky-indicator-gold {
-  background: var(--ctp-yellow) !important;
+  background: var(--ctp-yellow);
 }
 .protondb-decky-indicator-borked {
-  background: var(--ctp-red) !important;
+  background: var(--ctp-red);
 }
 
 /* 
@@ -300,28 +290,28 @@ STEAM INPUT
 
 /* Turn backgrounds black */
 .controllerconfigurator_TopSection_20sN9 {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 .controllerconfigurator_ControllerConfiguratorMain_APY6j {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 .controllerconfigurator_BottomSection_3RsRf {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 .gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 .gamepadpagedsettings_PagedSettingsDialog_PageListColumn_2EZ3o {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 .gamepadpage_GamepadPage_2FqpD.gamepadpage_DialogBackground_2msTK {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 .controllerconfigurator_interstitial_ConfiguratorInterstitialContainer_3FS5u {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 .controllerconfiguratorsummary_ControllerConfiguratorSummary_3TvBV {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 
 /* 
@@ -334,24 +324,24 @@ FRIENDS & CHAT
 }
 /* Turn backgrounds black */
 .GamepadMode.friendlist.gpfocuswithin .FriendsListSteamDeckTopSection {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 .GamepadMode.friendlist {
-  background-color: var(--ctp-base) !important;
-  background: var(--ctp-base) !important;
+  background-color: var(--ctp-base);
+  background: var(--ctp-base);
 }
 .GamepadMode.friendlist.gpfocuswithin {
-  background-color: var(--ctp-base) !important;
-  background: var(--ctp-base) !important;
+  background-color: var(--ctp-base);
+  background: var(--ctp-base);
 }
 .multiChatDialog.GamepadMode,
 .GamepadMode .multiChatDialog {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 .multiChatDialog.GamepadMode.gpfocuswithin,
 .GamepadMode .multiChatDialog.gpfocuswithin {
-  background-color: var(--ctp-base) !important;
-  background: var(--ctp-base) !important;
+  background-color: var(--ctp-base);
+  background: var(--ctp-base);
 }
 
 /*
@@ -359,7 +349,7 @@ DOWNLOADS
 */
 .downloads_Active_IbePL.gpfocuswithin .downloads_SectionList_OINnO,
 .downloads_Active_IbePL .downloads_SectionList_OINnO:hover {
-  background: var(--ctp-surface0) !important;
+  background: var(--ctp-surface0);
 }
 .downloadgraph_HeroAndLogo_3mZ2r
   .downloadgraph_HeroContainer_3WauY
@@ -368,40 +358,40 @@ DOWNLOADS
 }
 /* Turn backgrounds black */
 .downloads_DownloadsPage_1bq4x {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 .downloadgraph_HeroAndLogo_3mZ2r.downloadgraph_Empty_pHDI1 {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 .downloadgraph_GraphAndStats_3KDkL {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 .BasicUI .libraryassetimage_GreyBackground_2E7G8 {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 .downloads_SectionItem_1VNuY.downloads_Active_IbePL {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphLine_3H2JW {
-  stroke: var(--ctp-green) !important;
+  stroke: var(--ctp-green);
 }
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_DiskPoint_10Cul,
 .downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Disk_1QHr4 {
-  background-color: var(--ctp-green) !important;
+  background-color: var(--ctp-green);
 }
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarDownload_OS07N,
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarWrapper_gpPxC,
 .downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Network_33jqE svg {
-  color: var(--ctp-blue) !important;
+  color: var(--ctp-blue);
 }
 .downloads_TopBar_SEmVp {
-  background: var(--ctp-blue) !important;
+  background: var(--ctp-blue);
 }
 .downloads_SectionItemWrapper_21P7c.gpfocus .downloads_SectionItem_1VNuY .downloads_Button_3oavR.DialogButton:enabled svg {
-  color: var(--ctp-text) !important;
+  color: var(--ctp-text);
 }
 .downloads_SectionItemWrapper_21P7c .Panel .Focusable .gpfocus .gpfocuswithin {
-  background-color: var(--ctp-surface0) !important;
+  background-color: var(--ctp-surface0);
 }
 
 /*
@@ -410,24 +400,24 @@ SETTINGS
 
 /* Turn backgrounds black */
 .BasicUI .librarysettings_LibrarySettings_2nsOY {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 .BasicUI .contentmanagement_ContentManagement_3wk64 {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 .customizationsettings_Checkmark_2XRQA,
 .networksettings_Checkmark_x5D0R {
-  color: var(--ctp-green) !important;
+  color: var(--ctp-green);
 }
 .gamepadslider_SliderTrack_Mq25N {
-  background: var(--ctp-surface0) !important;
-  --left-track-color: var(--ctp-blue) !important;
+  background: var(--ctp-surface0);
+  --left-track-color: var(--ctp-blue);
 }
 .gamepaddialog_ToggleRail_2JtC3 {
-  background: var(--ctp-surface0) !important;
+  background: var(--ctp-surface0);
 }
 .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
-  background: var(--ctp-blue) !important;
+  background: var(--ctp-blue);
 }
 
 /*
@@ -435,40 +425,40 @@ QUICK ACCESS
 */
 
 .quickaccesscontrols_LowBattery_2YBbx {
-  background: var(--ctp-yellow) !important;
+  background: var(--ctp-yellow);
 }
 .quickaccessmenu_QuickAccessMenu_V0cr- {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 .quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu {
   background-color: var(--ctp-surface0) !important;
 }
 .quickaccessmenu_Tab_1S76C {
-  background-color: var(--ctp-base) !important;
+  background-color: var(--ctp-base);
 }
 .quickaccessmenu_Title_34nl5 {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
   box-shadow: none;
 }
 .GamepadMode.friendlist {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 .GamepadMode.friendlist .FriendsListSteamDeckTabs {
-  background-color: var(--ctp-base) !important;
+  background-color: var(--ctp-base);
 }
 .ingame.awayOrSnooze .personanameandstatus_richPresenceLabel_1k82N.GamepadMode, .GamepadMode .ingame.awayOrSnooze .personanameandstatus_richPresenceLabel_1k82N, .ingame .personanameandstatus_richPresenceLabel_1k82N.GamepadMode, .GamepadMode .ingame .personanameandstatus_richPresenceLabel_1k82N, .ingame .personanameandstatus_richPresenceLabel_1k82N a.GamepadMode, .GamepadMode .ingame .personanameandstatus_richPresenceLabel_1k82N a, .ingame .personanameandstatus_richPresenceLabel_1k82N a:hover.GamepadMode, .GamepadMode .ingame .personanameandstatus_richPresenceLabel_1k82N a:hover, .ingame .personanameandstatus_richPresenceLabel_1k82N a:active.GamepadMode, .GamepadMode .ingame .personanameandstatus_richPresenceLabel_1k82N a:active, .ingame .personanameandstatus_richPresenceLabel_1k82N a:visited.GamepadMode, .GamepadMode .ingame .personanameandstatus_richPresenceLabel_1k82N a:visited,
 .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter.lastInGroup.GamepadMode .count, .GamepadMode .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter.lastInGroup .count,
 .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter.lastInGroup.GamepadMode .SteamPlayerGroupFooterLabel, .GamepadMode .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter.lastInGroup .SteamPlayerGroupFooterLabel {
-  color: var(--ctp-green) !important;
+  color: var(--ctp-green);
 }
 .SteamPlayerGroupLines {
-  border-color: var(--ctp-green) !important;
+  border-color: var(--ctp-green);
 }
 .online .personanameandstatus_playerName_r62qz.GamepadMode, .GamepadMode .online .personanameandstatus_playerName_r62qz {
-  color: var(--ctp-teal) !important;
+  color: var(--ctp-teal);
 }
 .awayOrSnooze.online .personanameandstatus_playerName_r62qz.GamepadMode, .GamepadMode .awayOrSnooze.online .personanameandstatus_playerName_r62qz {
-  color: var(--ctp-blue) !important;
+  color: var(--ctp-blue);
 }
 
 /*
@@ -477,15 +467,22 @@ OTHER
 
 /* Navigation */
 .mainmenu_Menu_23IDi {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 
 .mainmenu_Item_2w9Tp .mainmenu_ActiveDot_1uLVH {
-  background: var(--ctp-blue) !important;
+  background: var(--ctp-blue);
 }
 .mainmenu_Item_2w9Tp.gpfocus,
 .mainmenu_Item_2w9Tp.mainmenu_Active_10bq5:focus {
   background: var(--ctp-surface0) !important;
+}
+
+.gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Focused_X813r.gamepadcontextmenu_Destructive_3aIFv,
+.gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Focused_X813r.Stop,
+.gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Focused_X813r.Cancel {
+  background: var(--ctp-red);
+  color: var(--ctp-base);
 }
 
 button.gamepaddialog_Button_1kn70.DialogButton,
@@ -498,7 +495,7 @@ button.gamepaddialog_Button_1kn70.DialogButton:hover,
 button.gamepaddialog_Button_1kn70.DialogButton:hover.Primary, 
 button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover,
 button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary {
-  background: var(--ctp-surface0) !important;
+  background: var(--ctp-surface0);
 }
 
 button.gamepaddialog_Button_1kn70.DialogButton.gpfocus, 
@@ -511,41 +508,41 @@ button.gamepaddialog_Button_1kn70.DialogButton:hover.gpfocus,
 button.gamepaddialog_Button_1kn70.DialogButton:hover:active, 
 button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.gpfocus, 
 button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
-  background: var(--ctp-rosewater) !important;
-  color: var(--ctp-base) !important;
+  background: var(--ctp-rosewater);
+  color: var(--ctp-base);
 }
 
 .basiccontextmenu_contextMenuItem_3PqLg {
-  background: var(--ctp-mantle) !important;
+  background: var(--ctp-mantle);
 }
 .basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg {
-  background: var(--ctp-rosewater) !important;
-  color: var(--ctp-base) !important;
+  background: var(--ctp-rosewater);
+  color: var(--ctp-base);
 }
 /* Power menu */
 .gamepadui_GamepadDialogOverlay_34Euf .ModalOverlayBackground {
-  background: var(--ctp-base) 000dd !important;
+  background: var(--ctp-base) 000dd;
 }
 
 /* Search */
 .gamepadsearch_GamepadSearch_P_AlE {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 /* Media upload */
 .gamepaddialog_ModalPosition_30VHl > .gamepaddialog_GamepadDialogContent_3joNk {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 /* Lock screen */
 .lockscreen_Container_3rFFU {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-base);
 }
 /* Footer */
 .footer_BasicFooter_3T1iF {
-  background: var(--ctp-crust) !important;
+  background: var(--ctp-crust);
 }
 .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus, .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin {
-  background: var(--ctp-overlay0) !important;
+  background: var(--ctp-overlay0);
 }
 .gamepaddialog_ToggleRail_2JtC3::before {
-  background: var(--ctp-blue) !important;
+  background: var(--ctp-blue);
 }
