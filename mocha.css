@@ -1,6 +1,7 @@
 :root {
   --ctp-text: var(--ctp-mocha-text);
   --ctp-subtext1: var(--ctp-mocha-subtext1);
+  --ctp-subtext0: var(--ctp-mocha-subtext0);
   --ctp-base: var(--ctp-mocha-base);
   --ctp-mantle: var(--ctp-mocha-mantle);
   --ctp-crust: var(--ctp-mocha-crust);

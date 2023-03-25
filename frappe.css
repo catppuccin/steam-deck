@@ -1,6 +1,7 @@
 :root {
   --ctp-text: var(--ctp-frappe-text);
-  --ctp-subtext1: var(--ctp-subtext1);
+  --ctp-subtext1: var(--ctp-frappe-subtext1);
+  --ctp-subtext0: var(--ctp-frappe-subtext0);
   --ctp-base: var(--ctp-frappe-base);
   --ctp-mantle: var(--ctp-frappe-mantle);
   --ctp-crust: var(--ctp-frappe-crust);
