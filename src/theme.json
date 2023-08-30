@@ -75,10 +75,10 @@
         "Enable Keyboard": {
             "type": "checkbox",
             "values": {
-                "Yes": {},
-                "No": {
+                "Yes": {
                     "keyboard.css": ["SP", "SP Keyboard"]
-                }
+                },
+                "No": {}
             }
         } 
     }
