@@ -162,8 +162,7 @@ LIBRARY
 .allcollections_Collection_3IWn- {
   background: var(--ctp-base);
 }
-.gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b > .gamepadtabbedpage_TabCount_1ui4I, 
-.gamepadtabbedpage_Tab_3eEbS.gpfocus .gamepadtabbedpage_TabCount_1ui4I {
+ .gamepadtabbedpage_Tab_3eEbS.gpfocus .gamepadtabbedpage_TabCount_1ui4I {
   color: var(--ctp-base);
 }
 .gamepadtabbedpage_TabCount_1ui4I {
@@ -552,7 +551,7 @@ OTHER
 }
 
 .mainmenu_Item_2w9Tp .mainmenu_ActiveDot_1uLVH {
-  background: var(--ctp-blue);
+  background: var(--ctp-accent-color);
 }
 .mainmenu_Item_2w9Tp.gpfocus,
 .mainmenu_Item_2w9Tp.mainmenu_Active_10bq5:focus {
@@ -761,8 +760,8 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
   color: var(--ctp-base) !important;
 }
 .gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Focused_X813r {
-  background-color: var(--ctp-accent-color);
-  color: var(--ctp-base);
+  background-color: var(--ctp-accent-color) !important;
+  color: var(--ctp-base) !important;
 }
 .gamepadcontextmenu_contextMenuItem_1sdvo {
   background-color: var(--ctp-base);
@@ -778,11 +777,17 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
 .gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_LabelFieldValue_5Mylh {
   color: var(--ctp-subtext0);
 }
-.dropdownlabel_DropDownLabelTitle_uDBZW, .dropdownlabel_DropDownLabelTitle_uDBZW, .dropdownlabel_DropDownLabelUpperDescription_2_JN3 {
+.dropdownlabel_DropDownLabelTitle_uDBZW, .dropdownlabel_DropDownLabelTitle_uDBZW, .dropdownlabel_DropDownLabelUpperDescription_2_JN3, .dropdownlabel_DropDownLabelDescription_1JPcb {
     color: var(--ctp-subtext0);
+}
+.gpfocus .dropdownlabel_DropDownLabelUpperDescription_2_JN3, .gpfocus .dropdownlabel_DropDownLabelTitle_uDBZW, .gpfocus .dropdownlabel_DropDownLabelDescription_1JPcb {
+color: var(--ctp-base);
 }
 .controllersettings_NintendoSwitchLayoutToggle_3Q8Vc .controllersettings_NintendoSwitchLayoutToggleDesc_3J9Od, .customizationsettings_StartupMoviesSelectionDesc_gfecK {
   color: var(--ctp-subtext0);
+}
+.gamepaddialog_GamepadDialogContent_3joNk .DialogControlsSectionHeader {
+  border-color: var(--ctp-surface0);
 }
 
 /* Quick Access Fix */
@@ -791,4 +796,39 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
 }
 #QuickAccess-Menu .GamepadMode.friendlist .TabPanelHeader {
   color: var(--ctp-text);
+}
+
+/* Main Menu Fix */
+.mainmenu_ItemIcon_3xZ3Z, .mainmenu_ItemLabel_3x-ZK {
+  color: var(--ctp-text) !important;
+}
+
+/* Whats New Fix */
+.gamecapsule_PriceCtn_2E-mS {
+  color: var(--ctp-base);
+  font-weight: 500;
+}
+.BasicUI .homestorecarousel_StoreCarouselCtn_3zVCV .homestorecarousel_Header_xpRXv, .BasicUI .marketingmessages_MarketingMessages_jdr42 .marketingmessages_Header_1QCdV, .BasicUI .recentlycompleted_RecentlyCompleted_3fDIR .recentlycompleted_Header_NhBU2 {
+  color: var(--ctp-text);
+}
+.gamepadhomewhatsnew_GameIconAndName_1jXSh .gamepadhomewhatsnew_GameName_3H9W-, .localdateandtime_ShortDateAndTime_4K3Bl {
+  color: var(--ctp-subtext0);
+}
+.localdateandtime_RightSideTitles_3sPON {
+  color: var(--ctp-subtext1);
+}
+.localdateandtime_ActiveEvent_2ZcVE .localdateandtime_ActiveEventCallOut__y2DQ {
+  background-color: var(--ctp-green);
+}
+.gamepadhomewhatsnew_EventPreviewOuterWrapper_10b1V.gamepadhomewhatsnew_OuterWrapper_3DpEz:hover .gamepadhomewhatsnew_EventInfo_6TGe7, .gpfocus .gamepadhomewhatsnew_EventInfo_6TGe7 {
+  background-color: var(surface1);
+}
+.recentlycompleted_GameIconAndName_2RTo4 .recentlycompleted_GameName_1EIQL {
+  color: var(--ctp-text);
+}
+.recentlycompleted_DownloadInfo_1wLpm .recentlycompleted_Bytes_TH3M8 {
+  color: var(--ctp-subtext1);
+}
+.recentlycompleted_DownloadInfo_1wLpm {
+  color: var(--ctp-subtext0);
 }
