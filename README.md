@@ -40,7 +40,7 @@
 
 1. Clone this repository inside `~/homebrew/themes/`
 2. In [CSSLoader](https://docs.deckthemes.com/#/CSSLoader/), refresh and enable `Catppuccin`
-3. (Optional) Change the theme flavor in the settings dropdown for the theme
+3. (Optional) Change the theme flavor and accent color in the settings for the theme
 
 ## 💝 Thanks to
 

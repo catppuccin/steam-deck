@@ -1,6 +1,3 @@
-/* Color Palette */
-@import url('https://unpkg.com/@catppuccin/palette/css/catppuccin.css');
-
 /*
 HOME PAGE
 */
@@ -59,7 +56,7 @@ HOME PAGE
   color: var(--ctp-base);
 }
 .gamepadtabbedpage_Tab_3eEbS.gpfocus {
-  background-color: var(--ctp-rosewater);
+  background-color: var(--ctp-accent-color);
   color: var(--ctp-base) !important;
 }
 .gamepadtabbedpage_Tab_3eEbS {
@@ -174,7 +171,7 @@ LIBRARY
 }
 .BasicUI .appdetailsplaysection_MenuButton_3qDWQ.Focusable:focus,
 .appactionbutton_ShutdownAppButton_1WVYD.gpfocus {
-  background-color: var(--ctp-rosewater);
+  background-color: var(--ctp-accent-color);
   color: var(--ctp-base);
 }
 
@@ -597,7 +594,7 @@ button.gamepaddialog_Button_1kn70.DialogButton:hover.gpfocus,
 button.gamepaddialog_Button_1kn70.DialogButton:hover:active, 
 button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.gpfocus, 
 button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
-  background: var(--ctp-rosewater) !important;
+  background: var(--ctp-accent-color) !important;
   color: var(--ctp-base);
 }
 
@@ -605,7 +602,7 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
   background: var(--ctp-mantle);
 }
 .basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg {
-  background: var(--ctp-rosewater);
+  background: var(--ctp-accent-color);
   color: var(--ctp-base);
 }
 /* Power menu */
