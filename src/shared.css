@@ -628,7 +628,7 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
 }
 .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus,
 .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin {
-  background: var(--ctp-overlay0) !important;
+  background: var(--ctp-surface0) !important;
 }
 .gamepaddialog_ToggleRail_2JtC3::before {
   background: var(--ctp-accent-color);
@@ -652,10 +652,13 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
 .contentmanagement_DriveUsageOther_1SwNA {
   background-color: var(--ctp-yellow);
 }
-.contentmanagement_DriveUsageIndicator_1EubJ .contentmanagement_DriveSettingsButton_1WKUO .contentmanagement_IsSelected_3VQeL {
+.contentmanagement_DriveUsageIndicator_1EubJ, .contentmanagement_IsSelected_3VQeL, .contentmanagement_DriveSettingsButton_1WKUO {
   background-color: var(--ctp-surface0);
 }
 .contentmanagement_IsSelected_3VQeL .contentmanagement_DriveName_1rihl, .contentmanagement_IsSelected_3VQeL .contentmanagement_DriveSize_5bG9I, .contentmanagement_IsSelected_3VQeL svg {
+  color: var(--ctp-subtext0);
+}
+.contentmanagement_DriveSettingsButton_1WKUO {
   color: var(--ctp-subtext0);
 }
 .gamepaddialog_GamepadDialogContent_3joNk .DialogHeader {
@@ -673,7 +676,7 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
   color: var(--ctp-base);
 }
 .radio_Button_3lwcR {
-  background-color: var(--ctp-overlay0);
+  background-color: var(--ctp-surface0);
   color: var(--ctp-text);
 }
 .BasicUI .gamepaddialog_GamepadDialogContent_3joNk .DialogSubHeader {
@@ -704,9 +707,82 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
   color: var(--ctp-subtext0);
 }
 .gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r.gamepadpagedsettings_Active_22LLB, .gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r:focus {
-  color: var(--ctp-base);
-  background-color: var(--ctp-accent-color);
+  color: var(--ctp-base) !important;
+  background-color: var(--ctp-accent-color) !important;
 }
 .gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r {
   color: var(--ctp-text);
+}
+.gamepadui_BasicHome_3LYP1 {
+  color: var(--ctp-subtext0);
+}
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppHeader_3_uaa, .sortingdropdowncontrolbutton_BasicHomeDropDownControlButton_17SQW.sortingdropdowncontrolbutton_SortingDropDownControlButton_2ddeJ {
+  color: var(--ctp-text);
+}
+.contentmanagement_InstallFolder_12aBP .contentmanagement_FolderInfo_2ylO_ svg {
+  color: var(--ctp-yellow);
+}
+.contentmanagement_InstallFolder_12aBP {
+  color: var(--ctp-yellow);
+}
+.contentmanagement_DriveName_1rihl, .contentmanagement_DriveSize_5bG9I {
+  color: inherit !important;
+}
+.BasicUI .contentmanagement_InstallFolder_12aBP:focus, .sortingdropdowncontrolbutton_BasicHomeDropDownControlButton_17SQW:focus {
+  background-color: var(--ctp-accent-color);
+  color: var(--ctp-base);
+}
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppName_YxhO6, .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyRight_3vHX3 .contentmanagement_AppSize_mohK9 {
+  color: var(--ctp-text);
+}
+.BasicUI .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppInfo__g4ce .contentmanagement_AppUsageValue_2B8dj {
+  color: var(--ctp-subtext0);
+}
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppInfo__g4ce svg {
+  color: var(--ctp-subtext0);
+}
+.BasicUI .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBody_2RCSU:focus {
+  background-color: var(--ctp-surface0);
+}
+.contentmanagement_DriveUsageText_1DFCG, .contentmanagement_DriveUsageNumber_181OY {
+  color: var(--ctp-text);
+}
+.contentmanagement_DriveUsageNumber_181OY, .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppHeader_3_uaa .contentmanagement_AppHeaderValue_3X3BB {
+  color: var(--ctp-subtext0);
+}
+.contentmanagement_LibraryContent_ybEU2 .contentmanagement_DriveUsage_1LvKJ .contentmanagement_DriveName_1rihl {
+  color: var(--ctp-text) !important;
+}
+.contentmanagement_DriveSize_5bG9I {
+  color: var(--ctp-subtext0) !important;
+}
+.BasicUI .contentmanagement_InstallFolder_12aBP:focus .contentmanagement_DriveName_1rihl, .BasicUI .contentmanagement_InstallFolder_12aBP:focus .contentmanagement_DriveSize_5bG9I, .BasicUI .contentmanagement_InstallFolder_12aBP:focus svg {
+  color: var(--ctp-base) !important;
+}
+.gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Focused_X813r {
+  background-color: var(--ctp-accent-color);
+  color: var(--ctp-base);
+}
+.gamepadcontextmenu_contextMenuItem_1sdvo {
+  background-color: var(--ctp-base);
+  color: var(--ctp-text);
+}
+.gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Selected_1PnET {
+  background-color: var(--ctp-surface0);
+  color: var(--ctp-text);
+}
+.familysettings_UserListHeader_2LOrs {
+  color: var(--ctp-text);
+}
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_LabelFieldValue_5Mylh {
+  color: var(--ctp-subtext0);
+}
+.dropdownlabel_DropDownLabelTitle_uDBZW, .dropdownlabel_DropDownLabelTitle_uDBZW, .dropdownlabel_DropDownLabelUpperDescription_2_JN3 {
+    color: var(--ctp-subtext0);
+}
+gamepaddialog_FieldLeadIcon_OKYIj > svg > path {
+  fill: var(--ctp-text);
+}
+.controllersettings_NintendoSwitchLayoutToggle_3Q8Vc .controllersettings_NintendoSwitchLayoutToggleDesc_3J9Od, .customizationsettings_StartupMoviesSelectionDesc_gfecK {
+  color: var(--ctp-subtext0);
 }
