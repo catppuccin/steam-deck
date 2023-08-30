@@ -71,6 +71,15 @@
                     "accents/lavender.css": ["SP", "MainMenu", "QuickAccess"]
                 }
             }
+        },
+        "Enable Keyboard": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {},
+                "No": {
+                    "keyboard.css": ["SP", "SP Keyboard"]
+                }
+            }
         } 
     }
 }
