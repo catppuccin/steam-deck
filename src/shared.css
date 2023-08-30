@@ -436,13 +436,14 @@ SETTINGS
 .gamepadslider_SliderTrack_Mq25N {
   --left-track-color: var(--ctp-accent-color);
 }
-.gamepadslider_SliderTrack_Mq25N,
-.gamepaddialog_ToggleRail_2JtC3,
-.gamepadslider_SliderNotchTick_Fv1Ht {
+.gamepaddialog_ToggleRail_2JtC3 {
   background: var(--ctp-surface0) !important;
 }
+.gamepadslider_SliderTrack_Mq25N, .gamepadslider_SliderNotchTick_Fv1Ht {
+  background-color: var(--ctp-mantle);
+}
 .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
-  background: var(--ctp-blue);
+  background: var(--ctp-accent-color) !important;
 }
 .gamepadslider_SliderNotchLabel_u_sH1 {
   color: var(--ctp-subtext1);
@@ -780,9 +781,14 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
 .dropdownlabel_DropDownLabelTitle_uDBZW, .dropdownlabel_DropDownLabelTitle_uDBZW, .dropdownlabel_DropDownLabelUpperDescription_2_JN3 {
     color: var(--ctp-subtext0);
 }
-gamepaddialog_FieldLeadIcon_OKYIj > svg > path {
-  fill: var(--ctp-text);
-}
 .controllersettings_NintendoSwitchLayoutToggle_3Q8Vc .controllersettings_NintendoSwitchLayoutToggleDesc_3J9Od, .customizationsettings_StartupMoviesSelectionDesc_gfecK {
   color: var(--ctp-subtext0);
+}
+
+/* Quick Access Fix */
+.quickaccessmenu_Container_3DHXr.quickaccessmenu_Open_-6ESh {
+  color: var(--ctp-subtext0);
+}
+#QuickAccess-Menu .GamepadMode.friendlist .TabPanelHeader {
+  color: var(--ctp-text);
 }
