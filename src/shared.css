@@ -56,7 +56,7 @@ HOME PAGE
   color: var(--ctp-base);
 }
 .gamepadtabbedpage_Tab_3eEbS.gpfocus {
-  background-color: var(--ctp-accent-color);
+  background-color: var(--ctp-rosewater);
   color: var(--ctp-base) !important;
 }
 .gamepadtabbedpage_Tab_3eEbS {
@@ -171,7 +171,7 @@ LIBRARY
 }
 .BasicUI .appdetailsplaysection_MenuButton_3qDWQ.Focusable:focus,
 .appactionbutton_ShutdownAppButton_1WVYD.gpfocus {
-  background-color: var(--ctp-accent-color);
+  background-color: var(--ctp-rosewater);
   color: var(--ctp-base);
 }
 
@@ -434,7 +434,7 @@ SETTINGS
   color: var(--ctp-green);
 }
 .gamepadslider_SliderTrack_Mq25N {
-  --left-track-color: var(--ctp-blue);
+  --left-track-color: var(--ctp-accent-color);
 }
 .gamepadslider_SliderTrack_Mq25N,
 .gamepaddialog_ToggleRail_2JtC3,
@@ -510,7 +510,7 @@ QUICK ACCESS
 }
 .online .personanameandstatus_playerName_r62qz.GamepadMode,
 .GamepadMode .online .personanameandstatus_playerName_r62qz {
-  color: var(--ctp-teal);
+  color: var(--ctp-accent-color);
 }
 .awayOrSnooze.online .personanameandstatus_playerName_r62qz.GamepadMode,
 .GamepadMode .awayOrSnooze.online .personanameandstatus_playerName_r62qz {
@@ -594,7 +594,7 @@ button.gamepaddialog_Button_1kn70.DialogButton:hover.gpfocus,
 button.gamepaddialog_Button_1kn70.DialogButton:hover:active, 
 button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.gpfocus, 
 button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
-  background: var(--ctp-accent-color) !important;
+  background: var(--ctp-rosewater) !important;
   color: var(--ctp-base);
 }
 
@@ -602,7 +602,7 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
   background: var(--ctp-mantle);
 }
 .basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg {
-  background: var(--ctp-accent-color);
+  background: var(--ctp-rosewater);
   color: var(--ctp-base);
 }
 /* Power menu */
@@ -631,8 +631,33 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
   background: var(--ctp-overlay0) !important;
 }
 .gamepaddialog_ToggleRail_2JtC3::before {
-  background: var(--ctp-blue);
+  background: var(--ctp-accent-color);
 }
 .actionbuttonlegenditem_ActionButtonLegend_Mbyhb .actionbuttonlegenditem_ActionButtonLabel_31Jnn {
+  color: var(--ctp-text);
+}
+/* Settings Menu Fixes */
+.contentmanagement_DriveUsageGames_22KCi {
+  background-color: var(--ctp-blue);
+}
+.contentmanagement_DriveUsageDLC_2W7tN {
+  background-color: var(--ctp-lavender);
+}
+.contentmanagement_DriveUsageWorkshop_1W6jW {
+  background-color: var(--ctp-green);
+}
+.contentmanagement_DriveUsageUpdates_3mzew {
+  background-color: var(--ctp-red);
+}
+.contentmanagement_DriveUsageOther_1SwNA {
+  background-color: var(--ctp-yellow);
+}
+.contentmanagement_DriveUsageIndicator_1EubJ .contentmanagement_DriveSettingsButton_1WKUO .contentmanagement_IsSelected_3VQeL {
+  background-color: var(--ctp-surface0);
+}
+.contentmanagement_IsSelected_3VQeL .contentmanagement_DriveName_1rihl, .contentmanagement_IsSelected_3VQeL .contentmanagement_DriveSize_5bG9I, .contentmanagement_IsSelected_3VQeL svg {
+  color: var(--ctp-subtext0);
+}
+.gamepaddialog_GamepadDialogContent_3joNk .DialogHeader {
   color: var(--ctp-text);
 }
