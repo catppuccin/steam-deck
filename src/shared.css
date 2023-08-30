@@ -119,7 +119,7 @@ TOP BAR
   color: var(--ctp-blue);
 }
 .online .steamavatar_avatarStatus_1yIzy.GamepadMode, .GamepadMode .online .steamavatar_avatarStatus_1yIzy {
-  background: var(--ctp-teal); 
+  background: var(--ctp-accent-color); 
 }
 .ingame .steamavatar_avatarStatus_1yIzy.GamepadMode, .GamepadMode .ingame .steamavatar_avatarStatus_1yIzy {
   background: var(--ctp-green);
@@ -439,7 +439,7 @@ SETTINGS
 .gamepadslider_SliderTrack_Mq25N,
 .gamepaddialog_ToggleRail_2JtC3,
 .gamepadslider_SliderNotchTick_Fv1Ht {
-  background: var(--ctp-surface0);
+  background: var(--ctp-surface0) !important;
 }
 .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
   background: var(--ctp-blue);
@@ -510,7 +510,7 @@ QUICK ACCESS
 }
 .online .personanameandstatus_playerName_r62qz.GamepadMode,
 .GamepadMode .online .personanameandstatus_playerName_r62qz {
-  color: var(--ctp-accent-color);
+  color: var(--ctp-blue);
 }
 .awayOrSnooze.online .personanameandstatus_playerName_r62qz.GamepadMode,
 .GamepadMode .awayOrSnooze.online .personanameandstatus_playerName_r62qz {
@@ -659,5 +659,54 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
   color: var(--ctp-subtext0);
 }
 .gamepaddialog_GamepadDialogContent_3joNk .DialogHeader {
+  color: var(--ctp-text);
+}
+.notificationssettings_ToggleHeader_33Q-M.notificationssettings_ToggleHeader_33Q-M {
+  color: var(--ctp-subtext0);
+}
+.radio_Group_2qYC3 {
+  background-color: var(--ctp-base);
+  box-shadow: none;
+}
+.radio_Button_3lwcR.radio_Active_3ZBFo, .radio_Button_3lwcR.radio_Active_3ZBFo:hover {
+  background-color: var(--ctp-accent-color);
+  color: var(--ctp-base);
+}
+.radio_Button_3lwcR {
+  background-color: var(--ctp-overlay0);
+  color: var(--ctp-text);
+}
+.BasicUI .gamepaddialog_GamepadDialogContent_3joNk .DialogSubHeader {
+  color: var(--ctp-text);
+}
+.notificationssettings_FriendsDescription_3fPiC.notificationssettings_FriendsDescription_3fPiC {
+  color: var(--ctp-subtext0);
+}
+.gamepaddialog_GamepadDialogContent_3joNk .DialogBodyText {
+  color: var(--ctp-text);
+}
+.notificationssettings_NotificationDescription_1ifM6 {
+  color: var(--ctp-subtext0);
+}
+.BasicUI .gamepaddialog_GamepadDialogContent_3joNk .DialogControlsSectionHeader {
+  color: var(--ctp-text);
+}
+.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus .gamepaddialog_FieldLabel_3b0U-, .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldLabel_3b0U- {
+  color: var(--ctp-text);
+}
+.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus .gamepaddialog_FieldDescription_2OJfk, .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldDescription_2OJfk {
+  color: var(--ctp-text);
+}
+.gamepaddialog_Toggle_24G4g.gpfocus:after {
+  background-color: var(--ctp-accent-color);
+}
+.gamepaddialog_LabelFieldValue_5Mylh {
+  color: var(--ctp-subtext0);
+}
+.gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r.gamepadpagedsettings_Active_22LLB, .gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r:focus {
+  color: var(--ctp-base);
+  background-color: var(--ctp-accent-color);
+}
+.gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r {
   color: var(--ctp-text);
 }
