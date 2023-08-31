@@ -477,11 +477,6 @@ QUICK ACCESS
   background-color: var(--ctp-mantle);
   color: var(--ctp-subtext0);
 }
-.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu.gpfocus,
-.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu {
-  background-color: var(--ctp-surface0) !important;
-  color: var(--ctp-text);
-}
 .quickaccessmenu_KeyboardButton_1RN_U {
   border: none;
 }
@@ -985,7 +980,56 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 #QuickAccess-Menu .GamepadMode.friendlist .TabPanelHeader {
   color: var(--ctp-text);
 }
-
+.GamepadMode.friendlist .FriendsListTab {
+  color: var(--ctp-overlay0);
+}
+.GamepadMode.friendlist .FriendsListTab.Active {
+  color: var(--ctp-accent-color);
+}
+.friendslist_TabBumper_3Jr0A.GamepadMode svg path:first-of-type, 
+.GamepadMode .friendslist_TabBumper_3Jr0A svg path:first-of-type,
+.friendslist_TabBumper_3Jr0A.GamepadMode svg path, 
+.GamepadMode .friendslist_TabBumper_3Jr0A svg path {
+  stroke: var(--ctp-overlay0);
+}
+.friend.gpfocus .labelHolder.GamepadMode.ingame.awayOrSnooze .personanameandstatus_playerName_r62qz, .friend.gpfocus .labelHolder.GamepadMode.ingame .personanameandstatus_richPresenceLabel_1k82N, .GamepadMode .friend.gpfocus .labelHolder.ingame.awayOrSnooze .personanameandstatus_playerName_r62qz, .GamepadMode .friend.gpfocus .labelHolder.ingame .personanameandstatus_richPresenceLabel_1k82N, .favoriteElement.gpfocus .labelHolder.GamepadMode.ingame.awayOrSnooze .personanameandstatus_playerName_r62qz, .favoriteElement.gpfocus .labelHolder.GamepadMode.ingame .personanameandstatus_richPresenceLabel_1k82N, .GamepadMode .favoriteElement.gpfocus .labelHolder.ingame.awayOrSnooze .personanameandstatus_playerName_r62qz, .GamepadMode .favoriteElement.gpfocus .labelHolder.ingame .personanameandstatus_richPresenceLabel_1k82N {
+  color: var(--ctp-green);
+}
+.GamepadMode.friendlist .FriendsListTab.gpfocus { /* This one is a big maybe*/
+  color: var(--ctp-overlay0);
+  background-color: var(--ctp-surface1);
+  border-radius: 10%;
+}
+.recentChatsGroup .friendGroup .groupName, 
+.friendGroup.taggedGroup .groupName, 
+.friendGroup.gameGroup .groupName,
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName, 
+.FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName,
+.GamepadMode .friendGroup.onlineFriends .groupName .groupCount {
+  color: var(--ctp-subtext1);
+}
+.GamepadMode.friendlist .TabPanelHeader .NewChatGroupButton, 
+.GamepadMode.friendlist .TabPanelHeader .AddFriendButton, 
+.GamepadMode.friendlist .TabPanelHeader .FriendsInvitesButton {
+  background-color: var(--ctp-surface0);
+  color: var(--ctp-overlay0);
+}
+.ChatRoomListGroupItem .groupNameStatusContainer .chatRoomName {
+  color: var(--ctp-subtext1);
+}
+.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu.gpfocus, 
+.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu {
+  background-color: var(--ctp-base) !important;
+  color: var(--ctp-accent-color);
+}
+.gpfocus .quickaccessmenu_Tab_1S76C, 
+.quickaccessmenu_Tab_1S76C.gpfocus {
+  background: var(--ctp-accent-color) !important;
+  color: var(--ctp-base);
+}
+.groupName.Panel.Focusable.gpfocus.gpfocuswithin {
+  color: var(--ctp-subtext1) !important;
+}
 /* Main Menu Fix */
 .mainmenu_ItemIcon_3xZ3Z, .mainmenu_ItemLabel_3x-ZK {
   color: var(--ctp-text) !important;
