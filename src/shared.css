@@ -1046,6 +1046,29 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
   background-color: var(--ctp-surface0);
   color: var(--ctp-subtext1);
 }
+.gamepadhomefriends_InGameGame_KLo2n .gamepadhomefriends_FriendsPlaying_15rrZ {
+  color: var(--ctp-accent-color);
+}
+.gamepadhomefriends_InGameGame_KLo2n .gamepadhomefriends_InLibrary_ho5Qo {
+  color: var(--ctp-subtext0);
+}
+.appactivityday_AppActivityDay_S2Fu9 .appactivityday_AppActivityDate_19LfM {
+  color: var(--ctp-subtext1);
+}
+.ingame .personanameandstatus_playerName_r62qz.GamepadMode, .GamepadMode .ingame .personanameandstatus_playerName_r62qz {
+  color: var(--ctp-green);
+}
+.comment_thread_RatingBar_1yWgP .comment_thread_LikeCount_3grvn,
+.comment_thread_RatingBar_1yWgP .comment_thread_CommentCount_2RkIc, 
+.comment_thread_RatingBar_1yWgP .comment_thread_ReactionCount_1S3Q9,
+.BasicUI .comment_thread_RatingBar_1yWgP .comment_thread_LikeIcon_1OhPt .comment_thread_RatingIcon_2AVfX, 
+.BasicUI .comment_thread_RatingBar_1yWgP .comment_thread_CommentIcon_1R6Ou .comment_thread_RatingIcon_2AVfX, 
+.BasicUI .comment_thread_RatingBar_1yWgP .comment_thread_ReactionIcon_QL3Aa .comment_thread_RatingIcon_2AVfX,
+.BasicUI .comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9 .comment_thread_LikeIcon_1OhPt,
+.BasicUI .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9 .comment_thread_LikeIcon_1OhPt,
+.BasicUI .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9 .comment_thread_LikeIcon_1OhPt {
+  color: var(--ctp-subtext0);
+}
 
 /* Recommended Menu Fix */
 .discoveryqueuewidget_WidgetHeaderText_uUpem,
@@ -1080,4 +1103,60 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 }
 .basicgamecarousel_SubMessage_1BtXg {
   color:var(--ctp-subtext0);
+}
+.mainbrowser_URLBar_1CwIx .mainbrowser_InputSupportLevel_1aVPs .mainbrowser_RequireTouchscreenLabel_1ifWL {
+  color: var(--ctp-accent-color);
+}
+#header > div.headerbrowser_HeaderBrowser_1gnVM.Panel.Focusable > div > div.mainbrowser_InputSupportLevel_1aVPs.Panel.Focusable > svg > g > path:nth-child(2) {
+  fill: var(--ctp-accent-color);
+}
+
+/* Decky Menu */
+.gamepaddialog_FieldChildren_14_HB > div {
+  color: var(--ctp-subtext1) !important;
+}
+.gamepaddialog_Field_S-_La.gamepaddialog_WithFirstRow_qFXi6.gamepaddialog_VerticalAlignCenter_3XNvA.gamepaddialog_InlineWrapShiftsChildrenBelow_pHUb6.gamepaddialog_WithBottomSeparatorStandard_3s1Rk.gamepaddialog_ExtraPaddingOnChildrenBelow_5UO-_.gamepaddialog_StandardPadding_XRBFu.gamepaddialog_HighlightOnFocus_wE4V6.Panel.Focusable.gpfocuswithin {
+  background: none !important;
+}
+
+/* Discovery Queue */
+.discoveryqueuewizard_DiscoveryQueueCarouselCtn_1GFC6 {
+  color: var(--ctp-text);
+}
+.gamehover_ReviewScore_24NyY .gamehover_ReviewScoreValue_2SbZz.gamehover_ReviewScoreHigh_1Emes {
+  color: var(--ctp-green);
+}
+.discoveryqueuewizard_AppDetailsHeader_1Qn-x .discoveryqueuewizard_RightColumn_35mWv .discoveryqueuewizard_AppName_3KC4W {
+  color: var(--ctp-text);
+}
+.salepreviewwidgets_StoreSalePriceWidgetContainer_tqNH0.salepreviewwidgets_SingleLineMode_31Sy5 .salepreviewwidgets_StoreSalePriceBox_Wh0L8 {
+  color: var(--ctp-text);
+  font-weight: 400;
+}
+.discoveryqueuewizard_WhyRelevant_WBWfZ {
+  color: var(--ctp-subtext1);
+}
+.discoveryqueuewizard_AppTagsCtn_1t4JV .discoveryqueuewizard_TagEntry_UNDKT {
+  color: var(--ctp-subtext0);
+  background-color: var(--ctp-base);
+}
+.discoveryqueuewizard_AppDescription_Kzj5I,
+.discoveryqueuewizard_RelevantColumn_1HcOX {
+  color: var(--ctp-subtext0);
+}
+.gamehover_ReviewScore_24NyY .gamehover_ReviewScoreValue_2SbZz.gamehover_ReviewScoreMixed_2BVpb {
+  color: var(--ctp-yellow);
+}
+.discoveryqueuewizard_LearnMoreLink_3bCDZ:visited,
+.discoveryqueuewizard_LearnMoreLink_3bCDZ,
+.discoveryqueuewizard_LearnMoreLink_3bCDZ.gpfocus {
+  color: var(--ctp-subtext0);
+}
+.discoveryqueuewizard_QueueButton_19cHb {
+  background-color: var(--ctp-base);
+  color: var(--ctp-accent-color);
+}
+.discoveryqueuewizard_QueueButton_19cHb.gpfocus {
+  background-color: var(--ctp-accent-color);
+  color: var(--ctp-base);
 }
