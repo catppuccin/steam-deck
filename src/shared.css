@@ -253,10 +253,10 @@ GAME DETAILS
   background: var(--ctp-crust);
 }
 .BasicUI .appdetailsachievementssection_AchievementProgressContainer_3ns91 .appdetailsachievementssection_AchievementProgress_3Rm36 {
-  background: var(--ctp-blue);
+  background: var(--ctp-accent-color);
 }
 .appdetailsachievementssection_AchievementCarouselItem_mbFSn.appdetailsachievementssection_Detailed_3KGi6 {
-  background: var(--ctp-overlay0);
+  background: var(--ctp-surface1);
 }
 .BasicUI .appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI {
   background: var(--ctp-surface0);
@@ -268,7 +268,7 @@ GAME DETAILS
   background: var(--ctp-surface0);
 }
 .BasicUI .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2 {
-  background: var(--ctp-overlay0);
+  background: var(--ctp-surface0);
   color: var(--ctp-base);
 }
 
@@ -1788,4 +1788,125 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 }
 .bbcodes_Spoiler_3Caxn:hover, .bbcodes_Spoiler_3Caxn.bbcodes_Revealed_35II0 {
   color: var(--ctp-text);
+}
+
+/* Game Review Fix */
+.appactivityday_ReviewDescriptionRecommended_1zQfK,
+.appdetailssection_Highlight_38t1m,
+.appdetailsreviewsection_CommentsGroup_2Z3gh .appdetailsreviewsection_CommentsContainer_17u7k .appdetailsreviewsection_CommentCount_2FYBw {
+    color: var(--ctp-text)
+}
+.appactivityday_PlayedForTime_2r-N9 {
+    color: var(--ctp-subtext0)
+}
+.appactivityday_ReviewText_3ZTUR,
+.appdetailsreviewsection_ReviewText_3k8QE,
+.appdetailsreviewsection_CommentsGroup_2Z3gh .appdetailsreviewsection_CommentsContainer_17u7k .appdetailsreviewsection_CommentsLabel_2EyEa {
+    color: var(--ctp-subtext1)
+}
+.appactivityday_ReviewIconThumbsUpColor_3AXaY {
+    fill: var(--ctp-blue);
+}
+.appactivityday_ReviewIconThumbsUp_2oPMu {
+    background: var(--ctp-base);
+}
+.appdetailsreviewsection_CommentsGroup_2Z3gh .appdetailsreviewsection_CommentsContainer_17u7k .appdetailsreviewsection_UpVotesIcon_2cFKq,
+.appdetailsreviewsection_CommentsGroup_2Z3gh .appdetailsreviewsection_CommentsContainer_17u7k .appdetailsreviewsection_CommentIcon_szq-Q {
+    fill: var(--ctp-text);
+}
+
+/* Cloud Sync */
+.appdetailsplaysection_CloudSyncProblem_2bzio {
+    background-color: var(--ctp-surface0);
+}
+.appdetailsplaysection_CloudSyncProblem_2bzio.gpfocus {
+    background-color: var(--ctp-surface1);
+}
+.appdetailsplaysection_CloudIconSVG_MbTRi > path:nth-child(2) {
+    fill: var(--ctp-yellow);
+}
+.cloudconflict_Active_2hegS .cloudconflict_RadioButton_2SNqC,
+.cloudconflict_Active_2hegS .cloudconflict_RadioButton_2SNqC:hover {
+    background-color: var(--ctp-base);
+    box-shadow: inset 0px 0px 0px 6px var(--ctp-accent-color);
+}
+.cloudconflict_DialogChoiceButton_1NanE.cloudconflict_Active_2hegS.DialogButton._DialogLayout.Secondary.gamepaddialog_Button_1kn70.Focusable.gpfocus.gpfocuswithin > .cloudconflict_RadioButton_2SNqC {
+    background-color: var(--ctp-accent-color);
+    box-shadow: inset 0px 0px 0px 6px var(--ctp-base);
+}
+.cloudconflict_RadioButton_2SNqC {
+    background-color: var(--ctp-base);
+}
+
+/* Achievement Fix */
+.appdetailsachievementssection_UnlockedLabel_3jC8o,
+.appdetailsachievementssection_AchivementCarouselItemDetails_1ckvQ .appdetailsachievementssection_Name_39Y01,
+.appdetailsachievementssection_LockedAchievementsLabel_1F8Ry,
+.achievementslist_AchievementTitle_17dhG {
+    color: var(--ctp-text);
+}
+.appdetailsachievementssection_UnlockedLabelPercent_14kZV,
+.achievementslist_AchievementGlobalPercentage_VQbek {
+    color: var(--ctp-overlay0);
+}
+.appdetailsachievementssection_AchivementCarouselItemDetails_1ckvQ .appdetailsachievementssection_Description_3212r,
+.appdetailsachievementssection_AchivementCarouselItemDetails_1ckvQ .appdetailsachievementssection_Achieved_MGoYU,
+.achievementslist_AchievementDescription_1WP2Y,
+.achievementslist_ListTitle_IM0uE,
+.achievementslist_ProgressCount_2LZ4v,
+.achievementsheader_Stat_28omE .achievementsheader_StatLabelAndValue_C17Op .achievementsheader_Label_17zZl,
+.achievementslist_HeaderText_OAV6Q,
+.achievementslist_GlobalAchievementListItem_316Uo .achievementslist_Content_UWkKt .achievementslist_Percent_17WmA {
+    color: var(--ctp-subtext1)
+}
+.achievementslist_AchievementListItemBase_2Kmn7,
+.achievementslist_AchievementList_1UXC2 {
+    background-color: var(--ctp-base);
+}
+.achievementslist_UnlockDate_2fFW2 {
+    color: var(--ctp-accent-color)
+}
+.progressbar_ProgressBar_1-nHj {
+    background-color: var(--ctp-surface0);
+}
+.progressbar_ProgressBar_1-nHj .progressbar_Percent_2_0Jo {
+    background-color: var(--ctp-accent-color) !important;
+}
+.achievementiconbase_HiddenLabel_2yMyP,
+.achievementsheader_Container_2iGYY .achievementsheader_Title_3wNyl,
+.achievementslist_GlobalAchievementListItem_316Uo .achievementslist_Content_UWkKt .achievementslist_Info_Zoy4C .achievementslist_Title_3LS_N {
+    color: var(--ctp-text);
+}
+.BasicUI .achievementiconbase_HiddenLabel_2yMyP {
+    background: var(--ctp-surface0)
+}
+.achievementsheader_Stat_28omE .achievementsheader_StatLabelAndValue_C17Op .achievementsheader_TextValue_3SUIg,
+.achievementslist_GlobalAchievementListItem_316Uo .achievementslist_Content_UWkKt .achievementslist_Info_Zoy4C .achievementslist_Description_231ll {
+    color: var(--ctp-subtext0);
+}
+.achievementslist_GlobalAchievementListItem_316Uo {
+    background-color: var(--ctp-mantle)
+}
+.achievementslist_GlobalAchievementListItem_316Uo .achievementslist_Content_UWkKt .achievementslist_ProgressFill_2lgHV {
+    background-color: var(--ctp-surface0);
+}
+.achievementslist_GlobalAchievementListItem_316Uo .achievementslist_UnlockContainer_1vd1p svg {
+    color: var(--ctp-accent-color);
+}
+
+/* Trading Cards Fix */
+.appdetailstradingcardssection_BadgeInfo_3QrX3 .appdetailstradingcardssection_BadgeName_3ca2d {
+    color: var(--ctp-accent-color);
+}
+.appdetailstradingcardssection_BadgeInfo_3QrX3 .appdetailstradingcardssection_BadgeLevel_2PMlM {
+    color: var(--ctp-subtext1);
+}
+.appdetailstradingcardssection_CardsLeft_2H1Mi {
+    color: var(--ctp-subtext0);
+}
+.appdetailstradingcardssection_Badge_RPcyJ.appdetailstradingcardssection_EmptyCircle_2feGA {
+    border-color: var(--ctp-overlay0);
+}
+.appdetailstradingcardssection_Card_1WsOn.appdetailstradingcardssection_Unowned_1A6NC .appdetailstradingcardssection_CardContainer_2DUDv, .appdetailstradingcardssection_Card_1WsOn.appdetailstradingcardssection_Loading_2ZOgN .appdetailstradingcardssection_CardContainer_2DUDv {
+    background-color: var(--ctp-surface0);
 }
