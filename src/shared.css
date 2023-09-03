@@ -977,6 +977,16 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 .quickaccessmenu_Container_3DHXr.quickaccessmenu_Open_-6ESh {
   color: var(--ctp-subtext0);
 }
+.standardtemplates_StandardTemplateContainer_1adpx.gpfocus,
+.standardtemplates_StandardTemplate_3e_DB.gpfocus, .standardtemplates_PinnedTemplate_2eBei.gpfocus {
+    background-color: var(--ctp-surface0) !important;
+}
+.standardtemplates_PinnedTemplate_2eBei .standardtemplates_PinnedBody_1Ljgv {
+    color: var(--ctp-text);
+}
+.notificationcontent_Timestamp_3q7nN, .notificationcontent_TimestampDesktop_1N5mc {
+    color: var(--ctp-subtext0)
+}
 #QuickAccess-Menu .GamepadMode.friendlist .TabPanelHeader {
   color: var(--ctp-text);
 }
