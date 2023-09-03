@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/preview.webp"/>
+	<img src="https://raw.githubusercontent.com//ozwaldorf/catppuccin-steam-deck/main/assets/previews/preview.webp"/>
 </p>
 
 ## Previews
@@ -21,24 +21,25 @@
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/latte.webp"/>
+<img src="https://raw.githubusercontent.com//ozwaldorf/catppuccin-steam-deck/main/assets/previews/latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/frappe.webp"/>
+<img src="https://raw.githubusercontent.com//ozwaldorf/catppuccin-steam-deck/main/assets/previews/frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/macchiato.webp"/>
+<img src="https://raw.githubusercontent.com//ozwaldorf/catppuccin-steam-deck/main/assets/previews/macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/mocha.webp"/>
+<img src="https://raw.githubusercontent.com//ozwaldorf/catppuccin-steam-deck/main/assets/previews/mocha.webp"/>
 </details>
 
 ## Usage
 
-1. Clone this repository inside `~/homebrew/themes/`
+1. Clone this repository to your steam deck or download the repository
+2. Move all files inside `/src/` to `~/homebrew/themes/` 
 2. In [CSSLoader](https://docs.deckthemes.com/#/CSSLoader/), refresh and enable `Catppuccin`
 3. (Optional) Change the theme flavor and accent color in the settings for the theme
 
