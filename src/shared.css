@@ -996,7 +996,7 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
   color: var(--ctp-green);
 }
 .GamepadMode.friendlist .FriendsListTab.gpfocus { /* This one is a big maybe*/
-  color: var(--ctp-overlay0);
+  color: var(--ctp-text);
   background-color: var(--ctp-surface1);
   border-radius: 10%;
 }
@@ -1017,6 +1017,17 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 .ChatRoomListGroupItem .groupNameStatusContainer .chatRoomName {
   color: var(--ctp-subtext1);
 }
+.offline .personanameandstatus_richPresenceLabel_1k82N, 
+.offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a, 
+.offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover, 
+.offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active, 
+.offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited {
+    color: var(--ctp-overlay0);
+}
+.offline .personanameandstatus_playerName_r62qz.GamepadMode, 
+.GamepadMode .offline .personanameandstatus_playerName_r62qz {
+    color: var(--ctp-subtext0);
+}
 .quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu.gpfocus, 
 .quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu {
   background-color: var(--ctp-base) !important;
@@ -1029,6 +1040,10 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 }
 .groupName.Panel.Focusable.gpfocus.gpfocuswithin {
   color: var(--ctp-subtext1) !important;
+  background-color: var(--ctp-surface0) !important;
+}
+.friend.ingame.awayOrSnooze.friendsnooze_hoverParent_3ID9R.friendStatusHover.Panel.Focusable.gpfocus.gpfocuswithin {
+  background-color: var(--ctp-surface0);
 }
 /* Main Menu Fix */
 .mainmenu_ItemIcon_3xZ3Z, .mainmenu_ItemLabel_3x-ZK {
@@ -1344,4 +1359,124 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 }
 .savecollectiondialog_Description_3uOEr {
   background: var(--ctp-base);
+}
+
+/* Notification Menu */
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_Icon_19g_L, 
+.standardtemplates_PinnedTemplate_2eBei .standardtemplates_Icon_19g_L,
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_Title_1WlRE, 
+.standardtemplates_PinnedTemplate_2eBei .standardtemplates_Title_1WlRE {
+    color: var(--ctp-text);
+}
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_Timestamp_2vSvC, 
+.standardtemplates_PinnedTemplate_2eBei .standardtemplates_Timestamp_2vSvC,
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationSubText_2XcN2, 
+.standardtemplates_PinnedTemplate_2eBei .standardtemplates_StandardNotificationSubText_2XcN2 {
+    color: var(--ctp-overlay0);
+}
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationDescription_1Ldq1, 
+.standardtemplates_PinnedTemplate_2eBei .standardtemplates_StandardNotificationDescription_1Ldq1 {
+    color: var(--ctp-subtext1);
+}
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationSubText_2XcN2, 
+.standardtemplates_PinnedTemplate_2eBei .standardtemplates_StandardNotificationSubText_2XcN2 {
+    color: var(--ctp-overlay0)
+}
+.standardtemplates_NewIndicator_3aotN svg {
+    color: var(--ctp-green);
+    filter: drop-shadow(0px 0px 4px var(--ctp-green));
+}
+
+/* Notification Menu */
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_Icon_19g_L, 
+.standardtemplates_PinnedTemplate_2eBei .standardtemplates_Icon_19g_L,
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_Title_1WlRE, 
+.standardtemplates_PinnedTemplate_2eBei .standardtemplates_Title_1WlRE {
+    color: var(--ctp-text);
+}
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_Timestamp_2vSvC, 
+.standardtemplates_PinnedTemplate_2eBei .standardtemplates_Timestamp_2vSvC,
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationSubText_2XcN2, 
+.standardtemplates_PinnedTemplate_2eBei .standardtemplates_StandardNotificationSubText_2XcN2 {
+    color: var(--ctp-overlay0);
+}
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationDescription_1Ldq1, 
+.standardtemplates_PinnedTemplate_2eBei .standardtemplates_StandardNotificationDescription_1Ldq1 {
+    color: var(--ctp-subtext1);
+}
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationSubText_2XcN2, 
+.standardtemplates_PinnedTemplate_2eBei .standardtemplates_StandardNotificationSubText_2XcN2 {
+    color: var(--ctp-overlay0)
+}
+.standardtemplates_NewIndicator_3aotN svg {
+    color: var(--ctp-green);
+    filter: drop-shadow(0px 0px 4px var(--ctp-green));
+}
+
+/* Friends Menu Fix */
+.offline .personanameandstatus_richPresenceLabel_1k82N, 
+.offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a, 
+.offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover, 
+.offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active, 
+.offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited {
+    color: var(--ctp-overlay0);
+}
+.offline .personanameandstatus_playerName_r62qz.GamepadMode, 
+.GamepadMode .offline .personanameandstatus_playerName_r62qz {
+    color: var(--ctp-subtext0);
+}
+
+.friend.ingame.awayOrSnooze.friendsnooze_hoverParent_3ID9R.friendStatusHover.Panel.Focusable.gpfocus.gpfocuswithin {
+    background-color: var(--ctp-surface0) !important;
+}
+
+.friend.online.friendStatusHover.Panel.Focusable.gpfocus.gpfocuswithin,
+.friend.offline.friendStatusHover.Panel.Focusable.gpfocus.gpfocuswithin,
+.friend.ingame.friendsnooze_hoverParent_3ID9R.friendStatusHover.Panel.Focusable.gpfocus.gpfocuswithin,
+.ChatRoomListGroupItem.NoChannels.Panel.Focusable.gpfocus.gpfocuswithin,
+.favoriteElement.Panel.Focusable.gpfocus.gpfocuswithin {
+    background-color: var(--ctp-surface0) !important;
+}
+.friendsnooze_SnoozeContainer_3EzTy.online .friendsnooze_SnoozeZ_1DArl.GamepadMode, .GamepadMode .friendsnooze_SnoozeContainer_3EzTy.online .friendsnooze_SnoozeZ_1DArl {
+    color: var(--ctp-blue);
+}
+.friendGroup.offlineFriends .groupName .groupCount.GamepadMode, .GamepadMode .friendGroup.offlineFriends .groupName .groupCount, .friendGroup.onlineFriends .groupName .groupCount.GamepadMode, .GamepadMode .friendGroup.onlineFriends .groupName .groupCount, .friendGroup .groupName .groupCount.collapsed.GamepadMode, .GamepadMode .friendGroup .groupName .groupCount.collapsed {
+    color: var(--ctp-subtext0);
+}
+.groupHeaderContainer .SortByRecent .SVGIcon_SortBy {
+    stroke: var(--ctp-subtext0);
+}
+.friend.gpfocus .labelHolder.GamepadMode.online.awayOrSnooze .personanameandstatus_playerName_r62qz, .friend.gpfocus .labelHolder.GamepadMode.online.awayOrSnooze .personanameandstatus_richPresenceLabel_1k82N, .GamepadMode .friend.gpfocus .labelHolder.online.awayOrSnooze .personanameandstatus_playerName_r62qz, .GamepadMode .friend.gpfocus .labelHolder.online.awayOrSnooze .personanameandstatus_richPresenceLabel_1k82N, .favoriteElement.gpfocus .labelHolder.GamepadMode.online.awayOrSnooze .personanameandstatus_playerName_r62qz, .favoriteElement.gpfocus .labelHolder.GamepadMode.online.awayOrSnooze .personanameandstatus_richPresenceLabel_1k82N, .GamepadMode .favoriteElement.gpfocus .labelHolder.online.awayOrSnooze .personanameandstatus_playerName_r62qz, .GamepadMode .favoriteElement.gpfocus .labelHolder.online.awayOrSnooze .personanameandstatus_richPresenceLabel_1k82N {
+    color: var(--ctp-blue);
+}
+.friend.gpfocus .labelHolder.GamepadMode.offline .personanameandstatus_richPresenceLabel_1k82N, .GamepadMode .friend.gpfocus .labelHolder.offline .personanameandstatus_richPresenceLabel_1k82N, .favoriteElement.gpfocus .labelHolder.GamepadMode.offline .personanameandstatus_richPresenceLabel_1k82N, .GamepadMode .favoriteElement.gpfocus .labelHolder.offline .personanameandstatus_richPresenceLabel_1k82N {
+    color: var(--ctp-overlay0);
+}
+.ChatRoomGroupAvatar.GamepadMode, .GamepadMode .ChatRoomGroupAvatar, .ChatRoomMultiFriendAvatar.GamepadMode, .GamepadMode .ChatRoomMultiFriendAvatar {
+    border-color: var(--ctp-overlay0);
+}
+.offline .steamavatar_avatarStatus_1yIzy.GamepadMode, .GamepadMode .offline .steamavatar_avatarStatus_1yIzy {
+    background-color: var(--ctp-overlay0);
+}
+
+/* Top Navigation Bar Friends */
+.friendslist_TabBumper_3Jr0A.GamepadMode svg path, .GamepadMode .friendslist_TabBumper_3Jr0A svg path {
+  fill: var(--ctp-subtext0);
+}
+.personanameandstatus_playerNicknameBracket_2aXev {
+  color: var(--ctp-subtext0);
+}
+.friendslist_RecentChatIcon_2mQc_ .friendslist_UnreadAlert_1RSzq.GamepadMode, .GamepadMode .friendslist_RecentChatIcon_2mQc_ .friendslist_UnreadAlert_1RSzq,
+.ChatRoomListGroupItem .FriendMessageCount.GamepadMode, .GamepadMode .ChatRoomListGroupItem .FriendMessageCount, .unreadFriend .FriendMessageCount.GamepadMode, .GamepadMode .unreadFriend .FriendMessageCount,
+.unreadchatmessagesheadersteamdeck_Header_NotificationUnreadMention_16uUR {
+  color: var(--ctp-base);
+  background-color: var(--ctp-yellow);
+  box-shadow: none;
+}
+.unreadMessageViolator {
+  color: var(--ctp-base);
+  background: var(--ctp-yellow);
+}
+.recentchatssteamdeck_RecentChatsList_2-4f0 .recentchatssteamdeck_RecentChatElement_1-Coz .recentchatssteamdeck_Time_20ewu {
+  color: var(--ctp-subtext0);
 }
