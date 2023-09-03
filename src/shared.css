@@ -421,7 +421,7 @@ DOWNLOADS
   background: var(--ctp-blue);
 }
 .downloads_SectionItemWrapper_21P7c.gpfocus .downloads_SectionItem_1VNuY .downloads_Button_3oavR.DialogButton:enabled svg {
-  color: var(--ctp-text);
+  color: var(--ctp-base);
 }
 .downloads_SectionItemWrapper_21P7c .Panel .Focusable .gpfocus .gpfocuswithin {
   background-color: var(--ctp-surface0);
@@ -1909,4 +1909,107 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 }
 .appdetailstradingcardssection_Card_1WsOn.appdetailstradingcardssection_Unowned_1A6NC .appdetailstradingcardssection_CardContainer_2DUDv, .appdetailstradingcardssection_Card_1WsOn.appdetailstradingcardssection_Loading_2ZOgN .appdetailstradingcardssection_CardContainer_2DUDv {
     background-color: var(--ctp-surface0);
+}
+
+/* Download Menu Fixes */
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Figure_eXF8x,
+.downloads_SectionTitle_qq2xI .downloads_TitleAndCount_ROxNr .downloads_Title_TK9wv, .downloads_SectionJumpBar_mw7VZ .downloads_TitleAndCount_ROxNr .downloads_Title_TK9wv,
+.downloads_SectionItem_1VNuY .downloads_Name_35eOQ{
+    color: var(--ctp-text);
+}
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Stat_5TdA4,
+.downloads_AutoUpdateHours_117rQ,
+.downloads_SectionTitle_qq2xI .downloads_Count_1CGnw,
+.downloads_ProgressDetails_sv3ZH .downloads_Value_1dHjj {
+    color: var(--ctp-overlay0);
+}
+.GamepadMode .downloads_SectionItemWrapper_21P7c.gpfocus .downloads_SectionItemStatus_1Sygg .downloads_ProgressBar_1vMU1.downloads_NotActive_2Xedp div {
+    background-color: var(--ctp-overlay0);
+}
+.downloads_SectionTitle_qq2xI .downloads_Rule_1CTr1 {
+    background-color: var(--ctp-surface0);
+}
+.downloads_PatchNotes_3kXEp {
+    color: var(--ctp-blue);
+}
+.downloads_SectionItemStatus_1Sygg,
+.downloads_SectionItemStatus_1Sygg .downloads_State_2ns4w .downloads_InProgress_3Wavc {
+    color: var(--ctp-subtext0);
+}
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:active, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:hover, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled:active:hover, .downloads_SectionItem_1VNuY .downloads_Button_3oavR.DialogButton:enabled {
+    color: var(--ctp-text);
+}
+.downloads_Section_3Mbhn.Panel.Focusable.gpfocuswithin > div.downloads_SectionList_OINnO > div > div {
+    background-color: var(--ctp-surface0) !important;
+}
+.downloads_SectionItemWrapper_21P7c.gpfocus .downloads_SectionItem_1VNuY .downloads_Button_3oavR.DialogButton:enabled {
+    background-color: var(--ctp-accent-color) !important;
+}
+.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_LegendText_1iulC {
+    color: var(--ctp-subtext0);
+}
+.downloads_ProgressDetails_sv3ZH .downloads_Value_1dHjj.downloads_InProgress_3Wavc,
+.downloads_SectionItemStatus_1Sygg .downloads_Progress_FuJLs,
+.downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled,
+.downloads_RemoveAllButton_1GdR5.downloads_RemoveAllButton_1GdR5.DialogButton:enabled {
+    color: var(--ctp-text);
+}
+
+/* Media Menu */
+.gamepadtabbedpage_TabContentsScroll_1X4dt._TabContentsScroll.scrollpanel_ScrollPanel_1CXdi.scrollpanel_ScrollY_313lB.Panel.Focusable {
+  background-color: var(--ctp-base);
+}
+.gamepadtabbedpage_TabHeaderRowWrapper_2Jobs.gamepadtabbedpage_Floating_3I3IM {
+  background-color: var(--ctp-mantle);
+}
+.mediapage_ScreenshotHeaderBanner_Bly4O .mediapage_SortOrder_21DQz {
+  color: var(--ctp-subtext1);
+}
+.mediapage_Screenshot_3Qh8h {
+  background-color: var(--ctp-surface0);
+}
+
+/* Friends Menu Fix */
+.chattabs_ChatTab_2Vrcp.chattabs_Active_Lrqoj.GamepadMode.gpfocus, .GamepadMode .chattabs_ChatTab_2Vrcp.chattabs_Active_Lrqoj.gpfocus {
+  background-color: var(--ctp-surface0);
+}
+.ChatHistorySelector {
+  background: var(--ctp-surface0)
+}
+.SteamDeckChats.gpfocuswithin .RightSideButtonContainer .AddFriendButton, .SteamDeckChats.gpfocuswithin .RightSideButtonContainer .inviteAnotherFriendButton,
+.chatentry_chatTextarea_pewyB,
+button.chatentry_chatSubmitButton_1IEiK.chatentry_disabled_2GM2k.Focusable {
+  background-color: var(--ctp-surface0);
+  color: var(--ctp-text);
+}
+button.chatentry_chatSubmitButton_1IEiK.chatentry_disabled_2GM2k.Focusable {
+  border-left: 2px solid var(--ctp-base);
+}
+.msg.timeDivision.GamepadMode, .GamepadMode .msg.timeDivision {
+  color: var(--ctp-subtext0);
+}
+.timeDivision .preHorizDivider {
+  background-color: var(--ctp-surface0);
+}
+.chatEntry.Panel.Focusable.gpfocuswithin > form > button {
+  background-color: var(--ctp-accent-color);
+}
+.chatEntry.Panel.Focusable.gpfocuswithin > form > button > svg > path {
+  fill: var(--ctp-base);
+}
+button.chatentry_chatSubmitButton_1IEiK.chatentry_disabled_2GM2k.Focusable > svg > path {
+  fill: var(--ctp-text);
+}
+.ChatHistoryContainer.gpfocus .msg.timeDivision {
+  color: var(--ctp-subtext1);
+}
+.multiChatDialog.GamepadMode .speakerTimeStamp, .GamepadMode .multiChatDialog .speakerTimeStamp {
+  color: var(--ctp-subtext0)
+}
+.messages_SpeakerName_Default_2NMuV.GamepadMode, .GamepadMode .messages_SpeakerName_Default_2NMuV {
+  color: var(--ctp-accent-color);
+}
+.msgText,
+.friendslist_LastMessage_3HNwU.GamepadMode, .GamepadMode .friendslist_LastMessage_3HNwU {
+  color: var(--ctp-text);
 }
