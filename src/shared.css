@@ -1086,6 +1086,22 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 }
 
 /* Friends Activity Fix */
+.BasicUI .gamepadhomefriends_FriendsHeader_1Ejje,
+.gamepadhomefriends_InGameGame_KLo2n .gamepadhomefriends_Title_EZ-F-{
+    color: var(--ctp-text);
+}
+.personastatusicons_PersonaStatusIcon_1YsWj.ingame .SVGIcon_VR path.GamepadMode, 
+.GamepadMode .personastatusicons_PersonaStatusIcon_1YsWj.ingame .SVGIcon_VR path, 
+.personastatusicons_PersonaStatusIcon_1YsWj.ingame .SVGIcon_MobilePhone path.GamepadMode, 
+.GamepadMode .personastatusicons_PersonaStatusIcon_1YsWj.ingame .SVGIcon_MobilePhone path, 
+.personastatusicons_PersonaStatusIcon_1YsWj.ingame .SVGIcon_BigPicture path.GamepadMode, 
+.GamepadMode .personastatusicons_PersonaStatusIcon_1YsWj.ingame .SVGIcon_BigPicture path {
+    fill: var(--ctp-green);
+}
+.friendsnooze_SnoozeContainer_3EzTy.in-game .friendsnooze_SnoozeZ_1DArl.GamepadMode, 
+.GamepadMode .friendsnooze_SnoozeContainer_3EzTy.in-game .friendsnooze_SnoozeZ_1DArl {
+    color: var(--ctp-green);
+}
 .BasicUI .appactivityday_StoreGameCapsule_1OYOt {
   background-color: var(--ctp-surface0);
   color: var(--ctp-subtext1);
@@ -1214,7 +1230,8 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 .gamepaddialog_Field_S-_La.gamepaddialog_Disabled_1pmyx .gamepaddialog_FieldLabel_3b0U-,
 .gamepaddialog_Toggle_24G4g.gamepaddialog_Disabled_1pmyx .gamepaddialog_ToggleSwitch_3__OD, 
 .appproperties_AppProperties_1FyBL .DialogBody .appproperties_Title_3zuIC,
-.appproperties_AppProperties_1FyBL .DialogBody {
+.appproperties_AppProperties_1FyBL .DialogBody,
+.gamepadcontextmenu_contextMenuItem_1sdvo.disabled {
   color: var(--ctp-overlay0);
 }
 .gamepaddialog_Toggle_24G4g.gamepaddialog_Disabled_1pmyx .gamepaddialog_ToggleSwitch_3__OD {
@@ -1228,7 +1245,7 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 .DialogCheckbox_Container:hover .DialogCheckbox:not(.Disabled), .DialogCheckbox:hover:not(.Disabled), .DialogCheckbox_Container:focus .DialogCheckbox:not(.Disabled), .DialogCheckbox:focus:not(.Disabled) {
   background-color: var(--ctp-mantle);
 }
-#svgid_33 > stop {
+[id^="svgid_"] > stop {
   stop-color: var(--ctp-accent-color);
 }
 
@@ -1262,4 +1279,69 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 }
 .appproperties_AppProperties_1FyBL .DialogBody .appproperties_Error_3f8da {
   color: var(--ctp-red);
+}
+
+/* DLC Tab */
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_DlcGrid_3sXdO {
+  border: none;
+  background-color: var(--ctp-base);
+  color: var(--ctp-subtext0);
+}
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_DlcGrid_3sXdO .appproperties_DlcHeader_1SKB0 {
+  color: var(--ctp-subtext1);
+  background-color: var(--ctp-mantle);
+  border-bottom: 1px solid var(--ctp-surface0);
+}
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_DlcGrid_3sXdO .appproperties_DlcHeader_1SKB0:hover {
+  color: var(--ctp-base);
+  background-color: var(--ctp-accent-color);
+}
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_DlcGrid_3sXdO .appproperties_DlcHeader_1SKB0 .appproperties_TriangleDown_2lnv6 {
+  border-top-color: var(--ctp-base);
+}
+
+/* Game Context Menu */
+.gamepadcontextmenu_BasicContextMenuHeader_2Jp8B {
+  color: var(--ctp-text);
+}
+.gamepadcontextmenu_contextMenuItem_1sdvo.Stream, 
+.gamepadcontextmenu_contextMenuItem_1sdvo.Connect, 
+.gamepadcontextmenu_contextMenuItem_1sdvo.Launch, 
+.gamepadcontextmenu_contextMenuItem_1sdvo.PlayMusic, 
+.gamepadcontextmenu_contextMenuItem_1sdvo.Play, 
+.gamepadcontextmenu_contextMenuItem_1sdvo.Resume, 
+.gamepadcontextmenu_contextMenuItem_1sdvo.BorrowApp, 
+.gamepadcontextmenu_contextMenuItem_1sdvo.Download, 
+.gamepadcontextmenu_contextMenuItem_1sdvo.Update, 
+.gamepadcontextmenu_contextMenuItem_1sdvo.PreLoad, 
+.gamepadcontextmenu_contextMenuItem_1sdvo.Install, 
+.gamepadcontextmenu_contextMenuItem_1sdvo.Pause, 
+.gamepadcontextmenu_contextMenuItem_1sdvo.Stop, 
+.gamepadcontextmenu_contextMenuItem_1sdvo.Cancel {
+  color: var(--ctp-text);
+  background-color: var(--ctp-base);
+}
+.gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_SubMenu_1_tPN .SVGIcon_DownArrowContextMenu {
+  fill: var(--ctp-text);
+}
+.gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_SubMenu_1_tPN.gpfocuswithin .SVGIcon_DownArrowContextMenu {
+  fill: var(--ctp-base);
+}
+.gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_SubMenu_1_tPN.gamepadcontextmenu_active_2Pk-x {
+  background-color: var(--ctp-accent-color);
+  color: var(--ctp-base);
+}
+[id^="ModalDialogOverlay_Modal_"] > div > div.BasicUIContextMenu.gamepadcontextmenu_BasicContextMenuModal_2xS2_ > div.gamepadcontextmenu_BasicContextMenuContainer_2ZDB6.Panel.Focusable.gpfocuswithin > div:nth-child(1) > div.gamepadcontextmenu_SubMenu_1_tPN.gamepadcontextmenu_active_2Pk-x.gamepadcontextmenu_contextMenuItem_1sdvo.contextMenuItem.Panel.Focusable > div.gamepadcontextmenu_Arrow_2EDBb > svg {
+  fill: var(--ctp-base) !important;
+}
+
+/* New Collection Menu */
+.DialogLabel, .DialogLabelStrong {
+  color: var(--ctp-text);
+}
+.DialogLabel.savecollectiondialog_Required_w_ZWy {
+  color: var(--ctp-red);
+}
+.savecollectiondialog_Description_3uOEr {
+  background: var(--ctp-base);
 }
