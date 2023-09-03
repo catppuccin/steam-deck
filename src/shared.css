@@ -1030,8 +1030,8 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 }
 .quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu.gpfocus, 
 .quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu {
-  background-color: var(--ctp-base) !important;
-  color: var(--ctp-accent-color);
+  background-color: var(--ctp-accent-color) !important;
+  color: var(--ctp-base);
 }
 .gpfocus .quickaccessmenu_Tab_1S76C, 
 .quickaccessmenu_Tab_1S76C.gpfocus {
@@ -1385,6 +1385,9 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 .standardtemplates_NewIndicator_3aotN svg {
     color: var(--ctp-green);
     filter: drop-shadow(0px 0px 4px var(--ctp-green));
+}
+.notificationcontent_FriendInGameAppColor_3uw_G {
+  color: var(--ctp-green);
 }
 
 /* Notification Menu */
