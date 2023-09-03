@@ -124,7 +124,7 @@ TOP BAR
   background: var(--ctp-accent-color); 
 }
 .ingame .steamavatar_avatarStatus_1yIzy.GamepadMode, .GamepadMode .ingame .steamavatar_avatarStatus_1yIzy {
-  background: var(--ctp-green);
+  background: var(--ctp-accent-color);
 }
 .ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N.GamepadMode, 
 .GamepadMode .ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N, 
