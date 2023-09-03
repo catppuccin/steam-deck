@@ -1204,3 +1204,62 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
   background-color: var(--ctp-accent-color);
   color: var(--ctp-base);
 }
+
+/* Game Properties Title */
+.gamepadpagedsettings_PagedSettingsDialog_Title_1Px9u {
+  color: var(--ctp-subtext1);
+}
+
+/* Greyed out Text and Buttons */
+.gamepaddialog_Field_S-_La.gamepaddialog_Disabled_1pmyx .gamepaddialog_FieldLabel_3b0U-,
+.gamepaddialog_Toggle_24G4g.gamepaddialog_Disabled_1pmyx .gamepaddialog_ToggleSwitch_3__OD, 
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_Title_3zuIC,
+.appproperties_AppProperties_1FyBL .DialogBody {
+  color: var(--ctp-overlay0);
+}
+.gamepaddialog_Toggle_24G4g.gamepaddialog_Disabled_1pmyx .gamepaddialog_ToggleSwitch_3__OD {
+  background-color: var(--ctp-overlay1);
+}
+
+/* Checkbox */
+.DialogCheckbox {
+  background-color: var(--ctp-base);
+}
+.DialogCheckbox_Container:hover .DialogCheckbox:not(.Disabled), .DialogCheckbox:hover:not(.Disabled), .DialogCheckbox_Container:focus .DialogCheckbox:not(.Disabled), .DialogCheckbox:focus:not(.Disabled) {
+  background-color: var(--ctp-mantle);
+}
+#svgid_33 > stop {
+  stop-color: var(--ctp-accent-color);
+}
+
+/* General Tab */
+/* Launch options */
+.gamepaddialog_BasicTextInput_3GCBi, .gamepaddialog_BasicTextInput_3GCBi:not(.disabled):not(.gpfocus):hover {
+  background-color: var(--ctp-mantle);
+}
+.gamepaddialog_BasicTextInput_3GCBi.gpfocus, .gamepaddialog_BasicTextInput_3GCBi.gpfocus:hover {
+  background-color: var(--ctp-surface0);
+  color: var(--ctp-text);
+}
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_BlueHighlight_1KmR8 {
+  color: var(--ctp-accent-color);
+}
+
+/* Compatibility Tab */
+.appproperties_AppProperties_1FyBL .appproperties_Checkbox_2V2nc {
+  background-color: var(--ctp-surface0);
+  color: var(--ctp-text)
+}
+
+/* Updates tab */
+.appproperties_BuildInfo_t4XYb {
+  color: var(--ctp-subtext1);
+}
+
+/* Beta Tab */
+.appproperties_BetaLabel_3H9mJ {
+  color: var(--ctp-subtext1);
+}
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_Error_3f8da {
+  color: var(--ctp-red);
+}
