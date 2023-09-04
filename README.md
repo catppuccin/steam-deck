@@ -17,8 +17,6 @@
 
 ## Previews
 
-> todo
-
 <details>
 <summary>🌻 Latte</summary>
 <img src="https://raw.githubusercontent.com//ozwaldorf/catppuccin-steam-deck/main/assets/previews/latte.webp"/>
@@ -38,10 +36,10 @@
 
 ## Usage
 
-1. Clone this repository to your steam deck or download the repository
-2. Move all files inside `/src/` to `~/homebrew/themes/` 
-2. In [CSSLoader](https://docs.deckthemes.com/#/CSSLoader/), refresh and enable `Catppuccin`
-3. (Optional) Change the theme flavor and accent color in the settings for the theme
+1. Clone or download the repository to your steam deck.
+2. Move all files inside `/src/` to `~/homebrew/themes/`, or create a symbolic link.
+2. In [CSSLoader](https://docs.deckthemes.com/#/CSSLoader/), refresh and enable `Catppuccin`.
+3. (Optional) Change the theme flavor and accent color in the settings for the theme.
 
 ## 💝 Thanks to
 
