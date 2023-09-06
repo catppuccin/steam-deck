@@ -822,6 +822,30 @@ svg.networksettings_LargerIcon_14aKC > path {
 #header > div.searchbar_SearchContainer_161Tj.searchbar_ForceExpanded_1bmuJ.Panel.Focusable > svg.searchbar_SearchIconLeft_2Ya83 {
   color: var(--ctp-text);
 }
+.activateproductdialog_InfoIcon_8Uz6L {
+  color: var(--ctp-blue);
+}
+.contentmanagement_DriveSettingsButton_1WKUO:hover, .contentmanagement_DriveSettingsButton_1WKUO:focus {
+  background-color: var(--ctp-accent-color);
+  color: var(--ctp-base);
+}
+.contentmanagement_DriveUsageFreeSpace_3Lz1R {
+  background-color: var(--ctp-overlay0);
+}
+.remoteplaysettings_TableHeader_1HL6K {
+  color: var(--ctp-text);
+}
+#Main > div > div.topleveltransitionswitch_TopLevelTransitionSwitch_1iKmx > div > div > div > div > div > div > div.DialogContentTransition.gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle.Panel.Focusable.gpfocuswithin > div > div > div > div > div > div.DialogBody > div > div.Panel.Focusable.gpfocuswithin > div.gamepaddialog_Field_S-_La.gamepaddialog_WithFirstRow_qFXi6.gamepaddialog_VerticalAlignCenter_3XNvA.gamepaddialog_InlineWrapShiftsChildrenBelow_pHUb6.gamepaddialog_WithBottomSeparatorStandard_3s1Rk.gamepaddialog_StandardPadding_XRBFu.gamepaddialog_HighlightOnFocus_wE4V6.Panel.Focusable > div > div.gamepaddialog_FieldLabel_3b0U- > div.gamepaddialog_FieldLeadIcon_OKYIj > svg > path {
+  fill: var(--ctp-accent-color);
+}
+
+/* System Update Fix (hard to test for obvious reasons) */
+.updaterfield_UpdaterFieldStatusApplying_Y36on .updaterfield_TextContainer_pW4WL .updaterfield_TimeRemaining_2W9zi {
+  color: var(--ctp-subtext1);
+}
+.updaterfield_UpdaterFieldStatusApplying_Y36on .updaterfield_TextContainer_pW4WL .updaterfield_ApplyingText_PHNS8 {
+  color: var(--ctp-accent-color);
+}
 
 /* Gyro Menu */
 .gyroscopenoisebar_GyroBarField_2OnwI .gyroscopenoisebar_ProgressBar_2VCd- .gyroscopenoisebar_Percent_2kHca {
@@ -1396,35 +1420,6 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
     color: var(--ctp-green);
     filter: drop-shadow(0px 0px 4px var(--ctp-green));
 }
-.notificationcontent_FriendInGameAppColor_3uw_G {
-  color: var(--ctp-green);
-}
-
-/* Notification Menu */
-.standardtemplates_StandardTemplate_3e_DB .standardtemplates_Icon_19g_L, 
-.standardtemplates_PinnedTemplate_2eBei .standardtemplates_Icon_19g_L,
-.standardtemplates_StandardTemplate_3e_DB .standardtemplates_Title_1WlRE, 
-.standardtemplates_PinnedTemplate_2eBei .standardtemplates_Title_1WlRE {
-    color: var(--ctp-text);
-}
-.standardtemplates_StandardTemplate_3e_DB .standardtemplates_Timestamp_2vSvC, 
-.standardtemplates_PinnedTemplate_2eBei .standardtemplates_Timestamp_2vSvC,
-.standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationSubText_2XcN2, 
-.standardtemplates_PinnedTemplate_2eBei .standardtemplates_StandardNotificationSubText_2XcN2 {
-    color: var(--ctp-overlay0);
-}
-.standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationDescription_1Ldq1, 
-.standardtemplates_PinnedTemplate_2eBei .standardtemplates_StandardNotificationDescription_1Ldq1 {
-    color: var(--ctp-subtext1);
-}
-.standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationSubText_2XcN2, 
-.standardtemplates_PinnedTemplate_2eBei .standardtemplates_StandardNotificationSubText_2XcN2 {
-    color: var(--ctp-overlay0)
-}
-.standardtemplates_NewIndicator_3aotN svg {
-    color: var(--ctp-green);
-    filter: drop-shadow(0px 0px 4px var(--ctp-green));
-}
 
 /* Friends Menu Fix */
 .offline .personanameandstatus_richPresenceLabel_1k82N, 
@@ -1628,6 +1623,9 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 }
 .artworkmodal_FileDetails_1-MBE .artworkmodal_Caption_2yt71 {
   color: var(--ctp-accent-color);
+}
+.appactivityday_PartnerEventTextOnly_Summary_3ZUP3 {
+  color: var(--ctp-subtext0)
 }
 
 /* Game Info */
@@ -1964,6 +1962,9 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 .downloads_RemoveAllButton_1GdR5.downloads_RemoveAllButton_1GdR5.DialogButton:enabled {
     color: var(--ctp-text);
 }
+.downloads_ContentType_Rgy-7 {
+  color: var(--ctp-overlay0);
+}
 
 /* Media Menu */
 .gamepadtabbedpage_TabContentsScroll_1X4dt._TabContentsScroll.scrollpanel_ScrollPanel_1CXdi.scrollpanel_ScrollY_313lB.Panel.Focusable {
@@ -2023,3 +2024,87 @@ button.chatentry_chatSubmitButton_1IEiK.chatentry_disabled_2GM2k.Focusable > svg
 .friendslist_LastMessage_3HNwU.GamepadMode, .GamepadMode .friendslist_LastMessage_3HNwU {
   color: var(--ctp-text);
 }
+.GamepadMode.friendlist .TabPanelHeader .NewChatGroupButton.gpfocus, .GamepadMode.friendlist .TabPanelHeader .AddFriendButton.gpfocus, .GamepadMode.friendlist .TabPanelHeader .FriendsInvitesButton.gpfocus {
+  background-color: var(--ctp-accent-color);
+  color: var(--ctp-base);
+}
+.gamepaddialog_GamepadDialogContent_3joNk ._DialogInputContainer.gpfocus, .gamepaddialog_GamepadDialogContent_3joNk ._DialogInputContainer.Active {
+  color: var(--ctp-text);
+  background-color: var(--ctp-surface0);
+}
+.DialogTextInputBase:read-only {
+  background-color: var(--ctp-mantle);
+}
+.FriendPicker .FriendPickerFriendList.GamepadMode.gpfocus, .GamepadMode .FriendPicker .FriendPickerFriendList.gpfocus {
+  background-color: var(--ctp-surface0);
+}
+.FriendPicker_SuggestedFriend.gpfocus .friend {
+  background-color: var(--ctp-surface0) !important;
+}
+
+/* Library Fix */
+.appgrid_AppGridSectionLabel_2hvQb {
+  color: var(--ctp-subtext1);
+  font-weight: 400
+}
+.appgrid_AppGridSectionHeader_3bWIS .appgrid_Rule_3pJqX {
+  background: var(--ctp-surface0);
+}
+.appportrait_LibraryItemBoxSubscript_1LJqx {
+  background-color: var(--ctp-surface0);
+  color: var(--ctp-subtext1);
+}
+
+/* Add A Friend */
+.friendinvites_InvitesList_3i8Fo {
+  background-color: var(--ctp-base);
+}
+.friendinvites_AddFriendSection_3BjIx .friendinvites_Title_1ZEdD {
+  color: var(--ctp-text);
+}
+.friendinvites_AddFriendSection_3BjIx .friendinvites_Description_KI_gF,
+.friendinvites_FriendCodeSection_39nte .friendinvites_Caption__XK9j {
+  color: var(--ctp-subtext1);
+}
+.friendinvites_FriendCodeSection_39nte .friendinvites_FriendCode_27408 {
+  background-color: var(--ctp-mantle);
+  border: 1px solid var(--ctp-surface0);
+}
+.friendinvites_FriendCodeSection_39nte .friendinvites_Code_1-bTQ {
+  color: var(--ctp-accent-color);
+}
+.friendinvites_InvitesSectionHeader_3B_sJ {
+  color: var(--ctp-subtext0);
+}
+.friendinvites_InvitesRow_35_aF.gpfocuswithin {
+  background-color: var(--ctp-surface0);
+}
+.DesktopUI .DialogTextInputBase:focus, .DialogTextInputBase:focus-within {
+  background-color: var(--ctp-surface0);
+  color: var(--ctp-text);
+}
+
+/* Game Launch Popup Fix */
+.applaunchingdetails_ConfigurationHeader_30C5a {
+  color: var(--ctp-subtext1);
+}
+.applaunchingdetails_LaunchStatus_1ZWPD {
+  color: var(--ctp-text);
+}
+
+.applaunchingdetails_ConfigurationName_XPWRZ {
+  color: var(--ctp-subtext0);
+}
+/* Your Account Menu */
+button.accountpanel_FatButton_TEWms svg {
+  color: var(--ctp-text);
+}
+button.accountpanel_FatButton_TEWms .accountpanel_Label_3wadw {
+  color: var(--ctp-subtext1);
+}
+button.accountpanel_FatButton_TEWms .accountpanel_Details_3Wb9y {
+  color: var(--ctp-subtext0);
+}
+.accountpanel_Highlight_35ztZ {
+  color: var(--ctp-accent-color);
+} 
