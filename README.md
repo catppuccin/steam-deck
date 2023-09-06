@@ -43,6 +43,8 @@
 
 ## 💝 Thanks to
 
+- [@ozwaldorf](https://github.com/ozwaldorf)
+- [@soradotwav](https://github.com/soradotwav)
 - [@EMERALD0874](https://github.com/EMERALD0874/Steam-Deck-Themes/) for the initial background boilerplate
 
 &nbsp;
