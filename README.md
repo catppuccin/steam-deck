@@ -37,9 +37,10 @@
 ## Usage
 
 1. Clone or download the repository to your steam deck.
-2. Move all files inside `/src/` to `~/homebrew/themes/`, or create a symbolic link.
-2. In [CSSLoader](https://docs.deckthemes.com/#/CSSLoader/), refresh and enable `Catppuccin`.
-3. (Optional) Change the theme flavor and accent color in the settings for the theme.
+2. Create a new directory in `~/homebrew/themes/` for the theme (e.g. `~/homebrew/themes/Catppuccin`).
+3. Move all files inside `/src/` to `~/homebrew/themes/[YOUR-FOLDER]`, or create a symbolic link.
+4. In [CSSLoader](https://docs.deckthemes.com/#/CSSLoader/), refresh and enable `Catppuccin`.
+5. (Optional) Change the theme flavor and accent color in the settings for the theme.
 
 ## 💝 Thanks to
 
