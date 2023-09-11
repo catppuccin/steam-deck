@@ -77,7 +77,7 @@
             "values": {
                 "No": {},
                 "Yes": {
-                    "integrations/hltb.css": ["MainMenu"]
+                    "integrations/hltb.css": ["SP", "MainMenu"]
                 }
             }
         }
