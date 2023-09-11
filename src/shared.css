@@ -204,9 +204,6 @@ GAME DETAILS
 .BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX.Focusable:hover .appactionbutton_ButtonText_33cnX {
   color: var(--ctp-base);
 }
-.BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX {
-  background: var(--ctp-overlay0);
-}
 .BasicUI .appactionbutton_ButtonChild_2AzIX.Focusable:focus {
   background: var(--ctp-accent-color);
   color: var(--ctp-base);
@@ -1532,6 +1529,13 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 }
 
 /* Game Menu */
+.BasicUI .appdetailsplaysection_CloudStatusLabel_fUTbl {
+  color: var(--ctp-subtext1);
+}
+.BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX,
+.BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX .appactionbutton_ButtonText_33cnX {
+    color: var(--ctp-text);
+}
 .appdetailsfriendssection_FriendsSectionSubHeading_30EfX {
   color: var(--ctp-subtext1);
 }
@@ -2108,3 +2112,31 @@ button.accountpanel_FatButton_TEWms .accountpanel_Details_3Wb9y {
 .accountpanel_Highlight_35ztZ {
   color: var(--ctp-accent-color);
 } 
+
+/* Post Game Summary Fix */
+.BasicUI .spotlightgameplaysummary_GamePlaySummaryHeader_2_sR8 {
+  color: var(--ctp-text);
+}
+.spotlightgameplaysummary_EventHeaderBlock_1jiiO {
+  color: var(--ctp-subtext1);
+}
+.appdetailsachievementssection_Featured_1j_gj .appdetailsachievementssection_TextSection_1s_9c .appdetailsachievementssection_Name_39Y01 {
+  color: var(--ctp-text);
+}
+.appdetailsachievementssection_Featured_1j_gj .appdetailsachievementssection_TextSection_1s_9c .appdetailsachievementssection_Desc_2gLHb {
+  color: var(--ctp-subtext0);
+}
+.appdetailsachievementssection_Featured_1j_gj .appdetailsachievementssection_TextSection_1s_9c .appdetailsachievementssection_Stats_VKo9p {
+  color: var(--ctp-overlay0);
+}
+
+/* Collections Fix */
+.BasicUI .allcollections_Collection_3IWn-:focus .allcollections_CollectionLabel_1J1LQ, .BasicUI .allcollections_Collection_3IWn- .allcollections_CollectionLabel_1J1LQ {
+  color: var(--ctp-text);
+}
+.BasicUI .allcollections_Collection_3IWn-:focus, .BasicUI .allcollections_Collection_3IWn- {
+  background-color: var(--ctp-base);
+}
+.allcollections_Collection_3IWn- .allcollections_CollectionLabel_1J1LQ .allcollections_CollectionLabelCount_36QQL {
+  color: var(--ctp-subtext0);
+}

@@ -71,6 +71,15 @@
                     "accents/lavender.css": ["SP", "MainMenu", "QuickAccess"]
                 }
             }
+        },
+        "HLTB-Integration": {
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "integrations/hltb.css": ["MainMenu"]
+                }
+            }
         }
     }
 }
