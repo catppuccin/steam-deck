@@ -1,6 +1,6 @@
 /* HLTB Integration */
 .hltb-info {
-    background-color: var(--ctp-base);
+    background-color: var(--ctp-base) !important;
     border-color: var(--ctp-surface0);
 }
 .hltb-gametime {
