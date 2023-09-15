@@ -922,7 +922,7 @@ svg.networksettings_LargerIcon_14aKC > path {
   background-color: var(--ctp-accent-color);
 }
 .guidedtour_PageIndicator_4hJJR, .controllerconfigurator_interstitial_SectionSeparator_RoCqX {
-  background-color: var(surface1);
+  background-color: var(--ctp-surface1);
 }
 .controllerconfigurator_interstitial_ControlLabel_tGJeF {
   background-color: var(--ctp-accent-color);
@@ -1119,7 +1119,7 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
   background-color: var(--ctp-green);
 }
 .gamepadhomewhatsnew_EventPreviewOuterWrapper_10b1V.gamepadhomewhatsnew_OuterWrapper_3DpEz:hover .gamepadhomewhatsnew_EventInfo_6TGe7, .gpfocus .gamepadhomewhatsnew_EventInfo_6TGe7 {
-  background-color: var(surface1);
+  background-color: var(--ctp-surface1);
 }
 .recentlycompleted_GameIconAndName_2RTo4 .recentlycompleted_GameName_1EIQL {
   color: var(--ctp-text);
