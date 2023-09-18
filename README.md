@@ -34,7 +34,21 @@
 <img src="https://raw.githubusercontent.com/catppuccin/steam-deck/main/assets/previews/mocha.webp"/>
 </details>
 
-## Usage
+## Prerequisites
+
+* [Decky Loader](https://decky.xyz/)
+* [CSS Loader](https://docs.deckthemes.com/#/CSSLoader/)
+
+## Installation (In-App)
+> This method is preferred as you will be able to update the theme without having to manually move files after every update. Furthermore, it will prompt you whenever an update is available.
+
+1. Open the Decky menu and go into [CSS Loader](https://docs.deckthemes.com/#/CSSLoader/).
+2. Click `Download Themes` and enter `Catppuccin` in the search bar.
+3. Select the `Catppuccin` System-Wide theme and click `Install`.
+4. Click `Configure` and enable the theme.
+5. (Optional) Change the theme flavor and accent color in the settings for the theme.
+
+## Installation (Manual)
 
 1. Clone or download the repository to your steam deck.
 2. Create a new directory in `~/homebrew/themes/` for the theme (e.g. `~/homebrew/themes/Catppuccin`).
