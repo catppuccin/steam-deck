@@ -1,0 +1,12 @@
+---
+whiskers:
+    version: 2.4.0
+    matrix:
+        - flavor
+    filename: "src/flavors/{{ flavor.identifier }}.css"
+---
+:root {
+{%- for id, color in flavor.colors %}
+  --ctp-{{ id }}: #{{ color.hex }};
+{%- endfor %}
+}
