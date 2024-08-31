@@ -1,5 +1,4 @@
 :root {
-  /* Accents */
   --ctp-rosewater: #f2d5cf;
   --ctp-flamingo: #eebebe;
   --ctp-pink: #f4b8e4;
@@ -14,8 +13,6 @@
   --ctp-sapphire: #85c1dc;
   --ctp-blue: #8caaee;
   --ctp-lavender: #babbf1;
-
-  /* Element Colors */
   --ctp-text: #c6d0f5;
   --ctp-subtext1: #b5bfe2;
   --ctp-subtext0: #a5adce;

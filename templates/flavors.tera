@@ -1,0 +1,13 @@
+---
+whiskers:
+    version: 2.4.0
+    matrix:
+        - flavor
+    filename: "src/flavors/{{ flavor.identifier }}.css"
+    hex_format: "#{{r}}{{g}}{{b}}"
+---
+:root {
+{%- for name, color in flavor.colors %}
+  --ctp-{{ name }}: {{ color | get(key="hex") }};
+{%- endfor %}
+}
