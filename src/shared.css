@@ -105,7 +105,7 @@ TOP BAR
 }
 
 /* online status */
-.online .personanameandstatus_richPresenceLabel_1k82N.GamepadMode, 
+.online .personanameandstatus_richPresenceLabel_1k82N.GamepadMode,
 .GamepadMode .online .personanameandstatus_richPresenceLabel_1k82N,
 .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a.GamepadMode,
 .GamepadMode .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a,
@@ -115,28 +115,28 @@ TOP BAR
 .GamepadMode .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active,
 .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited.GamepadMode,
 .GamepadMode .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited {
-  color: var(--ctp-green);          
+  color: var(--ctp-green);
 }
 .awayOrSnooze.online .personanameandstatus_richPresenceLabel_1k82N.GamepadMode, .GamepadMode .awayOrSnooze.online .personanameandstatus_richPresenceLabel_1k82N, .awayOrSnooze.online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a.GamepadMode, .GamepadMode .awayOrSnooze.online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a, .awayOrSnooze.online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover.GamepadMode, .GamepadMode .awayOrSnooze.online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover, .awayOrSnooze.online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active.GamepadMode, .GamepadMode .awayOrSnooze.online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active, .awayOrSnooze.online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited.GamepadMode, .GamepadMode .awayOrSnooze.online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited {
   color: var(--ctp-blue);
 }
 .online .steamavatar_avatarStatus_1yIzy.GamepadMode, .GamepadMode .online .steamavatar_avatarStatus_1yIzy {
-  background: var(--ctp-accent-color); 
+  background: var(--ctp-accent-color);
 }
 .ingame .steamavatar_avatarStatus_1yIzy.GamepadMode, .GamepadMode .ingame .steamavatar_avatarStatus_1yIzy {
   background: var(--ctp-accent-color);
 }
-.ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N.GamepadMode, 
-.GamepadMode .ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N, 
-.ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a.GamepadMode, 
-.GamepadMode .ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a, 
-.ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover.GamepadMode, 
-.GamepadMode .ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover, 
-.ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active.GamepadMode, 
-.GamepadMode .ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active, 
-.ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited.GamepadMode, 
-.GamepadMode .ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited, 
-.ingame.personanameandstatus_twoLine_27M2G .personanameandstatus_richPresenceLabel_1k82N.GamepadMode, 
+.ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N.GamepadMode,
+.GamepadMode .ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N,
+.ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a.GamepadMode,
+.GamepadMode .ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a,
+.ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover.GamepadMode,
+.GamepadMode .ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover,
+.ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active.GamepadMode,
+.GamepadMode .ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active,
+.ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited.GamepadMode,
+.GamepadMode .ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited,
+.ingame.personanameandstatus_twoLine_27M2G .personanameandstatus_richPresenceLabel_1k82N.GamepadMode,
 .GamepadMode .ingame.personanameandstatus_twoLine_27M2G .personanameandstatus_richPresenceLabel_1k82N {
   color: var(--ctp-green);
 }
@@ -198,7 +198,7 @@ GAME DETAILS
 .BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX.Focusable:focus,
 .BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX.Focusable:hover {
   background: var(--ctp-green);
-  color: var(--ctp-base);  
+  color: var(--ctp-base);
 }
 .BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX.Focusable:focus .appactionbutton_ButtonText_33cnX,
 .BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX.Focusable:hover .appactionbutton_ButtonText_33cnX {
@@ -235,7 +235,7 @@ GAME DETAILS
   color: var(--ctp-rosewater);
 }
 .appdetailsgameinfopanel_DeckVerifiedInfo_IIJei {
-  background: var(--ctp-surface0);  
+  background: var(--ctp-surface0);
 }
 .appdetailsgameinfopanel_DeckVerifiedInfo_IIJei .appdetailsgameinfopanel_Details_3sfpA {
   background: var(--ctp-surface1);
@@ -295,7 +295,7 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active.Prima
   background: var(--ctp-red) !important;
 }
 
-/* 
+/*
 STEAM INPUT
 */
 
@@ -345,7 +345,7 @@ STEAM INPUT
   background: var(--ctp-base);
 }
 
-/* 
+/*
 FRIENDS & CHAT
 */
 
@@ -572,28 +572,28 @@ OTHER
   color: var(--ctp-subtext1);
 }
 button.gamepaddialog_Button_1kn70.DialogButton,
-button.gamepaddialog_Button_1kn70.DialogButton.Primary, 
-button.gamepaddialog_Button_1kn70.DialogButton:enabled, 
-button.gamepaddialog_Button_1kn70.DialogButton:enabled.Primary, 
-button.gamepaddialog_Button_1kn70.DialogButton:active, 
-button.gamepaddialog_Button_1kn70.DialogButton:active.Primary, 
-button.gamepaddialog_Button_1kn70.DialogButton:hover, 
-button.gamepaddialog_Button_1kn70.DialogButton:hover.Primary, 
+button.gamepaddialog_Button_1kn70.DialogButton.Primary,
+button.gamepaddialog_Button_1kn70.DialogButton:enabled,
+button.gamepaddialog_Button_1kn70.DialogButton:enabled.Primary,
+button.gamepaddialog_Button_1kn70.DialogButton:active,
+button.gamepaddialog_Button_1kn70.DialogButton:active.Primary,
+button.gamepaddialog_Button_1kn70.DialogButton:hover,
+button.gamepaddialog_Button_1kn70.DialogButton:hover.Primary,
 button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover,
 button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary {
   background: var(--ctp-surface0) !important;
   color: var(--ctp-text);
 }
 
-button.gamepaddialog_Button_1kn70.DialogButton.gpfocus, 
-button.gamepaddialog_Button_1kn70.DialogButton:active, 
-button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus, 
-button.gamepaddialog_Button_1kn70.DialogButton:enabled:active, 
-button.gamepaddialog_Button_1kn70.DialogButton:active.gpfocus, 
-button.gamepaddialog_Button_1kn70.DialogButton:active:active, 
-button.gamepaddialog_Button_1kn70.DialogButton:hover.gpfocus, 
-button.gamepaddialog_Button_1kn70.DialogButton:hover:active, 
-button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.gpfocus, 
+button.gamepaddialog_Button_1kn70.DialogButton.gpfocus,
+button.gamepaddialog_Button_1kn70.DialogButton:active,
+button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus,
+button.gamepaddialog_Button_1kn70.DialogButton:enabled:active,
+button.gamepaddialog_Button_1kn70.DialogButton:active.gpfocus,
+button.gamepaddialog_Button_1kn70.DialogButton:active:active,
+button.gamepaddialog_Button_1kn70.DialogButton:hover.gpfocus,
+button.gamepaddialog_Button_1kn70.DialogButton:hover:active,
+button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.gpfocus,
 button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
   background: var(--ctp-accent-color) !important;
   color: var(--ctp-base);
@@ -858,7 +858,7 @@ svg.networksettings_LargerIcon_14aKC > path {
   fill: var(--ctp-subtext1);
 }
 .gyroscopenoisebar_GyroRotationAxisIcon_g7noT .gyroscopenoisebar_RotateChilden_2UVaM {
-  color: var(--ctp-subtext1);    
+  color: var(--ctp-subtext1);
 }
 
 /* Move Content Window */
@@ -882,7 +882,7 @@ svg.networksettings_LargerIcon_14aKC > path {
 }
 
 /* Controller Settings Menu */
-#modeid-7-input-unknown\ EControllerModeInput\ \(\ 57\ \)-binding-0, 
+#modeid-7-input-unknown\ EControllerModeInput\ \(\ 57\ \)-binding-0,
 #modeid-7-input-unknown\ EControllerModeInput\ \(\ 58\ \)-binding-0,
 #modeid-7-input-unknown\ EControllerModeInput\ \(\ 55\ \)-binding-0,
 #modeid-7-input-unknown\ EControllerModeInput\ \(\ 56\ \)-binding-0,
@@ -979,7 +979,7 @@ svg.networksettings_LargerIcon_14aKC > path {
 input[type="search" i],
 .searchbar_SearchFieldBackground_3F4YR.searchbar_WhiteBackground_1l8js{
   background-color: var(--ctp-surface0);
-  color: var(--ctp-text);
+  color: var(--ctp-text) !important;
 }
 .searchbar_SearchBox_2a1-s.gpfocus, .searchbar_SearchContainer_161Tj.searchbar_ForceExpanded_1bmuJ .searchbar_SearchBox_2a1-s {
   color: var(--ctp-text);
@@ -1017,9 +1017,9 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 .GamepadMode.friendlist .FriendsListTab.Active {
   color: var(--ctp-accent-color);
 }
-.friendslist_TabBumper_3Jr0A.GamepadMode svg path:first-of-type, 
+.friendslist_TabBumper_3Jr0A.GamepadMode svg path:first-of-type,
 .GamepadMode .friendslist_TabBumper_3Jr0A svg path:first-of-type,
-.friendslist_TabBumper_3Jr0A.GamepadMode svg path, 
+.friendslist_TabBumper_3Jr0A.GamepadMode svg path,
 .GamepadMode .friendslist_TabBumper_3Jr0A svg path {
   stroke: var(--ctp-overlay0);
 }
@@ -1031,16 +1031,16 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
   background-color: var(--ctp-surface1);
   border-radius: 10%;
 }
-.recentChatsGroup .friendGroup .groupName, 
-.friendGroup.taggedGroup .groupName, 
+.recentChatsGroup .friendGroup .groupName,
+.friendGroup.taggedGroup .groupName,
 .friendGroup.gameGroup .groupName,
-.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName, 
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName,
 .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName,
 .GamepadMode .friendGroup.onlineFriends .groupName .groupCount {
   color: var(--ctp-subtext1);
 }
-.GamepadMode.friendlist .TabPanelHeader .NewChatGroupButton, 
-.GamepadMode.friendlist .TabPanelHeader .AddFriendButton, 
+.GamepadMode.friendlist .TabPanelHeader .NewChatGroupButton,
+.GamepadMode.friendlist .TabPanelHeader .AddFriendButton,
 .GamepadMode.friendlist .TabPanelHeader .FriendsInvitesButton {
   background-color: var(--ctp-surface0);
   color: var(--ctp-overlay0);
@@ -1048,23 +1048,23 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 .ChatRoomListGroupItem .groupNameStatusContainer .chatRoomName {
   color: var(--ctp-subtext1);
 }
-.offline .personanameandstatus_richPresenceLabel_1k82N, 
-.offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a, 
-.offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover, 
-.offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active, 
+.offline .personanameandstatus_richPresenceLabel_1k82N,
+.offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a,
+.offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover,
+.offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active,
 .offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited {
     color: var(--ctp-overlay0);
 }
-.offline .personanameandstatus_playerName_r62qz.GamepadMode, 
+.offline .personanameandstatus_playerName_r62qz.GamepadMode,
 .GamepadMode .offline .personanameandstatus_playerName_r62qz {
     color: var(--ctp-subtext0);
 }
-.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu.gpfocus, 
+.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu.gpfocus,
 .quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu {
   background-color: var(--ctp-accent-color) !important;
   color: var(--ctp-base);
 }
-.gpfocus .quickaccessmenu_Tab_1S76C, 
+.gpfocus .quickaccessmenu_Tab_1S76C,
 .quickaccessmenu_Tab_1S76C.gpfocus {
   background: var(--ctp-accent-color) !important;
   color: var(--ctp-base);
@@ -1086,8 +1086,8 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 .gamepadhomewhatsnew_EventType_1f0dZ.gamepadhomewhatsnew_EventType13_16aly {
   color: var(--ctp-blue);
 }
-.gamepadhomewhatsnew_EventType_1f0dZ.gamepadhomewhatsnew_EventType11_1I2pe, 
-.gamepadhomewhatsnew_EventType_1f0dZ.gamepadhomewhatsnew_EventType23_qVIYl, 
+.gamepadhomewhatsnew_EventType_1f0dZ.gamepadhomewhatsnew_EventType11_1I2pe,
+.gamepadhomewhatsnew_EventType_1f0dZ.gamepadhomewhatsnew_EventType23_qVIYl,
 .gamepadhomewhatsnew_EventType_1f0dZ.gamepadhomewhatsnew_EventType35_LeZ61 {
   color: var(--ctp-green);
 }
@@ -1136,15 +1136,15 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 .gamepadhomefriends_InGameGame_KLo2n .gamepadhomefriends_Title_EZ-F-{
     color: var(--ctp-text);
 }
-.personastatusicons_PersonaStatusIcon_1YsWj.ingame .SVGIcon_VR path.GamepadMode, 
-.GamepadMode .personastatusicons_PersonaStatusIcon_1YsWj.ingame .SVGIcon_VR path, 
-.personastatusicons_PersonaStatusIcon_1YsWj.ingame .SVGIcon_MobilePhone path.GamepadMode, 
-.GamepadMode .personastatusicons_PersonaStatusIcon_1YsWj.ingame .SVGIcon_MobilePhone path, 
-.personastatusicons_PersonaStatusIcon_1YsWj.ingame .SVGIcon_BigPicture path.GamepadMode, 
+.personastatusicons_PersonaStatusIcon_1YsWj.ingame .SVGIcon_VR path.GamepadMode,
+.GamepadMode .personastatusicons_PersonaStatusIcon_1YsWj.ingame .SVGIcon_VR path,
+.personastatusicons_PersonaStatusIcon_1YsWj.ingame .SVGIcon_MobilePhone path.GamepadMode,
+.GamepadMode .personastatusicons_PersonaStatusIcon_1YsWj.ingame .SVGIcon_MobilePhone path,
+.personastatusicons_PersonaStatusIcon_1YsWj.ingame .SVGIcon_BigPicture path.GamepadMode,
 .GamepadMode .personastatusicons_PersonaStatusIcon_1YsWj.ingame .SVGIcon_BigPicture path {
     fill: var(--ctp-green);
 }
-.friendsnooze_SnoozeContainer_3EzTy.in-game .friendsnooze_SnoozeZ_1DArl.GamepadMode, 
+.friendsnooze_SnoozeContainer_3EzTy.in-game .friendsnooze_SnoozeZ_1DArl.GamepadMode,
 .GamepadMode .friendsnooze_SnoozeContainer_3EzTy.in-game .friendsnooze_SnoozeZ_1DArl {
     color: var(--ctp-green);
 }
@@ -1165,10 +1165,10 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
   color: var(--ctp-green);
 }
 .comment_thread_RatingBar_1yWgP .comment_thread_LikeCount_3grvn,
-.comment_thread_RatingBar_1yWgP .comment_thread_CommentCount_2RkIc, 
+.comment_thread_RatingBar_1yWgP .comment_thread_CommentCount_2RkIc,
 .comment_thread_RatingBar_1yWgP .comment_thread_ReactionCount_1S3Q9,
-.BasicUI .comment_thread_RatingBar_1yWgP .comment_thread_LikeIcon_1OhPt .comment_thread_RatingIcon_2AVfX, 
-.BasicUI .comment_thread_RatingBar_1yWgP .comment_thread_CommentIcon_1R6Ou .comment_thread_RatingIcon_2AVfX, 
+.BasicUI .comment_thread_RatingBar_1yWgP .comment_thread_LikeIcon_1OhPt .comment_thread_RatingIcon_2AVfX,
+.BasicUI .comment_thread_RatingBar_1yWgP .comment_thread_CommentIcon_1R6Ou .comment_thread_RatingIcon_2AVfX,
 .BasicUI .comment_thread_RatingBar_1yWgP .comment_thread_ReactionIcon_QL3Aa .comment_thread_RatingIcon_2AVfX,
 .BasicUI .comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9 .comment_thread_LikeIcon_1OhPt,
 .BasicUI .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9 .comment_thread_LikeIcon_1OhPt,
@@ -1274,7 +1274,7 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 
 /* Greyed out Text and Buttons */
 .gamepaddialog_Field_S-_La.gamepaddialog_Disabled_1pmyx .gamepaddialog_FieldLabel_3b0U-,
-.gamepaddialog_Toggle_24G4g.gamepaddialog_Disabled_1pmyx .gamepaddialog_ToggleSwitch_3__OD, 
+.gamepaddialog_Toggle_24G4g.gamepaddialog_Disabled_1pmyx .gamepaddialog_ToggleSwitch_3__OD,
 .appproperties_AppProperties_1FyBL .DialogBody .appproperties_Title_3zuIC,
 .appproperties_AppProperties_1FyBL .DialogBody,
 .gamepadcontextmenu_contextMenuItem_1sdvo.disabled {
@@ -1350,19 +1350,19 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 .gamepadcontextmenu_BasicContextMenuHeader_2Jp8B {
   color: var(--ctp-text);
 }
-.gamepadcontextmenu_contextMenuItem_1sdvo.Stream, 
-.gamepadcontextmenu_contextMenuItem_1sdvo.Connect, 
-.gamepadcontextmenu_contextMenuItem_1sdvo.Launch, 
-.gamepadcontextmenu_contextMenuItem_1sdvo.PlayMusic, 
-.gamepadcontextmenu_contextMenuItem_1sdvo.Play, 
-.gamepadcontextmenu_contextMenuItem_1sdvo.Resume, 
-.gamepadcontextmenu_contextMenuItem_1sdvo.BorrowApp, 
-.gamepadcontextmenu_contextMenuItem_1sdvo.Download, 
-.gamepadcontextmenu_contextMenuItem_1sdvo.Update, 
-.gamepadcontextmenu_contextMenuItem_1sdvo.PreLoad, 
-.gamepadcontextmenu_contextMenuItem_1sdvo.Install, 
-.gamepadcontextmenu_contextMenuItem_1sdvo.Pause, 
-.gamepadcontextmenu_contextMenuItem_1sdvo.Stop, 
+.gamepadcontextmenu_contextMenuItem_1sdvo.Stream,
+.gamepadcontextmenu_contextMenuItem_1sdvo.Connect,
+.gamepadcontextmenu_contextMenuItem_1sdvo.Launch,
+.gamepadcontextmenu_contextMenuItem_1sdvo.PlayMusic,
+.gamepadcontextmenu_contextMenuItem_1sdvo.Play,
+.gamepadcontextmenu_contextMenuItem_1sdvo.Resume,
+.gamepadcontextmenu_contextMenuItem_1sdvo.BorrowApp,
+.gamepadcontextmenu_contextMenuItem_1sdvo.Download,
+.gamepadcontextmenu_contextMenuItem_1sdvo.Update,
+.gamepadcontextmenu_contextMenuItem_1sdvo.PreLoad,
+.gamepadcontextmenu_contextMenuItem_1sdvo.Install,
+.gamepadcontextmenu_contextMenuItem_1sdvo.Pause,
+.gamepadcontextmenu_contextMenuItem_1sdvo.Stop,
 .gamepadcontextmenu_contextMenuItem_1sdvo.Cancel {
   color: var(--ctp-text);
   background-color: var(--ctp-base);
@@ -1393,23 +1393,23 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 }
 
 /* Notification Menu */
-.standardtemplates_StandardTemplate_3e_DB .standardtemplates_Icon_19g_L, 
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_Icon_19g_L,
 .standardtemplates_PinnedTemplate_2eBei .standardtemplates_Icon_19g_L,
-.standardtemplates_StandardTemplate_3e_DB .standardtemplates_Title_1WlRE, 
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_Title_1WlRE,
 .standardtemplates_PinnedTemplate_2eBei .standardtemplates_Title_1WlRE {
     color: var(--ctp-text);
 }
-.standardtemplates_StandardTemplate_3e_DB .standardtemplates_Timestamp_2vSvC, 
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_Timestamp_2vSvC,
 .standardtemplates_PinnedTemplate_2eBei .standardtemplates_Timestamp_2vSvC,
-.standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationSubText_2XcN2, 
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationSubText_2XcN2,
 .standardtemplates_PinnedTemplate_2eBei .standardtemplates_StandardNotificationSubText_2XcN2 {
     color: var(--ctp-overlay0);
 }
-.standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationDescription_1Ldq1, 
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationDescription_1Ldq1,
 .standardtemplates_PinnedTemplate_2eBei .standardtemplates_StandardNotificationDescription_1Ldq1 {
     color: var(--ctp-subtext1);
 }
-.standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationSubText_2XcN2, 
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationSubText_2XcN2,
 .standardtemplates_PinnedTemplate_2eBei .standardtemplates_StandardNotificationSubText_2XcN2 {
     color: var(--ctp-overlay0)
 }
@@ -1419,14 +1419,14 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 }
 
 /* Friends Menu Fix */
-.offline .personanameandstatus_richPresenceLabel_1k82N, 
-.offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a, 
-.offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover, 
-.offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active, 
+.offline .personanameandstatus_richPresenceLabel_1k82N,
+.offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a,
+.offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover,
+.offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active,
 .offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited {
     color: var(--ctp-overlay0);
 }
-.offline .personanameandstatus_playerName_r62qz.GamepadMode, 
+.offline .personanameandstatus_playerName_r62qz.GamepadMode,
 .GamepadMode .offline .personanameandstatus_playerName_r62qz {
     color: var(--ctp-subtext0);
 }
@@ -1487,7 +1487,7 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
   color: var(--ctp-subtext0);
 }
 /* Updates Coloration fix */
-#header > div.header_HeaderItem_2HnVd.header_Clickable_8sPcK.header_UpdatesIcon_33cHT.Panel.Focusable > svg > path:nth-child(2), 
+#header > div.header_HeaderItem_2HnVd.header_Clickable_8sPcK.header_UpdatesIcon_33cHT.Panel.Focusable > svg > path:nth-child(2),
 #header > div.header_HeaderItem_2HnVd.header_Clickable_8sPcK.header_UpdatesIcon_33cHT.Panel.Focusable > svg > path:nth-child(3),
 #MainNavMenuContainer > div > div:nth-child(7) > div > div.mainmenu_ItemIcon_3xZ3Z > svg > path:nth-child(2),
 #MainNavMenuContainer > div > div:nth-child(7) > div > div.mainmenu_ItemIcon_3xZ3Z > svg > path:nth-child(3) {
@@ -1574,7 +1574,7 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
   background: linear-gradient(to right, #199fff00 0%, var(--ctp-blue) 58px);
 }
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_EndofFeed_3LIds .appdetailsactivitysection_EndText_3jmKN {
-  color: var(--ctp-subtext0);  
+  color: var(--ctp-subtext0);
 }
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_EndofFeed_3LIds .appdetailsactivitysection_EndRule_1AZdy {
   background-color: var(--ctp-surface0);
@@ -2111,7 +2111,7 @@ button.accountpanel_FatButton_TEWms .accountpanel_Details_3Wb9y {
 }
 .accountpanel_Highlight_35ztZ {
   color: var(--ctp-accent-color);
-} 
+}
 
 /* Post Game Summary Fix */
 .BasicUI .spotlightgameplaysummary_GamePlaySummaryHeader_2_sR8 {
