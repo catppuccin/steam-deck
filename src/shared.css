@@ -979,7 +979,8 @@ svg.networksettings_LargerIcon_14aKC > path {
 input[type="search" i],
 .searchbar_SearchFieldBackground_3F4YR.searchbar_WhiteBackground_1l8js{
   background-color: var(--ctp-surface0);
-  color: var(--ctp-text);
+  color: var(--ctp-text) !important;
+  caret-color: var(--ctp-text) !important;
 }
 .searchbar_SearchBox_2a1-s.gpfocus, .searchbar_SearchContainer_161Tj.searchbar_ForceExpanded_1bmuJ .searchbar_SearchBox_2a1-s {
   color: var(--ctp-text);
