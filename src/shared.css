@@ -1,3 +1,4 @@
+
 /*
 HOME PAGE
 */
@@ -91,17 +92,17 @@ TOP BAR
 .searchbar_SearchContainer_161Tj .searchbar_SearchIconRight_1Ka4T,
 .header_Clock_1HhLU,
 .BasicUI .header_Header_1E_SL {
-  color: var(--ctp-text);
+  color: var(--ctp-text) !important;
 }
 
 .header_HeaderDownloadContainer_2ssr3 .header_HeaderAppPortraitContainer_1PbL3 .header_HeaderDownloadProgressBarBackground_vo3Tt .header_HeaderDownloadProgressBar_AK_Ax {
-  background-color: var(--ctp-blue);
+  background-color: var(--ctp-blue) !important;
 }
 .header_Header_1E_SL::before {
-  background: var(--ctp-crust);
+  background: var(--ctp-crust) !important;
 }
 .mainbrowser_URLBar_1CwIx .mainbrowser_URL_2aM-J {
-  background: var(--ctp-crust);
+  background: var(--ctp-crust) !important;
 }
 
 /* online status */
@@ -121,7 +122,7 @@ TOP BAR
   color: var(--ctp-blue);
 }
 .online .steamavatar_avatarStatus_1yIzy.GamepadMode, .GamepadMode .online .steamavatar_avatarStatus_1yIzy {
-  background: var(--ctp-accent-color); 
+  background: var(--ctp-accent-color);
 }
 .ingame .steamavatar_avatarStatus_1yIzy.GamepadMode, .GamepadMode .ingame .steamavatar_avatarStatus_1yIzy {
   background: var(--ctp-accent-color);
@@ -144,7 +145,7 @@ TOP BAR
 /* battery */
 .header_BatteryIcon_1_6kL svg svg rect,
 .quickaccesscontrols_BatteryIcon_39aNh svg svg rect {
-  fill: var(--ctp-green);
+  fill: var(--ctp-green) !important;
   color: var(--ctp-base);
 }
 .header_HeaderItem_2HnVd.header_BatteryIcon_1_6kL {
@@ -452,6 +453,15 @@ SETTINGS
 }
 .gamepadslider_SliderNotchLabel_u_sH1 {
   color: var(--ctp-subtext1);
+}
+.gamepadslider_SliderHandle_2yVKj{
+  background: var(--ctp-text);
+}
+.gamepaddialog_On_3ld7T>.gamepaddialog_ToggleSwitch_3__OD{
+  background: var(--ctp-text);
+}
+.gamepaddialog_ToggleSwitch_3__OD{
+  background: var(--ctp-text);
 }
 
 /*
@@ -841,7 +851,7 @@ svg.networksettings_LargerIcon_14aKC > path {
   color: var(--ctp-subtext1);
 }
 .updaterfield_UpdaterFieldStatusApplying_Y36on .updaterfield_TextContainer_pW4WL .updaterfield_ApplyingText_PHNS8 {
-  color: var(--ctp-accent-color);
+  color: var(--ctp-accent-color) !important;
 }
 
 /* Gyro Menu */

@@ -1,0 +1,4 @@
+.BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX.Focusable:focus,
+.BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX.Focusable:hover {
+    background: var(--ctp-accent-color);
+    color: var(--ctp-base);

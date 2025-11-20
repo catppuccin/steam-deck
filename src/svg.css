@@ -1,0 +1,836 @@
+/* svg recoloring */
+img[src="/steaminputglyphs/ps5_l1.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_r4.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_button_x.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_trackpad_l_ring.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_lstick_left.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_rstick_touch.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_l.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_dpad_right.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/hp_r4.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/lgs_y1.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_dpad_left.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_trackpad_l_right.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_r2.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_lstick_up.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_outlined_button_x.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_outlined_button_a.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/xbox_lt.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_r2.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_button_y.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_trackpad_click.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_r2.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_dpad_down.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/lgs_y2.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_trackpad_l_click.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_lb.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_mouse_r_click.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_mouse_scroll_up.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_lstick_left.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_trackpad_right.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_rtrackpad_left.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_rtrackpad_click.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/xbox_button_logo.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_color_outlined_button_y.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_color_outlined_button_triangle.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_trackpad_left.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_rb.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_trackpad_r_left.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/xbox_p3.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_color_outlined_button_circle.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_mouse_4.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_r.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_mouse_mid_click.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_trackpad_r_down.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_gyro_yaw.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_pr.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_button_create.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_rtrackpad_up.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_trackpad_swipe.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_lt_click.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_trackpad_ring.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_ltrackpad_down.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/xbox_lb.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_touchpad_down.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_rstick_click.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_dpad_right.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_rstick_click.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/xbox_p4.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_l2_half.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_trackpad_r_ring.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_touchpad_up.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_color_button_square.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_button_plus.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_trackpad_r_right.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_button_options.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_color_outlined_button_square.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_button_x.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_rstick_down.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_r2_half.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_l2.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_lb.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_r2_soft.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/xbox_rt.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_outlined_button_y.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_trackpad_l_swipe.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/xbox_button_select.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_color_outlined_button_a.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_color_outlined_button_x.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_rtrackpad_down.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_lfn.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_mouse_scroll_down.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_button_minus.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_l5.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_trackpad_up.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_button_aux.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_lt_soft.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_touchpad_left.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_l1.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_dpad_right.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/hp_m1-1.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_l3.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_rstick.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_outlined_button_x.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_rtrackpad_swipe.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/joyconpair_left_sr.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_trackpad_l_ring.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_trackpad_r_ring.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_trackpad_l_touch.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_buttons_s.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_button_steam.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_m4.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_color_outlined_button_b.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_sr.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_rstick_up.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_rstick_up.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_dpad.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/hp_m1.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_lt.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/xbox_rt_soft.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/xbox360_button_start.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_trackpad_r_left.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_button_a.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_m8.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_trackpad_l_down.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_button_r_arrow.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_trackpad_r_up.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_touchpad_swipe.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_outlined_button_circle.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_touchpad_right.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/hp_l4.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_touchpad.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_outlined_button_b.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_button_share.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_dpad_up.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_dpad.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_dpad_left.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_m3.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_rstick_left.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_trackpad_r_touch.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_button_steam.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_outlined_button_triangle.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_trackpad_down.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_color_button_x.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_rtrackpad.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_rstick_left.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_lstick_click.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_button_triangle.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_lg.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_rstick_down.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_rstick.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_trackpad_r_swipe.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_button_b.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_rt_click.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_trackpad_l_down.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_rt_soft.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/hp_m2-1.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_rfn.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_r2.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_touchpad_touch.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_r1.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_l2_soft.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/xbox_lt_soft.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_m1.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_button_menu.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_button_l_arrow.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_button_home.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_ltrackpad_ring.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_trackpad_right.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_dpad_down.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_trackpad_click.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_buttons_n.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_rstick_right.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/xbox_button_share.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/xbox_p2.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_touchpad_edge.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_r2_soft.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_trackpad_r_down.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_m7.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_trackpad_l_right.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_trackpad_r_touch.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_rt.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_trackpad.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_dpad_click.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_rstick_right.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_trackpad_up.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/qam_icon.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_mouse_5.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_dpad_up.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_touch.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_trackpad.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/joyconpair_right_sr.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_trackpad_r_right.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/joyconpair_left_sl.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_dpad_down.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_dpad_swipe.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_dpad.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_dpad_left.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_lstick.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_lstick_down.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_ltrackpad.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_trackpad_left.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_trackpad_l_left.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_dpad_up.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_trackpad_l_click.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_button_view.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_gyro_pitch.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_gyro_roll.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_dpad_up.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_trackpad_r_click.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/xbox_button_start.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_lstick_click.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_lstick_down.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_touch_doubletap.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_rg.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_lstick_right.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_color_button_circle.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_l2.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_button_c.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_trackpad_l_up.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_color_button_triangle.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_dpad_left.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_color_button_y.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_trackpad_swipe.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_lstick.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_trackpad_r_up.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/xbox_p1.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_outlined_button_square.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_r5.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/hp_m2.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_ltrackpad_swipe.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_sl.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_button_square.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_r3.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_m6.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_rtrackpad_right.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_trackpad_r_swipe.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_button_mute.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_dpad_right.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/xbox360_button_select.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_rtrackpad_ring.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_color_button_x.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_r1.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_lstick_up.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/joyconpair_right_sl.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_l2_soft.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_lstick_touch.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_l2_soft.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/8bitdo_button_home.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_trackpad_ring.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_color_button_b.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_r2_soft.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_trackpad_down.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_l2.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_ltrackpad_left.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_button_capture.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_button_logo.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_dpad_touch.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_button_options.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_dpad.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_lstick_right.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_m5.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_touchpad_click.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_l1.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_buttons_e.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_ltrackpad_up.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_ltrackpad_click.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_trackpad_r_click.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_r1.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_trackpad_l_up.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_button_z.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/xbox_rb.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_buttons_w.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_l4.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_mouse_l_click.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_color_button_a.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_dpad_down.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_pl.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_gyro.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_m2.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/switchpro_l2.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_touch_tap.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_trackpad_l_touch.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps5_trackpad_l_swipe.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps_button_circle.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sc_rb.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_color_outlined_button_x.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/ps4_trackpad_l_left.svg"] {
+    filter: var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/sd_ltrackpad_right.svg"] {
+    filter: var(--ctp-text-svg);
+}
+
+.footericons_Light_2e0Fq .footericons_Background_I3P4e {
+    color: var(--ctp-text);
+}

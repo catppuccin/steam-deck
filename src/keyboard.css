@@ -1,0 +1,21 @@
+.DefaultTheme.virtualkeyboard_Keyboard_45rH7 {
+    --background-color: var(--ctp-base) !important;
+}
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Touched_3UFQq {
+    background-color: var(--ctp-accent-color) !important;
+}
+.DefaultTheme .virtualkeyboard_KeyboardExtendedKey_394j7 {
+    --key-extendedkey-background-color: var(--ctp-accent-color) !important;
+    --key-extendedkey-focused-background-color: var(--ctp-accent-color) !important;
+}
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX {
+    --key-background-color: var(--ctp-surface1) !important;
+    --key-focused-background-color: var(--ctp-accent-color) !important;
+    --key-spacebar-background-color: var(--ctp-surface0) !important;
+    --key-caps-background-color: var(--ctp-surface0) !important;
+    --key-shift-background-color: var(--ctp-surface0) !important;
+    --key-tab-background-color: var(--ctp-surface0) !important;
+    --key-enter-background-color: var(--ctp-surface0) !important;
+    --key-backspace-background-color: var(--ctp-surface0) !important;
+    --key-meta-background-color: var(--ctp-surface0) !important;
+}
