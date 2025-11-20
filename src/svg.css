@@ -393,7 +393,7 @@ img[src="/steaminputglyphs/ps5_trackpad_down.svg"] {
     filter: var(--ctp-text-svg);
 }
 img[src="/steaminputglyphs/shared_color_button_x.svg"] {
-    filter: var(--ctp-text-svg);
+    filter: var(--ctp-blue-svg);
 }
 img[src="/steaminputglyphs/sd_rtrackpad.svg"] {
     filter: var(--ctp-text-svg);
@@ -630,7 +630,7 @@ img[src="/steaminputglyphs/switchpro_dpad_left.svg"] {
     filter: var(--ctp-text-svg);
 }
 img[src="/steaminputglyphs/shared_color_button_y.svg"] {
-    filter: var(--ctp-text-svg);
+    filter: var(--ctp-peach-svg);
 }
 img[src="/steaminputglyphs/ps4_trackpad_swipe.svg"] {
     filter: var(--ctp-text-svg);
@@ -714,7 +714,7 @@ img[src="/steaminputglyphs/ps5_trackpad_ring.svg"] {
     filter: var(--ctp-text-svg);
 }
 img[src="/steaminputglyphs/shared_color_button_b.svg"] {
-    filter: var(--ctp-text-svg);
+    filter: var(--ctp-red-svg);
 }
 img[src="/steaminputglyphs/ps5_r2_soft.svg"] {
     filter: var(--ctp-text-svg);
@@ -789,7 +789,7 @@ img[src="/steaminputglyphs/shared_mouse_l_click.svg"] {
     filter: var(--ctp-text-svg);
 }
 img[src="/steaminputglyphs/shared_color_button_a.svg"] {
-    filter: var(--ctp-text-svg);
+    filter: var(--ctp-green-svg);
 }
 img[src="/steaminputglyphs/shared_dpad_down.svg"] {
     filter: var(--ctp-text-svg);

@@ -186,6 +186,21 @@
 				"No": {}
 			},
 			"components": []
+		},
+		"Colored xbox glyphs ": {
+			"type": "checkbox",
+			"default": "Yes",
+			"values": {
+				"Yes": {},
+				"No": {
+					"svg_text.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				}
+			},
+			"components": []
 		}
 	}
 }

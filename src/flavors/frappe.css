@@ -5,14 +5,18 @@
   --ctp-pink: #f4b8e4;
   --ctp-mauve: #ca9ee6;
   --ctp-red: #e78284;
+  --ctp-red-svg: brightness(0%) invert(62%) sepia(51%) saturate(418%) hue-rotate(310deg) brightness(87%) contrast(107%);
   --ctp-maroon: #ea999c;
   --ctp-peach: #ef9f76;
+  --ctp-peach-svg: brightness(0%) invert(70%) sepia(13%) saturate(1430%) hue-rotate(334deg) brightness(98%) contrast(91%);
   --ctp-yellow: #e5c890;
   --ctp-green: #a6d189;
+  --ctp-green-svg: brightness(0%) invert(77%) sepia(19%) saturate(636%) hue-rotate(52deg) brightness(101%) contrast(86%);
   --ctp-teal: #81c8be;
   --ctp-sky: #99d1db;
   --ctp-sapphire: #85c1dc;
   --ctp-blue: #8caaee;
+  --ctp-blue-svg: brightness(0%) invert(72%) sepia(80%) saturate(1865%) hue-rotate(189deg) brightness(99%) contrast(89%);
   --ctp-lavender: #babbf1;
 
   /* Element Colors */
