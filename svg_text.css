@@ -1,0 +1,12 @@
+img[src="/steaminputglyphs/shared_color_button_a.svg"] {
+    filter: brightness(0%) invert(1) var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_color_button_b.svg"] {
+    filter: brightness(0%) invert(1) var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_color_button_x.svg"] {
+    filter: brightness(0%) invert(1) var(--ctp-text-svg);
+}
+img[src="/steaminputglyphs/shared_color_button_y.svg"] {
+    filter: brightness(0%) invert(1) var(--ctp-text-svg);
+}
