@@ -1,3 +1,4 @@
+/* Keyboard keys */
 .DefaultTheme.virtualkeyboard_Keyboard_45rH7 {
     --background-color: var(--ctp-base) !important;
 }
@@ -18,4 +19,33 @@
     --key-enter-background-color: var(--ctp-surface0) !important;
     --key-backspace-background-color: var(--ctp-surface0) !important;
     --key-meta-background-color: var(--ctp-surface0) !important;
+}
+
+/* Key Letter Colours */
+.DefaultTheme {
+    --key-color: var(--ctp-text);
+    --key-focused-color: var(--ctp-base);
+    --key-meta-color: var(--ctp-text);
+    --key-tab-color: var(--ctp-text);
+    --key-caps-color: var(--ctp-text);
+    --key-shift-color: var(--ctp-text);
+    --key-enter-color: var(--ctp-text);
+    --key-backspace-color: var(--ctp-text);
+    --key-spacebar-color: var(--ctp-text);
+    --key-extendedkey-color: var(--ctp-text);
+    --key-extendedkey-focused-color: var(--ctp-text);
+    --key-extendedkey-hover-color: var(--ctp-text);
+    --key-toggleon-color: var(--ctp-text);
+    --key-toggleoneshot-color: var(--ctp-text);
+    --key-touched-color: var(--ctp-text);
+}
+
+/* Keyboard Symbols when hovered */
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_ToggleOn_3Qrs- img {
+    filter: var(--ctp-base-svg) !important;
+}
+
+/* Emoji Keyboard L1 and L2 symbols */
+.DefaultTheme .virtualkeyboard_KeyboardEmojiHeader_Qihxj img {
+    filter: var(--ctp-base-svg);
 }

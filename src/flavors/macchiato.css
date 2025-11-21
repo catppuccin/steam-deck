@@ -31,6 +31,7 @@
   --ctp-surface1: #494d64;
   --ctp-surface0: #363a4f;
   --ctp-base: #24273a;
+  --ctp-base-svg: brightness(0%) invert(12%) sepia(28%) saturate(776%) hue-rotate(194deg) brightness(98%) contrast(92%);
   --ctp-mantle: #1e2030;
   --ctp-crust: #181926;
 }
