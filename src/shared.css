@@ -1,4 +1,3 @@
-
 /*
 HOME PAGE
 */
@@ -104,7 +103,10 @@ TOP BAR
 .mainbrowser_URLBar_1CwIx .mainbrowser_URL_2aM-J {
   background: var(--ctp-crust) !important;
 }
-
+._17M8gvakqjyaw_cLo6ntdl,
+._1Ka4TMacsEnWHBXCx3gp52{
+  color: var(--ctp-text) !important;
+}
 /* online status */
 .online .personanameandstatus_richPresenceLabel_1k82N.GamepadMode, 
 .GamepadMode .online .personanameandstatus_richPresenceLabel_1k82N,
@@ -632,6 +634,14 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
 /* Lock screen */
 .lockscreen_Container_3rFFU {
   background: var(--ctp-base);
+}
+.lockscreen_DigitIndicator_3eHNj{
+  border-color: var(--ctp-subtext0);
+  background: var(--ctp-base);
+}
+.lockscreen_DigitIndicator_3eHNj.lockscreen_Filled_i68Yl {
+  border-color: var(--ctp-text);
+  background: var(--ctp-subtext1);
 }
 /* Footer */
 .footer_BasicFooter_3T1iF {
