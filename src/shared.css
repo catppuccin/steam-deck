@@ -34,6 +34,11 @@ HOME PAGE
   color: var(--ctp-text);
 }
 
+/* current game */
+._1KKWf5v5FhqL_NrtrGZPzG {
+  color: var(--ctp-text);
+}
+
 /* badges */
 .deckverified_Verified_2NlWs,
 .shared_svg_library_SteamDeckCompatVerified_3mvZq {
@@ -107,6 +112,9 @@ TOP BAR
 ._1Ka4TMacsEnWHBXCx3gp52{
   color: var(--ctp-text) !important;
 }
+._17M8gvakqjyaw_cLo6ntdl ._2Ya83QVfgqLema1GlOi9_C {
+  color: var(--ctp-text);
+}
 /* online status */
 .online .personanameandstatus_richPresenceLabel_1k82N.GamepadMode, 
 .GamepadMode .online .personanameandstatus_richPresenceLabel_1k82N,
@@ -179,6 +187,12 @@ LIBRARY
   color: var(--ctp-base);
 }
 
+
+
+._3IBLc81yyL08OJ7rfKtF00._31ZleDJpmmVr6YwR5VLHiu ._2JobstxtZVYF3078DblN2M::before, ._2JobstxtZVYF3078DblN2M._1jNhbFODJy7sNdcnEeZkz4::before {
+  backdrop-filter: ;
+  background: var(--ctp-crust);
+}
 /*
 GAME DETAILS
 */
@@ -210,6 +224,10 @@ GAME DETAILS
 .BasicUI .appactionbutton_ButtonChild_2AzIX.Focusable:focus {
   background: var(--ctp-accent-color);
   color: var(--ctp-base);
+}
+.BasicUI ._3cI5TXsFX3bvpR-7EBOtxq ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus._2q-gZ3XJzlvSGHSF-GvSmi {
+  color: var(--ctp-base);
+  background: var(--ctp-accent-color)
 }
 .BasicUI .appactionbutton_ButtonChild_2AzIX.Focusable:focus .appactionbutton_ButtonText_33cnX {
   color: var(--ctp-base);
@@ -858,7 +876,7 @@ svg.networksettings_LargerIcon_14aKC > path {
 
 /* System Update Fix (hard to test for obvious reasons) */
 .updaterfield_UpdaterFieldStatusApplying_Y36on .updaterfield_TextContainer_pW4WL .updaterfield_TimeRemaining_2W9zi {
-  color: var(--ctp-subtext1);
+  color: var(--ctp-subtext1) !important;
 }
 .updaterfield_UpdaterFieldStatusApplying_Y36on .updaterfield_TextContainer_pW4WL .updaterfield_ApplyingText_PHNS8 {
   color: var(--ctp-accent-color) !important;
@@ -998,7 +1016,7 @@ svg.networksettings_LargerIcon_14aKC > path {
 /* Search Bar Fix */
 input[type="search" i],
 .searchbar_SearchFieldBackground_3F4YR.searchbar_WhiteBackground_1l8js{
-  background-color: var(--ctp-surface0);
+  background-color: var(--ctp-crust);
   color: var(--ctp-text) !important;
   caret-color: var(--ctp-text) !important;
 }

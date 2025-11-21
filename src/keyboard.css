@@ -37,7 +37,13 @@
     --key-extendedkey-hover-color: var(--ctp-text);
     --key-toggleon-color: var(--ctp-text);
     --key-toggleoneshot-color: var(--ctp-text);
+    --key-toggleon-background-color: var(--ctp-accent-color);
     --key-touched-color: var(--ctp-text);
+    --key-pointer-background-color: var(--ctp-accent-colour);
+    --key-focused-action-button-left-color: var(--ctp-base);
+    --key-focused-action-button-right-color: var(--ctp-base);
+    --key-enter-action-button-glyph-color: var(--ctp-base);
+    --key-action-button-glyph-color: var(--ctp-text);
 }
 
 /* Keyboard Symbols when hovered */
@@ -47,5 +53,11 @@
 
 /* Emoji Keyboard L1 and L2 symbols */
 .DefaultTheme .virtualkeyboard_KeyboardEmojiHeader_Qihxj img {
+    filter: var(--ctp-base-svg);
+}
+
+/* Selected keyboard glyph */
+._2KhPXikozxMpbIRo_6jPxW._21EoN2ZlmHNY3fjho_HMae img
+{
     filter: var(--ctp-base-svg);
 }
