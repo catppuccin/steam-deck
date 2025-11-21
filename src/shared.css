@@ -186,13 +186,11 @@ LIBRARY
   background-color: var(--ctp-accent-color);
   color: var(--ctp-base);
 }
-
-
-
 ._3IBLc81yyL08OJ7rfKtF00._31ZleDJpmmVr6YwR5VLHiu ._2JobstxtZVYF3078DblN2M::before, ._2JobstxtZVYF3078DblN2M._1jNhbFODJy7sNdcnEeZkz4::before {
   backdrop-filter: ;
   background: var(--ctp-crust);
 }
+
 /*
 GAME DETAILS
 */
@@ -289,6 +287,9 @@ GAME DETAILS
   background: var(--ctp-surface0);
   color: var(--ctp-base);
 }
+.BasicUI ._3qDWQGB0rtwM3qpXTb11Q-:focus svg {
+  color: var(--ctp-base);
+}
 
 button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary,
 button.gamepaddialog_Button_1kn70.DialogButton:active.Primary,
@@ -364,6 +365,12 @@ STEAM INPUT
 }
 .controllerconfiguratorsummary_ControllerConfiguratorSummary_3TvBV {
   background: var(--ctp-base);
+}
+._2b6L36XnXUqFHHkGE4_2mv ._3Il1BD4p9lccpjISQKhR1X {
+  background: var(--ctp-accent-color);
+}
+._2b6L36XnXUqFHHkGE4_2mv._1U3OjZG3cOt5OhO_lKAXI0 {
+  color: var(--ctp-text);
 }
 
 /* 
@@ -556,10 +563,17 @@ QUICK ACCESS
 .gamepaddialog_Field_S-_La.gamepaddialog_WithBottomSeparatorStandard_3s1Rk::after {
   background: var(--ctp-surface0) !important;
 }
+._1S76C3gQf4oOTbLdTMVH0m.gpfocus svg {
+  color: var(--ctp-mantle);
+}
 /* settings */
 .quickaccesscontrols_Text_1hJkB {
   color: var(--ctp-text);
 }
+._2DM37juowId1V_DScp3l4 svg {
+  color: var(--ctp-text);
+}
+
 /* performance */
 .quickaccesscontrols_BatteryIcon_39aNh > div,
 .quickaccesscontrols_BatteryPercentageLabel_3Rxxi,
@@ -660,6 +674,12 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
 .lockscreen_DigitIndicator_3eHNj.lockscreen_Filled_i68Yl {
   border-color: var(--ctp-text);
   background: var(--ctp-subtext1);
+}
+.aLaNwAEcdBFnXVdc4Nzix ._3aUT84qO5C3sjfj8G8hIKA {
+  color: var(--ctp-text);
+}
+.aLaNwAEcdBFnXVdc4Nzix .vNjDQRABe6lwA6tOpBefX {
+  color: var(--ctp-subtext0)
 }
 /* Footer */
 .footer_BasicFooter_3T1iF {
