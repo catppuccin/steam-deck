@@ -2229,3 +2229,41 @@ button.accountpanel_FatButton_TEWms .accountpanel_Details_3Wb9y {
 .allcollections_Collection_3IWn- .allcollections_CollectionLabel_1J1LQ .allcollections_CollectionLabelCount_36QQL {
   color: var(--ctp-subtext0);
 }
+/* CSS loader store */
+.bg-storeBg {
+  background: var(--ctp-crust) !important;
+}
+.blurry-valve-footer-offset {
+  margin-bottom: 0px !important;
+}
+.theme-data-container {
+  background: var(--ctp-base) !important;
+}
+.button-bg {
+  background: var(--ctp-base) !important;
+  padding: 1em;
+}
+.blue-button {
+  background: var(--ctp-accent-color) !important;
+}
+.blue-button.gpfocuswithin {
+  background: var(--ctp-base) !important;
+}
+.blue-text {
+  color: var(--ctp-accent-color) !important;
+}
+.gray-text {
+  color: var(--ctp-subtext0) !important;
+}
+.image-number-container {
+  background: var(--ctp-base);
+}
+.target-text {
+  background: var(--ctp-surface0) !important;
+  color: var(--ctp-accent-color) !important;
+}
+.target-text.gpfocuswithin {
+  background: var(--ctp-text) !important;
+  color: var(--ctp-surface0) !important;
+}
+
