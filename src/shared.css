@@ -115,6 +115,9 @@ TOP BAR
 ._17M8gvakqjyaw_cLo6ntdl ._2Ya83QVfgqLema1GlOi9_C {
   color: var(--ctp-text);
 }
+._17M8gvakqjyaw_cLo6ntdl._1bmuJRkMBGcApfJwlj_k-F:not(.gpfocuswithin) ._3F4YRi5x8CjExTV0rOdSL-._1l8jsSJRozEnzlhm5Q2m7U {
+  background-color: var(--ctp-crust);
+}
 /* online status */
 .online .personanameandstatus_richPresenceLabel_1k82N.GamepadMode, 
 .GamepadMode .online .personanameandstatus_richPresenceLabel_1k82N,
@@ -663,6 +666,18 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
 /* Search */
 .gamepadsearch_GamepadSearch_P_AlE {
   background: var(--ctp-base);
+}
+._2AspdzRb6jdNiu9dLgTm5Q.gpfocuswithin ._19p6sGYKd-YKRASSzBZ3NM ._3RDewhgtNJ5JujhyrIA4DW {
+  color: var(--ctp-text);
+}
+._2AspdzRb6jdNiu9dLgTm5Q.gpfocuswithin ._19p6sGYKd-YKRASSzBZ3NM ._3hAUuUb4QDFc4FEu5gEx4N {
+  color: var(--ctp-text);
+}
+._19p6sGYKd-YKRASSzBZ3NM ._3RDewhgtNJ5JujhyrIA4DW {
+  color: var(--ctp-text);
+}
+._19p6sGYKd-YKRASSzBZ3NM ._3hAUuUb4QDFc4FEu5gEx4N {
+  color: var(--ctp-text);
 }
 /* Media upload */
 .gamepaddialog_ModalPosition_30VHl > .gamepaddialog_GamepadDialogContent_3joNk {
