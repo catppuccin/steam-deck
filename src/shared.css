@@ -493,6 +493,9 @@ SETTINGS
 .gamepaddialog_ToggleSwitch_3__OD{
   background: var(--ctp-text);
 }
+.SettingsDialogSubHeader {
+  color: var(--ctp-text);
+}
 
 /*
 QUICK ACCESS
@@ -913,7 +916,9 @@ svg.networksettings_LargerIcon_14aKC > path {
 #Main > div > div.topleveltransitionswitch_TopLevelTransitionSwitch_1iKmx > div > div > div > div > div > div > div.DialogContentTransition.gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle.Panel.Focusable.gpfocuswithin > div > div > div > div > div > div.DialogBody > div > div.Panel.Focusable.gpfocuswithin > div.gamepaddialog_Field_S-_La.gamepaddialog_WithFirstRow_qFXi6.gamepaddialog_VerticalAlignCenter_3XNvA.gamepaddialog_InlineWrapShiftsChildrenBelow_pHUb6.gamepaddialog_WithBottomSeparatorStandard_3s1Rk.gamepaddialog_StandardPadding_XRBFu.gamepaddialog_HighlightOnFocus_wE4V6.Panel.Focusable > div > div.gamepaddialog_FieldLabel_3b0U- > div.gamepaddialog_FieldLeadIcon_OKYIj > svg > path {
   fill: var(--ctp-accent-color);
 }
-
+.eKmEXJCm_lgme24Fp_HWt._2bDqk4Jeoyk1wZd7ttBNAR._16vVnDqpbNs-zIH-EdV6Vz._3LCXhoVmpvqbOW8fsItdTl.GxgIyq8R5xTOeu4ftGrgX._3nLNLFMUMSt4jvxIayuPV3.xIITXDcM70faUNqssgUyx._2HFrmMgB38Ike5w4rVxzEX.Panel.Focusable.gpfocuswithin {
+  background: var(--ctp-surface0) !important;
+}
 /* System Update Fix (hard to test for obvious reasons) */
 .updaterfield_UpdaterFieldStatusApplying_Y36on .updaterfield_TextContainer_pW4WL .updaterfield_TimeRemaining_2W9zi {
   color: var(--ctp-subtext1) !important;
@@ -1300,9 +1305,11 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 .gamepaddialog_FieldChildren_14_HB > div {
   color: var(--ctp-subtext1) !important;
 }
+/*
 .gamepaddialog_Field_S-_La.gamepaddialog_WithFirstRow_qFXi6.gamepaddialog_VerticalAlignCenter_3XNvA.gamepaddialog_InlineWrapShiftsChildrenBelow_pHUb6.gamepaddialog_WithBottomSeparatorStandard_3s1Rk.gamepaddialog_ExtraPaddingOnChildrenBelow_5UO-_.gamepaddialog_StandardPadding_XRBFu.gamepaddialog_HighlightOnFocus_wE4V6.Panel.Focusable.gpfocuswithin {
   background: none !important;
 }
+*/
 
 /* Discovery Queue */
 .discoveryqueuewizard_DiscoveryQueueCarouselCtn_1GFC6 {
