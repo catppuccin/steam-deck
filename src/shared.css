@@ -573,7 +573,6 @@ QUICK ACCESS
 ._2DM37juowId1V_DScp3l4 svg {
   color: var(--ctp-text);
 }
-
 /* performance */
 .quickaccesscontrols_BatteryIcon_39aNh > div,
 .quickaccesscontrols_BatteryPercentageLabel_3Rxxi,
@@ -583,6 +582,12 @@ QUICK ACCESS
 }
 .quickaccesscontrols_BatteryDetailsLabels_3M39z .quickaccesscontrols_BatteryProjectedLabel_4hS40,
 .perf_PerfProfileInfo_1UqP6 .perf_SubHeading_2C4wP .perf_Text_3gY4m {
+  color: var(--ctp-subtext0);
+}
+.KWPmfzNRc-wwIx_1WI7cQ ._1bIiM99nyensOmPZL_As0y .a7zm3SIpPh5wOw8mT0Cqa {
+  color: var(--ctp-subtext0);
+}
+.KWPmfzNRc-wwIx_1WI7cQ ._3bFcnDpFpuul8U6GKQ0si3 .a7zm3SIpPh5wOw8mT0Cqa {
   color: var(--ctp-subtext0);
 }
 
