@@ -293,7 +293,21 @@ GAME DETAILS
 .BasicUI ._3qDWQGB0rtwM3qpXTb11Q-:focus svg {
   color: var(--ctp-base);
 }
-
+.BasicUI ._3cI5TXsFX3bvpR-7EBOtxq ._2AzIX5kl9k6JnxLfR5H4kX {
+  background: var(--ctp-surface0);
+}
+._3qDWQGB0rtwM3qpXTb11Q- {
+  background-color: var(--ctp-surface0);
+}
+._3eEbSktrstBdLk0dVpnKVI._3Gp1bACHx__POxmy6Gd3kG {
+  background-color: var(--ctp-surface0);
+}
+._3Gp1bACHx__POxmy6Gd3kG {
+  color: var(--ctp-text);
+}
+._3eEbSktrstBdLk0dVpnKVI._3Gp1bACHx__POxmy6Gd3kG.gpfocus {
+  background-color: var(--ctp-accent-color)
+}
 button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary,
 button.gamepaddialog_Button_1kn70.DialogButton:active.Primary,
 button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus.Primary,
@@ -595,6 +609,37 @@ QUICK ACCESS
 }
 .KWPmfzNRc-wwIx_1WI7cQ ._3bFcnDpFpuul8U6GKQ0si3 .a7zm3SIpPh5wOw8mT0Cqa {
   color: var(--ctp-subtext0);
+}
+
+/*
+DECKY LOADER
+*/
+
+/* decky menu */
+.gamepaddialog_FieldChildren_14_HB > div {
+  color: var(--ctp-subtext1) !important;
+}
+/* steamgriddb */
+#sgdb-wrap #local-images-container .asset-label {
+  color: var(--ctp-text) !important;
+}
+#sgdb-wrap #local-images-container .asset-wrap > .Panel .action-overlay .action-button {
+  background-color: var(--ctp-surface0) !important;
+}
+#sgdb-wrap #local-images-container .asset-wrap > .Panel .action-overlay .action-button > svg {
+  fill: var(--ctp-text) !important;
+}
+#sgdb-wrap #local-images-container .asset-wrap > .Panel .action-overlay .action-button.gpfocus, #sgdb-wrap #local-images-container .asset-wrap > .Panel .action-overlay .action-button:hover {
+  background-color: var(--ctp-accent-color) !important;
+}
+#sgdb-wrap #local-images-container .asset-wrap > .Panel .action-overlay .action-button.gpfocus > svg, #sgdb-wrap #local-images-container .asset-wrap > .Panel .action-overlay .action-button:hover > svg {
+  fill: var(--ctp-base) !important;
+}
+#sgdb-wrap #images-container .asset-box-wrap .author {
+  color: var(--ctp-text);
+}
+#sgdb-wrap .spinnyboi {
+  background: var(--ctp-base) !important;
 }
 
 /*
@@ -1303,16 +1348,6 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 #header > div.headerbrowser_HeaderBrowser_1gnVM.Panel.Focusable > div > div.mainbrowser_InputSupportLevel_1aVPs.Panel.Focusable > svg > g > path:nth-child(2) {
   fill: var(--ctp-accent-color);
 }
-
-/* Decky Menu */
-.gamepaddialog_FieldChildren_14_HB > div {
-  color: var(--ctp-subtext1) !important;
-}
-/*
-.gamepaddialog_Field_S-_La.gamepaddialog_WithFirstRow_qFXi6.gamepaddialog_VerticalAlignCenter_3XNvA.gamepaddialog_InlineWrapShiftsChildrenBelow_pHUb6.gamepaddialog_WithBottomSeparatorStandard_3s1Rk.gamepaddialog_ExtraPaddingOnChildrenBelow_5UO-_.gamepaddialog_StandardPadding_XRBFu.gamepaddialog_HighlightOnFocus_wE4V6.Panel.Focusable.gpfocuswithin {
-  background: none !important;
-}
-*/
 
 /* Discovery Queue */
 .discoveryqueuewizard_DiscoveryQueueCarouselCtn_1GFC6 {

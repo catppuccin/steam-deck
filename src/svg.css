@@ -832,10 +832,10 @@ img[src="/steaminputglyphs/sd_ltrackpad_right.svg"] {
 }
 
 .footericons_Light_2e0Fq .footericons_Background_I3P4e {
-    color: var(--ctp-text);
+    color: var(--ctp-text) !important;
 }
 
 ._1LgIo8fAGnrgqGzZ7rU_9D,
 .JgT6ZW65muFgrXnrRrXyD {
-    color: var(--ctp-crust);
+    color: var(--ctp-crust) !important;
 }
