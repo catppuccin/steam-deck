@@ -88,6 +88,14 @@ HOME PAGE
 .gamecapsule_GameCapsule_fXdhj .gamecapsule_BottomBar_3-GyQ {
   background-color: var(--ctp-surface0);
 }
+/* recently updated card top */
+.BasicUI ._3OC7iN2ubQiHWLB7r6Bugz {
+  background: var(--ctp-surface0);
+}
+/* recently updated card bottom */
+.BasicUI ._3LyF6X2UzrKOnCPSpoVFeT {
+  background-color: var(--ctp-surface0);
+}
 
 /*
 TOP BAR
@@ -398,6 +406,7 @@ FRIENDS & CHAT
 .SteamDeckChats.gpfocuswithin .chattabs_ChatTab_1WfqA {
   box-shadow: none;
 }
+/* backgrounds */
 .GamepadMode.friendlist.gpfocuswithin .FriendsListSteamDeckTopSection {
   background: var(--ctp-base);
 }
@@ -418,7 +427,25 @@ FRIENDS & CHAT
   background-color: var(--ctp-base);
   background: var(--ctp-base);
 }
-
+/* header text */
+.GamepadMode.friendlist .TabPanelHeader {
+  color: var(--ctp-text);
+}
+/* bumper glyphs */
+._3XAsxj1IJyWq6fCoSgyLoY.GamepadMode svg path:first-of-type, .GamepadMode ._3XAsxj1IJyWq6fCoSgyLoY svg path:first-of-type {
+  stroke: var(--ctp-subtext0);
+}
+._3XAsxj1IJyWq6fCoSgyLoY.GamepadMode svg path, .GamepadMode ._3XAsxj1IJyWq6fCoSgyLoY svg path {
+  fill: var(--ctp-subtext0);
+}
+/* AZ arrow */
+.groupHeaderContainer.gpfocuswithin .SortByRecent.GamepadMode, .GamepadMode .groupHeaderContainer.gpfocuswithin .SortByRecent {
+  background-color: var(--ctp-surface0) !important;
+}
+/* chatlist empty */
+.ChatRoomList .ChatRoomList_Empty {
+  color: var(--ctp-subtext0);
+}
 /*
 DOWNLOADS
 */
