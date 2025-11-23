@@ -610,6 +610,25 @@ QUICK ACCESS
 .KWPmfzNRc-wwIx_1WI7cQ ._3bFcnDpFpuul8U6GKQ0si3 .a7zm3SIpPh5wOw8mT0Cqa {
   color: var(--ctp-subtext0);
 }
+/* notificatons */
+._3-H47wPl1Ng3lh7xGZOPIg ._2F0wqsu2mqsHxBSJcu1sPJ, ._3V6804k2yutEiF6IWg8axH ._2F0wqsu2mqsHxBSJcu1sPJ {
+  color: var(--ctp-text);
+}
+._3-H47wPl1Ng3lh7xGZOPIg ._18PwvOcpWfW3M8j2-bEPPJ, ._3V6804k2yutEiF6IWg8axH ._18PwvOcpWfW3M8j2-bEPPJ {
+  color: var(--ctp-text);
+}
+._3-H47wPl1Ng3lh7xGZOPIg ._26rvbcKFCQjLKx-pD7BhvY, ._3V6804k2yutEiF6IWg8axH ._26rvbcKFCQjLKx-pD7BhvY {
+  color: var(--ctp-subtext0);
+}
+.BasicUI ._2yhmcyeUOyM8lt__Skbk9O:hover ._26rvbcKFCQjLKx-pD7BhvY, .BasicUI ._2yhmcyeUOyM8lt__Skbk9O.gpfocus ._26rvbcKFCQjLKx-pD7BhvY {
+  color: var(--ctp-subtext0);
+}
+._3-H47wPl1Ng3lh7xGZOPIg ._3fUrGm-WHq3qxIpSqRZDgc, ._3V6804k2yutEiF6IWg8axH ._3fUrGm-WHq3qxIpSqRZDgc {
+  color: var(--ctp-subtext1);
+}
+.BasicUI ._2yhmcyeUOyM8lt__Skbk9O:hover, .BasicUI ._2yhmcyeUOyM8lt__Skbk9O.gpfocus {
+  background-color: var(--ctp-surface0);
+}
 
 /*
 DECKY LOADER
@@ -618,6 +637,39 @@ DECKY LOADER
 /* decky menu */
 .gamepaddialog_FieldChildren_14_HB > div {
   color: var(--ctp-subtext1) !important;
+}
+/* css loader */
+.bg-storeBg {
+  background: var(--ctp-crust) !important;
+}
+.theme-data-container {
+  background: var(--ctp-base) !important;
+}
+.button-bg {
+  background: var(--ctp-base) !important;
+}
+.blue-button {
+  background: var(--ctp-accent-color) !important;
+}
+.blue-button.gpfocuswithin {
+  background: var(--ctp-base) !important;
+}
+.blue-text {
+  color: var(--ctp-accent-color) !important;
+}
+.gray-text {
+  color: var(--ctp-subtext0) !important;
+}
+.image-number-container {
+  background: var(--ctp-base);
+}
+.target-text {
+  background: var(--ctp-surface0) !important;
+  color: var(--ctp-accent-color) !important;
+}
+.target-text.gpfocuswithin {
+  background: var(--ctp-text) !important;
+  color: var(--ctp-surface0) !important;
 }
 /* steamgriddb */
 #sgdb-wrap #local-images-container .asset-label {
@@ -2264,38 +2316,3 @@ button.accountpanel_FatButton_TEWms .accountpanel_Details_3Wb9y {
 .allcollections_Collection_3IWn- .allcollections_CollectionLabel_1J1LQ .allcollections_CollectionLabelCount_36QQL {
   color: var(--ctp-subtext0);
 }
-/* CSS loader store */
-.bg-storeBg {
-  background: var(--ctp-crust) !important;
-}
-.theme-data-container {
-  background: var(--ctp-base) !important;
-}
-.button-bg {
-  background: var(--ctp-base) !important;
-  padding: 1em;
-}
-.blue-button {
-  background: var(--ctp-accent-color) !important;
-}
-.blue-button.gpfocuswithin {
-  background: var(--ctp-base) !important;
-}
-.blue-text {
-  color: var(--ctp-accent-color) !important;
-}
-.gray-text {
-  color: var(--ctp-subtext0) !important;
-}
-.image-number-container {
-  background: var(--ctp-base);
-}
-.target-text {
-  background: var(--ctp-surface0) !important;
-  color: var(--ctp-accent-color) !important;
-}
-.target-text.gpfocuswithin {
-  background: var(--ctp-text) !important;
-  color: var(--ctp-surface0) !important;
-}
-
