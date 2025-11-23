@@ -1,0 +1,6 @@
+:root{
+    /* a compatablity patch for "Focus Highlight Color" */
+    --flangrande-base-highlight-color: var(--ctp-accent-color) !important;
+    --flangrande-blinked-highlight-color: var(--ctp-accent-color) !important;
+    --flangrande-start-highlight-color: var(--ctp-accent-color) !important;
+}

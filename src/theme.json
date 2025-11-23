@@ -201,6 +201,21 @@
 				}
 			},
 			"components": []
+		},
+		"Focus highlight color compatability": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"highlight_compat.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No": {}
+			},
+			"components": []
 		}
 	}
 }
