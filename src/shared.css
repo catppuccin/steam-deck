@@ -34,6 +34,11 @@ HOME PAGE
   color: var(--ctp-text);
 }
 
+/* current game */
+._1KKWf5v5FhqL_NrtrGZPzG {
+  color: var(--ctp-text);
+}
+
 /* badges */
 .deckverified_Verified_2NlWs,
 .shared_svg_library_SteamDeckCompatVerified_3mvZq {
@@ -83,6 +88,38 @@ HOME PAGE
 .gamecapsule_GameCapsule_fXdhj .gamecapsule_BottomBar_3-GyQ {
   background-color: var(--ctp-surface0);
 }
+/* recently updated card top */
+.BasicUI ._3OC7iN2ubQiHWLB7r6Bugz {
+  background: var(--ctp-surface0);
+}
+/* recently updated card bottom */
+.BasicUI ._3LyF6X2UzrKOnCPSpoVFeT {
+  background-color: var(--ctp-surface0);
+}
+/* recommended */
+
+/* discorvery queue text */
+.O2jA-VCFl9bmblncfI4k2 {
+  color: var(--ctp-text);
+}
+/* price badge */
+.BasicUI .cnkoFkzVCby40gJ0jGGS4 {
+  color: var(--ctp-surface0) !important;
+}
+
+.BasicUI .cnkoFkzVCby40gJ0jGGS4 {
+  background-color: var(--ctp-green);
+}
+/* price badge text */
+.BasicUI ._3fFFsvII7Y2KXNLDk_krOW {
+  color: var(--ctp-subtext0);
+  opacity: 1;
+}
+/* NEW badge */
+._2s-O5T3qJJYR2AUq4b9jIN ._2_KY_e11FV0ftXR2_7TMmP {
+  background-color: var(--ctp-blue);
+  color: var(--ctp-surface0);
+}
 
 /*
 TOP BAR
@@ -91,19 +128,28 @@ TOP BAR
 .searchbar_SearchContainer_161Tj .searchbar_SearchIconRight_1Ka4T,
 .header_Clock_1HhLU,
 .BasicUI .header_Header_1E_SL {
-  color: var(--ctp-text);
+  color: var(--ctp-text) !important;
 }
 
 .header_HeaderDownloadContainer_2ssr3 .header_HeaderAppPortraitContainer_1PbL3 .header_HeaderDownloadProgressBarBackground_vo3Tt .header_HeaderDownloadProgressBar_AK_Ax {
-  background-color: var(--ctp-blue);
+  background-color: var(--ctp-blue) !important;
 }
 .header_Header_1E_SL::before {
-  background: var(--ctp-crust);
+  background: var(--ctp-crust) !important;
 }
 .mainbrowser_URLBar_1CwIx .mainbrowser_URL_2aM-J {
-  background: var(--ctp-crust);
+  background: var(--ctp-crust) !important;
 }
-
+._17M8gvakqjyaw_cLo6ntdl,
+._1Ka4TMacsEnWHBXCx3gp52{
+  color: var(--ctp-text) !important;
+}
+._17M8gvakqjyaw_cLo6ntdl ._2Ya83QVfgqLema1GlOi9_C {
+  color: var(--ctp-text);
+}
+._17M8gvakqjyaw_cLo6ntdl._1bmuJRkMBGcApfJwlj_k-F:not(.gpfocuswithin) ._3F4YRi5x8CjExTV0rOdSL-._1l8jsSJRozEnzlhm5Q2m7U {
+  background-color: var(--ctp-crust);
+}
 /* online status */
 .online .personanameandstatus_richPresenceLabel_1k82N.GamepadMode, 
 .GamepadMode .online .personanameandstatus_richPresenceLabel_1k82N,
@@ -121,7 +167,7 @@ TOP BAR
   color: var(--ctp-blue);
 }
 .online .steamavatar_avatarStatus_1yIzy.GamepadMode, .GamepadMode .online .steamavatar_avatarStatus_1yIzy {
-  background: var(--ctp-accent-color); 
+  background: var(--ctp-accent-color);
 }
 .ingame .steamavatar_avatarStatus_1yIzy.GamepadMode, .GamepadMode .ingame .steamavatar_avatarStatus_1yIzy {
   background: var(--ctp-accent-color);
@@ -144,7 +190,7 @@ TOP BAR
 /* battery */
 .header_BatteryIcon_1_6kL svg svg rect,
 .quickaccesscontrols_BatteryIcon_39aNh svg svg rect {
-  fill: var(--ctp-green);
+  fill: var(--ctp-green) !important;
   color: var(--ctp-base);
 }
 .header_HeaderItem_2HnVd.header_BatteryIcon_1_6kL {
@@ -174,6 +220,10 @@ LIBRARY
 .appactionbutton_ShutdownAppButton_1WVYD.gpfocus {
   background-color: var(--ctp-accent-color);
   color: var(--ctp-base);
+}
+._3IBLc81yyL08OJ7rfKtF00._31ZleDJpmmVr6YwR5VLHiu ._2JobstxtZVYF3078DblN2M::before, ._2JobstxtZVYF3078DblN2M._1jNhbFODJy7sNdcnEeZkz4::before {
+  backdrop-filter: ;
+  background: var(--ctp-crust);
 }
 
 /*
@@ -207,6 +257,10 @@ GAME DETAILS
 .BasicUI .appactionbutton_ButtonChild_2AzIX.Focusable:focus {
   background: var(--ctp-accent-color);
   color: var(--ctp-base);
+}
+.BasicUI ._3cI5TXsFX3bvpR-7EBOtxq ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus._2q-gZ3XJzlvSGHSF-GvSmi {
+  color: var(--ctp-base);
+  background: var(--ctp-accent-color)
 }
 .BasicUI .appactionbutton_ButtonChild_2AzIX.Focusable:focus .appactionbutton_ButtonText_33cnX {
   color: var(--ctp-base);
@@ -268,7 +322,24 @@ GAME DETAILS
   background: var(--ctp-surface0);
   color: var(--ctp-base);
 }
-
+.BasicUI ._3qDWQGB0rtwM3qpXTb11Q-:focus svg {
+  color: var(--ctp-base);
+}
+.BasicUI ._3cI5TXsFX3bvpR-7EBOtxq ._2AzIX5kl9k6JnxLfR5H4kX {
+  background: var(--ctp-surface0);
+}
+._3qDWQGB0rtwM3qpXTb11Q- {
+  background-color: var(--ctp-surface0);
+}
+._3eEbSktrstBdLk0dVpnKVI._3Gp1bACHx__POxmy6Gd3kG {
+  background-color: var(--ctp-surface0);
+}
+._3Gp1bACHx__POxmy6Gd3kG {
+  color: var(--ctp-text);
+}
+._3eEbSktrstBdLk0dVpnKVI._3Gp1bACHx__POxmy6Gd3kG.gpfocus {
+  background-color: var(--ctp-accent-color)
+}
 button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary,
 button.gamepaddialog_Button_1kn70.DialogButton:active.Primary,
 button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus.Primary,
@@ -344,6 +415,12 @@ STEAM INPUT
 .controllerconfiguratorsummary_ControllerConfiguratorSummary_3TvBV {
   background: var(--ctp-base);
 }
+._2b6L36XnXUqFHHkGE4_2mv ._3Il1BD4p9lccpjISQKhR1X {
+  background: var(--ctp-accent-color);
+}
+._2b6L36XnXUqFHHkGE4_2mv._1U3OjZG3cOt5OhO_lKAXI0 {
+  color: var(--ctp-text);
+}
 
 /* 
 FRIENDS & CHAT
@@ -353,6 +430,7 @@ FRIENDS & CHAT
 .SteamDeckChats.gpfocuswithin .chattabs_ChatTab_1WfqA {
   box-shadow: none;
 }
+/* backgrounds */
 .GamepadMode.friendlist.gpfocuswithin .FriendsListSteamDeckTopSection {
   background: var(--ctp-base);
 }
@@ -373,7 +451,25 @@ FRIENDS & CHAT
   background-color: var(--ctp-base);
   background: var(--ctp-base);
 }
-
+/* header text */
+.GamepadMode.friendlist .TabPanelHeader {
+  color: var(--ctp-text);
+}
+/* bumper glyphs */
+._3XAsxj1IJyWq6fCoSgyLoY.GamepadMode svg path:first-of-type, .GamepadMode ._3XAsxj1IJyWq6fCoSgyLoY svg path:first-of-type {
+  stroke: var(--ctp-subtext0);
+}
+._3XAsxj1IJyWq6fCoSgyLoY.GamepadMode svg path, .GamepadMode ._3XAsxj1IJyWq6fCoSgyLoY svg path {
+  fill: var(--ctp-subtext0);
+}
+/* AZ arrow */
+.groupHeaderContainer.gpfocuswithin .SortByRecent.GamepadMode, .GamepadMode .groupHeaderContainer.gpfocuswithin .SortByRecent {
+  background-color: var(--ctp-surface0) !important;
+}
+/* chatlist empty */
+.ChatRoomList .ChatRoomList_Empty {
+  color: var(--ctp-subtext0);
+}
 /*
 DOWNLOADS
 */
@@ -453,6 +549,18 @@ SETTINGS
 .gamepadslider_SliderNotchLabel_u_sH1 {
   color: var(--ctp-subtext1);
 }
+.gamepadslider_SliderHandle_2yVKj{
+  background: var(--ctp-text);
+}
+.gamepaddialog_On_3ld7T>.gamepaddialog_ToggleSwitch_3__OD{
+  background: var(--ctp-text);
+}
+.gamepaddialog_ToggleSwitch_3__OD{
+  background: var(--ctp-text);
+}
+.SettingsDialogSubHeader {
+  color: var(--ctp-text);
+}
 
 /*
 QUICK ACCESS
@@ -526,8 +634,14 @@ QUICK ACCESS
 .gamepaddialog_Field_S-_La.gamepaddialog_WithBottomSeparatorStandard_3s1Rk::after {
   background: var(--ctp-surface0) !important;
 }
+._1S76C3gQf4oOTbLdTMVH0m.gpfocus svg {
+  color: var(--ctp-mantle);
+}
 /* settings */
 .quickaccesscontrols_Text_1hJkB {
+  color: var(--ctp-text);
+}
+._2DM37juowId1V_DScp3l4 svg {
   color: var(--ctp-text);
 }
 /* performance */
@@ -540,6 +654,95 @@ QUICK ACCESS
 .quickaccesscontrols_BatteryDetailsLabels_3M39z .quickaccesscontrols_BatteryProjectedLabel_4hS40,
 .perf_PerfProfileInfo_1UqP6 .perf_SubHeading_2C4wP .perf_Text_3gY4m {
   color: var(--ctp-subtext0);
+}
+.KWPmfzNRc-wwIx_1WI7cQ ._1bIiM99nyensOmPZL_As0y .a7zm3SIpPh5wOw8mT0Cqa {
+  color: var(--ctp-subtext0);
+}
+.KWPmfzNRc-wwIx_1WI7cQ ._3bFcnDpFpuul8U6GKQ0si3 .a7zm3SIpPh5wOw8mT0Cqa {
+  color: var(--ctp-subtext0);
+}
+/* notificatons */
+._3-H47wPl1Ng3lh7xGZOPIg ._2F0wqsu2mqsHxBSJcu1sPJ, ._3V6804k2yutEiF6IWg8axH ._2F0wqsu2mqsHxBSJcu1sPJ {
+  color: var(--ctp-text);
+}
+._3-H47wPl1Ng3lh7xGZOPIg ._18PwvOcpWfW3M8j2-bEPPJ, ._3V6804k2yutEiF6IWg8axH ._18PwvOcpWfW3M8j2-bEPPJ {
+  color: var(--ctp-text);
+}
+._3-H47wPl1Ng3lh7xGZOPIg ._26rvbcKFCQjLKx-pD7BhvY, ._3V6804k2yutEiF6IWg8axH ._26rvbcKFCQjLKx-pD7BhvY {
+  color: var(--ctp-subtext0);
+}
+.BasicUI ._2yhmcyeUOyM8lt__Skbk9O:hover ._26rvbcKFCQjLKx-pD7BhvY, .BasicUI ._2yhmcyeUOyM8lt__Skbk9O.gpfocus ._26rvbcKFCQjLKx-pD7BhvY {
+  color: var(--ctp-subtext0);
+}
+._3-H47wPl1Ng3lh7xGZOPIg ._3fUrGm-WHq3qxIpSqRZDgc, ._3V6804k2yutEiF6IWg8axH ._3fUrGm-WHq3qxIpSqRZDgc {
+  color: var(--ctp-subtext1);
+}
+.BasicUI ._2yhmcyeUOyM8lt__Skbk9O:hover, .BasicUI ._2yhmcyeUOyM8lt__Skbk9O.gpfocus {
+  background-color: var(--ctp-surface0);
+}
+
+/*
+DECKY LOADER
+*/
+
+/* decky menu */
+.gamepaddialog_FieldChildren_14_HB > div {
+  color: var(--ctp-subtext1) !important;
+}
+/* css loader */
+.bg-storeBg {
+  background: var(--ctp-crust) !important;
+}
+.theme-data-container {
+  background: var(--ctp-base) !important;
+}
+.button-bg {
+  background: var(--ctp-base) !important;
+}
+.blue-button {
+  background: var(--ctp-accent-color) !important;
+}
+.blue-button.gpfocuswithin {
+  background: var(--ctp-base) !important;
+}
+.blue-text {
+  color: var(--ctp-accent-color) !important;
+}
+.gray-text {
+  color: var(--ctp-subtext0) !important;
+}
+.image-number-container {
+  background: var(--ctp-base);
+}
+.target-text {
+  background: var(--ctp-surface0) !important;
+  color: var(--ctp-accent-color) !important;
+}
+.target-text.gpfocuswithin {
+  background: var(--ctp-text) !important;
+  color: var(--ctp-surface0) !important;
+}
+/* steamgriddb */
+#sgdb-wrap #local-images-container .asset-label {
+  color: var(--ctp-text) !important;
+}
+#sgdb-wrap #local-images-container .asset-wrap > .Panel .action-overlay .action-button {
+  background-color: var(--ctp-surface0) !important;
+}
+#sgdb-wrap #local-images-container .asset-wrap > .Panel .action-overlay .action-button > svg {
+  fill: var(--ctp-text) !important;
+}
+#sgdb-wrap #local-images-container .asset-wrap > .Panel .action-overlay .action-button.gpfocus, #sgdb-wrap #local-images-container .asset-wrap > .Panel .action-overlay .action-button:hover {
+  background-color: var(--ctp-accent-color) !important;
+}
+#sgdb-wrap #local-images-container .asset-wrap > .Panel .action-overlay .action-button.gpfocus > svg, #sgdb-wrap #local-images-container .asset-wrap > .Panel .action-overlay .action-button:hover > svg {
+  fill: var(--ctp-base) !important;
+}
+#sgdb-wrap #images-container .asset-box-wrap .author {
+  color: var(--ctp-text);
+}
+#sgdb-wrap .spinnyboi {
+  background: var(--ctp-base) !important;
 }
 
 /*
@@ -615,6 +818,21 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
 .gamepadsearch_GamepadSearch_P_AlE {
   background: var(--ctp-base);
 }
+._2AspdzRb6jdNiu9dLgTm5Q.gpfocuswithin ._19p6sGYKd-YKRASSzBZ3NM ._3RDewhgtNJ5JujhyrIA4DW {
+  color: var(--ctp-text);
+}
+._2AspdzRb6jdNiu9dLgTm5Q.gpfocuswithin ._19p6sGYKd-YKRASSzBZ3NM ._3hAUuUb4QDFc4FEu5gEx4N {
+  color: var(--ctp-text);
+}
+._19p6sGYKd-YKRASSzBZ3NM ._3RDewhgtNJ5JujhyrIA4DW {
+  color: var(--ctp-text);
+}
+._19p6sGYKd-YKRASSzBZ3NM ._3hAUuUb4QDFc4FEu5gEx4N {
+  color: var(--ctp-text);
+}
+.ZAX7ol1q-SvRBbXs7F6me {
+  color: var(--ctp-text);
+}
 /* Media upload */
 .gamepaddialog_ModalPosition_30VHl > .gamepaddialog_GamepadDialogContent_3joNk {
   background: var(--ctp-base);
@@ -622,6 +840,20 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
 /* Lock screen */
 .lockscreen_Container_3rFFU {
   background: var(--ctp-base);
+}
+.lockscreen_DigitIndicator_3eHNj{
+  border-color: var(--ctp-subtext0);
+  background: var(--ctp-base);
+}
+.lockscreen_DigitIndicator_3eHNj.lockscreen_Filled_i68Yl {
+  border-color: var(--ctp-text);
+  background: var(--ctp-subtext1);
+}
+.aLaNwAEcdBFnXVdc4Nzix ._3aUT84qO5C3sjfj8G8hIKA {
+  color: var(--ctp-text);
+}
+.aLaNwAEcdBFnXVdc4Nzix .vNjDQRABe6lwA6tOpBefX {
+  color: var(--ctp-subtext0)
 }
 /* Footer */
 .footer_BasicFooter_3T1iF {
@@ -835,13 +1067,15 @@ svg.networksettings_LargerIcon_14aKC > path {
 #Main > div > div.topleveltransitionswitch_TopLevelTransitionSwitch_1iKmx > div > div > div > div > div > div > div.DialogContentTransition.gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle.Panel.Focusable.gpfocuswithin > div > div > div > div > div > div.DialogBody > div > div.Panel.Focusable.gpfocuswithin > div.gamepaddialog_Field_S-_La.gamepaddialog_WithFirstRow_qFXi6.gamepaddialog_VerticalAlignCenter_3XNvA.gamepaddialog_InlineWrapShiftsChildrenBelow_pHUb6.gamepaddialog_WithBottomSeparatorStandard_3s1Rk.gamepaddialog_StandardPadding_XRBFu.gamepaddialog_HighlightOnFocus_wE4V6.Panel.Focusable > div > div.gamepaddialog_FieldLabel_3b0U- > div.gamepaddialog_FieldLeadIcon_OKYIj > svg > path {
   fill: var(--ctp-accent-color);
 }
-
+.eKmEXJCm_lgme24Fp_HWt._2bDqk4Jeoyk1wZd7ttBNAR._16vVnDqpbNs-zIH-EdV6Vz._3LCXhoVmpvqbOW8fsItdTl.GxgIyq8R5xTOeu4ftGrgX._3nLNLFMUMSt4jvxIayuPV3.xIITXDcM70faUNqssgUyx._2HFrmMgB38Ike5w4rVxzEX.Panel.Focusable.gpfocuswithin {
+  background: var(--ctp-surface0) !important;
+}
 /* System Update Fix (hard to test for obvious reasons) */
 .updaterfield_UpdaterFieldStatusApplying_Y36on .updaterfield_TextContainer_pW4WL .updaterfield_TimeRemaining_2W9zi {
-  color: var(--ctp-subtext1);
+  color: var(--ctp-subtext1) !important;
 }
 .updaterfield_UpdaterFieldStatusApplying_Y36on .updaterfield_TextContainer_pW4WL .updaterfield_ApplyingText_PHNS8 {
-  color: var(--ctp-accent-color);
+  color: var(--ctp-accent-color) !important;
 }
 
 /* Gyro Menu */
@@ -978,7 +1212,7 @@ svg.networksettings_LargerIcon_14aKC > path {
 /* Search Bar Fix */
 input[type="search" i],
 .searchbar_SearchFieldBackground_3F4YR.searchbar_WhiteBackground_1l8js{
-  background-color: var(--ctp-surface0);
+  background-color: var(--ctp-crust);
   color: var(--ctp-text) !important;
   caret-color: var(--ctp-text) !important;
 }
@@ -1216,14 +1450,6 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
 }
 #header > div.headerbrowser_HeaderBrowser_1gnVM.Panel.Focusable > div > div.mainbrowser_InputSupportLevel_1aVPs.Panel.Focusable > svg > g > path:nth-child(2) {
   fill: var(--ctp-accent-color);
-}
-
-/* Decky Menu */
-.gamepaddialog_FieldChildren_14_HB > div {
-  color: var(--ctp-subtext1) !important;
-}
-.gamepaddialog_Field_S-_La.gamepaddialog_WithFirstRow_qFXi6.gamepaddialog_VerticalAlignCenter_3XNvA.gamepaddialog_InlineWrapShiftsChildrenBelow_pHUb6.gamepaddialog_WithBottomSeparatorStandard_3s1Rk.gamepaddialog_ExtraPaddingOnChildrenBelow_5UO-_.gamepaddialog_StandardPadding_XRBFu.gamepaddialog_HighlightOnFocus_wE4V6.Panel.Focusable.gpfocuswithin {
-  background: none !important;
 }
 
 /* Discovery Queue */
