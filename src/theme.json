@@ -1,221 +1,221 @@
 {
-	"id": "82c00271-7964-4e33-b6ab-f5372035c2c2",
-	"name": "Catppuccin",
-	"author": "ozwaldorf, soradotwav",
-	"target": "Other",
-	"version": "v1.1",
-	"manifest_version": 5,
-	"inject": {
-		"shared.css": [
-			"SP",
-			"MainMenu",
-			"QuickAccess"
-		],
-		"svg.css": [
-			"SP",
-			"MainMenu",
-			"QuickAccess"
-		]
-	},
-	"dependencies": {},
-	"patches": {
-		"Flavor": {
-			"type": "slider",
-			"default": "Mocha",
-			"values": {
-				"Mocha": {
-					"flavors/mocha.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Macchiato": {
-					"flavors/macchiato.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Frappe": {
-					"flavors/frappe.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Latte": {
-					"flavors/latte.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				}
-			},
-			"components": []
-		},
-		"Accent": {
-			"type": "dropdown",
-			"default": "Rosewater",
-			"values": {
-				"Rosewater": {
-					"accents/rosewater.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Flamingo": {
-					"accents/flamingo.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Pink": {
-					"accents/pink.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Mauve": {
-					"accents/mauve.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Red": {
-					"accents/red.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Maroon": {
-					"accents/maroon.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Peach": {
-					"accents/peach.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Yellow": {
-					"accents/yellow.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Green": {
-					"accents/green.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Teal": {
-					"accents/teal.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Sky": {
-					"accents/sky.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Sapphire": {
-					"accents/sapphire.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Blue": {
-					"accents/blue.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Lavender": {
-					"accents/lavender.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				}
-			},
-			"components": []
-		},
-		"Theme keyboard": {
-			"type": "checkbox",
-			"default": "No",
-			"values": {
-				"Yes": {
-					"keyboard.css": [
-						"SP"
-					]
-				},
-				"No": {}
-			},
-			"components": []
-		},
-		"Accented play button ": {
-			"type": "checkbox",
-			"default": "No",
-			"values": {
-				"Yes": {
-					"play_button.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"No": {}
-			},
-			"components": []
-		},
-		"Colored xbox glyphs ": {
-			"type": "checkbox",
-			"default": "Yes",
-			"values": {
-				"Yes": {},
-				"No": {
-					"svg_text.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				}
-			},
-			"components": []
-		},
-		"Focus highlight color compatability": {
-			"type": "checkbox",
-			"default": "No",
-			"values": {
-				"Yes": {
-					"highlight_compat.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"No": {}
-			},
-			"components": []
-		}
-	}
+  "id": "82c00271-7964-4e33-b6ab-f5372035c2c2",
+  "name": "Catppuccin",
+  "author": "ozwaldorf, soradotwav",
+  "target": "Other",
+  "version": "v1.1",
+  "manifest_version": 5,
+  "inject": {
+    "shared.css": [
+      "SP",
+      "MainMenu",
+      "QuickAccess"
+    ],
+    "svg.css": [
+      "SP",
+      "MainMenu",
+      "QuickAccess"
+    ]
+  },
+  "dependencies": {},
+  "patches": {
+    "Flavor": {
+      "type": "slider",
+      "default": "Mocha",
+      "values": {
+        "Mocha": {
+          "flavors/mocha.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Macchiato": {
+          "flavors/macchiato.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Frappe": {
+          "flavors/frappe.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Latte": {
+          "flavors/latte.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        }
+      },
+      "components": []
+    },
+    "Accent": {
+      "type": "dropdown",
+      "default": "Rosewater",
+      "values": {
+        "Rosewater": {
+          "accents/rosewater.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Flamingo": {
+          "accents/flamingo.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Pink": {
+          "accents/pink.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Mauve": {
+          "accents/mauve.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Red": {
+          "accents/red.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Maroon": {
+          "accents/maroon.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Peach": {
+          "accents/peach.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Yellow": {
+          "accents/yellow.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Green": {
+          "accents/green.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Teal": {
+          "accents/teal.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Sky": {
+          "accents/sky.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Sapphire": {
+          "accents/sapphire.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Blue": {
+          "accents/blue.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Lavender": {
+          "accents/lavender.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        }
+      },
+      "components": []
+    },
+    "Theme keyboard": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "Yes": {
+          "keyboard.css": [
+            "SP"
+          ]
+        },
+        "No": {}
+      },
+      "components": []
+    },
+    "Accented play button ": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "Yes": {
+          "play_button.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "No": {}
+      },
+      "components": []
+    },
+    "Colored xbox glyphs ": {
+      "type": "checkbox",
+      "default": "Yes",
+      "values": {
+        "Yes": {},
+        "No": {
+          "svg_text.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        }
+      },
+      "components": []
+    },
+    "Focus highlight color compatability": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "Yes": {
+          "highlight_compat.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "No": {}
+      },
+      "components": []
+    }
+  }
 }
