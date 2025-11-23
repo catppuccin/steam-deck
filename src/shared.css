@@ -573,6 +573,10 @@ SETTINGS
 .SettingsDialogSubHeader {
   color: var(--ctp-text);
 }
+/* link text */
+.DialogBody a {
+  color: var(--ctp-sapphire);
+}
 /* updates to installed games text */
 ._3w92Ej5Kq7nbt5WACQ6jwI {
   color: var(--ctp-subtext0);
