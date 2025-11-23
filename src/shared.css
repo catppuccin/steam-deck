@@ -470,6 +470,18 @@ FRIENDS & CHAT
 .ChatRoomList .ChatRoomList_Empty {
   color: var(--ctp-subtext0);
 }
+/* offline text */
+.friend.offline {
+  color: var(--ctp-subtext0);
+}
+/* disabling text shadow */
+
+.friend.gpfocus .labelHolder.GamepadMode .nOdcT-MoOaXGePXLyPe0H, .friend.gpfocus .labelHolder.GamepadMode ._2Ri005Wg_uXDTa71kdRbcN, .GamepadMode .friend.gpfocus .labelHolder .nOdcT-MoOaXGePXLyPe0H, .GamepadMode .friend.gpfocus .labelHolder ._2Ri005Wg_uXDTa71kdRbcN, .favoriteElement.gpfocus .labelHolder.GamepadMode .nOdcT-MoOaXGePXLyPe0H, .favoriteElement.gpfocus .labelHolder.GamepadMode ._2Ri005Wg_uXDTa71kdRbcN, .GamepadMode .favoriteElement.gpfocus .labelHolder .nOdcT-MoOaXGePXLyPe0H, .GamepadMode .favoriteElement.gpfocus .labelHolder ._2Ri005Wg_uXDTa71kdRbcN {
+  text-shadow: none;
+}
+.friend.gpfocus .labelHolder.GamepadMode.offline ._2Ri005Wg_uXDTa71kdRbcN, .GamepadMode .friend.gpfocus .labelHolder.offline ._2Ri005Wg_uXDTa71kdRbcN, .favoriteElement.gpfocus .labelHolder.GamepadMode.offline ._2Ri005Wg_uXDTa71kdRbcN, .GamepadMode .favoriteElement.gpfocus .labelHolder.offline ._2Ri005Wg_uXDTa71kdRbcN {
+  text-shadow: none;
+}
 /*
 DOWNLOADS
 */
@@ -560,6 +572,98 @@ SETTINGS
 }
 .SettingsDialogSubHeader {
   color: var(--ctp-text);
+}
+/* updates to installed games text */
+._3w92Ej5Kq7nbt5WACQ6jwI {
+  color: var(--ctp-subtext0);
+}
+/* flash notifactions window settins */
+.HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q, .HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q:hover {
+  background: var(--ctp-accent-color);
+  color: var(--ctp-surface0);
+}
+.HijmccPB1BKyhOwhX1EVl {
+  text-shadow: none;
+  background-color: var(--ctp-surface0);
+  color: var(--ctp-subtext1);
+}
+._1ml4SNc3LIyBDHIf8ekVSw {
+  background-color: var(--ctp-surface0);
+  color: var(--ctp-subtext1);
+}
+/* controller not connected text */
+._2Am4u_w_1WdQyBogiGGEbz {
+  color: var(--ctp-overlay0);
+}
+
+/* Steam Family */
+
+/* header text */
+._3RNLmzBdpcg55exL2SwhT1 ._3K8Afwm4bvd9vSIzAz9siX ._1RfVQWVozb8NJ_wmCLAtxP {
+  color: var(--ctp-text);
+}
+/* family name */
+._3RNLmzBdpcg55exL2SwhT1 ._3K8Afwm4bvd9vSIzAz9siX .H4JE-8OU0E7AeMZY3bEeM {
+  color: var(--ctp-accent-color);
+}
+/* profile background */
+._2LyGIHuQ8SFKb5T262YUvg {
+  background-color: var(--ctp-surface0);
+}
+/* role icon */
+._1uvKF_UbD6VhnVdaRkXhbu {
+  filter: var(--ctp-text-svg);
+}
+/* role text */
+._3C9nRrwzQk9qHlJx6NaXDI {
+  color: var(--ctp-text);
+}
+/* Me button */
+._2W_HQa5Rhf-hHITgV5H0bu {
+  color: var(--ctp-base);
+  background-color: var(--ctp-green);
+}
+
+/* Game Recording */
+
+/* NEW logo */
+._3cowYQH1B8oj2_ls7YZ1aW ._2e63TrPvMKVUujM8SUB8X2 {
+  color: var(--ctp-base);
+  background: var(--ctp-peach);
+}
+/* learn more text */
+.DialogBody .RmxP90Yut4EIwychIEg51, .RmxP90Yut4EIwychIEg51 {
+  color: var(--ctp-text);
+}
+/* selected button */
+._7EGqd8bdiXJBd2fj5Hh8r ._2sQtvR60AbFF5UzDwY9hit._1gKI37LOWj1Df3QSnxvKyF {
+  border: 3px solid var(--ctp-text);
+  background-color: var(--ctp-accent-color);
+}
+/* selected background */
+._7EGqd8bdiXJBd2fj5Hh8r.MYyvJ6lNQZtM4MHwS-Y3g {
+  background-color: var(--ctp-surface0);
+}
+/* background */
+._7EGqd8bdiXJBd2fj5Hh8r {
+  background-color: var(--ctp-surface0);
+}
+/* hover background */
+._7EGqd8bdiXJBd2fj5Hh8r:hover, ._7EGqd8bdiXJBd2fj5Hh8r.gpfocus {
+  background-color: var(--ctp-surface0);
+}
+/* secondary header text */
+._7EGqd8bdiXJBd2fj5Hh8r ._3HgL0eRQXwU6dIEXXK6qba ._1RUoX0kTOBfqpwCaBZGDLJ {
+  color: var(--ctp-text);
+}
+/* text */
+._7EGqd8bdiXJBd2fj5Hh8r ._3HgL0eRQXwU6dIEXXK6qba ._2BdpWib8Zcj3QSkXzmGgIB {
+  color: var(--ctp-subtext1);
+}
+/* unselected button */
+._7EGqd8bdiXJBd2fj5Hh8r ._2sQtvR60AbFF5UzDwY9hit {
+  border: 1.8px solid var(--ctp-text);
+  background-color: var(--ctp-base);
 }
 
 /*
