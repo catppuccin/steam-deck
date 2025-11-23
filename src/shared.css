@@ -96,6 +96,30 @@ HOME PAGE
 .BasicUI ._3LyF6X2UzrKOnCPSpoVFeT {
   background-color: var(--ctp-surface0);
 }
+/* recommended */
+
+/* discorvery queue text */
+.O2jA-VCFl9bmblncfI4k2 {
+  color: var(--ctp-text);
+}
+/* price badge */
+.BasicUI .cnkoFkzVCby40gJ0jGGS4 {
+  color: var(--ctp-surface0) !important;
+}
+
+.BasicUI .cnkoFkzVCby40gJ0jGGS4 {
+  background-color: var(--ctp-green);
+}
+/* price badge text */
+.BasicUI ._3fFFsvII7Y2KXNLDk_krOW {
+  color: var(--ctp-subtext0);
+  opacity: 1;
+}
+/* NEW badge */
+._2s-O5T3qJJYR2AUq4b9jIN ._2_KY_e11FV0ftXR2_7TMmP {
+  background-color: var(--ctp-blue);
+  color: var(--ctp-surface0);
+}
 
 /*
 TOP BAR

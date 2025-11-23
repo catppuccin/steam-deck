@@ -21,7 +21,7 @@
 
   /* Element Colors */
   --ctp-text: #cad3f5;
-  --ctp-text-svg: invert(1) invert(82%) sepia(6%) saturate(1058%) hue-rotate(192deg) brightness(103%) contrast(92%);
+  --ctp-text-svg: brightness(0%) invert(82%) sepia(6%) saturate(1058%) hue-rotate(192deg) brightness(103%) contrast(92%);
   --ctp-subtext1: #b8c0e0;
   --ctp-subtext0: #a5adcb;
   --ctp-overlay2: #939ab7;
