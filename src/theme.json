@@ -3,7 +3,7 @@
   "name": "Catppuccin",
   "author": "ozwaldorf, Luna-Terra-CG, soradotwav",
   "target": "Other",
-  "version": "v1.1",
+  "version": "v1.1.1",
   "manifest_version": 5,
   "inject": {
     "shared.css": [
