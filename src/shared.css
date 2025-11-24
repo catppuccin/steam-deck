@@ -221,8 +221,9 @@ LIBRARY
   background-color: var(--ctp-accent-color);
   color: var(--ctp-base);
 }
+/* library tab background */
 ._3IBLc81yyL08OJ7rfKtF00._31ZleDJpmmVr6YwR5VLHiu ._2JobstxtZVYF3078DblN2M::before, ._2JobstxtZVYF3078DblN2M._1jNhbFODJy7sNdcnEeZkz4::before {
-  backdrop-filter: ;
+  backdrop-filter: none;
   background: var(--ctp-crust);
 }
 
