@@ -641,7 +641,7 @@ SETTINGS
 }
 /* selected button */
 ._7EGqd8bdiXJBd2fj5Hh8r ._2sQtvR60AbFF5UzDwY9hit._1gKI37LOWj1Df3QSnxvKyF {
-  border: 3px solid var(--ctp-text);
+  border: 1px solid var(--ctp-text);
   background-color: var(--ctp-accent-color);
 }
 /* selected background */
@@ -666,7 +666,7 @@ SETTINGS
 }
 /* unselected button */
 ._7EGqd8bdiXJBd2fj5Hh8r ._2sQtvR60AbFF5UzDwY9hit {
-  border: 1.8px solid var(--ctp-text);
+  border: 1px solid var(--ctp-text);
   background-color: var(--ctp-base);
 }
 /* STEAM + A */
@@ -959,7 +959,7 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
 }
 .lockscreen_DigitIndicator_3eHNj.lockscreen_Filled_i68Yl {
   border-color: var(--ctp-text);
-  background: var(--ctp-subtext1);
+  background: var(--ctp-text);
 }
 .aLaNwAEcdBFnXVdc4Nzix ._3aUT84qO5C3sjfj8G8hIKA {
   color: var(--ctp-text);
