@@ -112,7 +112,7 @@ HOME PAGE
 }
 /* discovery queue backgound */
 ._2-tz2hqtOXPPtMnVPHNSdx {
-  background: linear-gradient(77deg, var(--ctp-lavender) 0%, var(--ctp-sky) 50%, rgba(64, 121, 153, 0) 70%);
+  background: linear-gradient(77deg in oklab, var(--ctp-lavender) 15%, var(--ctp-sky) 40%, rgba(0,0,0,0) 80%);
 }
 ._3PAP1PfUymQrLEveRsxQxP {
   background: var(--ctp-teal);
@@ -623,6 +623,9 @@ FRIENDS & CHAT
 .friend.gpfocus .labelHolder.GamepadMode.ingame.awayOrSnooze .nOdcT-MoOaXGePXLyPe0H, .friend.gpfocus .labelHolder.GamepadMode.ingame ._2Ri005Wg_uXDTa71kdRbcN, .GamepadMode .friend.gpfocus .labelHolder.ingame.awayOrSnooze .nOdcT-MoOaXGePXLyPe0H, .GamepadMode .friend.gpfocus .labelHolder.ingame ._2Ri005Wg_uXDTa71kdRbcN, .favoriteElement.gpfocus .labelHolder.GamepadMode.ingame.awayOrSnooze .nOdcT-MoOaXGePXLyPe0H, .favoriteElement.gpfocus .labelHolder.GamepadMode.ingame ._2Ri005Wg_uXDTa71kdRbcN, .GamepadMode .favoriteElement.gpfocus .labelHolder.ingame.awayOrSnooze .nOdcT-MoOaXGePXLyPe0H, .GamepadMode .favoriteElement.gpfocus .labelHolder.ingame ._2Ri005Wg_uXDTa71kdRbcN {
   text-shadow: none;
 }
+.friend.gpfocus .labelHolder.GamepadMode.online.awayOrSnooze .nOdcT-MoOaXGePXLyPe0H, .friend.gpfocus .labelHolder.GamepadMode.online.awayOrSnooze ._2Ri005Wg_uXDTa71kdRbcN, .GamepadMode .friend.gpfocus .labelHolder.online.awayOrSnooze .nOdcT-MoOaXGePXLyPe0H, .GamepadMode .friend.gpfocus .labelHolder.online.awayOrSnooze ._2Ri005Wg_uXDTa71kdRbcN, .favoriteElement.gpfocus .labelHolder.GamepadMode.online.awayOrSnooze .nOdcT-MoOaXGePXLyPe0H, .favoriteElement.gpfocus .labelHolder.GamepadMode.online.awayOrSnooze ._2Ri005Wg_uXDTa71kdRbcN, .GamepadMode .favoriteElement.gpfocus .labelHolder.online.awayOrSnooze .nOdcT-MoOaXGePXLyPe0H, .GamepadMode .favoriteElement.gpfocus .labelHolder.online.awayOrSnooze ._2Ri005Wg_uXDTa71kdRbcN {
+  text-shadow: none;
+}
 /* dms page conversation hover */
 ._3-PbkfKv5iI-_arCCwDSNK ._356i2cRNfZnSGd79JSqaRr.gpfocus {
   animation-name: none;
@@ -965,7 +968,17 @@ SETTINGS
 }
 
 /*
-QUICK ACCESS
+QAM BLUR
+*/
+._3rsrz7BYWjqGBhzcpn-Auo.N9sQLZ3HK0hCd9vbZif0o {
+  backdrop-filter: blur(6px);
+}
+._3rsrz7BYWjqGBhzcpn-Auo._2NQoFicPv3MZKwGD6pJj-f {
+  background: rgba(0, 0, 0, .1);
+}
+
+/*
+QAM
 */
 .quickaccessmenu_HeaderContainer_3k5MH,
 .footer_BasicFooter_3T1iF.footer_QuickAccessFooter_VdbQ_ {
