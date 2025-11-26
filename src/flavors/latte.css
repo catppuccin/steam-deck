@@ -32,6 +32,7 @@
   --ctp-surface0: #ccd0da;
   --ctp-base: #eff1f5;
   --ctp-base-filter: brightness(0%) invert(95%) sepia(20%) saturate(181%) hue-rotate(179deg) brightness(98%) contrast(96%);
+  --ctp-base-rgb: 239, 241, 245;
   --ctp-mantle: #e6e9ef;
   --ctp-crust: #dce0e8;
 }
