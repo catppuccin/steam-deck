@@ -164,7 +164,7 @@
 			"default": "No",
 			"values": {
 				"Yes": {
-					"tweaks/keyboard.css": [
+					"keyboard.css": [
 						"SP"
 					]
 				},
