@@ -5,23 +5,23 @@
   --ctp-pink: #f4b8e4;
   --ctp-mauve: #ca9ee6;
   --ctp-red: #e78284;
-  --ctp-red-svg: brightness(0%) invert(62%) sepia(51%) saturate(418%) hue-rotate(310deg) brightness(87%) contrast(107%);
+  --ctp-red-filter: brightness(0%) invert(62%) sepia(51%) saturate(418%) hue-rotate(310deg) brightness(87%) contrast(107%);
   --ctp-maroon: #ea999c;
   --ctp-peach: #ef9f76;
-  --ctp-peach-svg: brightness(0%) invert(70%) sepia(13%) saturate(1430%) hue-rotate(334deg) brightness(98%) contrast(91%);
+  --ctp-peach-filter: brightness(0%) invert(70%) sepia(13%) saturate(1430%) hue-rotate(334deg) brightness(98%) contrast(91%);
   --ctp-yellow: #e5c890;
   --ctp-green: #a6d189;
-  --ctp-green-svg: brightness(0%) invert(77%) sepia(19%) saturate(636%) hue-rotate(52deg) brightness(101%) contrast(86%);
+  --ctp-green-filter: brightness(0%) invert(77%) sepia(19%) saturate(636%) hue-rotate(52deg) brightness(101%) contrast(86%);
   --ctp-teal: #81c8be;
   --ctp-sky: #99d1db;
   --ctp-sapphire: #85c1dc;
   --ctp-blue: #8caaee;
-  --ctp-blue-svg: brightness(0%) invert(72%) sepia(80%) saturate(1865%) hue-rotate(189deg) brightness(99%) contrast(89%);
+  --ctp-blue-filter: brightness(0%) invert(72%) sepia(80%) saturate(1865%) hue-rotate(189deg) brightness(99%) contrast(89%);
   --ctp-lavender: #babbf1;
 
   /* Element Colors */
   --ctp-text: #c6d0f5;
-  --ctp-text-svg: brightness(0%) invert(82%) sepia(19%) saturate(460%) hue-rotate(193deg) brightness(99%) contrast(93%);
+  --ctp-text-filter: brightness(0%) invert(82%) sepia(19%) saturate(460%) hue-rotate(193deg) brightness(99%) contrast(93%);
   --ctp-subtext1: #b5bfe2;
   --ctp-subtext0: #a5adce;
   --ctp-overlay2: #949cbb;
@@ -31,7 +31,8 @@
   --ctp-surface1: #51576d;
   --ctp-surface0: #414559;
   --ctp-base: #303446;
-  --ctp-base-svg: brightness(0%) invert(19%) sepia(19%) saturate(789%) hue-rotate(192deg) brightness(89%) contrast(91%);
+  --ctp-base-filter: brightness(0%) invert(19%) sepia(19%) saturate(789%) hue-rotate(192deg) brightness(89%) contrast(91%);
+  --ctp-base-rgb: 48, 52, 70;
   --ctp-mantle: #292c3c;
   --ctp-crust: #232634;
 }

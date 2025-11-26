@@ -48,16 +48,15 @@
 
 /* Keyboard Symbols when hovered */
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_ToggleOn_3Qrs- img {
-  filter: var(--ctp-base-svg) !important;
+  filter: var(--ctp-base-filter) !important;
 }
 
 /* Emoji Keyboard L1 and L2 symbols */
 .DefaultTheme .virtualkeyboard_KeyboardEmojiHeader_Qihxj img {
-  filter: var(--ctp-base-svg);
+  filter: var(--ctp-base-filter);
 }
 
 /* Selected keyboard glyph */
-._2KhPXikozxMpbIRo_6jPxW._21EoN2ZlmHNY3fjho_HMae img
-{
-  filter: var(--ctp-base-svg);
+._2KhPXikozxMpbIRo_6jPxW._21EoN2ZlmHNY3fjho_HMae img {
+  filter: var(--ctp-base-filter);
 }
