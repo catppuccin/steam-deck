@@ -135,6 +135,42 @@ HOME PAGE
   color: var(--ctp-surface0);
 }
 
+/* discovery queue overlay */
+
+/* background text */
+._1xJSMubUWBlahkrtb4IFTc {
+  background: var(--ctp-base);
+}
+/* game name */
+.VVNgZo2T-rubrTvNMPSoh ._3lk6f1XI_loCIhBevOddHP {
+  color: var(--ctp-text);
+}
+/* negative reiviews color */
+._3qvppfM_u0yn2jrpoUo8RM ._3ZWs0kB-1tuqQtie9KK-E7._3nU5IeDnKKFQIHt8jU2TmG {
+  color: var(--ctp-red);
+}
+/* progress bar filled */
+._3ed1Al-hFnjq4HQeLo6cIT ._2R187sMx7MTX5XQ2KN3Xnx {
+  background-color: var(--ctp-text);
+}
+/* progress bar unviewed */
+._2R187sMx7MTX5XQ2KN3Xnx {
+  background-color: var(--ctp-surface0);
+  opacity: 100%;
+}
+/* you've reached the end text */
+.Tvu6zAI3kbdYjGQGbypuQ ._2o4_HDWD3bRMkoJT4RfiMv {
+  color: var(--ctp-text);
+}
+/* counters */
+.Tvu6zAI3kbdYjGQGbypuQ ._3vRcTzxpTSFxcxVm9BKrlQ ._2w3xjuBZIgZJPO9HAa5Hb0 .jM11lU9OD9-2Hlu3Akwtj {
+  color: var(--ctp-text);
+}
+/* View link */
+._2u0N2gUX44_tavazJJb_QP ._3ZdNCUMz9KZMkwPZlO8zmi {
+  color: var(--ctp-sapphire);
+}
+
 /*
 TOP BAR
 */
@@ -216,9 +252,7 @@ TOP BAR
 }
 /* library background */
 /* Later like later later */
-._2orc8-PBheKd3BvuGXV6ZL {
-  background-color: var(--ctp-crust);
-}
+
 /*
 LIBRARY
 */
@@ -970,6 +1004,7 @@ SETTINGS
 /*
 QAM
 */
+
 .quickaccessmenu_HeaderContainer_3k5MH,
 .footer_BasicFooter_3T1iF.footer_QuickAccessFooter_VdbQ_ {
   background: var(--ctp-crust);
@@ -1194,6 +1229,14 @@ DECKY LOADER
 .tab-master-modal-scope .filter-start-cont .filter-accordion-arrow, .tab-master-modal-scope .filter-start-cont .filter-label {
   color: var(--ctp-subtext1) !important;
 }
+
+/* css loader */
+
+/* update notifier */
+.CssLoader_ThemeBrowser_SingleItem_NotifBubble {
+  background: linear-gradient(45deg, transparent 49%, var(--ctp-yellow) 50%) !important;
+}
+
 
 /*
 OTHER
