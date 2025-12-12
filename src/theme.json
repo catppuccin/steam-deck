@@ -3,18 +3,23 @@
 	"name": "Catppuccin",
 	"author": "ozwaldorf, Luna-Terra-CG, soradotwav",
 	"target": "System-Wide",
-	"version": "v1.1.2",
+	"version": "v1.1.4",
 	"manifest_version": 5,
 	"inject": {
 		"shared.css": [
 			"SP",
 			"MainMenu",
-			"QuickAccess"
+			"QuickAccess",
+			"SteamLibraryWindow|Steam",
+			"~https://store.steampowered.com/~"
 		],
 		"svg.css": [
 			"SP",
 			"MainMenu",
 			"QuickAccess"
+		],
+		"store.css": [
+			"~https://store.steampowered.com/~"
 		]
 	},
 	"dependencies": {},
@@ -27,28 +32,32 @@
 					"flavors/mocha.css": [
 						"SP",
 						"MainMenu",
-						"QuickAccess"
+						"QuickAccess",
+						"~https://store.steampowered.com/~"
 					]
 				},
 				"Macchiato": {
 					"flavors/macchiato.css": [
 						"SP",
 						"MainMenu",
-						"QuickAccess"
+						"QuickAccess",
+						"~https://store.steampowered.com/~"
 					]
 				},
 				"Frappe": {
 					"flavors/frappe.css": [
 						"SP",
 						"MainMenu",
-						"QuickAccess"
+						"QuickAccess",
+						"~https://store.steampowered.com/~"
 					]
 				},
 				"Latte": {
 					"flavors/latte.css": [
 						"SP",
 						"MainMenu",
-						"QuickAccess"
+						"QuickAccess",
+						"~https://store.steampowered.com/~"
 					]
 				}
 			},
@@ -62,98 +71,112 @@
 					"accents/rosewater.css": [
 						"SP",
 						"MainMenu",
-						"QuickAccess"
+						"QuickAccess",
+						"~https://store.steampowered.com/~"
 					]
 				},
 				"Flamingo": {
 					"accents/flamingo.css": [
 						"SP",
 						"MainMenu",
-						"QuickAccess"
+						"QuickAccess",
+						"~https://store.steampowered.com/~"
 					]
 				},
 				"Pink": {
 					"accents/pink.css": [
 						"SP",
 						"MainMenu",
-						"QuickAccess"
+						"QuickAccess",
+						"~https://store.steampowered.com/~"
 					]
 				},
 				"Mauve": {
 					"accents/mauve.css": [
 						"SP",
 						"MainMenu",
-						"QuickAccess"
+						"QuickAccess",
+						"~https://store.steampowered.com/~"
 					]
 				},
 				"Red": {
 					"accents/red.css": [
 						"SP",
 						"MainMenu",
-						"QuickAccess"
+						"QuickAccess",
+						"~https://store.steampowered.com/~"
 					]
 				},
 				"Maroon": {
 					"accents/maroon.css": [
 						"SP",
 						"MainMenu",
-						"QuickAccess"
+						"QuickAccess",
+						"~https://store.steampowered.com/~"
 					]
 				},
 				"Peach": {
 					"accents/peach.css": [
 						"SP",
 						"MainMenu",
-						"QuickAccess"
+						"QuickAccess",
+						"~https://store.steampowered.com/~"
 					]
 				},
 				"Yellow": {
 					"accents/yellow.css": [
 						"SP",
 						"MainMenu",
-						"QuickAccess"
+						"QuickAccess",
+						"~https://store.steampowered.com/~"
 					]
 				},
 				"Green": {
 					"accents/green.css": [
 						"SP",
 						"MainMenu",
-						"QuickAccess"
+						"QuickAccess",
+						"~https://store.steampowered.com/~"
 					]
 				},
 				"Teal": {
 					"accents/teal.css": [
 						"SP",
 						"MainMenu",
-						"QuickAccess"
+						"QuickAccess",
+						"~https://store.steampowered.com/~"
 					]
 				},
 				"Sky": {
 					"accents/sky.css": [
 						"SP",
 						"MainMenu",
-						"QuickAccess"
+						"QuickAccess",
+						"~https://store.steampowered.com/~"
 					]
 				},
 				"Sapphire": {
 					"accents/sapphire.css": [
 						"SP",
 						"MainMenu",
-						"QuickAccess"
+						"QuickAccess",
+						"~https://store.steampowered.com/~"
 					]
 				},
 				"Blue": {
 					"accents/blue.css": [
 						"SP",
 						"MainMenu",
-						"QuickAccess"
+						"QuickAccess",
+						"~https://store.steampowered.com/~"
 					]
 				},
 				"Lavender": {
 					"accents/lavender.css": [
 						"SP",
 						"MainMenu",
-						"QuickAccess"
+						"QuickAccess",
+						"~https://store.steampowered.com/~"
 					]
 				}
 			},
