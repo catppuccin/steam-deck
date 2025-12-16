@@ -1,10 +1,12 @@
 /*
 STORE
 */
+
 /* generic background color */
 .responsive_page_content {
   background: var(--ctp-base)
 }
+
 /*
 TOP BAR
 */
@@ -149,7 +151,15 @@ html.tablet .review_box .content,
 ._3456EX4aC94XtIz6d_Qhsl,
 html.tablet .game_purchase_price,
 html.tablet .game_area_dlc_row.ds_flagged .game_area_dlc_name,
-.game_area_dlc_price {
+.game_area_dlc_price,
+html.tablet .game_description_column,
+._3FBEGAfvLQj4qYjstmZAPE._1g3WgidGN68CDX4XQPGnl6,
+html.tablet .game_meta_data p,
+html.tablet .franchise_name,
+.franchise_notice,
+.review_award_count,
+html.tablet .game_area_purchase h1,
+#eula_language_label {
   color: var(--ctp-text) !important;
   opacity: 1;
 }
@@ -158,12 +168,14 @@ html.tablet #reportBtn img, html.tablet #shareBtn img {
 }
 html.tablet .app_header_grid_container .grid_label,
 #review_create p,
-html.tablet .review_box .hours.ellipsis {
+html.tablet .review_box .hours.ellipsis,
+.block .block_title {
   color: var(--ctp-subtext1);
 }
 html.tablet .app_header_grid_container .grid_content.grid_date,
 .review_box .postedDate,
-html.tablet .review_box .review_was_helpful, html.tablet .review_box .vote_info {
+html.tablet .review_box .review_was_helpful, html.tablet .review_box .vote_info,
+#game_area_legal {
   color: var(--ctp-subtext0);
   opacity: 1;
 }
@@ -174,7 +186,10 @@ html.tablet .review_box .review_was_helpful, html.tablet .review_box .vote_info 
 html.tablet #my_activity .details_block a,
 html.tablet .game_area_details_specs_ctn .label,
 body.v6 h2.user_reviews_header .header_links a,
-.bundle_label {
+.bundle_label,
+html.tablet .block.recommendation_reasons a,
+div.bb_h2, .bb_wysiwyg h2,
+.game_purchase_discount_countdown {
   color: var(--ctp-blue);
 }
 .ds_flag {
@@ -183,8 +198,10 @@ body.v6 h2.user_reviews_header .header_links a,
 .ds_flag.ds_owned_flag {
   background: url("data:image/svg+xml,%3Csvg width='11' height='10' viewBox='0 0 11 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='1' y='1' width='8' height='2' fill='%23111111'/%3E%3Crect x='1' y='4' width='8' height='2' fill='%23111111'/%3E%3Crect x='1' y='7' width='8' height='2' fill='%23111111'/%3E%3C/svg%3E%0A") no-repeat 4px 4px var(--ctp-accent-color);
 }
-.game_review_summary.positive {
+.game_review_summary.positive,
+html.tablet .discount_block.no_discount .bundle_base_discount {
   color: var(--ctp-green);
+  opacity: 1;
 }
 .package_in_library_flag.in_own_library {
   color: var(--ctp-base);
@@ -193,8 +210,25 @@ body.v6 h2.user_reviews_header .header_links a,
 #review_create .error_message, .game_recommendation .error_message, .recommend_game .error_message {
   color: var(--ctp-red);
 }
-.mPD42Bwx3VAs0qw9wubf2 {
+.mPD42Bwx3VAs0qw9wubf2,
+.game_review_summary.mixed {
   color: var(--ctp-peach) !important;
+}
+/* icons */
+.ico18 {
+  filter: var(--ctp-base-filter);
+}
+.review_box .vote_header .thumb,
+img.category_icon,
+p.reason.info:before,
+.ico16 {
+  filter: var(--ctp-text-filter);
+}
+p.reason.for:before {
+  filter: var(--ctp-green-filter);
+}
+.reward_btn_icon {
+  filter: var(--ctp-peach-filter);
 }
 /* buttons */
 html.tablet .details_block a.linkbar, html.tablet .responsive_banner_link, html.tablet .user_reviews, html.tablet .purchase_options_banners, html.tablet .glance_tags_ctn .glance_tags .app_tag,
@@ -202,14 +236,21 @@ html.tablet .details_block a.linkbar, html.tablet .responsive_banner_link, html.
 html.tablet #bannerLanguages.responsive_banner_link,
 html.tablet .review_box .review_award, html.tablet .review_box .btnv6_grey_black,
 html.tablet h2 span.note a,
-html.tablet .game_area_dlc_row.odd, html.tablet .game_area_dlc_row.even {
+html.tablet .game_area_dlc_row.odd, html.tablet .game_area_dlc_row.even,
+.dxuI55RF56-dzbuXjj2W0,
+html.tablet .block.recommendation_reasons .similar_recent_apps_container > a,
+#eula_main select.gray_bevel,
+#eula_main .block_content,
+.Cek1s5Ixk2xYmkqjjESD0, ._2dGPTYWTKq3CirJwPXKw2b {
   background: var(--ctp-surface0);
   color: var(--ctp-text) !important;
 }
 h2 .note em {
   color: var(--ctp-text);
 }
-.btnv6_grey_black {
+.btnv6_grey_black,
+._3KAysk4dlhWETa6ixz7V2j,
+.XIDYByW4BEOm-YiOiwGmO ._3o1Ri_nyL6GsPbTQZGSZcT ._33J1_MYWJVjXbCkBFCNr6f {
   background: var(--ctp-surface1) !important;
   color: var(--ctp-text) !important;
 }
@@ -252,6 +293,14 @@ html.tablet input.text, html.tablet .wallet_code_input_ctn .redeem_input_box_tex
   background: var(--ctp-surface0);
   color: var(--ctp-text);
 }
+html.tablet .DRM_notice {
+  background: -webkit-linear-gradient(-45deg in oklab, var(--ctp-peach) 0%, var(--ctp-yellow) 100%);
+  color: var(--ctp-base);
+}
+html.tablet .DRM_notice a {
+  color: var(--ctp-base) !important;
+}
+
 /*
 STORE HOME
 */
@@ -265,8 +314,18 @@ body.sale_page_background,
   background-image: none !important;
   background-color: var(--ctp-base);
 }
+body.v6 .page_content_ctn.dark {
+  background-color: var(--ctp-mantle);
+}
 ._3notzMjxQtogi11XHZMYXI,
-._2hhNOdcC6yLwL_rugP3YLf._37iggltdgh0RtNIECJCfOj:not(._3_q87LhuWitbYSEHOVKYlM) {
+._2hhNOdcC6yLwL_rugP3YLf._37iggltdgh0RtNIECJCfOj:not(._3_q87LhuWitbYSEHOVKYlM),
+.spotlight_content,
+.store_capsule .discount_block.daily_deal_discount  > .discount_prices,
+html.tablet .tab_item.focus,
+html.tablet .tab_item,
+html.tablet .discount_block .discount_prices, html.tablet .discount_block, html.tablet .carousel_container.maincap .discount_block,
+html.tablet .home_content a.home_content_item .home_content_item_info,
+html.tablet .home_content.single {
   background: var(--ctp-surface0);
 }
 .v9uRg57bwOaPsvAnkXESO .MvLJDXjfbme8Uw3OERaCb img {
@@ -276,18 +335,53 @@ body.sale_page_background,
   background-image: none !important;
   background-color: var(--ctp-mantle);
 }
+.home_cluster_ctn {
+  background: var(--ctp-base);
+}
+.store_capsule,
+.recently_updated .store_capsule {
+  background: radial-gradient(62.67% 62.67% at 62.67% 100% in oklab, var(--ctp-surface1) 0%, var(--ctp-surface0) 100%);
+}
+html.tablet .discount_block_large .discount_prices,
+.carousel_container.spotlight .carousel_items > * .store_capsule.daily_deal {
+  background: var(--ctp-surface1);
+}
+.deep_dive_tag {
+  background-color: var(--ctp-surface1) !important;
+  color: var(--ctp-text) !important;
+}
 /* text */
 div.SPYFj8pCLpNmnuQJEDobC, div.QuKtTJ4LCPUlQeWYfLNyX, div._3s7cUqglDds9wzcWb7OLz6, h1.SPYFj8pCLpNmnuQJEDobC, h2.QuKtTJ4LCPUlQeWYfLNyX, h3._3s7cUqglDds9wzcWb7OLz6,
 ._2WMiQ5MbP_ReyaX5DOpoUD,
 ._3OVjwYGR60R4K6d5S_bIG3,
 ._3CGy1EaqFgVMH1Atf-TZBY ._3TmdJrZXFOKA4pBsq7O-tk,
-._3CGy1EaqFgVMH1Atf-TZBY ._1B6prl4hO24U-nvPBCh2Nr {
+._3CGy1EaqFgVMH1Atf-TZBY ._1B6prl4hO24U-nvPBCh2Nr,
+._1_nZSkaKcUeXxQpXV5ulcm ._3UBx0c_4mXJqBclhB-8J- ._1mW-U_MsASmVMPP02-3StV,
+._3j4dI1yA7cRfCvK8h406OB,
+.bE2EA4JB9SDa1PZ7HSFL- ._17Fnl-wNZIrLjca5rOwwlT a,
+.home_page_content_title,
+.spotlight_content .spotlight_title,
+.dailydeal_desc,
+html.responsive.tablet .home_page_content > *[data-content-dive=true] .btn_small > span, html.responsive.tablet .home_page_content > *[data-content-dive=true] .btn_small_tall > span,
+html.tablet .tab_item .tab_item_name,
+.ellipsis {
   color: var(--ctp-text) !important;
+}
+html.responsive.tablet .home_page_content > *[data-content-dive=true] .btn_small > span, html.responsive.tablet .home_page_content > *[data-content-dive=true] .btn_small_tall.gpfocus > span {
+  color: var(--ctp-base) !important;
+}
+#content_callout .more_content_title {
+  color: var(--ctp-blue);
 }
 #SaleSection_50333 b {
   color: var(--ctp-green);
 }
-._1qvTFgmehUzbdYM9cw0eS7 {
+._1qvTFgmehUzbdYM9cw0eS7,
+.spotlight_block .spotlight_content>.spotlight_title, .spotlight_body,
+.recently_updated .store_capsule .recently_updated_desc,
+.tab_item_details,
+#content_callout .more_content_desc,
+.home_content.single {
   color: var(--ctp-subtext1);
 }
 .BasicUI ._3CGy1EaqFgVMH1Atf-TZBY ._3cziHBEgsSUnjyT5uXe5EX.gpfocus {
@@ -296,21 +390,43 @@ div.SPYFj8pCLpNmnuQJEDobC, div.QuKtTJ4LCPUlQeWYfLNyX, div._3s7cUqglDds9wzcWb7OLz
 ._3CGy1EaqFgVMH1Atf-TZBY ._1B6prl4hO24U-nvPBCh2Nr::after {
   background: var(--ctp-text) !important;
 }
+.compat_logo {
+  filter: var(--ctp-green-filter);
+  opacity: 1;
+}
+#SaleSection_61051 .SaleSectionForCustomCSS .SaleSectionLabelCtn::before {
+  filter: var(--ctp-text-filter);
+}
+
 /* buttons */
 .BasicUI ._2ESKkqmk68QMRArbxaUwm0 ._2cY4Vl4F1_9jlRxk7Su9uw,
 .BasicUI ._18byEIHFiivSklOwKqIx2b ._1edLKYpcJyTYC7ku9fYI1_ .Eh-ow8RpArn1HQyPR8RFY .KDLASaMCaASZ6LnF3kQY8,
 .BasicUI ._18byEIHFiivSklOwKqIx2b ._36qA-3ePJIusV1oKLQep-w ._2tkiJ4VfEdI9kq1agjZyNz,
-button.DialogButton, button.DialogButton.Primary {
+button.DialogButton, button.DialogButton.Primary,
+html.tablet .carousel_container.maincap .info {
   color: var(--ctp-text);
   background-color: var(--ctp-surface0);
 }
-.BasicUI ._18byEIHFiivSklOwKqIx2b ._1edLKYpcJyTYC7ku9fYI1_ .Eh-ow8RpArn1HQyPR8RFY .KDLASaMCaASZ6LnF3kQY8.qYruXlm9Lip3i2lmnsxum {
+.btnv6_white_transparent {
+  border: none;
+  background-color: var(--ctp-surface0);
+}
+html.tablet #content_more .home_content h2 a,
+html.tablet #content_more .home_content h2 a:hover, html.tablet #content_more .home_content h2 a.gpfocus {
+  background-color: var(--ctp-surface0);
+  color: var(--ctp-text) !important;
+}
+.BasicUI ._18byEIHFiivSklOwKqIx2b ._1edLKYpcJyTYC7ku9fYI1_ .Eh-ow8RpArn1HQyPR8RFY .KDLASaMCaASZ6LnF3kQY8.qYruXlm9Lip3i2lmnsxum,
+._2s-O5T3qJJYR2AUq4b9jIN._2xCT1pUf2c9TICHoMcQE0d:not(.Discounted) ._3j4dI1yA7cRfCvK8h406OB {
   background-color: var(--ctp-surface1);
 }
 .BasicUI ._2ESKkqmk68QMRArbxaUwm0 ._2cY4Vl4F1_9jlRxk7Su9uw.gpfocus,
 .BasicUI ._18byEIHFiivSklOwKqIx2b ._1edLKYpcJyTYC7ku9fYI1_ .Eh-ow8RpArn1HQyPR8RFY .KDLASaMCaASZ6LnF3kQY8.gpfocus,
 .BasicUI ._18byEIHFiivSklOwKqIx2b ._36qA-3ePJIusV1oKLQep-w ._2tkiJ4VfEdI9kq1agjZyNz.gpfocus,
-button.DialogButton.gpfocus, button.DialogButton.Primary.gpfocus {
+button.DialogButton.gpfocus, button.DialogButton.Primary.gpfocus,
+html.tablet .big_button,
+html.tablet .big_button.gpfocus,
+.btnv6_white_transparent.gpfocus:not(.btn_disabled):not(:disabled) {
   color: var(--ctp-base);
   background-color: var(--ctp-accent-color);
 }
@@ -329,11 +445,14 @@ button.DialogButton.gpfocus, button.DialogButton.Primary.gpfocus {
 /* game card */
 /* background */
 .zje61fgPER-HdQgXObOdD {
-  background: var(--ctp-base);
+  background: var(--ctp-surface0);
+}
+.i2PTzRNXOK1OXvXb9-wzd {
+  padding-top: 0px;
 }
 /* catagories */
 ._1I1jYL96y3TioBypGWXu9Q .Tj8IiAr9Q94JJ_2ZD1p-R {
-  background: var(--ctp-surface0);
+  background: var(--ctp-surface1);
   color: var(--ctp-text);
 }
 .BasicUI ._3FJnZuxmPA_MjxsF8BQQ5L {
@@ -363,6 +482,7 @@ button.DialogButton.gpfocus, button.DialogButton.Primary.gpfocus {
 .BasicUI ._3NhLu7mTdty7JufpSpz6Re ._3j4dI1yA7cRfCvK8h406OB {
   color: var(--ctp-text);
 }
+
 /*
 CHARTS
 */
@@ -577,10 +697,11 @@ html.tablet .discount_block .discount_pct, html.tablet .discount_pct, html.table
   background: var(--ctp-green);
   color: var(--ctp-base);
 }
+
 /* buttons */
 html.tablet .dselect_container button.trigger {
-  color: var(--ctp-text);
-  background: var(--ctp-surface0);
+  color: var(--ctp-text) !important;
+  background: var(--ctp-surface0) !important;
 }
 html.tablet .btnv6_blue_hoverfade {
   background: var(--ctp-accent-color);
@@ -598,7 +719,8 @@ html.tablet #deck_compat_learn_more_btn.gpfocus {
   background-color: var(--ctp-accent-color);
 }
 /* backgrounds */
-html.tablet .search_result_row {
+html.tablet .search_result_row,
+html.tablet .search_result_row:hover, html.tablet .search_result_row.gpfocus {
   background: var(--ctp-surface0);
 }
 /* search bar */
