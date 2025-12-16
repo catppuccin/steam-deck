@@ -633,10 +633,10 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active.Primary {
 .DeckVerifiedModalDialog .DialogContent {
   background: var(--ctp-base) !important;
 }
-._2WJTd3a8tzPCkIBmvfBD79 {
+._3c6bxMGW_DialogTitle {
   color: var(--ctp-text);
 }
-._32fPpbyivR63XHk0qiRv5n {
+._3c6bxMGW_CompatibilityDetailsRow {
   color: var(--ctp-text);
 }
 /* protondb */
@@ -1410,58 +1410,14 @@ button._EifR99lo_Button.DialogButton.Disabled, button._EifR99lo_Button.DialogBut
 ._zjA7UbA1_InlineChordContainer ._zjA7UbA1_InlineChordControlBinding {
   color: var(--ctp-subtext1);
 }
-
 /* Home */
 ._J5rxTYCm_BasicHome {
   color: var(--ctp-subtext0);
 }
-
-/* ????
- . *BasicUI ._YrHsqZUv_LibrarySettings {
- background: var(--ctp-base);
- }
- .BasicUI ._tTQwnZZA_ContentManagement {
- background: var(--ctp-base);
- }
-
-.BasicUI ._EifR99lo_GamepadDialogContent .DialogControlsSectionHeader {
-  color: var(--ctp-text);
-}
-
-._yqTaHHgn_Button._yqTaHHgn_Active, ._yqTaHHgn_Button._yqTaHHgn_Active:hover {
-  background-color: var(--ctp-accent-color);
-  color: var(--ctp-base);
-}
-._yqTaHHgn_Button {
-  background-color: var(--ctp-surface0);
-  color: var(--ctp-text);
-}
-._EifR99lo_LabelFieldValue {
-color: var(--ctp-subtext0);
-}
-
-
-does not not affect drive settings?
-
-._jdZzm8ZV_UserListHeader {
-color: var(--ctp-text);
-}
-*/
-/* Settings Menu Fixes */
-
-
-
-
-
-
-
-
+/* unsorted */
 ._tTQwnZZA_InstallFolder {
   color: var(--ctp-subtext1);
 }
-
-
-
 .BasicUI ._tTQwnZZA_AppsGrid ._tTQwnZZA_AppBodyLeft ._tTQwnZZA_AppInfo ._tTQwnZZA_AppUsageValue {
   color: var(--ctp-subtext0);
 }
@@ -1491,8 +1447,6 @@ color: var(--ctp-text);
   background-color: var(--ctp-base);
   color: var(--ctp-text);
 }
-
-
 ._EifR99lo_Field.gpfocuswithin ._EifR99lo_LabelFieldValue {
   color: var(--ctp-subtext0);
 }
@@ -1552,8 +1506,6 @@ fill: var(--ctp-accent-color);
 ._EifR99lo_Field._EifR99lo_WithFirstRow._EifR99lo_VerticalAlignCenter._EifR99lo_InlineWrapShiftsChildrenBelow._EifR99lo_WithBottomSeparatorStandard._EifR99lo_ExtraPaddingOnChildrenBelow._EifR99lo_StandardPadding._EifR99lo_HighlightOnFocus.Panel.Focusable.gpfocuswithin {
   background: var(--ctp-surface0) !important;
 }
-
-
 
 /*
 OVERLAY MENUS
@@ -2020,14 +1972,14 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active {
 }
 
 /* Controller Settings Menu */
-#modeid-7-input-unknown\\\\ EControllerModeInput\\\\ \\\\(\\\\ 57\\\\ \\\\)-binding-0,
-#modeid-7-input-unknown\\\\ EControllerModeInput\\\\ \\\\(\\\\ 58\\\\ \\\\)-binding-0,
-#modeid-7-input-unknown\\\\ EControllerModeInput\\\\ \\\\(\\\\ 55\\\\ \\\\)-binding-0,
-#modeid-7-input-unknown\\\\ EControllerModeInput\\\\ \\\\(\\\\ 56\\\\ \\\\)-binding-0,
-#modeid-16-input-unknown\\\\ EControllerModeInput\\\\ \\\\(\\\\ 57\\\\ \\\\)-binding-0,
-#modeid-16-input-unknown\\\\ EControllerModeInput\\\\ \\\\(\\\\ 58\\\\ \\\\)-binding-0,
-#modeid-16-input-unknown\\\\ EControllerModeInput\\\\ \\\\(\\\\ 55\\\\ \\\\)-binding-0,
-#modeid-16-input-unknown\\\\ EControllerModeInput\\\\ \\\\(\\\\ 56\\\\ \\\\)-binding-0 {
+#modeid-7-input-unknown\\\\\\\\\\\\\\\\ EControllerModeInput\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\ 57\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\)-binding-0,
+#modeid-7-input-unknown\\\\\\\\\\\\\\\\ EControllerModeInput\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\ 58\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\)-binding-0,
+#modeid-7-input-unknown\\\\\\\\\\\\\\\\ EControllerModeInput\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\ 55\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\)-binding-0,
+#modeid-7-input-unknown\\\\\\\\\\\\\\\\ EControllerModeInput\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\ 56\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\)-binding-0,
+#modeid-16-input-unknown\\\\\\\\\\\\\\\\ EControllerModeInput\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\ 57\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\)-binding-0,
+#modeid-16-input-unknown\\\\\\\\\\\\\\\\ EControllerModeInput\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\ 58\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\)-binding-0,
+#modeid-16-input-unknown\\\\\\\\\\\\\\\\ EControllerModeInput\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\ 55\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\)-binding-0,
+#modeid-16-input-unknown\\\\\\\\\\\\\\\\ EControllerModeInput\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\ 56\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\)-binding-0 {
   background-color: var(--ctp-base) !important;
 }
 ._Zg58p7Ea_EditableValue, ._Zg58p7Ea_FakeEditableValue {
