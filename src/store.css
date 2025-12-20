@@ -496,6 +496,9 @@ CHARTS
   background: linear-gradient(180deg in oklab, #ecf0f500 94%, var(--ctp-text) 95%, var(--ctp-text) 100%);
   color: var(--ctp-text) !important;
 }
+.KSZ9hmL_XbHI_tlSUQylO ._2X7eT07iC6SQRu_uj4Web3 .Lj-O1sumeRPMtyePxydGf a {
+  color: var(--ctp-text);
+}
 
 /* Charts overview */
 /* text */
@@ -533,6 +536,18 @@ CHARTS
   color: var(--ctp-text);
   font-weight: 500;
 }
+._11u1MRqFV4IB3t8XVzUnNv ._9BzHAji4VzoMjs7kR24hE {
+  color: var(--ctp-text);
+}
+._3Qf-XadcjXMDgnu95-quHx ._2TEWmnx8AyVWR6eUSiFGUq {
+  color: var(--ctp-text);
+}
+._3Qf-XadcjXMDgnu95-quHx ._3xyiO9oYDNEFLZEzIwb6x {
+  color: var(--ctp-text);
+}
+.recharts-text, .recharts-cartesian-axis-tick-value {
+  filter: var(--ctp-text-filter) !important;
+}
 /* backgrounds */
 ._2rArjHHk-sJxtm0AQK-ifY {
   background: var(--ctp-base);
@@ -541,14 +556,25 @@ CHARTS
 ._3BNYFDMfEzv1suZ5vOElzP {
   background: var(--ctp-surface0);
 }
+}
 /* buttons */
 ._3BNYFDMfEzv1suZ5vOElzP ._2HZLNwzzD55tTBYgo1DBPf {
   background-color: var(--ctp-surface1);
+  color: var(--ctp-text);
 }
 ._2ZaAF6Kb40APdlPG6f13LH a {
   width: 97%;
   padding: 12px;
   background: var(--ctp-surface0);
+  color: var(--ctp-text);
+}
+._24xXqJoM1vk2jNIc6fU-LD {
+  background-color: var(--ctp-accent-color);
+  color: var(--ctp-base);
+}
+._3XGRklQrZMakU2xaYB0cLD {
+  background-color: var(--ctp-surface1) !important;
+  color: var(--ctp-text) !important;
 }
 
 /* Top Sellers */
@@ -583,7 +609,25 @@ CHARTS
 ._3arZn0BMPzyhcYNADe193m ._2-RN6nWOY56sNmcDHu069P .xm7JpnZElM9XGF4ruu0Z- {
   color: var(--ctp-text);
 }
-
+/* Steam Deck */
+/* text */
+._3Im7owFsdI0Lt9cu4eU65T {
+  color: var(--ctp-text);
+}
+._2ll5irwHKJ6i4VUArLyaOo {
+  color: var(--ctp-accent-color);
+}
+._3hT5aJvGLEBs1ZQ_nXE4mq {
+  color: var(--ctp-subtext1);
+}
+._1ZdIh_OWh9DUr5O4OCypQn ._3VOg1Au8rs5wnnu2fXny0M, ._1ZdIh_OWh9DUr5O4OCypQn .CQijl-dgrfQHKUydm9c2F {
+  color: var(--ctp-base);
+  text-shadow: none;
+}
+/* icons */
+.kEODDe6M5cuHWuPlcQexX {
+  color: var(--ctp-green) !important;
+}
 /*
 WISHLIST
 */

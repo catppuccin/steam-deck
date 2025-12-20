@@ -2,9 +2,6 @@
 HOME PAGE
 */
 
-/* header art filter */
-._tjjBDocm_RecentGamesBackground {}
-
 /* hovered game glow */
 .gpfocuswithin ~ ._C1nS6cpP_CarouselCapsuleBackgroundGlow,
 :hover ~ ._C1nS6cpP_CarouselCapsuleBackgroundGlow {
@@ -20,6 +17,9 @@ HOME PAGE
 /* home backgrounds */
 ._J5rxTYCm_BasicHome._J5rxTYCm_OpaqueBackground {
   background: var(--ctp-base);
+}
+._awNNWnmm_TabContentsScroll._TabContentsScroll._otzIPpej_ScrollPanel._otzIPpej_ScrollY.Panel.Focusable {
+  background-color: rgba(0, 0, 0, 0) !important;
 }
 ._QcGXoqZ7_TabbedContent {
   background: var(--ctp-base);
@@ -93,13 +93,32 @@ HOME PAGE
 ._LLGUZIsx_GameCapsule ._LLGUZIsx_BottomBar {
   background-color: var(--ctp-surface0);
 }
+/* recently updated card text */
+._263GZqVc_PatchNotes ._263GZqVc_EventType._263GZqVc_EventType13 {
+  color: var(--ctp-blue);
+}
+._263GZqVc_PatchNotes {
+  color: var(--ctp-subtext0);
+}
 /* recently updated card top */
 .BasicUI ._263GZqVc_RecentlyCompletedItem {
   background: var(--ctp-surface0);
 }
 /* recently updated card bottom */
 .BasicUI ._263GZqVc_BottomSection {
-  background-color: var(--ctp-surface0);
+  background-color: var(--ctp-surface1);
+}
+/* friends */
+/* steamdeck icon */
+._ae5hG0p6_PersonaStatusIcon.ingame .SVGIcon_SteamDeck path.GamepadMode, .GamepadMode ._ae5hG0p6_PersonaStatusIcon.ingame .SVGIcon_SteamDeck path, ._ae5hG0p6_PersonaStatusIcon.ingame .SVGIcon_VRIcon path.GamepadMode, .GamepadMode ._ae5hG0p6_PersonaStatusIcon.ingame .SVGIcon_VRIcon path, ._ae5hG0p6_PersonaStatusIcon.ingame .SVGIcon_MobilePhone path.GamepadMode, .GamepadMode ._ae5hG0p6_PersonaStatusIcon.ingame .SVGIcon_MobilePhone path, ._ae5hG0p6_PersonaStatusIcon.ingame .SVGIcon_BigPicture path.GamepadMode, .GamepadMode ._ae5hG0p6_PersonaStatusIcon.ingame .SVGIcon_BigPicture path {
+  fill: var(--ctp-green);
+}
+._ae5hG0p6_PersonaStatusIcon.online .SVGIcon_SteamDeck path.GamepadMode, .GamepadMode ._ae5hG0p6_PersonaStatusIcon.online .SVGIcon_SteamDeck path, ._ae5hG0p6_PersonaStatusIcon.online .SVGIcon_VRIcon path.GamepadMode, .GamepadMode ._ae5hG0p6_PersonaStatusIcon.online .SVGIcon_VRIcon path, ._ae5hG0p6_PersonaStatusIcon.online .SVGIcon_MobilePhone path.GamepadMode, .GamepadMode ._ae5hG0p6_PersonaStatusIcon.online .SVGIcon_MobilePhone path, ._ae5hG0p6_PersonaStatusIcon.online .SVGIcon_BigPicture path.GamepadMode, .GamepadMode ._ae5hG0p6_PersonaStatusIcon.online .SVGIcon_BigPicture path {
+  fill: var(--ctp-blue);
+}
+/* reaction icons */
+._7fWhymK6_RatingBar ._7fWhymK6_LikeIcon svg, ._7fWhymK6_RatingBar ._7fWhymK6_LikeIcon path, ._7fWhymK6_RatingBar ._7fWhymK6_CommentIcon svg, ._7fWhymK6_RatingBar ._7fWhymK6_CommentIcon path, ._7fWhymK6_RatingBar ._7fWhymK6_ReactionIcon svg, ._7fWhymK6_RatingBar ._7fWhymK6_ReactionIcon path {
+  fill: var(--ctp-subtext0)
 }
 /* recommended */
 /* discorvery queue text */
@@ -1410,11 +1429,12 @@ button._EifR99lo_Button.DialogButton.Disabled, button._EifR99lo_Button.DialogBut
 ._zjA7UbA1_InlineChordContainer ._zjA7UbA1_InlineChordControlBinding {
   color: var(--ctp-subtext1);
 }
+
 /* Home */
 ._J5rxTYCm_BasicHome {
   color: var(--ctp-subtext0);
 }
-/* unsorted */
+/* Settings Menu Fixes */
 ._tTQwnZZA_InstallFolder {
   color: var(--ctp-subtext1);
 }
@@ -1628,7 +1648,6 @@ QAM
   color: var(--ctp-subtext0);
 }
 /* notificatons */
-
 /* main text */
 ._z11LKzuL_StandardTemplate ._z11LKzuL_Icon, ._z11LKzuL_PinnedTemplate ._z11LKzuL_Icon {
   color: var(--ctp-text);
@@ -1657,10 +1676,7 @@ QAM
 .BasicUI ._z11LKzuL_StandardTemplateContainer:hover, .BasicUI ._z11LKzuL_StandardTemplateContainer.gpfocus {
   background-color: var(--ctp-surface0);
 }
-
-
 /* voice chat tab */
-
 /* voice chat tab unfocused */
 ._2zh9IsDz_Tab._2zh9IsDz_VoiceTab {
   background-color: var(--ctp-mantle);
@@ -1670,8 +1686,6 @@ QAM
 ._jadbof4z_Title {
   color: var(--ctp-text);
 }
-
-
 
 /*
 VOLUME OVERLAY
@@ -1767,7 +1781,6 @@ DECKY LOADER
   background: var(--ctp-base) !important;
 }
 /* tabmaster */
-
 /* background */
 .tab-master-modal-scope ._EifR99lo_ModalPosition > ._EifR99lo_GamepadDialogContent {
   background: var(--ctp-base) !important;
@@ -1793,7 +1806,6 @@ DECKY LOADER
 .tab-master-modal-scope .filter-start-cont .filter-accordion-arrow, .tab-master-modal-scope .filter-start-cont .filter-label {
   color: var(--ctp-subtext1) !important;
 }
-/* SDH-Playtime */
 /* DeckSP */
 .profile-name-container {
   color: var(--ctp-subtext1) !important;
@@ -1814,7 +1826,6 @@ OTHER
 ._22Zq8BkS_Item._22Zq8BkS_Active:focus {
   background: var(--ctp-surface0) !important;
 }
-
 ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused._Bg3uEpqC_Destructive,
 ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Stop,
 ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused._OOy9OAIj_moderation_cancel {
@@ -1840,7 +1851,6 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover.Primary {
   background: var(--ctp-surface0) !important;
   color: var(--ctp-text);
 }
-
 button._EifR99lo_Button.DialogButton.gpfocus, 
 button._EifR99lo_Button.DialogButton:active, 
 button._EifR99lo_Button.DialogButton:enabled.gpfocus, 
@@ -1854,7 +1864,6 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active {
   background: var(--ctp-accent-color) !important;
   color: var(--ctp-base);
 }
-
 .basiccontextmenu_contextMenuItem_3PqLg {
   background: var(--ctp-mantle);
 }
@@ -1972,14 +1981,14 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active {
 }
 
 /* Controller Settings Menu */
-#modeid-7-input-unknown\\\\\\\\\\\\\\\\ EControllerModeInput\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\ 57\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\)-binding-0,
-#modeid-7-input-unknown\\\\\\\\\\\\\\\\ EControllerModeInput\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\ 58\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\)-binding-0,
-#modeid-7-input-unknown\\\\\\\\\\\\\\\\ EControllerModeInput\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\ 55\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\)-binding-0,
-#modeid-7-input-unknown\\\\\\\\\\\\\\\\ EControllerModeInput\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\ 56\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\)-binding-0,
-#modeid-16-input-unknown\\\\\\\\\\\\\\\\ EControllerModeInput\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\ 57\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\)-binding-0,
-#modeid-16-input-unknown\\\\\\\\\\\\\\\\ EControllerModeInput\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\ 58\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\)-binding-0,
-#modeid-16-input-unknown\\\\\\\\\\\\\\\\ EControllerModeInput\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\ 55\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\)-binding-0,
-#modeid-16-input-unknown\\\\\\\\\\\\\\\\ EControllerModeInput\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\ 56\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\)-binding-0 {
+#modeid-7-input-unknown\ EControllerModeInput\ \(\ 57\ \)-binding-0,
+#modeid-7-input-unknown\ EControllerModeInput\ \(\ 58\ \)-binding-0,
+#modeid-7-input-unknown\ EControllerModeInput\ \(\ 55\ \)-binding-0,
+#modeid-7-input-unknown\ EControllerModeInput\ \(\ 56\ \)-binding-0,
+#modeid-16-input-unknown\ EControllerModeInput\ \(\ 57\ \)-binding-0,
+#modeid-16-input-unknown\ EControllerModeInput\ \(\ 58\ \)-binding-0,
+#modeid-16-input-unknown\ EControllerModeInput\ \(\ 55\ \)-binding-0,
+#modeid-16-input-unknown\ EControllerModeInput\ \(\ 56\ \)-binding-0 {
   background-color: var(--ctp-base) !important;
 }
 ._Zg58p7Ea_EditableValue, ._Zg58p7Ea_FakeEditableValue {
