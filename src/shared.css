@@ -632,12 +632,20 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active.Primary {
   color: var(--ctp-text);
   fill: var(--ctp-text);
 }
+/* latest news text */
+._1EC1xjjUGqI7fqX6PVzJA3 {
+  color: var(--ctp-subtext1);
+}
 /* steam + r1 */
 ._zjA7UbA1_ControllerInputDisplay ._zjA7UbA1_ChordControlBinding {
   color: var(--ctp-text);
 }
 ._zjA7UbA1_LargeChordRow ._zjA7UbA1_PlusSign {
   margin-right: 8px;
+}
+/* achivement subtext */
+.mbFSnoK85dUXHz9VT-YNI._3KGi6ig3JCLHZP-dOsO-Wx ._3212ro0onZQImzF7Z-DBnV {
+  color: var(--ctp-subtext1);
 }
 /* game info tab icons */
 ._56rhShUg_Container ._56rhShUg_Icon {
@@ -1774,8 +1782,21 @@ DECKY LOADER
 #sgdb-wrap #local-images-container .asset-wrap > .Panel .action-overlay .action-button.gpfocus > svg, #sgdb-wrap #local-images-container .asset-wrap > .Panel .action-overlay .action-button:hover > svg {
   fill: var(--ctp-base) !important;
 }
+#sgdb-wrap {
+  background: var(--ctp-base) !important;
+}
 #sgdb-wrap #images-container .asset-box-wrap .author {
   color: var(--ctp-text);
+  text-shadow: none !important;
+}
+#sgdb-wrap #images-container .asset-box-wrap .chips .chip {
+  background: var(--ctp-surface0) !important;
+}
+.BasicUI ._1Yjc_1MbjRjMCpagmTDS8y {
+  color: var(--ctp-text);
+}
+.eGFYoZXi18I1KicXUb1ji:before, .eGFYoZXi18I1KicXUb1ji:after {
+  background-color: var(--ctp-overlay0);
 }
 #sgdb-wrap .spinnyboi {
   background: var(--ctp-base) !important;
