@@ -633,7 +633,7 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active.Primary {
   fill: var(--ctp-text);
 }
 /* latest news text */
-._1EC1xjjUGqI7fqX6PVzJA3 {
+._SWtPeIkJ_ViewLastNews {
   color: var(--ctp-subtext1);
 }
 /* steam + r1 */
@@ -644,7 +644,7 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active.Primary {
   margin-right: 8px;
 }
 /* achivement subtext */
-.mbFSnoK85dUXHz9VT-YNI._3KGi6ig3JCLHZP-dOsO-Wx ._3212ro0onZQImzF7Z-DBnV {
+._GWYRkBdJ_AchievementCarouselItem._GWYRkBdJ_Detailed ._GWYRkBdJ_Description {
   color: var(--ctp-subtext1);
 }
 /* game info tab icons */
@@ -1074,6 +1074,16 @@ DOWNLOADS
 /* downloads top secton */
 .BasicUI ._o3QomEE0_TopSection ._o3QomEE0_Section {
   background-color: var(--ctp-base);
+}
+._o3QomEE0_SectionItemWrapper.gpfocus:not(._o3QomEE0_Autofocused) ._o3QomEE0_SectionItem._o3QomEE0_Active {
+  animation-name: none;
+  background-color: var(--ctp-surface0);
+}
+.BasicUI ._o3QomEE0_TopSection {
+  box-shadow: none;
+}
+._o3QomEE0_Active.gpfocuswithin ._o3QomEE0_SectionList {
+  border-color: var(--ctp-overlay0);
 }
 /* no recent downloads text */
 .BasicUI ._o3QomEE0_EmptyTransfers ._o3QomEE0_Text {
@@ -1792,10 +1802,10 @@ DECKY LOADER
 #sgdb-wrap #images-container .asset-box-wrap .chips .chip {
   background: var(--ctp-surface0) !important;
 }
-.BasicUI ._1Yjc_1MbjRjMCpagmTDS8y {
+.BasicUI ._pKOkjExI_AppGridFilterText {
   color: var(--ctp-text);
 }
-.eGFYoZXi18I1KicXUb1ji:before, .eGFYoZXi18I1KicXUb1ji:after {
+._pKOkjExI_AppGridFilterHeader:before, ._pKOkjExI_AppGridFilterHeader:after {
   background-color: var(--ctp-overlay0);
 }
 #sgdb-wrap .spinnyboi {
@@ -1923,6 +1933,13 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active {
 /* Lock screen */
 ._duAGi5fn_Container {
   background: var(--ctp-base);
+}
+._duAGi5fn_NumericButtonOption:active {
+  background-color: var(--ctp-accent-color);
+  color: var(--ctp-base);
+}
+._duAGi5fn_NumericButtonOption:active img {
+  filter: var(--ctp-base-filter);
 }
 ._duAGi5fn_DigitIndicator{
   border-color: var(--ctp-subtext0);
@@ -2214,6 +2231,16 @@ svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
 }
 ._Kp4Buf0X_EventType._Kp4Buf0X_EventType14 {
   color: var(--ctp-flamingo);
+}
+/* mainmenu fix by GrodanBool */
+.BasicUI ._22Zq8BkS_Container ._3apLK4XGwOjawDa-8X1CUadiv, div[role=menuitem] ._sk5Sf7Mo_Content {
+  color: var(--ctp-text);
+}
+.BasicUI ._22Zq8BkS_Container ._3apLK4XGwOjawDa-8X1CUadiv, div[role=menuitem] svg {
+  color: var(--ctp-text);
+}
+.BasicUI ._22Zq8BkS_Container ._3apLK4XGwOjawDa-8X1CUadiv, div[role=menuitem] div:first-child:nth-last-child(3) {
+  background: var(--ctp-accent-color);
 }
 
 /* Whats New Fix */
