@@ -736,8 +736,8 @@ STEAM INPUT
   color: var(--ctp-base) !important;
 }
 /* sidebar icons focused */
-.gpfocus ._PSZey2wn_SectionGlyph {
-  filter: var(--ctp-base-filter) !important;
+._4hESt2MY_PagedSettingsDialog_PageListItem._4hESt2MY_Active img, ._4hESt2MY_PagedSettingsDialog_PageListItem:focus img {
+  filter: var(--ctp-base-filter);
 }
 /* virtual menus icon */
 .gpfocus ._4hESt2MY_PageListItem_Icon svg {
@@ -838,13 +838,49 @@ STEAM INPUT
 ._C0tg64pn_KeyboardKeyLabel {
   color: var(--ctp-text);
 }
+._C0tg64pn_CameraAngleKey {
+  color: var(--ctp-text);
+}
+/* hovered buttons */
+._C0tg64pn_CameraAngleKey.gpfocus {
+  border-color: var(--ctp-accent-color);
+  background: var(--ctp-accent-color);
+  filter: none;
+}
+/* hovered button text */
+._C0tg64pn_CameraAngleKey.gpfocus.gpfocuswithin {
+  color: var(--ctp-base);
+}
+/* hovered button icons */
+._C0tg64pn_CameraAngleKey.gpfocus svg {
+  filter: var(--ctp-base-filter);
+}
+._C0tg64pn_CameraAngleKey.gpfocus img {
+  filter: var(--ctp-base-filter)
+}
+/* input borders */
+._C0tg64pn_CardinalButtonGroup._C0tg64pn_Circle::before,
+._C0tg64pn_CardinalButtonGroup._C0tg64pn_Diamond::before {
+  border: solid 1.5px var(--ctp-overlay0);
+}
+/* selected input borders */
+._C0tg64pn_CardinalButtonGroup.gpfocus::before {
+  border-color: var(--ctp-accent-color);
+  filter: none;
+}
+/* controller image */
+._C0tg64pn_GamepadPreview {
+  color: var(--ctp-text);
+}
+._C0tg64pn_MouseCenterImage {
+  filter: var(--ctp-text-filter);
+}
 /*  button icons */
 ._C0tg64pn_CardinalButtonGroupButton ._C0tg64pn_KeyboardKeyLabel {
   color: var(--ctp-subtext0);
 }
-/* focused button icons */
 ._C0tg64pn_CardinalButtonGroupButton._C0tg64pn_SelectedBinding ._C0tg64pn_KeyboardKeyLabel {
-  color: var(--ctp-accent-color);
+  color: var(--ctp-subtext0);
 }
 /* header text */
 ._C0tg64pn_ChooseBindingLabel {
@@ -1564,7 +1600,37 @@ OVERLAY MENUS
   background: var(--ctp-accent-color);
   color: var(--ctp-base);
 }
-
+/* hovered icons */
+._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused._Bg3uEpqC_Positive svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Stream svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Connect svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused._Zo4CIgjo_Launch svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.PlayMusic svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Play svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Resume svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.BorrowApp svg,
+._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused._Bg3uEpqC_Emphasis svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Download svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Update svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.PreLoad svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Install svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Pause svg {
+  color: var(--ctp-base);
+}
+/* compatabilty warnings */
+._3c6bxMGW_CompatibilityDetailRatingSummary ._3c6bxMGW_Playable {
+  color: var(--ctp-peach);
+}
+/* install menu text */
+._mm3TNqIS_FolderSelector ._mm3TNqIS_Header {
+  color: var(--ctp-subtext1);
+}
+/* install menu focus */
+._mm3TNqIS_FolderOption._mm3TNqIS_Active.gpfocus {
+  background: var(--ctp-accent-color);
+  color: var(--ctp-base);
+}
+._mm3TNqIS_FolderOption._mm3TNqIS_Focused {
+  background: var(--ctp-accent-color);
+  color: var(--ctp-base);
+}
+/* install menu unfoused */
+._mm3TNqIS_FolderOption {
+  background: var(--ctp-surface0);
+  color: var(--ctp-text)
+}
+._mm3TNqIS_FolderOption._mm3TNqIS_Active {
+  background: var(--ctp-surface1);
+  color: var(--ctp-text);
+}
 /*
 QAM
 */
