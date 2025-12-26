@@ -735,6 +735,10 @@ STEAM INPUT
 .gpfocus ._puuzZTTC_DropDownLabelUpperDescription, .gpfocus ._puuzZTTC_DropDownLabelTitle, .gpfocus ._puuzZTTC_DropDownLabelDescription {
   color: var(--ctp-base) !important;
 }
+button._EifR99lo_Button.DialogButton.gpfocus,
+button._EifR99lo_Button.DialogButton:enabled.gpfocus {
+  background: var(--ctp-accent-color) !important;
+}
 /* sidebar icons focused */
 ._4hESt2MY_PagedSettingsDialog_PageListItem._4hESt2MY_Active img, ._4hESt2MY_PagedSettingsDialog_PageListItem:focus img {
   filter: var(--ctp-base-filter);
@@ -1801,6 +1805,10 @@ DECKY LOADER
 /* store */
 .bg-storeBg {
   background: var(--ctp-crust) !important;
+}
+/* background */
+._awNNWnmm_TabContents {
+  background: var(--ctp-base);
 }
 .theme-data-container {
   background: var(--ctp-base) !important;
