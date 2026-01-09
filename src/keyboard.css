@@ -24,26 +24,29 @@
 /* Key Letter Colours */
 .DefaultTheme {
   --key-color: var(--ctp-text);
+  --foreground-color: var(--ctp-accent-color);
   --key-focused-color: var(--ctp-base);
   --key-meta-color: var(--ctp-text);
   --key-tab-color: var(--ctp-text);
   --key-caps-color: var(--ctp-text);
   --key-shift-color: var(--ctp-text);
+  --key-shift-label-color: var(--ctp-text);
   --key-enter-color: var(--ctp-text);
   --key-backspace-color: var(--ctp-text);
   --key-spacebar-color: var(--ctp-text);
   --key-extendedkey-color: var(--ctp-text);
   --key-extendedkey-focused-color: var(--ctp-text);
   --key-extendedkey-hover-color: var(--ctp-text);
-  --key-toggleon-color: var(--ctp-text);
+  --key-toggleon-color: var(--ctp-base);
   --key-toggleoneshot-color: var(--ctp-text);
   --key-toggleon-background-color: var(--ctp-accent-color);
-  --key-touched-color: var(--ctp-text);
+  --key-touched-color: var(--ctp-base);
   --key-pointer-background-color: var(--ctp-accent-colour);
   --key-focused-action-button-left-color: var(--ctp-base);
   --key-focused-action-button-right-color: var(--ctp-base);
   --key-enter-action-button-glyph-color: var(--ctp-base);
   --key-action-button-glyph-color: var(--ctp-text);
+  --key-touched-background-color: var(--ctp-accent-color);
 }
 
 /* Keyboard Symbols when hovered */
