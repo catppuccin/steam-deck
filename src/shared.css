@@ -1261,8 +1261,12 @@ button._EifR99lo_Button.DialogButton.Disabled, button._EifR99lo_Button.DialogBut
 }
 /* sidebar highlight */
 ._4hESt2MY_PagedSettingsDialog_PageListItem._4hESt2MY_Active, ._4hESt2MY_PagedSettingsDialog_PageListItem:focus {
-  color: var(--ctp-base) !important;
+  color: var(--ctp-mantle) !important;
   background-color: var(--ctp-accent-color) !important;
+}
+/* sidebar background */
+._1d6VIquCc410kNE7rDAje6 {
+  background: var(--ctp-mantle) !important;
 }
 /* multi option toggle */
 .HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q, .HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q:hover {
