@@ -2,11 +2,6 @@
 HOME PAGE
 */
 
-.QNkOtW3xS-yj6LviWHvnd, ._30D-80Lg-Luy-KxOumBlaY {
-  -webkit-mask-image: radial-gradient(100% 86% at 50% 16.5% in oklab, var(--ctp-base) 0%, rgba(0, 0, 0, 0.6) 90%, rgba(0, 0, 0, 0) 100%) !important;
-  -webkit-mask-composite: xor;
-}
-
 /* hovered game glow */
 .gpfocuswithin ~ ._C1nS6cpP_CarouselCapsuleBackgroundGlow,
 :hover ~ ._C1nS6cpP_CarouselCapsuleBackgroundGlow {
