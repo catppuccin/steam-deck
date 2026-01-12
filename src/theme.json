@@ -4,7 +4,7 @@
 	"author": "ozwaldorf, Luna-Terra-CG, soradotwav",
 	"target": "System-Wide",
 	"version": "v1.1.3",
-	"manifest_version": 5,
+	"manifest_version": 9,
 	"inject": {
 		"shared.css": [
 			"SP",
@@ -252,6 +252,128 @@
 					]
 				},
 				"No": {}
+			},
+			"components": []
+		},
+		"Blur Amount": {
+			"type": "slider",
+			"default": "10px",
+			"values": {
+				"None": {
+					"--ctp-blur": [
+						"0px",
+						"SP"
+					]
+				},
+				"3px": {
+					"--ctp-blur": [
+						"3px",
+						"SP"
+					]
+				},
+				"5px": {
+					"--ctp-blur": [
+						"5px",
+						"SP"
+					]
+				},
+				"10px": {
+					"--ctp-blur": [
+						"10px",
+						"SP"
+					]
+				},
+				"15px": {
+					"--ctp-blur": [
+						"15px",
+						"SP"
+					]
+				},
+				"20px": {
+					"--ctp-blur": [
+						"20px",
+						"SP"
+					]
+				},
+				"30px": {
+					"--ctp-blur": [
+						"30px",
+						"SP"
+					]
+				}
+			},
+			"components": []
+		},
+		"Blur Opacity": {
+			"type": "slider",
+			"default": "0.8",
+			"values": {
+				"1": {
+					"--ctp-opacity": [
+						", 1",
+						"SP"
+					]
+				},
+				"0.9": {
+					"--ctp-opacity": [
+						", 0.9",
+						"SP"
+					]
+				},
+				"0.8": {
+					"--ctp-opacity": [
+						", 0.8",
+						"SP"
+					]
+				},
+				"0.7": {
+					"--ctp-opacity": [
+						", 0.7",
+						"SP"
+					]
+				},
+				"0.6": {
+					"--ctp-opacity": [
+						", 0.6",
+						"SP"
+					]
+				},
+				"0.5": {
+					"--ctp-opacity": [
+						", 0.5",
+						"SP"
+					]
+				},
+				"0.4": {
+					"--ctp-opacity": [
+						", 0.4",
+						"SP"
+					]
+				},
+				"0.3": {
+					"--ctp-opacity": [
+						", 0.3",
+						"SP"
+					]
+				},
+				"0.2": {
+					"--ctp-opacity": [
+						", 0.2",
+						"SP"
+					]
+				},
+				"0.1": {
+					"--ctp-opacity": [
+						", 0.1",
+						"SP"
+					]
+				},
+				"0": {
+					"--ctp-opacity": [
+						", 0",
+						"SP"
+					]
+				}
 			},
 			"components": []
 		}
