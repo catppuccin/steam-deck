@@ -22,14 +22,14 @@ HOME PAGE
 ._1dzQL1mVR8GTmmSi_kpDgr {
   filter: var(--ctp-text-filter);
 }
-
+._awNNWnmm_TabContentsScroll._TabContentsScroll._otzIPpej_ScrollPanel._otzIPpej_ScrollY.Panel.Focusable {
+  background-color: transparent !important;
+}
 /* home backgrounds */
 ._J5rxTYCm_BasicHome._J5rxTYCm_OpaqueBackground {
   background: var(--ctp-base);
 }
-._awNNWnmm_TabContentsScroll._TabContentsScroll._otzIPpej_ScrollPanel._otzIPpej_ScrollY.Panel.Focusable {
-  background-color: transparent !important;
-}
+
 ._QcGXoqZ7_TabbedContent {
   background: var(--ctp-base);
 }
@@ -710,6 +710,20 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active.Primary {
 ._5e2yDGSd_ScrollToTopButton div {
   display: none;
 }
+/* vr badge */
+.lKkF8MY2dBQlRkaHwjbqW {
+  background-color: var(--ctp-peach);
+}
+._2tCNvxerDW3kH9lXAFl0NK {
+  color: var(--ctp-base);
+}
+._1t7927CfvHZSxoXBLDiDaR {
+  background: rgba(var(--ctp-surface0-rgb), 0.8);
+  text-shadow: none;
+  color: var(--ctp-text);
+  opacity: 1;
+}
+
 
 /*
 GAME SETTINGS
