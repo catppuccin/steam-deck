@@ -255,7 +255,7 @@ TOP BAR
   background-color: var(--ctp-blue) !important;
 }
 ._ehWSiALG_Header::before {
-  background: rgba(var(--ctp-crust-rgb)var(--ctp-opacity)) !important;
+  background-color: rgba(var(--ctp-crust-rgb)var(--ctp-opacity)) !important;
   backdrop-filter: blur(var(--ctp-blur)) !important;
 }
 ._LlewZgR3_URLBar ._LlewZgR3_URL {
@@ -1282,6 +1282,10 @@ button._EifR99lo_Button.DialogButton.Disabled, button._EifR99lo_Button.DialogBut
 ._1d6VIquCc410kNE7rDAje6 {
   background: var(--ctp-mantle) !important;
 }
+/* sidebar seperator */
+._3sUwukdeKdKRTojXu4I3ga {
+  background: var(--ctp-surface0);
+}
 /* multi option toggle */
 .HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q, .HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q:hover {
   background: var(--ctp-accent-color);
@@ -1562,7 +1566,6 @@ button._EifR99lo_Button.DialogButton.Disabled, button._EifR99lo_Button.DialogBut
 .BasicUI ._tTQwnZZA_InstallFolder:focus ._tTQwnZZA_DriveName, .BasicUI ._tTQwnZZA_InstallFolder:focus ._tTQwnZZA_DriveSize, .BasicUI ._tTQwnZZA_InstallFolder:focus svg {
   color: var(--ctp-base) !important;
 }
-
 ._Bg3uEpqC_contextMenuItem {
   background-color: var(--ctp-base);
   color: var(--ctp-text);
@@ -1677,6 +1680,11 @@ OVERLAY MENUS
   background: var(--ctp-surface1);
   color: var(--ctp-text);
 }
+/* seperator */
+#MainNavMenu-Rest .ixiWPQKqTMxnq43WgT3vj {
+  display: none;
+}
+
 /*
 QAM
 */
@@ -2345,6 +2353,9 @@ svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
 .friend.ingame.awayOrSnooze._og3AOADP_hoverParent.friendStatusHover.Panel.Focusable.gpfocus.gpfocuswithin {
   background-color: var(--ctp-surface0);
 }
+._23IDiI-F_FxXotrgpY71r8 {
+  background: var(--ctp-mantle);
+}
 /* Main Menu Fix */
 ._22Zq8BkS_ItemIcon, ._22Zq8BkS_ItemLabel {
   color: var(--ctp-text) !important;
@@ -2369,7 +2380,7 @@ svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
 }
 /* ugly seperator */
 ._33RkHXjHPoThT-d4uAt-n6 {
-  background: var(--ctp-overlay0);
+  background: var(--ctp-surface0);
 }
 /* mainmenu fix by GrodanBool */
 .BasicUI ._22Zq8BkS_Container ._3apLK4XGwOjawDa-8X1CUadiv, div[role=menuitem] ._sk5Sf7Mo_Content {
@@ -2380,6 +2391,21 @@ svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
 }
 .BasicUI ._22Zq8BkS_Container ._3apLK4XGwOjawDa-8X1CUadiv, div[role=menuitem] div:first-child:nth-last-child(3) {
   background: var(--ctp-accent-color);
+}
+/* mainmenu highlight (taken from chromahon) */
+[class="_1BbM8Qq8OL5N8gL4PYH397"]:has(.gpfocus) {
+  background: var(--ctp-surface0);
+  animation: none;
+}
+@keyframes _1HnqFT3fbAw0ADaVlUzeNn {
+  0%, 100% {
+    background: transparent;
+  }
+}
+@keyframes _1HTvA0ji8Y-wN-gFU8e48c {
+  0%, 100% {
+    background: transparent;
+  }
 }
 
 /* Whats New Fix */
@@ -2789,7 +2815,8 @@ svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
 ._b5AGtz9j_PartnerEventType, ._b5AGtz9j_PartnerEventMediumImage_Title {
   color: var(--ctp-text);
 }
-._b5AGtz9j_PartnerEventMediumImage_Summary {
+._b5AGtz9j_PartnerEventMediumImage_Summary,
+body, body._2LxgdMcpWJRjkxZKbmeEEb {
   color: var(--ctp-subtext1);
 }
 ._b5AGtz9j_PartnerEventTextOnly_Container.Panel.Focusable {
@@ -2943,7 +2970,7 @@ svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
 }
 ._xfZ18oWU_NavigationColumn {
   background: var(--ctp-base);
-  border: 1px solid var(--ctp-surface0);
+  border: none;
 }
 ._xfZ18oWU_NavigationColumn:before {
   background: none;
@@ -3047,6 +3074,10 @@ svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
 ._20zaWZN0_GuideDetails ._20zaWZN0_GuideSubSections ._20zaWZN0_SubSectionDesc {
   color: var(--ctp-subtext0);
 }
+/* in-guide headers */
+._2LYsFAwy8wdRJQTNJOUcsT {
+  color: var(--ctp-text);
+}
 
 /* Spoiler */
 ._BSZpBQPp_Spoiler {
@@ -3108,7 +3139,8 @@ svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
 ._GWYRkBdJ_UnlockedLabel,
 ._GWYRkBdJ_AchivementCarouselItemDetails ._GWYRkBdJ_Name,
 ._GWYRkBdJ_LockedAchievementsLabel,
-._SGp2bsv8_AchievementTitle {
+._SGp2bsv8_AchievementTitle,
+._2UpV2ekLOgBRHsAaqcedCB ._2LSKtMWWMT5Pne2vGJOtiF {
     color: var(--ctp-text);
 }
 ._GWYRkBdJ_UnlockedLabelPercent,
@@ -3122,7 +3154,8 @@ svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
 ._SGp2bsv8_ProgressCount,
 ._sTODxRjF_Stat ._sTODxRjF_StatLabelAndValue ._sTODxRjF_Label,
 ._SGp2bsv8_HeaderText,
-._SGp2bsv8_GlobalAchievementListItem ._SGp2bsv8_Content ._SGp2bsv8_Percent {
+._SGp2bsv8_GlobalAchievementListItem ._SGp2bsv8_Content ._SGp2bsv8_Percent,
+._3wXF00ta53M5KmhHkYtrzs ._2fFW2raBfeDt3WOPB-aQAq, ._3wXF00ta53M5KmhHkYtrzs ._3Y63d79wKiXs14rvBcrsDx {
     color: var(--ctp-subtext1)
 }
 ._SGp2bsv8_AchievementListItemBase,
@@ -3158,6 +3191,15 @@ svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
 }
 ._SGp2bsv8_GlobalAchievementListItem ._SGp2bsv8_UnlockContainer svg {
     color: var(--ctp-accent-color);
+}
+
+/* Notes Menu */
+._1Ve4VFO2EEkeNZdel_Asky {
+  background: var(--ctp-mantle);
+  box-shadow: none;
+}
+._1AL7l2CN6z-vuLfp1iCLa {
+  color: var(--ctp-text);
 }
 
 /* Trading Cards Fix */

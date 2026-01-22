@@ -268,37 +268,43 @@
 				"3px": {
 					"--ctp-blur": [
 						"3px",
-						"SP"
+						"SP",
+						"MainMenu"
 					]
 				},
 				"5px": {
 					"--ctp-blur": [
 						"5px",
-						"SP"
+						"SP",
+						"MainMenu"
 					]
 				},
 				"10px": {
 					"--ctp-blur": [
 						"10px",
-						"SP"
+						"SP",
+						"MainMenu"
 					]
 				},
 				"15px": {
 					"--ctp-blur": [
 						"15px",
-						"SP"
+						"SP",
+						"MainMenu"
 					]
 				},
 				"20px": {
 					"--ctp-blur": [
 						"20px",
-						"SP"
+						"SP",
+						"MainMenu"
 					]
 				},
 				"30px": {
 					"--ctp-blur": [
 						"30px",
-						"SP"
+						"SP",
+						"MainMenu"
 					]
 				}
 			},
@@ -311,67 +317,78 @@
 				"1": {
 					"--ctp-opacity": [
 						", 1",
-						"SP"
+						"SP",
+						"MainMenu"
 					]
 				},
 				"0.9": {
 					"--ctp-opacity": [
 						", 0.9",
-						"SP"
+						"SP",
+						"MainMenu"
 					]
 				},
 				"0.8": {
 					"--ctp-opacity": [
 						", 0.8",
-						"SP"
+						"SP",
+						"MainMenu"
 					]
 				},
 				"0.7": {
 					"--ctp-opacity": [
 						", 0.7",
-						"SP"
+						"SP",
+						"MainMenu"
 					]
 				},
 				"0.6": {
 					"--ctp-opacity": [
 						", 0.6",
-						"SP"
+						"SP",
+						"MainMenu"
 					]
 				},
 				"0.5": {
 					"--ctp-opacity": [
 						", 0.5",
-						"SP"
+						"SP",
+						"MainMenu"
 					]
 				},
 				"0.4": {
 					"--ctp-opacity": [
 						", 0.4",
-						"SP"
+						"SP",
+						"MainMenu"
 					]
 				},
 				"0.3": {
 					"--ctp-opacity": [
 						", 0.3",
-						"SP"
+						"SP",
+						"MainMenu"
 					]
 				},
 				"0.2": {
 					"--ctp-opacity": [
 						", 0.2",
-						"SP"
+						"SP",
+						"MainMenu"
 					]
 				},
 				"0.1": {
 					"--ctp-opacity": [
 						", 0.1",
-						"SP"
+						"SP",
+						"MainMenu"
 					]
 				},
 				"0": {
 					"--ctp-opacity": [
 						", 0",
-						"SP"
+						"SP",
+						"MainMenu"
 					]
 				}
 			},
