@@ -99,6 +99,10 @@ HOME PAGE
 ._LLGUZIsx_InLibrary {
   background: var(--ctp-blue);
 }
+/* dlc release */
+._1f0dZzzkepidbFYKDYcvUS._1FEOxRmreG9vk8CAKLpQHr {
+  color: var(--ctp-mauve);
+}
 ._LLGUZIsx_GameCapsule ._LLGUZIsx_BottomBar {
   background-color: var(--ctp-surface0);
 }
@@ -255,7 +259,7 @@ TOP BAR
   background-color: var(--ctp-blue) !important;
 }
 ._ehWSiALG_Header::before {
-  background-color: rgba(var(--ctp-crust-rgb)var(--ctp-opacity)) !important;
+  background: rgba(var(--ctp-crust-rgb)var(--ctp-opacity)) !important;
   backdrop-filter: blur(var(--ctp-blur)) !important;
 }
 ._LlewZgR3_URLBar ._LlewZgR3_URL {
@@ -1682,7 +1686,7 @@ OVERLAY MENUS
 }
 /* seperator */
 #MainNavMenu-Rest .ixiWPQKqTMxnq43WgT3vj {
-  display: none;
+  background: transparent;
 }
 
 /*
@@ -1858,7 +1862,7 @@ DECKY LOADER
 /* css loader */
 /* store */
 .bg-storeBg {
-  background: var(--ctp-crust) !important;
+  background: var(--ctp-mantle) !important;
 }
 /* background */
 ._awNNWnmm_TabContents {
