@@ -2,6 +2,7 @@
 HOME PAGE
 */
 
+
 /* hovered game glow */
 .gpfocuswithin ~ ._C1nS6cpP_CarouselCapsuleBackgroundGlow,
 :hover ~ ._C1nS6cpP_CarouselCapsuleBackgroundGlow {
@@ -22,16 +23,17 @@ HOME PAGE
 ._1dzQL1mVR8GTmmSi_kpDgr {
   filter: var(--ctp-text-filter);
 }
-._awNNWnmm_TabContentsScroll._TabContentsScroll._otzIPpej_ScrollPanel._otzIPpej_ScrollY.Panel.Focusable {
-  background-color: transparent !important;
-}
+
+
 /* home backgrounds */
 ._J5rxTYCm_BasicHome._J5rxTYCm_OpaqueBackground {
   background: var(--ctp-base);
 }
-
 ._QcGXoqZ7_TabbedContent {
   background: var(--ctp-base);
+}
+._awNNWnmm_TabContentsScroll._TabContentsScroll._otzIPpej_ScrollPanel._otzIPpej_ScrollY.Panel.Focusable {
+  background-color: transparent !important;
 }
 .gamepadhomerecentgames_RecentGamesBackgroundFadeGradient_1ksIq {
   background: none;
@@ -364,7 +366,13 @@ LIBRARY
   backdrop-filter: blur(var(--ctp-blur));
   background: rgba(var(--ctp-crust-rgb)var(--ctp-opacity));
 }
-
+/* library tab highlight */
+._3eEbSktrstBdLk0dVpnKVI.gpfocus {
+  box-shadow: none;
+}
+._3eEbSktrstBdLk0dVpnKVI.gpfocus svg {
+  filter: var(--ctp-base-filter);
+}
 /* library sorting filters */
 /* filters background */
 ._s6ZVhnwz_CompatFilterDialog {
@@ -524,7 +532,7 @@ GAME DETAILS
 */
 
 ._L3jh3XgZ_AppDetailsRoot {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-mantle) !important;
 }
 .BasicUI ._cuOVbdpY_PlayBarDetailLabel,
 .BasicUI ._cuOVbdpY_LastPlayed ._cuOVbdpY_LastPlayedInfo,
@@ -665,9 +673,46 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active.Primary {
   background-color: var(--ctp-accent-color);
   color: var(--ctp-base);
 }
+/* hidden game indicator */
+.HeHYcNrMxDY4kBR7nF9EH svg {
+  filter: var(--ctp-red-filter);
+}
+.HeHYcNrMxDY4kBR7nF9EH svg._2rrEflBTTYjr5L0k5bZ73w {
+  filter: var(--ctp-base-filter) !important;
+}
+/* from steam family text */
+.z8GYwNt_nbBZrf7OVjs-s {
+  display: none;
+}
+/* friend played *time* recently */
+._1GCZAht_W2I3Elndk5cU0- ._1xGH4bGLz6sI7erzB8VWff {
+  color: var(--ctp-subtext0) !important;
+}
 /* latest news text */
 ._SWtPeIkJ_ViewLastNews {
   color: var(--ctp-subtext1);
+}
+/* major update card */
+._3oMUSjOFNB0E9LWcL2sE7,
+.LibriMVXcLl1HB60ZUp78 {
+  background: transparent;
+}
+._39Zk32AvV5cr6g-83IVRVS {
+  box-shadow: none;
+  background: linear-gradient(to right in oklab, #199FFF00 0%, var(--ctp-sky,80) 18px, var(--ctp-blue,80) 50%, var(--ctp-sky,81) 100%);
+  border: none;
+}
+._29bW1yCn25VTm4bFameBaV,
+._3fsjzvni7TQ1NphLHM_5r3,
+._3zwBRDW1egliiT4pKYIXap {
+  text-shadow: none;
+}
+._3fsjzvni7TQ1NphLHM_5r3,
+._29bW1yCn25VTm4bFameBaV {
+  color: var(--ctp-mantle) !important;
+}
+._3zwBRDW1egliiT4pKYIXap {
+  color: var(--ctp-base) !important;
 }
 /* steam + r1 */
 ._zjA7UbA1_ControllerInputDisplay ._zjA7UbA1_ChordControlBinding {
@@ -691,13 +736,19 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active.Primary {
 /* compatablity overlay */
 .DeckVerifiedModalDialogClient .DialogContent,
 .DeckVerifiedModalDialog .DialogContent {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-mantle) !important;
 }
 ._3c6bxMGW_DialogTitle {
   color: var(--ctp-text);
 }
 ._3c6bxMGW_CompatibilityDetailsRow {
   color: var(--ctp-text);
+}
+._1Wu_jj1kk9n3WIoga3RL_J {
+  color: var(--ctp-subtext0);
+}
+._2mwbdnqm9Lk1-Bzs8FIdCU {
+  background-color: var(--ctp-surface0);
 }
 /* protondb */
 .protondb-decky-indicator {
@@ -727,7 +778,6 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active.Primary {
   color: var(--ctp-text);
   opacity: 1;
 }
-
 
 /*
 GAME SETTINGS
@@ -783,11 +833,11 @@ button._EifR99lo_Button.DialogButton:enabled.gpfocus {
 }
 /* sidebar icons focused */
 ._4hESt2MY_PagedSettingsDialog_PageListItem._4hESt2MY_Active img, ._4hESt2MY_PagedSettingsDialog_PageListItem:focus img {
-  filter: var(--ctp-base-filter);
+  filter: var(--ctp-mantle-filter);
 }
 /* virtual menus icon */
 .gpfocus ._4hESt2MY_PageListItem_Icon svg {
-  filter: var(--ctp-base-filter);
+  filter: var(--ctp-mantle-filter);
 }
 /* subheader */
 .BasicUI ._EifR99lo_GamepadDialogContent .DialogSubHeader {
@@ -942,7 +992,8 @@ FRIENDS & CHAT
 */
 
 /* Get rid of glow */
-.SteamDeckChats.gpfocuswithin .chattabs_ChatTab_1WfqA {
+.SteamDeckChats.gpfocuswithin .chattabs_ChatTab_1WfqA,
+.SteamDeckChats.gpfocuswithin ._2XZq-_f6npaQdAgeRzKIkz {
   box-shadow: none;
 }
 /* Sidebar top focused */
@@ -976,6 +1027,11 @@ FRIENDS & CHAT
 }
 ._zwJA6Drf_TabBumper.GamepadMode svg path, .GamepadMode ._zwJA6Drf_TabBumper svg path {
   fill: var(--ctp-subtext0);
+}
+/* sidebar seperators */
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends.GamepadMode, .GamepadMode .FriendsListContent .friendlistListContainer .friendGroup.onlineFriends,
+.FriendsListContent .friendlistListContainer .friendGroup.offlineFriends.GamepadMode, .GamepadMode .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends {
+  border-top: 1px solid var(--ctp-overlay0);
 }
 /* AZ arrow */
 .groupHeaderContainer.gpfocuswithin .SortByRecent.GamepadMode, .GamepadMode .groupHeaderContainer.gpfocuswithin .SortByRecent {
@@ -1035,13 +1091,14 @@ FRIENDS & CHAT
   background-color: var(--ctp-surface0);
 }
 /* dms sidebar icon background focused */
-.SteamDeckChats.gpfocuswithin .RightSideButtonContainer .oneOnOneVoiceChatButton.gpfocus {
+.SteamDeckChats.gpfocuswithin .RightSideButtonContainer .oneOnOneVoiceChatButton.gpfocus,
+.SteamDeckChats.gpfocuswithin .RightSideButtonContainer .AddFriendButton.gpfocus, .SteamDeckChats.gpfocuswithin .RightSideButtonContainer .inviteAnotherFriendButton.gpfocus{
   animation-name: none;
   background-color: var(--ctp-accent-color)
 }
-.SteamDeckChats.gpfocuswithin .RightSideButtonContainer .AddFriendButton.gpfocus, .SteamDeckChats.gpfocuswithin .RightSideButtonContainer .inviteAnotherFriendButton.gpfocus {
-  background-color: var(--ctp-accent-color);
-  animation-name: none;
+.SteamDeckChats.gpfocuswithin .RightSideButtonContainer .oneOnOneVoiceChatButton.gpfocus svg,
+.SteamDeckChats.gpfocuswithin .RightSideButtonContainer .AddFriendButton.gpfocus svg, .SteamDeckChats.gpfocuswithin .RightSideButtonContainer .inviteAnotherFriendButton.gpfocus svg{
+  filter: var(--ctp-base-filter);
 }
 /* dms voice call text */
 .msg.voiceChannelInvite {
@@ -1076,8 +1133,7 @@ FRIENDS & CHAT
   background-color: var(--ctp-surface0);
 }
 /* your friend code text */
-._26jUFFxA_FriendCodeSection ._26jUFFxA_Caption
-{
+._26jUFFxA_FriendCodeSection ._26jUFFxA_Caption {
   color: var(--ctp-subtext1);
 }
 /* add a friend text */
@@ -1658,6 +1714,9 @@ OVERLAY MENUS
 ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused._Bg3uEpqC_Emphasis svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Download svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Update svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.PreLoad svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Install svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Pause svg {
   color: var(--ctp-base);
 }
+._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL svg {
+  filter: var(--ctp-base-filter);
+}
 /* compatabilty warnings */
 ._3c6bxMGW_CompatibilityDetailRatingSummary ._3c6bxMGW_Playable {
   color: var(--ctp-peach);
@@ -1978,6 +2037,11 @@ DECKY LOADER
 OTHER
 */
 
+/* loading animation */
+._3sa1NXudhvcc1U7HrlLdNQ img._39-WTtOSEPJqAEjOcNGE3j {
+  filter: var(--ctp-text-filter);
+}
+
 /* Navigation */
 ._22Zq8BkS_Menu {
   background: var(--ctp-base);
@@ -2088,6 +2152,13 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active {
   color: var(--ctp-subtext0)
 }
 ._duAGi5fn_Details ._duAGi5fn_IncorrectPIN {
+  color: var(--ctp-peach);
+}
+/* reset pin dialog */
+.mRPNNmT-dIaBARu0lIxjh b {
+  color: var(--ctp-blue);
+}
+._1ur8gz7auRZSLqkJM3L_tZ {
   color: var(--ctp-peach);
 }
 /* Footer */
@@ -2308,7 +2379,7 @@ svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
   color: var(--ctp-green);
 }
 .GamepadMode.friendlist .FriendsListTab.gpfocus { /* This one is a big maybe*/
-  color: var(--ctp-text);
+  color: var(--ctp-accent-color);
   background-color: var(--ctp-surface1);
   border-radius: 10%;
 }
@@ -2399,7 +2470,6 @@ svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
 /* mainmenu highlight (taken from chromahon) */
 [class="_1BbM8Qq8OL5N8gL4PYH397"]:has(.gpfocus) {
   background: var(--ctp-surface0);
-  animation: none;
 }
 @keyframes _1HnqFT3fbAw0ADaVlUzeNn {
   0%, 100% {
@@ -2837,9 +2907,6 @@ body, body._2LxgdMcpWJRjkxZKbmeEEb {
 }
 ._b5AGtz9j_PartnerEventLargeImage_Summary {
   color: var(--ctp-subtext1);
-}
-._b5AGtz9j_LeftSideMajorUpdateBar {
-  background: linear-gradient(to right, #199fff00 0%, var(--ctp-blue) 58px);
 }
 ._SWtPeIkJ_ActivityFeedContainer ._SWtPeIkJ_EndofFeed ._SWtPeIkJ_EndText {
   color: var(--ctp-subtext0);  
