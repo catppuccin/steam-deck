@@ -87,7 +87,14 @@ HOME PAGE
   background-color: var(--ctp-overlay0);
   color: var(--ctp-text) !important;
 }
-
+/* install bar */
+.kX-tIJx4a9vKVuUkKJARv .mA39Hqv8LacDppegb_Q_Z {
+  background-color: var(--ctp-blue);
+}
+.kX-tIJx4a9vKVuUkKJARv {
+  background-color: rgba(var(--ctp-surface0-rgb), .7);
+  height: 5.38px;
+}
 /* whats new */
 ._Kp4Buf0X_EventInfo {
   background: var(--ctp-surface0);
@@ -1897,6 +1904,85 @@ VOLUME OVERLAY
   background: var(--ctp-crust);
 }
 
+
+/*
+LOGIN SCREEN
+*/
+
+/* header text */
+._3IMA7pkt2GXbDp4p2tDT8S {
+  color: var(--ctp-text);
+}
+._1oQc7CkRGrMsSiVUiYTHc9 {
+  color: var(--ctp-subtext1);
+}
+/* profile name */
+._3iVOCDb8eFFTeqiopupsej, ._1448SH49Bc8Zr5Bzzc5qkt {
+  color: var(--ctp-text);
+}
+/* profile border */
+.l_0WJ2pzm_5Zp7gfT_UZz ._3nhzM2H8Opkomzs5OG5oux {
+  border: 2px solid var(--ctp-surface0)
+}
+/* select border */
+.l_0WJ2pzm_5Zp7gfT_UZz:focus ._3nhzM2H8Opkomzs5OG5oux, .l_0WJ2pzm_5Zp7gfT_UZz:hover ._3nhzM2H8Opkomzs5OG5oux,
+._1mt2mPMVEDfpOhhWePy9hc:focus .IfVUbt19eXIqaAuGh2i63, ._1mt2mPMVEDfpOhhWePy9hc:hover .IfVUbt19eXIqaAuGh2i63 {
+  border: 2px solid var(--ctp-accent-color);
+}
+/* add profile button */
+._1mt2mPMVEDfpOhhWePy9hc .IfVUbt19eXIqaAuGh2i63 {
+  color: var(--ctp-text);
+  background: var(--ctp-surface0);
+}
+
+/*
+SIGN IN
+*/
+
+/* header text */
+.zqPJLxva3XPjYcTir05Ab {
+  color: var(--ctp-text);
+}
+/* qr instrutions */
+._1sc-BFvGe6huemAE5yVozQ .pPqm0Cd3nTDM56emaoNIW ._2TrSjYb9DT8dGB3TUBMi-H, ._1sc-BFvGe6huemAE5yVozQ .pPqm0Cd3nTDM56emaoNIW .lG0sAcLlXHRB9XRI0e7yl, ._1sc-BFvGe6huemAE5yVozQ .HdqevXhfe5oON8S7byE-A ._2TrSjYb9DT8dGB3TUBMi-H, ._1sc-BFvGe6huemAE5yVozQ .HdqevXhfe5oON8S7byE-A .lG0sAcLlXHRB9XRI0e7yl {
+  color: var(--ctp-subtext1);
+}
+._1sc-BFvGe6huemAE5yVozQ ._2OcpijqE_9aBlckaDvvYai {
+  color: var(--ctp-blue);
+}
+/* qr code border */
+.xlEVpBeYO1h2tOqErt9fj.J3DO-HZVloRroBWQ4LcSK {
+  border-color: var(--ctp-surface0);
+}
+/* sign in box descriptions */
+._13F1y-ZfvltMjWySrReruK .DialogLabel {
+  color: var(--ctp-text);
+}
+
+/*
+WELCOME/SETUP OVERLAY
+*/
+
+/* highlighted text */
+._3jVF1K6rjo9QNtGDM4j_L_ {
+  color: var(--ctp-blue);
+}
+/* progress dots */
+._3yc1HWeo3r0NEKZDWLfK95._3dgLyDGvg0Xifttzo46wAK {
+  background-color: var(--ctp-accent-color);
+}
+._3yc1HWeo3r0NEKZDWLfK95 {
+  background-color: var(--ctp-surface0);
+}
+/* hightlight animation */
+.PVXAA8K7W59k1ZLVWAPy9 ._33nAFYa-4M0coUprfk3WqL, .PVXAA8K7W59k1ZLVWAPy9 ._2pLSojgHqkjUtB38scov5A {
+  border-color: var(--ctp-accent-color);
+}
+/* speaker icon */
+.SVGIcon_Button {
+  fill: var(--ctp-text);
+}
+
 /*
 DECKY LOADER
 */
@@ -2041,6 +2127,18 @@ OTHER
 ._3sa1NXudhvcc1U7HrlLdNQ img._39-WTtOSEPJqAEjOcNGE3j {
   filter: var(--ctp-text-filter);
 }
+.loadingthrobber_Container_3sa1N.loadingthrobber_PreloadThrobber_1-epa,
+.loadingthrobber_Container_3sa1N.loadingthrobber_ContainerBackground_2ngG3 {
+  background: var(--ctp-base) !important;
+}
+
+/* user profile button highlight */
+button.TEWmsM70ZLEOxLAjDMpcv._2rd6kyE9QIMeIPPOJ19fOq ._3wadwgMy2-9k8uOKh3iSdT,
+button.TEWmsM70ZLEOxLAjDMpcv._2rd6kyE9QIMeIPPOJ19fOq svg,
+button.TEWmsM70ZLEOxLAjDMpcv._2rd6kyE9QIMeIPPOJ19fOq ._3Wb9yDmYPUJksCr7HmaT9H {
+  color: var(--ctp-base);
+}
+
 
 /* Navigation */
 ._22Zq8BkS_Menu {
