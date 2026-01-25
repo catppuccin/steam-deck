@@ -2,7 +2,6 @@
 HOME PAGE
 */
 
-
 /* hovered game glow */
 .gpfocuswithin ~ ._C1nS6cpP_CarouselCapsuleBackgroundGlow,
 :hover ~ ._C1nS6cpP_CarouselCapsuleBackgroundGlow {
@@ -23,7 +22,6 @@ HOME PAGE
 ._1dzQL1mVR8GTmmSi_kpDgr {
   filter: var(--ctp-text-filter);
 }
-
 
 /* home backgrounds */
 ._J5rxTYCm_BasicHome._J5rxTYCm_OpaqueBackground {
@@ -673,7 +671,7 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active.Primary {
 }
 /* update progress */
 ._25YVDTaClw6Y2COPsU0UaV {
-  background-color: var(--ctp-mantle);
+  background-color: var(--ctp-surface0);
 }
 /* play from menu */
 ._9zjx5-sflx5lN6kHWM5Mw.Focusable:focus {
@@ -706,7 +704,7 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active.Primary {
 }
 ._39Zk32AvV5cr6g-83IVRVS {
   box-shadow: none;
-  background: linear-gradient(to right in oklab, #199FFF00 0%, var(--ctp-sky,80) 18px, var(--ctp-blue,80) 50%, var(--ctp-sky,81) 100%);
+  background: linear-gradient(to right in oklab, #199FFF00 0%, var(--ctp-sky) 18px, var(--ctp-blue) 50%, var(--ctp-sky) 100%);
   border: none;
 }
 ._29bW1yCn25VTm4bFameBaV,
@@ -793,6 +791,20 @@ GAME SETTINGS
 /* Automatic Updates */
 ._zzZzSSlx_DefaultOptionText {
   color: var(--ctp-text);
+}
+/* Game Betas */
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody .X3pN_ESh0aoxmm2nK65Hu,
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy ._1LCoWsUrJmZHr7SVX0luaG._231y-BrqpRH85PNLgfseSR {
+  background: var(--ctp-surface0);
+}
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy {
+  border: none;
+}
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._33vTXbnDrHUQCTEKwJC3Eh {
+  color: var(--ctp-text);
+}
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy ._1LCoWsUrJmZHr7SVX0luaG.dB7T-kfL2b2b0jd9Zg9fa ._2d_FE9TOpHt1FsYhLEpjCp {
+  border-left: 3px solid var(--ctp-accent-color);
 }
 /* Controller */
 /* steam imput status background */
@@ -1057,15 +1069,9 @@ FRIENDS & CHAT
   fill: var(--ctp-green);
 }
 /* disabling text shadow */
-.friend.gpfocus .labelHolder.GamepadMode ._4ZxDBJu4_playerName, .friend.gpfocus .labelHolder.GamepadMode ._4ZxDBJu4_richPresenceLabel, .GamepadMode .friend.gpfocus .labelHolder ._4ZxDBJu4_playerName, .GamepadMode .friend.gpfocus .labelHolder ._4ZxDBJu4_richPresenceLabel, .favoriteElement.gpfocus .labelHolder.GamepadMode ._4ZxDBJu4_playerName, .favoriteElement.gpfocus .labelHolder.GamepadMode ._4ZxDBJu4_richPresenceLabel, .GamepadMode .favoriteElement.gpfocus .labelHolder ._4ZxDBJu4_playerName, .GamepadMode .favoriteElement.gpfocus .labelHolder ._4ZxDBJu4_richPresenceLabel {
-  text-shadow: none;
-}
-.friend.gpfocus .labelHolder.GamepadMode.offline ._4ZxDBJu4_richPresenceLabel, .GamepadMode .friend.gpfocus .labelHolder.offline ._4ZxDBJu4_richPresenceLabel, .favoriteElement.gpfocus .labelHolder.GamepadMode.offline ._4ZxDBJu4_richPresenceLabel, .GamepadMode .favoriteElement.gpfocus .labelHolder.offline ._4ZxDBJu4_richPresenceLabel {
-  text-shadow: none;
-}
-.friend.gpfocus .labelHolder.GamepadMode.ingame.awayOrSnooze ._4ZxDBJu4_playerName, .friend.gpfocus .labelHolder.GamepadMode.ingame ._4ZxDBJu4_richPresenceLabel, .GamepadMode .friend.gpfocus .labelHolder.ingame.awayOrSnooze ._4ZxDBJu4_playerName, .GamepadMode .friend.gpfocus .labelHolder.ingame ._4ZxDBJu4_richPresenceLabel, .favoriteElement.gpfocus .labelHolder.GamepadMode.ingame.awayOrSnooze ._4ZxDBJu4_playerName, .favoriteElement.gpfocus .labelHolder.GamepadMode.ingame ._4ZxDBJu4_richPresenceLabel, .GamepadMode .favoriteElement.gpfocus .labelHolder.ingame.awayOrSnooze ._4ZxDBJu4_playerName, .GamepadMode .favoriteElement.gpfocus .labelHolder.ingame ._4ZxDBJu4_richPresenceLabel {
-  text-shadow: none;
-}
+.friend.gpfocus .labelHolder.GamepadMode ._4ZxDBJu4_playerName, .friend.gpfocus .labelHolder.GamepadMode ._4ZxDBJu4_richPresenceLabel, .GamepadMode .friend.gpfocus .labelHolder ._4ZxDBJu4_playerName, .GamepadMode .friend.gpfocus .labelHolder ._4ZxDBJu4_richPresenceLabel, .favoriteElement.gpfocus .labelHolder.GamepadMode ._4ZxDBJu4_playerName, .favoriteElement.gpfocus .labelHolder.GamepadMode ._4ZxDBJu4_richPresenceLabel, .GamepadMode .favoriteElement.gpfocus .labelHolder ._4ZxDBJu4_playerName, .GamepadMode .favoriteElement.gpfocus .labelHolder ._4ZxDBJu4_richPresenceLabel,
+.friend.gpfocus .labelHolder.GamepadMode.offline ._4ZxDBJu4_richPresenceLabel, .GamepadMode .friend.gpfocus .labelHolder.offline ._4ZxDBJu4_richPresenceLabel, .favoriteElement.gpfocus .labelHolder.GamepadMode.offline ._4ZxDBJu4_richPresenceLabel, .GamepadMode .favoriteElement.gpfocus .labelHolder.offline ._4ZxDBJu4_richPresenceLabel,
+.friend.gpfocus .labelHolder.GamepadMode.ingame.awayOrSnooze ._4ZxDBJu4_playerName, .friend.gpfocus .labelHolder.GamepadMode.ingame ._4ZxDBJu4_richPresenceLabel, .GamepadMode .friend.gpfocus .labelHolder.ingame.awayOrSnooze ._4ZxDBJu4_playerName, .GamepadMode .friend.gpfocus .labelHolder.ingame ._4ZxDBJu4_richPresenceLabel, .favoriteElement.gpfocus .labelHolder.GamepadMode.ingame.awayOrSnooze ._4ZxDBJu4_playerName, .favoriteElement.gpfocus .labelHolder.GamepadMode.ingame ._4ZxDBJu4_richPresenceLabel, .GamepadMode .favoriteElement.gpfocus .labelHolder.ingame.awayOrSnooze ._4ZxDBJu4_playerName, .GamepadMode .favoriteElement.gpfocus .labelHolder.ingame ._4ZxDBJu4_richPresenceLabel,
 .friend.gpfocus .labelHolder.GamepadMode.online.awayOrSnooze ._4ZxDBJu4_playerName, .friend.gpfocus .labelHolder.GamepadMode.online.awayOrSnooze ._4ZxDBJu4_richPresenceLabel, .GamepadMode .friend.gpfocus .labelHolder.online.awayOrSnooze ._4ZxDBJu4_playerName, .GamepadMode .friend.gpfocus .labelHolder.online.awayOrSnooze ._4ZxDBJu4_richPresenceLabel, .favoriteElement.gpfocus .labelHolder.GamepadMode.online.awayOrSnooze ._4ZxDBJu4_playerName, .favoriteElement.gpfocus .labelHolder.GamepadMode.online.awayOrSnooze ._4ZxDBJu4_richPresenceLabel, .GamepadMode .favoriteElement.gpfocus .labelHolder.online.awayOrSnooze ._4ZxDBJu4_playerName, .GamepadMode .favoriteElement.gpfocus .labelHolder.online.awayOrSnooze ._4ZxDBJu4_richPresenceLabel {
   text-shadow: none;
 }
@@ -1633,10 +1639,6 @@ button._EifR99lo_Button.DialogButton.Disabled, button._EifR99lo_Button.DialogBut
 .BasicUI ._tTQwnZZA_InstallFolder:focus ._tTQwnZZA_DriveName, .BasicUI ._tTQwnZZA_InstallFolder:focus ._tTQwnZZA_DriveSize, .BasicUI ._tTQwnZZA_InstallFolder:focus svg {
   color: var(--ctp-base) !important;
 }
-._Bg3uEpqC_contextMenuItem {
-  background-color: var(--ctp-base);
-  color: var(--ctp-text);
-}
 ._EifR99lo_Field.gpfocuswithin ._EifR99lo_LabelFieldValue {
   color: var(--ctp-subtext0);
 }
@@ -1701,6 +1703,11 @@ fill: var(--ctp-accent-color);
 OVERLAY MENUS
 */
 
+/* background */
+._Bg3uEpqC_contextMenuItem {
+  background-color: var(--ctp-base);
+  color: var(--ctp-text);
+}
 /* play */
 ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused._Bg3uEpqC_Positive, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Stream, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Connect, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused._Zo4CIgjo_Launch, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.PlayMusic, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Play, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Resume, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.BorrowApp {
   background: var(--ctp-green);
@@ -1749,6 +1756,13 @@ OVERLAY MENUS
 ._mm3TNqIS_FolderOption._mm3TNqIS_Active {
   background: var(--ctp-surface1);
   color: var(--ctp-text);
+}
+/* local transfer message */
+.WonjNtnAq8aOefGl_x2v4 {
+  color: var(--ctp-peach);
+}
+.WonjNtnAq8aOefGl_x2v4 span span {
+  color: var(--ctp-text) !important;
 }
 /* seperator */
 #MainNavMenu-Rest .ixiWPQKqTMxnq43WgT3vj {
