@@ -823,10 +823,32 @@ GAME SETTINGS
   background-color: var(--ctp-accent-color);
   filter: none;
 }
+/* DLC name */
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3sXdOJ9DEh5zdS54_ptwgW .bP2Ipgau61tQ0ZGNU5LM {
+  color: var(--ctp-subtext1);
+}
 /* Game Recording */
 ._EifR99lo_Field._EifR99lo_Disabled {
   color: var(--ctp-surface0);
 }
+/* Privacy */
+/* go online pls */
+._1FkllTGljuP1t9Xc6QDhk3 {
+  color: var(--ctp-peach);
+}
+/* your dlc is not private */
+._3S8RX620BmLdH407KK505 ._3cAh02omVEUuC1wX2K36Ma {
+  color: var(--ctp-subtext0);
+}
+/* dlc names */
+._2ULTJEgaq0SZefVsQLCQ6B ._3FcoB9iwXEhr45sPG6g16h .a19KifKnB2YZP_hYoFsar {
+  color: var(--ctp-subtext1);
+}
+/* checkbox */
+._2ULTJEgaq0SZefVsQLCQ6B .DialogCheckbox {
+  background-color: var(--ctp-surface0);
+}
+
 /* Feedback */
 /* body text */
 ._3c6bxMGW_CompatibilityDetailRatingSummary {
@@ -836,6 +858,7 @@ GAME SETTINGS
 ._3c6bxMGW_CompatibilityDetailRatingSummary ._3c6bxMGW_Verified {
   color: var(--ctp-green) !important;
 }
+
 
 /* 
 STEAM INPUT
@@ -864,6 +887,14 @@ button._EifR99lo_Button.DialogButton:enabled.gpfocus {
 /* subheader */
 .BasicUI ._EifR99lo_GamepadDialogContent .DialogSubHeader {
   color: var(--ctp-text);
+}
+/* subcommand actions */
+._2_BofBWqcJxvOP-TNbRZ3r ._1y8wFjqZP8EMvFBO0ysFSM,
+.rDprCo31Wh7qOrNvnAtYi .QJYtd_P5Uq8ndAQim5dJN {
+  color: var(--ctp-text);
+}
+._1jkc-kgGF6F094o5S1bLPR {
+  color: var(--ctp-blue);
 }
 /* input settings */
 /* input settings sidebar background */
@@ -1312,6 +1343,10 @@ SETTINGS
   background-color: var(--ctp-accent-color) !important;
   color: var(--ctp-base) !important;
 }
+/* disabled checkboxs */
+.DialogCheckbox.Disabled, .DialogCheckbox_Container.Disabled {
+  filter: none;
+}
 /* header text */
 ._EifR99lo_GamepadDialogContent .DialogHeader {
   color: var(--ctp-text);
@@ -1422,7 +1457,16 @@ button._EifR99lo_Button.DialogButton.Disabled, button._EifR99lo_Button.DialogBut
 ._PxFNrUxD_NotificationDescription {
   color: var(--ctp-subtext0);
 }
-
+/* expanded description */
+._21Uc0N6TIRIw4LIZzQnsdE {
+  background: var(--ctp-base);
+}
+._1u5y7VbwvOwncjMsMqnFUz {
+  background-color: var(--ctp-mantle);
+}
+.DialogToggle_Label span {
+  color: var(--ctp-subtext1);
+}
 /* Bluetooth */
 /* not connected text */
 ._kPaMbDof_NotConnectedLabel {
