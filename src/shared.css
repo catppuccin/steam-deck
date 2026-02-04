@@ -14,15 +14,6 @@ HOME PAGE
   color: var(--ctp-green);
 }
 
-/* steamdeck compatabilty indicator */
-._3VPnvw_CDKU-PQKK1pSDlN {
-  background-color: rgba(var(--ctp-surface0-rgb), 0.7);
-  backdrop-filter: blur(30px);
-}
-._1dzQL1mVR8GTmmSi_kpDgr {
-  filter: var(--ctp-text-filter);
-}
-
 /* home backgrounds */
 ._J5rxTYCm_BasicHome._J5rxTYCm_OpaqueBackground {
   background: var(--ctp-base);
@@ -54,6 +45,15 @@ HOME PAGE
 }
 
 /* badges */
+/* background */
+._3VPnvw_CDKU-PQKK1pSDlN {
+  background-color: rgba(var(--ctp-surface0-rgb), 0.7);
+  backdrop-filter: blur(30px);
+}
+/* platform icon */
+._1dzQL1mVR8GTmmSi_kpDgr {
+  filter: var(--ctp-text-filter);
+}
 ._3c6bxMGW_Verified,
 ._LnXLZIZz_SteamDeckCompatVerified {
   color: var(--ctp-green);
