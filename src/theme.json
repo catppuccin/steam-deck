@@ -10,7 +10,6 @@
 			"SP",
 			"MainMenu",
 			"QuickAccess",
-			"SteamLibraryWindow|Steam",
 			"~https://store.steampowered.com/~"
 		],
 		"svg.css": [
@@ -252,6 +251,145 @@
 					]
 				},
 				"No": {}
+			},
+			"components": []
+		},
+		"Blur Amount": {
+			"type": "slider",
+			"default": "10px",
+			"values": {
+				"None": {
+					"--ctp-blur": [
+						"0px",
+						"SP"
+					]
+				},
+				"3px": {
+					"--ctp-blur": [
+						"3px",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"5px": {
+					"--ctp-blur": [
+						"5px",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"10px": {
+					"--ctp-blur": [
+						"10px",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"15px": {
+					"--ctp-blur": [
+						"15px",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"20px": {
+					"--ctp-blur": [
+						"20px",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"30px": {
+					"--ctp-blur": [
+						"30px",
+						"SP",
+						"MainMenu"
+					]
+				}
+			},
+			"components": []
+		},
+		"Blur Opacity": {
+			"type": "slider",
+			"default": "0.8",
+			"values": {
+				"1": {
+					"--ctp-opacity": [
+						", 1",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"0.9": {
+					"--ctp-opacity": [
+						", 0.9",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"0.8": {
+					"--ctp-opacity": [
+						", 0.8",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"0.7": {
+					"--ctp-opacity": [
+						", 0.7",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"0.6": {
+					"--ctp-opacity": [
+						", 0.6",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"0.5": {
+					"--ctp-opacity": [
+						", 0.5",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"0.4": {
+					"--ctp-opacity": [
+						", 0.4",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"0.3": {
+					"--ctp-opacity": [
+						", 0.3",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"0.2": {
+					"--ctp-opacity": [
+						", 0.2",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"0.1": {
+					"--ctp-opacity": [
+						", 0.1",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"0": {
+					"--ctp-opacity": [
+						", 0",
+						"SP",
+						"MainMenu"
+					]
+				}
 			},
 			"components": []
 		}

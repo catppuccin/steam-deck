@@ -1,6 +1,6 @@
 .BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX.Focusable:focus,
 .BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX.Focusable:hover {
-  background: var(--ctp-accent-color);
+  background: var(--ctp-accent-color) !important;
 }
 .basicgamecarousel_Play_12eKc .basicgamecarousel_ActionIcon_25Qbo {
   color: var(--ctp-accent-color);
@@ -12,4 +12,7 @@
 ._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL._2awU7ejQ3Qs_g0XnuSmgOP, ._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL.Download, ._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL.Update, ._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL.PreLoad, ._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL.Install, ._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL.Pause {
   background: var(--ctp-accent-color);
   color: var(--ctp-base);
+}
+.BasicUI ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus {
+  background: var(--ctp-accent-color) !important;
 }

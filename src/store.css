@@ -2,6 +2,13 @@
 STORE
 */
 
+html.responsive .gpfocus .ds_steam_deck_compat {
+  opacity: 0;
+}
+.ds_steam_deck_compat.verified {
+  background: url('https://store.fastly.steamstatic.com/public/shared/images/ico/ico-deck-logo.svg') 3px no-repeat var(--ctp-text), url('https://store.fastly.steamstatic.com/public/shared/images/ico/ico-deck-verified.svg') 22px no-repeat var(--ctp-green);
+}
+
 /* generic background color */
 .responsive_page_content {
   background: var(--ctp-base)
@@ -15,6 +22,9 @@ TOP BAR
 ._16jZ3HEbtaJTl80pQINN2Y, .qxuaSNtrNvE-, body.VuAIAiWhjcg- {
   color: var(--ctp-text) !important;
   background: var(--ctp-crust) !important;
+}
+._2ULEyYgHBHtbdS-UzA2CMo {
+  background: linear-gradient(90deg in oklab, var(--ctp-base) 0%, var(--ctp-crust) 100%) !important;
 }
 /* text */
 a._175B12uOwmeGBNcSaQFe-Z, button._175B12uOwmeGBNcSaQFe-Z,
@@ -109,6 +119,10 @@ a._-4fVuiRLPho- .mjYLRTgzt4A- .EMyT87c-1ws- .IOoilFOfWUQ-, button._-4fVuiRLPho- 
   background: linear-gradient(90deg in oklab, var(--ctp-text) 0%, var(--ctp-lavender) 100%) !important;
   color: var(--ctp-base) !important;
 }
+html.gamepad .details_block a.linkbar, html.gamepad .responsive_banner_link, html.gamepad .user_reviews, html.gamepad .purchase_options_banners, html.gamepad .glance_tags_ctn .glance_tags .app_tag,
+html.gamepad #userReviews_responsive {
+  background-color: var(--ctp-surface0);
+}
 
 /*
 GAME PAGE
@@ -118,20 +132,29 @@ GAME PAGE
 .page_content_ctn,
 .related_items_ctn,
 .review_ctn,
-.page_content {
+.page_content,
+.game_background_lighten,
+.queue_ctn {
   background: var(--ctp-mantle) !important;
 }
-._2BG1JKMgeqn_cr0rbRhRNA,
 .review_box a.vote_header,
 .Cek1s5Ixk2xYmkqjjESD0, ._2dGPTYWTKq3CirJwPXKw2b,
 html.tablet .game_area_purchase_game:focus-within,
 .Cek1s5Ixk2xYmkqjjESD0:focus-within, ._2dGPTYWTKq3CirJwPXKw2b:focus-within,
-html.tablet .game_area_purchase_game, html.tablet .game_area_offsite_purchase {
+html.tablet .game_area_purchase_game, html.tablet .game_area_offsite_purchase,
+html.gamepad .game_area_purchase_game, html.gamepad .game_area_offsite_purchase,
+html.gamepad .game_area_purchase_game:focus-within {
   background: var(--ctp-surface0);
 }
-html.tablet .review_box {
+html.tablet .review_box,
+html.gamepad .review_box {
   background: var(--ctp-base);
 }
+.XIDYByW4BEOm-YiOiwGmO,
+._2BG1JKMgeqn_cr0rbRhRNA {
+  background: radial-gradient(62.67% 62.67% at 62.67% 100% in oklab, rgba(var(--ctp-base-rgb), 0.5) 0%, rgba(var(--ctp-surface0-rgb), 0.9) 100%);
+}
+
 /* text */
 html.tablet #appHubAppName_responsive,
 .game_description_snippet,
@@ -159,9 +182,22 @@ html.tablet .franchise_name,
 .franchise_notice,
 .review_award_count,
 html.tablet .game_area_purchase h1,
-#eula_language_label {
+#eula_language_label,
+html.gamepad .responsive_block_header, html.gamepad .block_title.vrsupport, html.gamepad .details_block.vrsupport, html.gamepad #LanguagesHeader, html.gamepad .responsive_apppage_details_right.heading:not(.responsive_hidden), html.gamepad .early_access_announcements h2, html.gamepad .sys_req h2, html.gamepad #franchise_block h2, html.gamepad #recommended_block h2, html.gamepad #app_reviews_hash h2, html.gamepad .package_group, html.gamepad #gameAreaDLCSection h2, html.gamepad .referring_curator_ctn h2, html.gamepad .game_area_purchase h2, html.gamepad .block_header h4,
+html.gamepad .game_area_details_specs_ctn .label,
+.gamepad ._8DSX9d1ihrMSeZUFC9elD .ny6hWVK6ii05H200KRhds,
+._1mfBI5XbiaKU9vS5WkJALu,
+html.gamepad .game_area_description h2:not(#aboutThisGame h2, h2.bb_tag), html.gamepad #aboutThisGame h2:not(h2.bb_tag),
+.game_purchase_options_editions_header_title,
+html.gamepad .game_purchase_price,
+html.gamepad .game_purchase_discount .discount_final_price,
+html.gamepad .game_area_dlc_name,
+html.gamepad #appHubAppName_responsive {
   color: var(--ctp-text) !important;
   opacity: 1;
+}
+html.gamepad .responsive_banner_link_title {
+  color: var(--ctp-text);
 }
 html.tablet #reportBtn img, html.tablet #shareBtn img {
   filter: var(--ctp-base-filter);
@@ -175,7 +211,8 @@ html.tablet .review_box .hours.ellipsis,
 html.tablet .app_header_grid_container .grid_content.grid_date,
 .review_box .postedDate,
 html.tablet .review_box .review_was_helpful, html.tablet .review_box .vote_info,
-#game_area_legal {
+#game_area_legal,
+html.gamepad .responsive_banner_link .responsive_banner_link_total {
   color: var(--ctp-subtext0);
   opacity: 1;
 }
@@ -189,7 +226,8 @@ body.v6 h2.user_reviews_header .header_links a,
 .bundle_label,
 html.tablet .block.recommendation_reasons a,
 div.bb_h2, .bb_wysiwyg h2,
-.game_purchase_discount_countdown {
+.game_purchase_discount_countdown,
+html.gamepad .block.recommendation_reasons a {
   color: var(--ctp-blue);
 }
 .ds_flag {
@@ -199,7 +237,9 @@ div.bb_h2, .bb_wysiwyg h2,
   background: url("data:image/svg+xml,%3Csvg width='11' height='10' viewBox='0 0 11 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='1' y='1' width='8' height='2' fill='%23111111'/%3E%3Crect x='1' y='4' width='8' height='2' fill='%23111111'/%3E%3Crect x='1' y='7' width='8' height='2' fill='%23111111'/%3E%3C/svg%3E%0A") no-repeat 4px 4px var(--ctp-accent-color);
 }
 .game_review_summary.positive,
-html.tablet .discount_block.no_discount .bundle_base_discount {
+html.tablet .discount_block.no_discount .bundle_base_discount,
+.game_area_purchase_game b, .game_area_offsite_purchase b,
+html.gamepad .discount_block.no_discount .bundle_base_discount {
   color: var(--ctp-green);
   opacity: 1;
 }
@@ -230,6 +270,9 @@ p.reason.for:before {
 .reward_btn_icon {
   filter: var(--ctp-peach-filter);
 }
+html.gamepad .expand_section {
+  filter: var(--ctp-text-filter);
+}
 /* buttons */
 html.tablet .details_block a.linkbar, html.tablet .responsive_banner_link, html.tablet .user_reviews, html.tablet .purchase_options_banners, html.tablet .glance_tags_ctn .glance_tags .app_tag,
 .btn_blue_steamui, .btn_blue_white_innerfade, .btnv6_lightblue_blue,
@@ -241,16 +284,27 @@ html.tablet .game_area_dlc_row.odd, html.tablet .game_area_dlc_row.even,
 html.tablet .block.recommendation_reasons .similar_recent_apps_container > a,
 #eula_main select.gray_bevel,
 #eula_main .block_content,
-.Cek1s5Ixk2xYmkqjjESD0, ._2dGPTYWTKq3CirJwPXKw2b {
+.Cek1s5Ixk2xYmkqjjESD0, ._2dGPTYWTKq3CirJwPXKw2b
+html.gamepad .queue_ctn,
+.btn_grey_steamui, .btnv6_grey_black, .btnv6_blue_hoverfade, .btn_grey_white_innerfade, .btn_grey_grey, .btn_grey_grey_outer_bevel, .btn_black, .btn_grey_black, .btnv6_blue_blue_innerfade, .btn_darkblue_white_innerfade,
+html.gamepad #bannerLanguages.responsive_banner_link,
+html.gamepad .block.recommendation_reasons .similar_recent_apps_container > a,
+html.gamepad h2 span.note a,
+html.gamepad .game_area_dlc_row.odd, html.gamepad .game_area_dlc_row.even {
   background: var(--ctp-surface0);
   color: var(--ctp-text) !important;
 }
 h2 .note em {
   color: var(--ctp-text);
 }
+.game_purchase_options_editions_header_compare_button {
+  color: var(--ctp-text);
+  border: 1px solid var(--ctp-text);
+}
 .btnv6_grey_black,
 ._3KAysk4dlhWETa6ixz7V2j,
-.XIDYByW4BEOm-YiOiwGmO ._3o1Ri_nyL6GsPbTQZGSZcT ._33J1_MYWJVjXbCkBFCNr6f {
+.XIDYByW4BEOm-YiOiwGmO ._3o1Ri_nyL6GsPbTQZGSZcT ._33J1_MYWJVjXbCkBFCNr6f,
+.dlc_highlight_reason {
   background: var(--ctp-surface1) !important;
   color: var(--ctp-text) !important;
 }
@@ -266,9 +320,10 @@ html.tablet .responsive_banner_link_title:hover, html.tablet .responsive_banner_
   color: var(--ctp-base) !important;
   background: var(--ctp-accent-color) !important;
 }
-.btn_green_white_innerfade, .btnv6_green_white_innerfade, .btn_green_steamui,
-.btn_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active).gpfocus, .btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active).gpfocus, .btn_green_steamui:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active).gpfocus {
-  color: var(--ctp-base);
+.btn_green_steamui,
+html.gamepad .game_purchase_action_bg a,
+.btn_green_steamui:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active).gpfocus {
+  color: var(--ctp-base) !important;
   background: var(--ctp-green) !important;
 }
 html.tablet .game_purchase_action_bg a {
@@ -293,11 +348,14 @@ html.tablet input.text, html.tablet .wallet_code_input_ctn .redeem_input_box_tex
   background: var(--ctp-surface0);
   color: var(--ctp-text);
 }
-html.tablet .DRM_notice {
+html.tablet .DRM_notice,
+.DRM_notice {
   background: -webkit-linear-gradient(-45deg in oklab, var(--ctp-peach) 0%, var(--ctp-yellow) 100%);
   color: var(--ctp-base);
 }
-html.tablet .DRM_notice a {
+html.tablet .DRM_notice a,
+html.gamepad .DRM_notice,
+html.gamepad .DRM_notice a {
   color: var(--ctp-base) !important;
 }
 
@@ -320,13 +378,18 @@ body.v6 .page_content_ctn.dark {
 ._3notzMjxQtogi11XHZMYXI,
 ._2hhNOdcC6yLwL_rugP3YLf._37iggltdgh0RtNIECJCfOj:not(._3_q87LhuWitbYSEHOVKYlM),
 .spotlight_content,
-.store_capsule .discount_block.daily_deal_discount  > .discount_prices,
 html.tablet .tab_item.focus,
 html.tablet .tab_item,
 html.tablet .discount_block .discount_prices, html.tablet .discount_block, html.tablet .carousel_container.maincap .discount_block,
 html.tablet .home_content a.home_content_item .home_content_item_info,
-html.tablet .home_content.single {
+html.tablet .home_content.single,
+html.gamepad .carousel_container.maincap .info,
+html.gamepad .tab_item.focus,
+html.gamepad .tab_item {
   background: var(--ctp-surface0);
+}
+.store_capsule .discount_block.daily_deal_discount  > .discount_prices {
+  background: var(--ctp-surface2);
 }
 .v9uRg57bwOaPsvAnkXESO .MvLJDXjfbme8Uw3OERaCb img {
   opacity: .1;
@@ -343,12 +406,20 @@ html.tablet .home_content.single {
   background: radial-gradient(62.67% 62.67% at 62.67% 100% in oklab, var(--ctp-surface1) 0%, var(--ctp-surface0) 100%);
 }
 html.tablet .discount_block_large .discount_prices,
-.carousel_container.spotlight .carousel_items > * .store_capsule.daily_deal {
+.carousel_container.spotlight .carousel_items > * .store_capsule.daily_deal,
+html.gamepad .discount_block_large .discount_prices {
   background: var(--ctp-surface1);
 }
 .deep_dive_tag {
   background-color: var(--ctp-surface1) !important;
   color: var(--ctp-text) !important;
+}
+html.gamepad .discount_block .discount_pct, html.gamepad .discount_pct, html.gamepad .store_capsule .discount_block:not(.discount_block_large) .discount_pct {
+  background: var(--ctp-green);
+  color: var(--ctp-base);
+}
+#SaleSection_84776 {
+  display: none;
 }
 /* text */
 div.SPYFj8pCLpNmnuQJEDobC, div.QuKtTJ4LCPUlQeWYfLNyX, div._3s7cUqglDds9wzcWb7OLz6, h1.SPYFj8pCLpNmnuQJEDobC, h2.QuKtTJ4LCPUlQeWYfLNyX, h3._3s7cUqglDds9wzcWb7OLz6,
@@ -364,7 +435,11 @@ div.SPYFj8pCLpNmnuQJEDobC, div.QuKtTJ4LCPUlQeWYfLNyX, div._3s7cUqglDds9wzcWb7OLz
 .dailydeal_desc,
 html.responsive.tablet .home_page_content > *[data-content-dive=true] .btn_small > span, html.responsive.tablet .home_page_content > *[data-content-dive=true] .btn_small_tall > span,
 html.tablet .tab_item .tab_item_name,
-.ellipsis {
+.ellipsis,
+html.responsive.gamepad .carousel_container.maincap .app_name > div,
+.btnv6_white_transparent,
+body.v6 h2:not(.BB_Header2),
+html.gamepad .tab_item.focus .tab_item_name {
   color: var(--ctp-text) !important;
 }
 html.responsive.tablet .home_page_content > *[data-content-dive=true] .btn_small > span, html.responsive.tablet .home_page_content > *[data-content-dive=true] .btn_small_tall.gpfocus > span {
@@ -381,8 +456,12 @@ html.responsive.tablet .home_page_content > *[data-content-dive=true] .btn_small
 .recently_updated .store_capsule .recently_updated_desc,
 .tab_item_details,
 #content_callout .more_content_desc,
-.home_content.single {
+.home_content.single,
+html.gamepad .discount_block .discount_original_price, html.gamepad .discount_block .discount_final_price {
   color: var(--ctp-subtext1);
+}
+html.gamepad .tab_item .tab_item_top_tags {
+  color: var(--ctp-subtext0);
 }
 .BasicUI ._3CGy1EaqFgVMH1Atf-TZBY ._3cziHBEgsSUnjyT5uXe5EX.gpfocus {
   filter: none;
@@ -397,13 +476,13 @@ html.responsive.tablet .home_page_content > *[data-content-dive=true] .btn_small
 #SaleSection_61051 .SaleSectionForCustomCSS .SaleSectionLabelCtn::before {
   filter: var(--ctp-text-filter);
 }
-
 /* buttons */
 .BasicUI ._2ESKkqmk68QMRArbxaUwm0 ._2cY4Vl4F1_9jlRxk7Su9uw,
 .BasicUI ._18byEIHFiivSklOwKqIx2b ._1edLKYpcJyTYC7ku9fYI1_ .Eh-ow8RpArn1HQyPR8RFY .KDLASaMCaASZ6LnF3kQY8,
 .BasicUI ._18byEIHFiivSklOwKqIx2b ._36qA-3ePJIusV1oKLQep-w ._2tkiJ4VfEdI9kq1agjZyNz,
 button.DialogButton, button.DialogButton.Primary,
-html.tablet .carousel_container.maincap .info {
+html.tablet .carousel_container.maincap .info,
+html.gamepad .big_button {
   color: var(--ctp-text);
   background-color: var(--ctp-surface0);
 }
@@ -426,7 +505,8 @@ html.tablet #content_more .home_content h2 a:hover, html.tablet #content_more .h
 button.DialogButton.gpfocus, button.DialogButton.Primary.gpfocus,
 html.tablet .big_button,
 html.tablet .big_button.gpfocus,
-.btnv6_white_transparent.gpfocus:not(.btn_disabled):not(:disabled) {
+.btnv6_white_transparent.gpfocus:not(.btn_disabled):not(:disabled),
+html.gamepad .big_button.gpfocus {
   color: var(--ctp-base);
   background-color: var(--ctp-accent-color);
 }
@@ -579,7 +659,8 @@ CHARTS
 
 /* Top Sellers */
 /* TEXT */
-._2rArjHHk-sJxtm0AQK-ifY ._2uKyXTgmlwRhfDB9pAKD76 ._1kLTg9HHfMgVo8gDstT8uR h1 {
+._2rArjHHk-sJxtm0AQK-ifY ._2uKyXTgmlwRhfDB9pAKD76 ._1kLTg9HHfMgVo8gDstT8uR h1,
+._1n_4-zvf0n4aqGEksbgW9N {
   color: var(--ctp-text);
 }
 .DialogTextInputBase, ._DialogInputContainer {
@@ -608,6 +689,12 @@ CHARTS
 }
 ._3arZn0BMPzyhcYNADe193m ._2-RN6nWOY56sNmcDHu069P .xm7JpnZElM9XGF4ruu0Z- {
   color: var(--ctp-text);
+}
+/* buttons/backgrounds */
+.DialogTextInputBase, ._DialogInputContainer,
+._3arZn0BMPzyhcYNADe193m ._2-RN6nWOY56sNmcDHu069P {
+  background: rgba(var(--ctp-surface0-rgb), 0.5) !important;
+  backdrop-filter: blur(8px);
 }
 /* Steam Deck */
 /* text */
