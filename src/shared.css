@@ -13,6 +13,9 @@ HOME PAGE
 ._C1nS6cpP_SubMessage._C1nS6cpP_FriendsInGame {
   color: var(--ctp-green);
 }
+.BasicUI .WYgDg9NyCcMIVuMyZ_NBC.Focusable:focus {
+  box-shadow: 0px 16px 24px 0px rgba(var(--ctp-crust-rgb), .5);
+}
 
 /* home backgrounds */
 ._J5rxTYCm_BasicHome._J5rxTYCm_OpaqueBackground {
@@ -308,10 +311,10 @@ TOP BAR
   color: var(--ctp-blue);
 }
 .online ._Q3SodnYB_avatarStatus.GamepadMode, .GamepadMode .online ._Q3SodnYB_avatarStatus {
-  background: var(--ctp-accent-color);
+  background: var(--ctp-blue);
 }
 .ingame ._Q3SodnYB_avatarStatus.GamepadMode, .GamepadMode .ingame ._Q3SodnYB_avatarStatus {
-  background: var(--ctp-accent-color);
+  background: var(--ctp-blue);
 }
 .ingame ._4ZxDBJu4_gameName._4ZxDBJu4_richPresenceLabel.GamepadMode, 
 .GamepadMode .ingame ._4ZxDBJu4_gameName._4ZxDBJu4_richPresenceLabel, 
@@ -326,6 +329,9 @@ TOP BAR
 .ingame._4ZxDBJu4_twoLine ._4ZxDBJu4_richPresenceLabel.GamepadMode, 
 .GamepadMode .ingame._4ZxDBJu4_twoLine ._4ZxDBJu4_richPresenceLabel {
   color: var(--ctp-green);
+}
+._3h-QRJGxnVOIExtHD1R0f2 {
+  box-shadow: 2px 2px 8px 1px rgba(var(--ctp-crust-rgb), .5);
 }
 /* chat icon unreads indicator*/
 ._RViG2P93_Header_NotificationUnreadMention {
@@ -370,13 +376,14 @@ LIBRARY
 ._awNNWnmm_GamepadTabbedPage._awNNWnmm_IsUnderHeader ._awNNWnmm_TabHeaderRowWrapper::before, ._awNNWnmm_TabHeaderRowWrapper._awNNWnmm_ScrolledDown::before {
   backdrop-filter: blur(var(--ctp-blur));
   background: rgba(var(--ctp-crust-rgb)var(--ctp-opacity));
+  box-shadow: 0px 10px 10px rgba(var(--ctp-crust-rgb), .8);
 }
 /* library tab highlight */
 ._3eEbSktrstBdLk0dVpnKVI.gpfocus {
   box-shadow: none;
 }
-._3eEbSktrstBdLk0dVpnKVI.gpfocus svg {
-  filter: var(--ctp-base-filter);
+._3eEbSktrstBdLk0dVpnKVI.gpfocus svg path {
+  fill: var(--ctp-base);
 }
 /* library sorting filters */
 /* filters background */
@@ -1325,6 +1332,41 @@ DOWNLOADS
 }
 
 /*
+DISPLAY-OFF DOWNLOADS
+*/
+
+/* text */
+._2SPKQ0YDxtXr1PNvw9egV_ ._2BiOSc9SZcEoVjke1tEi-t {
+  color: var(--ctp-text);
+}
+._2SPKQ0YDxtXr1PNvw9egV_ ._3BIkG8Vle-bUt5GZXT0CW9 ._2Nw2cnkMIdir7Iq5S8ep-i ._16Izz_srDEgTSDxl41LbHD {
+  color: var(--ctp-subtext0);
+}
+/* box art shadow */
+.BasicUI ._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC:hover._3VOR2AeYATx3qSE0I-Pm-5, .BasicUI ._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC._2YsY_x7hLyKlUqjX9bhn0R._3VOR2AeYATx3qSE0I-Pm-5 {
+  box-shadow: 0px 12px 10px 0px rgba(var(--ctp-crust-rgb), 0.8);
+}
+/* remaining */
+._2SPKQ0YDxtXr1PNvw9egV_ ._3BIkG8Vle-bUt5GZXT0CW9 ._2Nw2cnkMIdir7Iq5S8ep-i ._3v1lvwchPfLDIf-JpVJxdE {
+  color: var(--ctp-blue);
+}
+/* background */
+._2Xi7l3bV5Qnl9UMZkXGs_a {
+  background-color: var(--ctp-base);
+}
+/* top bar */
+._2Xi7l3bV5Qnl9UMZkXGs_a ._32i3Xdi-CbzGtt9Xyi9qb6 ._10ZdNOQ2ImDgQB_MVLKgO3 {
+  color: var(--ctp-text);
+}
+/* footer */
+._32P7o9T4YjMTCXZpHIoPAB ._3GuzdIy7OdJ0wbBLGNEcD1 {
+  color: var(--ctp-subtext1);
+}
+._2Xi7l3bV5Qnl9UMZkXGs_a .TQp9sqPDuy-wmmJN7oKc7 {
+  background-color: var(--ctp-crust);
+}
+
+/*
 SETTINGS
 */
 
@@ -1843,7 +1885,7 @@ QAM
 ._2zh9IsDz_Title {
   background: var(--ctp-base);
   color: var(--ctp-text);
-  box-shadow: none;
+  box-shadow: 0 0 8px 12px rgba(var(--ctp-base-rgb), 0.99);
 }
 .GamepadMode.friendlist {
   background: var(--ctp-base);
