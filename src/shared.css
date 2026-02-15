@@ -57,9 +57,16 @@ HOME PAGE
 ._1dzQL1mVR8GTmmSi_kpDgr {
   filter: var(--ctp-text-filter);
 }
+._1TaKfLOhWBYEPtvv-WJv0n svg {
+  filter: var(--ctp-text-filter);
+}
 ._3c6bxMGW_Verified,
 ._LnXLZIZz_SteamDeckCompatVerified {
   color: var(--ctp-green);
+}
+/* steam os verified */
+._1IeRz_QzfsACNiXS4gXHIT {
+  color: var(--ctp-blue);
 }
 ._LnXLZIZz_SteamDeckCompatPlayable {
   color: var(--ctp-peach);
@@ -707,6 +714,11 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active.Primary {
 ._SWtPeIkJ_ViewLastNews {
   color: var(--ctp-subtext1);
 }
+/* no recent activity */
+._2-kDc3UDR-GN6V1lBpSupb, ._3UShzJcf4CyVupLSI3kqfD {
+  color: var(--ctp-overlay0);
+  border-color: var(--ctp-overlay0);
+}
 /* major update card */
 ._3oMUSjOFNB0E9LWcL2sE7,
 .LibriMVXcLl1HB60ZUp78 {
@@ -753,6 +765,15 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active.Primary {
 .DeckVerifiedModalDialog .DialogContent {
   background: var(--ctp-mantle) !important;
 }
+/* overlay tabs */
+._1ALZVqWCl2J8DJg4XxemH1>div {
+  color: var(--ctp-subtext0);
+  background-color: var(--ctp-base);
+}
+._1ALZVqWCl2J8DJg4XxemH1 .ActiveTab {
+  background-color: var(--ctp-surface0);
+  color: var(--ctp-text);
+}
 ._3c6bxMGW_DialogTitle {
   color: var(--ctp-text);
 }
@@ -761,6 +782,9 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active.Primary {
 }
 ._1Wu_jj1kk9n3WIoga3RL_J {
   color: var(--ctp-subtext0);
+}
+.mJGYScROtrnXBuQ-LU507 ._2XeA02URQukjyKp0fh__XL {
+  color: var(--ctp-blue);
 }
 ._2mwbdnqm9Lk1-Bzs8FIdCU {
   background-color: var(--ctp-surface0);
@@ -2158,6 +2182,22 @@ STEAM MENU
   }
 }
 
+/* in-game menus */
+/* hover */
+._xfZ18oWU_NavigationMenuItem.gpfocus {
+  animation-name: none;
+  mix-blend-mode: normal;
+  background-color: var(--ctp-surface0);
+}
+/* header color */
+._ehWSiALG_Header._ehWSiALG_HeaderOpaque {
+  background-color: var(--ctp-crust);
+}
+/* footer color */
+._3T1iFy2maYycwqgFuzERyf._2PZqiulqsNwAphWn25K5uZ {
+  background-color: var(--ctp-crust);
+}
+
 /* Controller settings */
 ._zjA7UbA1_ControllerConfiguratorSummary ._zjA7UbA1_DirectAccessButton:focus {
   background-color: var(--ctp-surface0);
@@ -2574,6 +2614,13 @@ OTHER
   color: var(--ctp-text) !important;
 }
 
+/* Footer */
+._3AYJPRJR_BasicFooter {
+  backdrop-filter: blur(var(--ctp-blur));
+  background-color: rgba(var(--ctp-crust-rgb)var(--ctp-opacity));
+  border-color: var(--ctp-crust);
+}
+
 /* user profile button highlight */
 button.TEWmsM70ZLEOxLAjDMpcv._2rd6kyE9QIMeIPPOJ19fOq ._3wadwgMy2-9k8uOKh3iSdT,
 button.TEWmsM70ZLEOxLAjDMpcv._2rd6kyE9QIMeIPPOJ19fOq svg,
@@ -2670,21 +2717,7 @@ button.TEWmsM70ZLEOxLAjDMpcv._2rd6kyE9QIMeIPPOJ19fOq ._3Wb9yDmYPUJksCr7HmaT9H {
 ._1ur8gz7auRZSLqkJM3L_tZ {
   color: var(--ctp-peach);
 }
-/* Footer */
-._3AYJPRJR_BasicFooter {
-  background: transparent !important;
-  border-image: none;
-  border-top: none;
-  backdrop-filter: blur(var(--ctp-blur));
-}
-._3T1iFy2maYycwqgFuzERyf ._2JJDHoMl4ArT89aNzlYM3N {
-  background-color: rgba(var(--ctp-crust-rgb)var(--ctp-opacity)) !important;
-  padding: 0 calc(12px + 1.4vw - 8px);
-  height: var(--gamepadui-current-footer-height) !important;
-}
-._3T1iFy2maYycwqgFuzERyf:not(._1fMXTJK26Av1xwzGL5RI86) {
-  padding: 0 0 0 0;
-}
+
 ._EifR99lo_Field._EifR99lo_HighlightOnFocus.gpfocus,
 ._EifR99lo_Field._EifR99lo_HighlightOnFocus.gpfocuswithin {
   background: var(--ctp-surface0) !important;
@@ -3307,23 +3340,6 @@ body, body._2LxgdMcpWJRjkxZKbmeEEb {
 }
 ._SWtPeIkJ_ActivityFeedContainer ._SWtPeIkJ_EndofFeed ._SWtPeIkJ_EndRule {
   background-color: var(--ctp-surface0);
-}
-/* hover */
-._xfZ18oWU_NavigationMenuItem.gpfocus {
-  animation-name: none;
-  mix-blend-mode: normal;
-  background-color: var(--ctp-surface0);
-}
-/* footer color */
-._3AYJPRJR_BasicFooter ._3AYJPRJR_FooterLegend {
- background-color: var(--ctp-crust);
-}
-._3AYJPRJR_BasicFooter._3AYJPRJR_Opaque {
-  background-color: var(--ctp-crust);
-}
-/* header color */
-._ehWSiALG_Header._ehWSiALG_HeaderOpaque {
-  background-color: var(--ctp-crust);
 }
 
 /* Your Stuff */
