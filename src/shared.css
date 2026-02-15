@@ -345,6 +345,11 @@ TOP BAR
   background-color: var(--ctp-yellow);
   box-shadow: none;
 }
+/* game recording indicator */
+._3F5c8fKve9Np3fgNoLL_HA ._1xAwtG6fY2e8cdQSOEB0Uj ._10YlCoSyfryPV400ANy14I {
+  background: var(--ctp-red);
+  border: none;
+}
 /* battery */
 ._ehWSiALG_BatteryIcon svg svg rect,
 ._b5GQsn5s_BatteryIcon svg svg rect {
@@ -751,6 +756,10 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active.Primary {
 /* achivement subtext */
 ._GWYRkBdJ_AchievementCarouselItem._GWYRkBdJ_Detailed ._GWYRkBdJ_Description {
   color: var(--ctp-subtext1);
+}
+/* achivement rarity */
+._1ckvQc7fc_EgwWKrW6GISW .MGoYUyIslJerluzgnU7z9 {
+  color: var(--ctp-subtext0) !important;
 }
 /* game info tab icons */
 ._56rhShUg_Container ._56rhShUg_Icon {
@@ -2619,6 +2628,20 @@ OTHER
   backdrop-filter: blur(var(--ctp-blur));
   background-color: rgba(var(--ctp-crust-rgb)var(--ctp-opacity));
   border-color: var(--ctp-crust);
+}
+
+/* button shortcuts overlay */
+/* shortcut title */
+._3TvBVwaH8eIBabTdki35oe ._1O63m479uRdCfjFTOT-cQv {
+  color: var(--ctp-text);
+}
+/* background */
+._2j2euz2tuOpFxV07yJS1Q6 ._3TvBVwaH8eIBabTdki35oe {
+  background: var(--ctp-mantle);
+}
+/* seperator */
+._2j2euz2tuOpFxV07yJS1Q6 ._27Q1TQNf9VysifeaxYFyyU {
+  border-color: var(--ctp-surface0);
 }
 
 /* user profile button highlight */
