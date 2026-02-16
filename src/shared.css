@@ -24,7 +24,8 @@ HOME PAGE
 ._QcGXoqZ7_TabbedContent {
   background: var(--ctp-base);
 }
-._awNNWnmm_TabContentsScroll._TabContentsScroll._otzIPpej_ScrollPanel._otzIPpej_ScrollY.Panel.Focusable {
+._awNNWnmm_TabContentsScroll._TabContentsScroll._otzIPpej_ScrollPanel._otzIPpej_ScrollY.Panel.Focusable,
+.WDa0_WKNSWIa38S26gl_T {
   background-color: transparent !important;
 }
 .gamepadhomerecentgames_RecentGamesBackgroundFadeGradient_1ksIq {
@@ -556,7 +557,11 @@ GAME DETAILS
 */
 
 ._L3jh3XgZ_AppDetailsRoot {
-  background: var(--ctp-mantle) !important;
+  background: var(--ctp-base) !important;
+}
+.BasicUI ._3scbHORkYB7utTUGfkMCC_,
+.QvHky2-yJGOkPJG16qeRL {
+  background: var(--ctp-mantle);
 }
 .BasicUI ._cuOVbdpY_PlayBarDetailLabel,
 .BasicUI ._cuOVbdpY_LastPlayed ._cuOVbdpY_LastPlayedInfo,
@@ -2498,8 +2503,11 @@ DECKY LOADER
   background: var(--ctp-mantle) !important;
 }
 /* background */
-._awNNWnmm_TabContents {
+._2RXNRKWY8jL7xwgGYUfLfU div:has(style) {
   background: var(--ctp-base);
+}
+.CSSLoader_ThemeCard_Container {
+  background-color: var(--ctp-surface0) !important;
 }
 .theme-data-container {
   background: var(--ctp-base) !important;
