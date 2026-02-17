@@ -1,8 +1,0 @@
-/* Better Blur compatablity */
-.backgroundglass_DrawBackground_2NQoF {
-    background: rgba(var(--ctp-base-rgb), var(--betterBlur-opacity)) !important;
-}
-
-.gamepadui_GamepadDialogOverlay_34Euf .ModalOverlayBackground {
-    background: rgba(var(--ctp-base-rgb), var(--betterBlur-opacity)) !important;
-}
