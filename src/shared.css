@@ -13,16 +13,21 @@ HOME PAGE
 ._C1nS6cpP_SubMessage._C1nS6cpP_FriendsInGame {
   color: var(--ctp-green);
 }
+.BasicUI .WYgDg9NyCcMIVuMyZ_NBC.Focusable:focus {
+  box-shadow: 0px 16px 24px 0px rgba(var(--ctp-crust-rgb), .5);
+}
 
 /* home backgrounds */
 ._J5rxTYCm_BasicHome._J5rxTYCm_OpaqueBackground {
   background: var(--ctp-base);
 }
-._awNNWnmm_TabContentsScroll._TabContentsScroll._otzIPpej_ScrollPanel._otzIPpej_ScrollY.Panel.Focusable {
-  background-color: rgba(0, 0, 0, 0) !important;
-}
 ._QcGXoqZ7_TabbedContent {
   background: var(--ctp-base);
+}
+/* DO NOT TOUCH THIS VALUE, CHANGING IT WILL BREAK STUFF!!! */
+._awNNWnmm_TabContentsScroll._TabContentsScroll._otzIPpej_ScrollPanel._otzIPpej_ScrollY.Panel.Focusable,
+.WDa0_WKNSWIa38S26gl_T {
+  background-color: transparent !important;
 }
 .gamepadhomerecentgames_RecentGamesBackgroundFadeGradient_1ksIq {
   background: none;
@@ -45,9 +50,25 @@ HOME PAGE
 }
 
 /* badges */
+/* background */
+._3VPnvw_CDKU-PQKK1pSDlN {
+  background-color: rgba(var(--ctp-surface0-rgb), 0.7);
+  backdrop-filter: blur(30px);
+}
+/* platform icons */
+._1dzQL1mVR8GTmmSi_kpDgr {
+  filter: var(--ctp-text-filter);
+}
+._1TaKfLOhWBYEPtvv-WJv0n svg {
+  filter: var(--ctp-text-filter);
+}
 ._3c6bxMGW_Verified,
 ._LnXLZIZz_SteamDeckCompatVerified {
   color: var(--ctp-green);
+}
+/* steam os verified */
+._1IeRz_QzfsACNiXS4gXHIT {
+  color: var(--ctp-blue);
 }
 ._LnXLZIZz_SteamDeckCompatPlayable {
   color: var(--ctp-peach);
@@ -76,7 +97,14 @@ HOME PAGE
   background-color: var(--ctp-overlay0);
   color: var(--ctp-text) !important;
 }
-
+/* install bar */
+.kX-tIJx4a9vKVuUkKJARv .mA39Hqv8LacDppegb_Q_Z {
+  background-color: var(--ctp-blue);
+}
+.kX-tIJx4a9vKVuUkKJARv {
+  background-color: rgba(var(--ctp-surface0-rgb), .7);
+  height: 5.38px;
+}
 /* whats new */
 ._Kp4Buf0X_EventInfo {
   background: var(--ctp-surface0);
@@ -89,6 +117,10 @@ HOME PAGE
 }
 ._LLGUZIsx_InLibrary {
   background: var(--ctp-blue);
+}
+/* dlc release */
+._1f0dZzzkepidbFYKDYcvUS._1FEOxRmreG9vk8CAKLpQHr {
+  color: var(--ctp-mauve);
 }
 ._LLGUZIsx_GameCapsule ._LLGUZIsx_BottomBar {
   background-color: var(--ctp-surface0);
@@ -154,6 +186,11 @@ HOME PAGE
 ._owwS4zpa_StoreSalePriceWidgetContainer ._owwS4zpa_StoreSaleNewItem {
   background-color: var(--ctp-blue);
   color: var(--ctp-surface0);
+}
+._2s-O5T3qJJYR2AUq4b9jIN._2xCT1pUf2c9TICHoMcQE0d:not(.Discounted) ._3j4dI1yA7cRfCvK8h406OB {
+  background: transparent;
+  padding-right: 8px;
+  padding: 0px 0px;
 }
 
 /* discovery queue overlay */
@@ -235,6 +272,7 @@ HOME PAGE
 /*
 TOP BAR
 */
+
 ._GXJzUoT6_SearchBox,
 .searchbar_SearchContainer_161Tj ._GXJzUoT6_SearchIconRight,
 ._ehWSiALG_Clock,
@@ -245,7 +283,8 @@ TOP BAR
   background-color: var(--ctp-blue) !important;
 }
 ._ehWSiALG_Header::before {
-  background: var(--ctp-crust) !important;
+  background: rgba(var(--ctp-crust-rgb)var(--ctp-opacity)) !important;
+  backdrop-filter: blur(var(--ctp-blur)) !important;
 }
 ._LlewZgR3_URLBar ._LlewZgR3_URL {
   background: var(--ctp-crust) !important;
@@ -259,10 +298,10 @@ TOP BAR
 }
 /* search bar background */
 ._GXJzUoT6_SearchAndTitleContainer._GXJzUoT6_ShowingSearch:not(._GXJzUoT6_VR):hover {
-  background-color: var(--ctp-crust);
+  background-color: transparent;
 }
 ._GXJzUoT6_SearchAndTitleContainer._GXJzUoT6_ForceExpanded:not(.gpfocuswithin) ._GXJzUoT6_SearchFieldBackground._GXJzUoT6_WhiteBackground {
-  background-color: var(--ctp-crust);
+  background-color: transparent;
 }
 /* urlbar */
 ._LlewZgR3_URLBar ._LlewZgR3_StatusIcon, ._LlewZgR3_URLBar ._LlewZgR3_URL {
@@ -305,10 +344,18 @@ TOP BAR
 .GamepadMode .ingame._4ZxDBJu4_twoLine ._4ZxDBJu4_richPresenceLabel {
   color: var(--ctp-green);
 }
+._3h-QRJGxnVOIExtHD1R0f2 {
+  box-shadow: 2px 2px 8px 1px rgba(var(--ctp-crust-rgb), .5);
+}
 /* chat icon unreads indicator*/
 ._RViG2P93_Header_NotificationUnreadMention {
   background-color: var(--ctp-yellow);
   box-shadow: none;
+}
+/* game recording indicator */
+._3F5c8fKve9Np3fgNoLL_HA ._1xAwtG6fY2e8cdQSOEB0Uj ._10YlCoSyfryPV400ANy14I {
+  background: var(--ctp-red);
+  border: none;
 }
 /* battery */
 ._ehWSiALG_BatteryIcon svg svg rect,
@@ -346,10 +393,17 @@ LIBRARY
 }
 /* library tab background */
 ._awNNWnmm_GamepadTabbedPage._awNNWnmm_IsUnderHeader ._awNNWnmm_TabHeaderRowWrapper::before, ._awNNWnmm_TabHeaderRowWrapper._awNNWnmm_ScrolledDown::before {
-  backdrop-filter: none;
-  background: var(--ctp-crust);
+  backdrop-filter: blur(var(--ctp-blur));
+  background: rgba(var(--ctp-crust-rgb)var(--ctp-opacity));
+  box-shadow: 0px 8px 10px rgba(var(--ctp-crust-rgb), .8);
 }
-
+/* library tab highlight */
+._3eEbSktrstBdLk0dVpnKVI.gpfocus {
+  box-shadow: none;
+}
+._3eEbSktrstBdLk0dVpnKVI.gpfocus svg path {
+  fill: var(--ctp-base);
+}
 /* library sorting filters */
 /* filters background */
 ._s6ZVhnwz_CompatFilterDialog {
@@ -509,7 +563,10 @@ GAME DETAILS
 */
 
 ._L3jh3XgZ_AppDetailsRoot {
-  background: var(--ctp-base) !important;
+  background: rgba(var(--ctp-base-rgb), .65) !important;
+}
+._3FmxxjyWNHU1PrBGnBe6tm._2l416KfEtI4CL0mCUEmOBw {
+  background-image: radial-gradient(100% 100% at 45% 35%, var(--ctp-surface0) 0%, var(--ctp-base) 100%);
 }
 .BasicUI ._cuOVbdpY_PlayBarDetailLabel,
 .BasicUI ._cuOVbdpY_LastPlayed ._cuOVbdpY_LastPlayedInfo,
@@ -521,8 +578,11 @@ GAME DETAILS
 }
 .BasicUI ._wGpIi7EP_Green ._wGpIi7EP_ButtonChild.Focusable:focus,
 .BasicUI ._wGpIi7EP_Green ._wGpIi7EP_ButtonChild.Focusable:hover {
-  background: var(--ctp-green);
+  background: var(--ctp-green) !important;
   color: var(--ctp-base);  
+}
+.BasicUI ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus {
+  background: var(--ctp-blue) !important;
 }
 .BasicUI ._wGpIi7EP_Green ._wGpIi7EP_ButtonChild.Focusable:focus ._wGpIi7EP_ButtonText,
 .BasicUI ._wGpIi7EP_Green ._wGpIi7EP_ButtonChild.Focusable:hover ._wGpIi7EP_ButtonText {
@@ -632,9 +692,69 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active.Primary {
   color: var(--ctp-text);
   fill: var(--ctp-text);
 }
+/* play from arrow (with update) */
+.BasicUI ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi {
+  background: var(--ctp-surface0);
+  color: var(--ctp-text);
+}
+.BasicUI ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus._2q-gZ3XJzlvSGHSF-GvSmi {
+  background: var(--ctp-accent-color);
+  color: var(--ctp-base);
+}
+/* update progress */
+._25YVDTaClw6Y2COPsU0UaV {
+  background-color: var(--ctp-surface0);
+}
+/* play from menu */
+._9zjx5-sflx5lN6kHWM5Mw.Focusable:focus {
+  background-color: var(--ctp-accent-color);
+  color: var(--ctp-base);
+}
+/* hidden game indicator */
+.HeHYcNrMxDY4kBR7nF9EH svg {
+  filter: var(--ctp-red-filter);
+}
+.HeHYcNrMxDY4kBR7nF9EH svg._2rrEflBTTYjr5L0k5bZ73w {
+  filter: var(--ctp-base-filter) !important;
+}
+/* from steam family text */
+.z8GYwNt_nbBZrf7OVjs-s {
+  display: none;
+}
+/* friend played *time* recently */
+._1GCZAht_W2I3Elndk5cU0- ._1xGH4bGLz6sI7erzB8VWff {
+  color: var(--ctp-subtext0) !important;
+}
 /* latest news text */
 ._SWtPeIkJ_ViewLastNews {
   color: var(--ctp-subtext1);
+}
+/* no recent activity */
+._2-kDc3UDR-GN6V1lBpSupb, ._3UShzJcf4CyVupLSI3kqfD {
+  color: var(--ctp-overlay0);
+  border-color: var(--ctp-overlay0);
+}
+/* major update card */
+._3oMUSjOFNB0E9LWcL2sE7,
+.LibriMVXcLl1HB60ZUp78 {
+  background: transparent;
+}
+._39Zk32AvV5cr6g-83IVRVS {
+  box-shadow: none;
+  background: linear-gradient(to right in oklab, #199FFF00 0%, var(--ctp-sky) 18px, var(--ctp-blue) 50%, var(--ctp-sky) 100%);
+  border: none;
+}
+._29bW1yCn25VTm4bFameBaV,
+._3fsjzvni7TQ1NphLHM_5r3,
+._3zwBRDW1egliiT4pKYIXap {
+  text-shadow: none;
+}
+._3fsjzvni7TQ1NphLHM_5r3,
+._29bW1yCn25VTm4bFameBaV {
+  color: var(--ctp-mantle) !important;
+}
+._3zwBRDW1egliiT4pKYIXap {
+  color: var(--ctp-base) !important;
 }
 /* steam + r1 */
 ._zjA7UbA1_ControllerInputDisplay ._zjA7UbA1_ChordControlBinding {
@@ -647,6 +767,10 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active.Primary {
 ._GWYRkBdJ_AchievementCarouselItem._GWYRkBdJ_Detailed ._GWYRkBdJ_Description {
   color: var(--ctp-subtext1);
 }
+/* achivement rarity */
+._1ckvQc7fc_EgwWKrW6GISW .MGoYUyIslJerluzgnU7z9 {
+  color: var(--ctp-subtext0) !important;
+}
 /* game info tab icons */
 ._56rhShUg_Container ._56rhShUg_Icon {
   filter: var(--ctp-text-filter);
@@ -658,13 +782,31 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active.Primary {
 /* compatablity overlay */
 .DeckVerifiedModalDialogClient .DialogContent,
 .DeckVerifiedModalDialog .DialogContent {
-  background: var(--ctp-base) !important;
+  background: var(--ctp-mantle) !important;
+}
+/* overlay tabs */
+._1ALZVqWCl2J8DJg4XxemH1>div {
+  color: var(--ctp-subtext0);
+  background-color: var(--ctp-base);
+}
+._1ALZVqWCl2J8DJg4XxemH1 .ActiveTab {
+  background-color: var(--ctp-surface0);
+  color: var(--ctp-text);
 }
 ._3c6bxMGW_DialogTitle {
   color: var(--ctp-text);
 }
 ._3c6bxMGW_CompatibilityDetailsRow {
   color: var(--ctp-text);
+}
+._1Wu_jj1kk9n3WIoga3RL_J {
+  color: var(--ctp-subtext0);
+}
+.mJGYScROtrnXBuQ-LU507 ._2XeA02URQukjyKp0fh__XL {
+  color: var(--ctp-blue);
+}
+._2mwbdnqm9Lk1-Bzs8FIdCU {
+  background-color: var(--ctp-surface0);
 }
 /* protondb */
 .protondb-decky-indicator {
@@ -678,13 +820,21 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active.Primary {
   background: var(--ctp-red) !important;
 }
 /* ugly ass button */
-._5e2yDGSd_ScrollToTopButton {
-  font-size: 0px;
-  color: rgba(0, 0, 0, 0)
-}
 ._5e2yDGSd_ScrollToTopButton div {
-  box-shadow: none;
-  background: rgba(0, 0, 0, 0);
+  display: none;
+}
+/* vr badge */
+.lKkF8MY2dBQlRkaHwjbqW {
+  background-color: var(--ctp-peach);
+}
+._2tCNvxerDW3kH9lXAFl0NK {
+  color: var(--ctp-base);
+}
+._1t7927CfvHZSxoXBLDiDaR {
+  background: rgba(var(--ctp-surface0-rgb), 0.8);
+  text-shadow: none;
+  color: var(--ctp-text);
+  opacity: 1;
 }
 
 /*
@@ -694,6 +844,20 @@ GAME SETTINGS
 /* Automatic Updates */
 ._zzZzSSlx_DefaultOptionText {
   color: var(--ctp-text);
+}
+/* Game Betas */
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody .X3pN_ESh0aoxmm2nK65Hu,
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy ._1LCoWsUrJmZHr7SVX0luaG._231y-BrqpRH85PNLgfseSR {
+  background: var(--ctp-surface0);
+}
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy {
+  border: none;
+}
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._33vTXbnDrHUQCTEKwJC3Eh {
+  color: var(--ctp-text);
+}
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy ._1LCoWsUrJmZHr7SVX0luaG.dB7T-kfL2b2b0jd9Zg9fa ._2d_FE9TOpHt1FsYhLEpjCp {
+  border-left: 3px solid var(--ctp-accent-color);
 }
 /* Controller */
 /* steam imput status background */
@@ -709,10 +873,32 @@ GAME SETTINGS
   background-color: var(--ctp-accent-color);
   filter: none;
 }
+/* DLC name */
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3sXdOJ9DEh5zdS54_ptwgW .bP2Ipgau61tQ0ZGNU5LM {
+  color: var(--ctp-subtext1);
+}
 /* Game Recording */
 ._EifR99lo_Field._EifR99lo_Disabled {
   color: var(--ctp-surface0);
 }
+/* Privacy */
+/* go online pls */
+._1FkllTGljuP1t9Xc6QDhk3 {
+  color: var(--ctp-peach);
+}
+/* your dlc is not private */
+._3S8RX620BmLdH407KK505 ._3cAh02omVEUuC1wX2K36Ma {
+  color: var(--ctp-subtext0);
+}
+/* dlc names */
+._2ULTJEgaq0SZefVsQLCQ6B ._3FcoB9iwXEhr45sPG6g16h .a19KifKnB2YZP_hYoFsar {
+  color: var(--ctp-subtext1);
+}
+/* checkbox */
+._2ULTJEgaq0SZefVsQLCQ6B .DialogCheckbox {
+  background-color: var(--ctp-surface0);
+}
+
 /* Feedback */
 /* body text */
 ._3c6bxMGW_CompatibilityDetailRatingSummary {
@@ -722,6 +908,7 @@ GAME SETTINGS
 ._3c6bxMGW_CompatibilityDetailRatingSummary ._3c6bxMGW_Verified {
   color: var(--ctp-green) !important;
 }
+
 
 /* 
 STEAM INPUT
@@ -741,15 +928,23 @@ button._EifR99lo_Button.DialogButton:enabled.gpfocus {
 }
 /* sidebar icons focused */
 ._4hESt2MY_PagedSettingsDialog_PageListItem._4hESt2MY_Active img, ._4hESt2MY_PagedSettingsDialog_PageListItem:focus img {
-  filter: var(--ctp-base-filter);
+  filter: var(--ctp-mantle-filter);
 }
 /* virtual menus icon */
 .gpfocus ._4hESt2MY_PageListItem_Icon svg {
-  filter: var(--ctp-base-filter);
+  filter: var(--ctp-mantle-filter);
 }
 /* subheader */
 .BasicUI ._EifR99lo_GamepadDialogContent .DialogSubHeader {
   color: var(--ctp-text);
+}
+/* subcommand actions */
+._2_BofBWqcJxvOP-TNbRZ3r ._1y8wFjqZP8EMvFBO0ysFSM,
+.rDprCo31Wh7qOrNvnAtYi .QJYtd_P5Uq8ndAQim5dJN {
+  color: var(--ctp-text);
+}
+._1jkc-kgGF6F094o5S1bLPR {
+  color: var(--ctp-blue);
 }
 /* input settings */
 /* input settings sidebar background */
@@ -817,24 +1012,41 @@ button._EifR99lo_Button.DialogButton:enabled.gpfocus {
 }
 
 /* input select */
-/* hovered button background */
+/* non steam game warning */
+._1sDi27hllvYRL_cM-TQ7Ic {
+  color: var(--ctp-peach);
+}
+/* hovered buttons */
 ._C0tg64pn_ControllerActionKey.gpfocus,
 ._C0tg64pn_MouseKey.gpfocus,
 ._C0tg64pn_KeyboardKey.gpfocus,
 ._C0tg64pn_SelectButton.gpfocus,
 ._C0tg64pn_StartButton.gpfocus,
 ._C0tg64pn_TriggerButton.gpfocus,
-._C0tg64pn_BumperButton.gpfocus {
+._C0tg64pn_BumperButton.gpfocus,
+._C0tg64pn_CameraAngleKey.gpfocus,
+.NoRFSLSfwRijJQt7R51OT.CX4Dp8XyHswkGEEnWeUpq.gpfocus{
   filter: none;
-  background: var(--ctp-accent-color);
-  border-color: var(--ctp-accent-color);
+  background: var(--ctp-accent-color) !important;
+  border-color: var(--ctp-accent-color) !important;
 }
 /* hovered button text */
-.gpfocus ._C0tg64pn_KeyboardKeyLabel {
+.gpfocus ._C0tg64pn_KeyboardKeyLabel,
+._C0tg64pn_CameraAngleKey.gpfocus.gpfocuswithin{
   color: var(--ctp-base);
 }
+/* hovered button icons */
+._C0tg64pn_CameraAngleKey.gpfocus svg {
+  filter: var(--ctp-base-filter);
+}
+._C0tg64pn_CameraAngleKey.gpfocus img {
+  filter: var(--ctp-base-filter)
+}
 /* unhovered button */
-._C0tg64pn_TriggerButton, ._C0tg64pn_BumperButton, ._C0tg64pn_SelectButton, ._C0tg64pn_StartButton, ._C0tg64pn_MouseKey, ._C0tg64pn_KeyboardKey, ._C0tg64pn_ControllerActionKey, ._C0tg64pn_CameraAngleKey {
+._C0tg64pn_TriggerButton, ._C0tg64pn_BumperButton, ._C0tg64pn_SelectButton, ._C0tg64pn_StartButton, ._C0tg64pn_MouseKey, ._C0tg64pn_KeyboardKey, ._C0tg64pn_ControllerActionKey, ._C0tg64pn_CameraAngleKey,
+._19SMSHLlXqSLnXM3NjDNBS.CX4Dp8XyHswkGEEnWeUpq,
+.NoRFSLSfwRijJQt7R51OT.CX4Dp8XyHswkGEEnWeUpq,
+._3yP_pf4vx1Q4W0mt2DR32P.CX4Dp8XyHswkGEEnWeUpq {
   border-color: var(--ctp-surface0);
   background-color: var(--ctp-surface0);
 }
@@ -844,23 +1056,6 @@ button._EifR99lo_Button.DialogButton:enabled.gpfocus {
 }
 ._C0tg64pn_CameraAngleKey {
   color: var(--ctp-text);
-}
-/* hovered buttons */
-._C0tg64pn_CameraAngleKey.gpfocus {
-  border-color: var(--ctp-accent-color);
-  background: var(--ctp-accent-color);
-  filter: none;
-}
-/* hovered button text */
-._C0tg64pn_CameraAngleKey.gpfocus.gpfocuswithin {
-  color: var(--ctp-base);
-}
-/* hovered button icons */
-._C0tg64pn_CameraAngleKey.gpfocus svg {
-  filter: var(--ctp-base-filter);
-}
-._C0tg64pn_CameraAngleKey.gpfocus img {
-  filter: var(--ctp-base-filter)
 }
 /* input borders */
 ._C0tg64pn_CardinalButtonGroup._C0tg64pn_Circle::before,
@@ -900,7 +1095,8 @@ FRIENDS & CHAT
 */
 
 /* Get rid of glow */
-.SteamDeckChats.gpfocuswithin .chattabs_ChatTab_1WfqA {
+.SteamDeckChats.gpfocuswithin .chattabs_ChatTab_1WfqA,
+.SteamDeckChats.gpfocuswithin ._2XZq-_f6npaQdAgeRzKIkz {
   box-shadow: none;
 }
 /* Sidebar top focused */
@@ -935,6 +1131,11 @@ FRIENDS & CHAT
 ._zwJA6Drf_TabBumper.GamepadMode svg path, .GamepadMode ._zwJA6Drf_TabBumper svg path {
   fill: var(--ctp-subtext0);
 }
+/* sidebar seperators */
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends.GamepadMode, .GamepadMode .FriendsListContent .friendlistListContainer .friendGroup.onlineFriends,
+.FriendsListContent .friendlistListContainer .friendGroup.offlineFriends.GamepadMode, .GamepadMode .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends {
+  border-top: 1px solid var(--ctp-overlay0);
+}
 /* AZ arrow */
 .groupHeaderContainer.gpfocuswithin .SortByRecent.GamepadMode, .GamepadMode .groupHeaderContainer.gpfocuswithin .SortByRecent {
   background-color: var(--ctp-surface0) !important;
@@ -952,15 +1153,9 @@ FRIENDS & CHAT
   fill: var(--ctp-green);
 }
 /* disabling text shadow */
-.friend.gpfocus .labelHolder.GamepadMode ._4ZxDBJu4_playerName, .friend.gpfocus .labelHolder.GamepadMode ._4ZxDBJu4_richPresenceLabel, .GamepadMode .friend.gpfocus .labelHolder ._4ZxDBJu4_playerName, .GamepadMode .friend.gpfocus .labelHolder ._4ZxDBJu4_richPresenceLabel, .favoriteElement.gpfocus .labelHolder.GamepadMode ._4ZxDBJu4_playerName, .favoriteElement.gpfocus .labelHolder.GamepadMode ._4ZxDBJu4_richPresenceLabel, .GamepadMode .favoriteElement.gpfocus .labelHolder ._4ZxDBJu4_playerName, .GamepadMode .favoriteElement.gpfocus .labelHolder ._4ZxDBJu4_richPresenceLabel {
-  text-shadow: none;
-}
-.friend.gpfocus .labelHolder.GamepadMode.offline ._4ZxDBJu4_richPresenceLabel, .GamepadMode .friend.gpfocus .labelHolder.offline ._4ZxDBJu4_richPresenceLabel, .favoriteElement.gpfocus .labelHolder.GamepadMode.offline ._4ZxDBJu4_richPresenceLabel, .GamepadMode .favoriteElement.gpfocus .labelHolder.offline ._4ZxDBJu4_richPresenceLabel {
-  text-shadow: none;
-}
-.friend.gpfocus .labelHolder.GamepadMode.ingame.awayOrSnooze ._4ZxDBJu4_playerName, .friend.gpfocus .labelHolder.GamepadMode.ingame ._4ZxDBJu4_richPresenceLabel, .GamepadMode .friend.gpfocus .labelHolder.ingame.awayOrSnooze ._4ZxDBJu4_playerName, .GamepadMode .friend.gpfocus .labelHolder.ingame ._4ZxDBJu4_richPresenceLabel, .favoriteElement.gpfocus .labelHolder.GamepadMode.ingame.awayOrSnooze ._4ZxDBJu4_playerName, .favoriteElement.gpfocus .labelHolder.GamepadMode.ingame ._4ZxDBJu4_richPresenceLabel, .GamepadMode .favoriteElement.gpfocus .labelHolder.ingame.awayOrSnooze ._4ZxDBJu4_playerName, .GamepadMode .favoriteElement.gpfocus .labelHolder.ingame ._4ZxDBJu4_richPresenceLabel {
-  text-shadow: none;
-}
+.friend.gpfocus .labelHolder.GamepadMode ._4ZxDBJu4_playerName, .friend.gpfocus .labelHolder.GamepadMode ._4ZxDBJu4_richPresenceLabel, .GamepadMode .friend.gpfocus .labelHolder ._4ZxDBJu4_playerName, .GamepadMode .friend.gpfocus .labelHolder ._4ZxDBJu4_richPresenceLabel, .favoriteElement.gpfocus .labelHolder.GamepadMode ._4ZxDBJu4_playerName, .favoriteElement.gpfocus .labelHolder.GamepadMode ._4ZxDBJu4_richPresenceLabel, .GamepadMode .favoriteElement.gpfocus .labelHolder ._4ZxDBJu4_playerName, .GamepadMode .favoriteElement.gpfocus .labelHolder ._4ZxDBJu4_richPresenceLabel,
+.friend.gpfocus .labelHolder.GamepadMode.offline ._4ZxDBJu4_richPresenceLabel, .GamepadMode .friend.gpfocus .labelHolder.offline ._4ZxDBJu4_richPresenceLabel, .favoriteElement.gpfocus .labelHolder.GamepadMode.offline ._4ZxDBJu4_richPresenceLabel, .GamepadMode .favoriteElement.gpfocus .labelHolder.offline ._4ZxDBJu4_richPresenceLabel,
+.friend.gpfocus .labelHolder.GamepadMode.ingame.awayOrSnooze ._4ZxDBJu4_playerName, .friend.gpfocus .labelHolder.GamepadMode.ingame ._4ZxDBJu4_richPresenceLabel, .GamepadMode .friend.gpfocus .labelHolder.ingame.awayOrSnooze ._4ZxDBJu4_playerName, .GamepadMode .friend.gpfocus .labelHolder.ingame ._4ZxDBJu4_richPresenceLabel, .favoriteElement.gpfocus .labelHolder.GamepadMode.ingame.awayOrSnooze ._4ZxDBJu4_playerName, .favoriteElement.gpfocus .labelHolder.GamepadMode.ingame ._4ZxDBJu4_richPresenceLabel, .GamepadMode .favoriteElement.gpfocus .labelHolder.ingame.awayOrSnooze ._4ZxDBJu4_playerName, .GamepadMode .favoriteElement.gpfocus .labelHolder.ingame ._4ZxDBJu4_richPresenceLabel,
 .friend.gpfocus .labelHolder.GamepadMode.online.awayOrSnooze ._4ZxDBJu4_playerName, .friend.gpfocus .labelHolder.GamepadMode.online.awayOrSnooze ._4ZxDBJu4_richPresenceLabel, .GamepadMode .friend.gpfocus .labelHolder.online.awayOrSnooze ._4ZxDBJu4_playerName, .GamepadMode .friend.gpfocus .labelHolder.online.awayOrSnooze ._4ZxDBJu4_richPresenceLabel, .favoriteElement.gpfocus .labelHolder.GamepadMode.online.awayOrSnooze ._4ZxDBJu4_playerName, .favoriteElement.gpfocus .labelHolder.GamepadMode.online.awayOrSnooze ._4ZxDBJu4_richPresenceLabel, .GamepadMode .favoriteElement.gpfocus .labelHolder.online.awayOrSnooze ._4ZxDBJu4_playerName, .GamepadMode .favoriteElement.gpfocus .labelHolder.online.awayOrSnooze ._4ZxDBJu4_richPresenceLabel {
   text-shadow: none;
 }
@@ -993,13 +1188,14 @@ FRIENDS & CHAT
   background-color: var(--ctp-surface0);
 }
 /* dms sidebar icon background focused */
-.SteamDeckChats.gpfocuswithin .RightSideButtonContainer .oneOnOneVoiceChatButton.gpfocus {
+.SteamDeckChats.gpfocuswithin .RightSideButtonContainer .oneOnOneVoiceChatButton.gpfocus,
+.SteamDeckChats.gpfocuswithin .RightSideButtonContainer .AddFriendButton.gpfocus, .SteamDeckChats.gpfocuswithin .RightSideButtonContainer .inviteAnotherFriendButton.gpfocus{
   animation-name: none;
   background-color: var(--ctp-accent-color)
 }
-.SteamDeckChats.gpfocuswithin .RightSideButtonContainer .AddFriendButton.gpfocus, .SteamDeckChats.gpfocuswithin .RightSideButtonContainer .inviteAnotherFriendButton.gpfocus {
-  background-color: var(--ctp-accent-color);
-  animation-name: none;
+.SteamDeckChats.gpfocuswithin .RightSideButtonContainer .oneOnOneVoiceChatButton.gpfocus svg,
+.SteamDeckChats.gpfocuswithin .RightSideButtonContainer .AddFriendButton.gpfocus svg, .SteamDeckChats.gpfocuswithin .RightSideButtonContainer .inviteAnotherFriendButton.gpfocus svg{
+  filter: var(--ctp-base-filter);
 }
 /* dms voice call text */
 .msg.voiceChannelInvite {
@@ -1034,8 +1230,7 @@ FRIENDS & CHAT
   background-color: var(--ctp-surface0);
 }
 /* your friend code text */
-._26jUFFxA_FriendCodeSection ._26jUFFxA_Caption
-{
+._26jUFFxA_FriendCodeSection ._26jUFFxA_Caption {
   color: var(--ctp-subtext1);
 }
 /* add a friend text */
@@ -1180,9 +1375,84 @@ DOWNLOADS
 }
 
 /*
+DISPLAY-OFF DOWNLOADS
+*/
+
+/* text */
+._2SPKQ0YDxtXr1PNvw9egV_ ._2BiOSc9SZcEoVjke1tEi-t {
+  color: var(--ctp-text);
+}
+._2SPKQ0YDxtXr1PNvw9egV_ ._3BIkG8Vle-bUt5GZXT0CW9 ._2Nw2cnkMIdir7Iq5S8ep-i ._16Izz_srDEgTSDxl41LbHD {
+  color: var(--ctp-subtext0);
+}
+/* box art shadow */
+.BasicUI ._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC:hover._3VOR2AeYATx3qSE0I-Pm-5, .BasicUI ._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC._2YsY_x7hLyKlUqjX9bhn0R._3VOR2AeYATx3qSE0I-Pm-5 {
+  box-shadow: 0px 12px 10px 0px rgba(var(--ctp-crust-rgb), 0.8);
+}
+/* remaining */
+._2SPKQ0YDxtXr1PNvw9egV_ ._3BIkG8Vle-bUt5GZXT0CW9 ._2Nw2cnkMIdir7Iq5S8ep-i ._3v1lvwchPfLDIf-JpVJxdE {
+  color: var(--ctp-blue);
+}
+/* background */
+._2Xi7l3bV5Qnl9UMZkXGs_a {
+  background-color: var(--ctp-base);
+}
+/* top bar */
+._2Xi7l3bV5Qnl9UMZkXGs_a ._32i3Xdi-CbzGtt9Xyi9qb6 ._10ZdNOQ2ImDgQB_MVLKgO3 {
+  color: var(--ctp-text);
+}
+/* footer */
+._32P7o9T4YjMTCXZpHIoPAB ._3GuzdIy7OdJ0wbBLGNEcD1 {
+  color: var(--ctp-subtext1);
+}
+._2Xi7l3bV5Qnl9UMZkXGs_a .TQp9sqPDuy-wmmJN7oKc7 {
+  background-color: var(--ctp-crust);
+}
+
+/*
 SETTINGS
 */
 
+/* buttons */
+button._EifR99lo_Button.DialogButton,
+button._EifR99lo_Button.DialogButton.Primary,
+button._EifR99lo_Button.DialogButton:enabled,
+button._EifR99lo_Button.DialogButton:enabled.Primary,
+button._EifR99lo_Button.DialogButton:active,
+button._EifR99lo_Button.DialogButton:active.Primary,
+button._EifR99lo_Button.DialogButton:hover,
+button._EifR99lo_Button.DialogButton:hover.Primary,
+button._EifR99lo_Button.DialogButton:enabled:active:hover,
+button._EifR99lo_Button.DialogButton:enabled:active:hover.Primary {
+  background: var(--ctp-surface0) !important;
+  color: var(--ctp-text);
+}
+button._EifR99lo_Button.DialogButton.gpfocus,
+button._EifR99lo_Button.DialogButton:active,
+button._EifR99lo_Button.DialogButton:enabled.gpfocus,
+button._EifR99lo_Button.DialogButton:enabled:active,
+button._EifR99lo_Button.DialogButton:active.gpfocus,
+button._EifR99lo_Button.DialogButton:active:active,
+button._EifR99lo_Button.DialogButton:hover.gpfocus,
+button._EifR99lo_Button.DialogButton:hover:active,
+button._EifR99lo_Button.DialogButton:enabled:active:hover.gpfocus,
+button._EifR99lo_Button.DialogButton:enabled:active:hover:active {
+  background: var(--ctp-accent-color) !important;
+  color: var(--ctp-base);
+}
+/* button subtext */
+button._EifR99lo_Button.DialogButton.gpfocus span,
+button._EifR99lo_Button.DialogButton:active span,
+button._EifR99lo_Button.DialogButton:enabled.gpfocus span,
+button._EifR99lo_Button.DialogButton:enabled:active span,
+button._EifR99lo_Button.DialogButton:active.gpfocus span,
+button._EifR99lo_Button.DialogButton:active:active span,
+button._EifR99lo_Button.DialogButton:hover.gpfocus span,
+button._EifR99lo_Button.DialogButton:hover:active span,
+button._EifR99lo_Button.DialogButton:enabled:active:hover.gpfocus span,
+button._EifR99lo_Button.DialogButton:enabled:active:hover:active span {
+  color: var(--ctp-base);
+}
 /* text box */
 ._EifR99lo_BasicTextInput {
   color: var(--ctp-subtext0);
@@ -1197,6 +1467,10 @@ SETTINGS
 .DesktopUI .DialogTextInputBase:focus, .DialogTextInputBase:focus-within {
   background-color: var(--ctp-accent-color) !important;
   color: var(--ctp-base) !important;
+}
+/* disabled checkboxs */
+.DialogCheckbox.Disabled, .DialogCheckbox_Container.Disabled {
+  filter: none;
 }
 /* header text */
 ._EifR99lo_GamepadDialogContent .DialogHeader {
@@ -1237,8 +1511,16 @@ button._EifR99lo_Button.DialogButton.Disabled, button._EifR99lo_Button.DialogBut
 }
 /* sidebar highlight */
 ._4hESt2MY_PagedSettingsDialog_PageListItem._4hESt2MY_Active, ._4hESt2MY_PagedSettingsDialog_PageListItem:focus {
-  color: var(--ctp-base) !important;
+  color: var(--ctp-mantle) !important;
   background-color: var(--ctp-accent-color) !important;
+}
+/* sidebar background */
+._1d6VIquCc410kNE7rDAje6 {
+  background: var(--ctp-mantle) !important;
+}
+/* sidebar seperator */
+._3sUwukdeKdKRTojXu4I3ga {
+  background: var(--ctp-surface0);
 }
 /* multi option toggle */
 .HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q, .HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q:hover {
@@ -1300,7 +1582,16 @@ button._EifR99lo_Button.DialogButton.Disabled, button._EifR99lo_Button.DialogBut
 ._PxFNrUxD_NotificationDescription {
   color: var(--ctp-subtext0);
 }
-
+/* expanded description */
+._21Uc0N6TIRIw4LIZzQnsdE {
+  background: var(--ctp-base);
+}
+._1u5y7VbwvOwncjMsMqnFUz {
+  background-color: var(--ctp-mantle);
+}
+.DialogToggle_Label span {
+  color: var(--ctp-subtext1);
+}
 /* Bluetooth */
 /* not connected text */
 ._kPaMbDof_NotConnectedLabel {
@@ -1487,6 +1778,37 @@ button._EifR99lo_Button.DialogButton.Disabled, button._EifR99lo_Button.DialogBut
 ._zjA7UbA1_InlineChordContainer ._zjA7UbA1_InlineChordControlBinding {
   color: var(--ctp-subtext1);
 }
+/* default recording quality indicator */
+._1UpteyCApeHSfG-Tw-3H3m {
+  color: var(--ctp-subtext0);
+}
+/* recording quality overlay */
+/* quality selector */
+._2LsLgumx7NT9ZRATSxgxG9 ._2DPH_p-EuIcRdESFW1Of1E {
+  color: var(--ctp-text);
+}
+._2LsLgumx7NT9ZRATSxgxG9 {
+  color: var(--ctp-subtext1);
+}
+.gpfocus ._2LsLgumx7NT9ZRATSxgxG9 {
+  color: var(--ctp-base);
+}
+/* description */
+._4o-62zIm7LJA71ljfrNwU {
+  color: var(--ctp-subtext1);
+}
+/* bit rate table */
+._3Xmnqry-Y0tCwhsHXuZh_W {
+  color: var(--ctp-subtext0);
+  background-color: var(--ctp-mantle);
+}
+._3Xmnqry-Y0tCwhsHXuZh_W th {
+  color: var(--ctp-subtext1);
+}
+/* compression label */
+.gpfocus ._2LsLgumx7NT9ZRATSxgxG9 ._2DPH_p-EuIcRdESFW1Of1E {
+  color: var(--ctp-mantle);
+}
 
 /* Home */
 ._J5rxTYCm_BasicHome {
@@ -1519,11 +1841,6 @@ button._EifR99lo_Button.DialogButton.Disabled, button._EifR99lo_Button.DialogBut
 }
 .BasicUI ._tTQwnZZA_InstallFolder:focus ._tTQwnZZA_DriveName, .BasicUI ._tTQwnZZA_InstallFolder:focus ._tTQwnZZA_DriveSize, .BasicUI ._tTQwnZZA_InstallFolder:focus svg {
   color: var(--ctp-base) !important;
-}
-
-._Bg3uEpqC_contextMenuItem {
-  background-color: var(--ctp-base);
-  color: var(--ctp-text);
 }
 ._EifR99lo_Field.gpfocuswithin ._EifR99lo_LabelFieldValue {
   color: var(--ctp-subtext0);
@@ -1560,7 +1877,7 @@ color: var(--ctp-base);
 color: var(--ctp-base);
 }
 #header > div.searchbar_SearchContainer_161Tj._GXJzUoT6_ForceExpanded.Panel.Focusable > input {
-background-color: var(--ctp-crust);
+  background: transparent;
 }
 #header > div.searchbar_SearchContainer_161Tj._GXJzUoT6_ForceExpanded.Panel.Focusable > svg._GXJzUoT6_SearchIconLeft {
 color: var(--ctp-text);
@@ -1586,9 +1903,14 @@ fill: var(--ctp-accent-color);
 }
 
 /*
-OVERLAY MENUS
+CONTEXT MENUS
 */
 
+/* background */
+._Bg3uEpqC_contextMenuItem {
+  background-color: var(--ctp-base);
+  color: var(--ctp-text);
+}
 /* play */
 ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused._Bg3uEpqC_Positive, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Stream, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Connect, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused._Zo4CIgjo_Launch, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.PlayMusic, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Play, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Resume, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.BorrowApp {
   background: var(--ctp-green);
@@ -1608,6 +1930,9 @@ OVERLAY MENUS
 ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused._Bg3uEpqC_Positive svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Stream svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Connect svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused._Zo4CIgjo_Launch svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.PlayMusic svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Play svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Resume svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.BorrowApp svg,
 ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused._Bg3uEpqC_Emphasis svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Download svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Update svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.PreLoad svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Install svg, ._Bg3uEpqC_contextMenuItem._Bg3uEpqC_Focused.Pause svg {
   color: var(--ctp-base);
+}
+._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL svg {
+  filter: var(--ctp-base-filter);
 }
 /* compatabilty warnings */
 ._3c6bxMGW_CompatibilityDetailRatingSummary ._3c6bxMGW_Playable {
@@ -1635,6 +1960,52 @@ OVERLAY MENUS
   background: var(--ctp-surface1);
   color: var(--ctp-text);
 }
+/* local transfer message */
+.WonjNtnAq8aOefGl_x2v4 {
+  color: var(--ctp-peach);
+}
+.WonjNtnAq8aOefGl_x2v4 span span {
+  color: var(--ctp-text) !important;
+}
+/* seperator */
+#MainNavMenu-Rest .ixiWPQKqTMxnq43WgT3vj {
+  background: transparent;
+}
+/* Game Context Menu (older) */
+._Bg3uEpqC_BasicContextMenuHeader {
+  color: var(--ctp-text);
+}
+._Bg3uEpqC_contextMenuItem.Stream,
+._Bg3uEpqC_contextMenuItem.Connect,
+._Bg3uEpqC_contextMenuItem._Zo4CIgjo_Launch,
+._Bg3uEpqC_contextMenuItem.PlayMusic,
+._Bg3uEpqC_contextMenuItem.Play,
+._Bg3uEpqC_contextMenuItem.Resume,
+._Bg3uEpqC_contextMenuItem.BorrowApp,
+._Bg3uEpqC_contextMenuItem.Download,
+._Bg3uEpqC_contextMenuItem.Update,
+._Bg3uEpqC_contextMenuItem.PreLoad,
+._Bg3uEpqC_contextMenuItem.Install,
+._Bg3uEpqC_contextMenuItem.Pause,
+._Bg3uEpqC_contextMenuItem.Stop,
+._Bg3uEpqC_contextMenuItem._OOy9OAIj_moderation_cancel {
+  color: var(--ctp-text);
+  background-color: var(--ctp-base);
+}
+._Bg3uEpqC_contextMenuItem._Bg3uEpqC_SubMenu .SVGIcon_DownArrowContextMenu {
+  fill: var(--ctp-text);
+}
+._Bg3uEpqC_contextMenuItem._Bg3uEpqC_SubMenu.gpfocuswithin .SVGIcon_DownArrowContextMenu {
+  fill: var(--ctp-base);
+}
+._Bg3uEpqC_contextMenuItem._Bg3uEpqC_SubMenu._Bg3uEpqC_active {
+  background-color: var(--ctp-accent-color);
+  color: var(--ctp-base);
+}
+[id^="ModalDialogOverlay_Modal_"] > div > div.BasicUIContextMenu._Bg3uEpqC_BasicContextMenuModal > div._Bg3uEpqC_BasicContextMenuContainer.Panel.Focusable.gpfocuswithin > div:nth-child(1) > div._Bg3uEpqC_SubMenu._Bg3uEpqC_active._Bg3uEpqC_contextMenuItem.contextMenuItem.Panel.Focusable > div._Bg3uEpqC_Arrow > svg {
+  fill: var(--ctp-base) !important;
+}
+
 /*
 QAM
 */
@@ -1662,7 +2033,7 @@ QAM
 ._2zh9IsDz_Title {
   background: var(--ctp-base);
   color: var(--ctp-text);
-  box-shadow: none;
+  box-shadow: 0 0 8px 12px rgba(var(--ctp-base-rgb), 0.99);
 }
 .GamepadMode.friendlist {
   background: var(--ctp-base);
@@ -1776,12 +2147,338 @@ QAM
 }
 
 /*
+STEAM MENU
+*/
+
+/* Main Menu Fix */
+._22Zq8BkS_ItemIcon, ._22Zq8BkS_ItemLabel {
+  color: var(--ctp-text) !important;
+}
+._Kp4Buf0X_EventType._Kp4Buf0X_EventType28 {
+  color: var(--ctp-yellow);
+}
+._Kp4Buf0X_EventType._Kp4Buf0X_EventType13 {
+  color: var(--ctp-blue);
+}
+._Kp4Buf0X_EventType._Kp4Buf0X_EventType11,
+._Kp4Buf0X_EventType._Kp4Buf0X_EventType23,
+._Kp4Buf0X_EventType._Kp4Buf0X_EventType35 {
+  color: var(--ctp-green);
+}
+._Kp4Buf0X_EventType._Kp4Buf0X_EventType14 {
+  color: var(--ctp-flamingo);
+}
+/* remove dropshadow */
+[class="_3kHmfV9Pej6JhVOBMGhcgq"] {
+  box-shadow: none;
+}
+/* ugly seperator */
+._33RkHXjHPoThT-d4uAt-n6 {
+  background: var(--ctp-surface0);
+}
+/* mainmenu fix by GrodanBool */
+.BasicUI ._22Zq8BkS_Container ._3apLK4XGwOjawDa-8X1CUadiv, div[role=menuitem] ._sk5Sf7Mo_Content {
+  color: var(--ctp-text);
+}
+.BasicUI ._22Zq8BkS_Container ._3apLK4XGwOjawDa-8X1CUadiv, div[role=menuitem] svg {
+  color: var(--ctp-text);
+}
+.BasicUI ._22Zq8BkS_Container ._3apLK4XGwOjawDa-8X1CUadiv, div[role=menuitem] div:first-child:nth-last-child(3) {
+  background: var(--ctp-accent-color);
+}
+/* mainmenu highlight (taken from chromahon) */
+[class="_1BbM8Qq8OL5N8gL4PYH397"]:has(.gpfocus) {
+  background: var(--ctp-surface0);
+}
+@keyframes _1HnqFT3fbAw0ADaVlUzeNn {
+  0%, 100% {
+    background: transparent;
+  }
+}
+@keyframes _1HTvA0ji8Y-wN-gFU8e48c {
+  0%, 100% {
+    background: transparent;
+  }
+}
+
+/* in-game menus */
+/* hover */
+._xfZ18oWU_NavigationMenuItem.gpfocus {
+  animation-name: none;
+  mix-blend-mode: normal;
+  background-color: var(--ctp-surface0);
+}
+/* header color */
+._ehWSiALG_Header._ehWSiALG_HeaderOpaque {
+  background-color: var(--ctp-crust);
+}
+/* footer color */
+._3T1iFy2maYycwqgFuzERyf._2PZqiulqsNwAphWn25K5uZ {
+  background-color: var(--ctp-crust);
+}
+
+/* Controller settings */
+._zjA7UbA1_ControllerConfiguratorSummary ._zjA7UbA1_DirectAccessButton:focus {
+  background-color: var(--ctp-surface0);
+}
+._zjA7UbA1_ControllerInputDisplay ._zjA7UbA1_StandardControl,
+._zjA7UbA1_ControllerInputDisplay ._zjA7UbA1_ActivatorText,
+._zjA7UbA1_ControlsListSection ._zjA7UbA1_StandardControl {
+  color: var(--ctp-subtext0);
+}
+._zjA7UbA1_ControlsListSection ._zjA7UbA1_Title {
+  color: var(--ctp-subtext1);
+}
+
+/* Achievements */
+._GWYRkBdJ_UnlockedLabel,
+._GWYRkBdJ_AchivementCarouselItemDetails ._GWYRkBdJ_Name,
+._GWYRkBdJ_LockedAchievementsLabel,
+._SGp2bsv8_AchievementTitle,
+._2UpV2ekLOgBRHsAaqcedCB ._2LSKtMWWMT5Pne2vGJOtiF {
+  color: var(--ctp-text);
+}
+._GWYRkBdJ_UnlockedLabelPercent,
+._SGp2bsv8_AchievementGlobalPercentage {
+  color: var(--ctp-overlay0);
+}
+._GWYRkBdJ_AchivementCarouselItemDetails ._GWYRkBdJ_Description,
+._GWYRkBdJ_AchivementCarouselItemDetails ._GWYRkBdJ_Achieved,
+._SGp2bsv8_AchievementDescription,
+._SGp2bsv8_ListTitle,
+._SGp2bsv8_ProgressCount,
+._sTODxRjF_Stat ._sTODxRjF_StatLabelAndValue ._sTODxRjF_Label,
+._SGp2bsv8_HeaderText,
+._SGp2bsv8_GlobalAchievementListItem ._SGp2bsv8_Content ._SGp2bsv8_Percent,
+._3wXF00ta53M5KmhHkYtrzs ._2fFW2raBfeDt3WOPB-aQAq, ._3wXF00ta53M5KmhHkYtrzs ._3Y63d79wKiXs14rvBcrsDx {
+  color: var(--ctp-subtext1)
+}
+._SGp2bsv8_AchievementListItemBase,
+._SGp2bsv8_AchievementList {
+  background-color: var(--ctp-base);
+}
+._SGp2bsv8_UnlockDate {
+  color: var(--ctp-accent-color)
+}
+._UFB1IzGN_ProgressBar {
+  background-color: var(--ctp-surface0);
+}
+._UFB1IzGN_ProgressBar ._UFB1IzGN_Percent {
+  background-color: var(--ctp-accent-color) !important;
+}
+._gZW9SP73_HiddenLabel,
+._sTODxRjF_Container ._sTODxRjF_Title,
+._SGp2bsv8_GlobalAchievementListItem ._SGp2bsv8_Content ._SGp2bsv8_Info ._SGp2bsv8_Title {
+  color: var(--ctp-text);
+}
+.BasicUI ._gZW9SP73_HiddenLabel {
+  background: var(--ctp-surface0)
+}
+._sTODxRjF_Stat ._sTODxRjF_StatLabelAndValue ._sTODxRjF_TextValue,
+._SGp2bsv8_GlobalAchievementListItem ._SGp2bsv8_Content ._SGp2bsv8_Info ._SGp2bsv8_Description {
+  color: var(--ctp-subtext0);
+}
+._SGp2bsv8_GlobalAchievementListItem {
+  background-color: var(--ctp-mantle)
+}
+._SGp2bsv8_GlobalAchievementListItem ._SGp2bsv8_Content ._SGp2bsv8_ProgressFill {
+  background-color: var(--ctp-surface0);
+}
+._SGp2bsv8_GlobalAchievementListItem ._SGp2bsv8_UnlockContainer svg {
+  color: var(--ctp-accent-color);
+}
+
+/* Guides */
+._20zaWZN0_GuideList,
+._20zaWZN0_GuideListItemBase,
+._20zaWZN0_GuidesHomeHeader,
+._xfZ18oWU_AppColumn._xfZ18oWU_FocusedColumn {
+  background-color: var(--ctp-base);
+}
+._20zaWZN0_GuideListItemBase {
+  border-top: 1px solid var(--ctp-surface0);
+}
+._20zaWZN0_GuideTitle,
+._20zaWZN0_ListTitle {
+  color: var(--ctp-text);
+}
+._20zaWZN0_GuideAuthor {
+  color: var(--ctp-accent-color);
+}
+._20zaWZN0_GuideDescription,
+._20zaWZN0_UGCRatingStars > svg,
+._20zaWZN0_GuideList ._20zaWZN0_NoGuides{
+  color: var(--ctp-subtext0)
+}
+._20zaWZN0_OverlayGuidesHome ._20zaWZN0_GuidesHomeHeader ._20zaWZN0_AppName {
+  color: var(--ctp-text);
+}
+._20zaWZN0_OverlayGuidesHome ._20zaWZN0_GuidesHomeHeader ._20zaWZN0_GuidesHomeHeaderDesc,
+._20zaWZN0_PageNumber,
+._20zaWZN0_UGCRating ._20zaWZN0_UGCTotalRatings {
+  color: var(--ctp-subtext1);
+}
+._20zaWZN0_GuidesHomeHeader {
+  border-bottom: 1px solid var(--ctp-surface0);
+}
+._20zaWZN0_GuideDetails ._20zaWZN0_GuideDetailsHeader,
+._20zaWZN0_GuideDetails ._20zaWZN0_TableOfContents,
+._BSZpBQPp_Table ._BSZpBQPp_TableRow,
+._BSZpBQPp_Table ._BSZpBQPp_TableData,
+._BSZpBQPp_TableHeader,
+._BSZpBQPp_Table ._BSZpBQPp_TableData {
+  border-color: var(--ctp-surface0) !important;
+}
+._20zaWZN0_GuideDetails ._20zaWZN0_GuideDetailsTitle {
+  color: var(--ctp-text);
+}
+._20zaWZN0_GuideDetails ._20zaWZN0_GuideDetailsDesc {
+  color: var(--ctp-subtext1);
+}
+._20zaWZN0_GuideDetails ._20zaWZN0_GuideSubSections ._20zaWZN0_SubSectionTitle {
+  color: var(--ctp-accent-color);
+}
+._BSZpBQPp_TableHeader {
+  color: var(--ctp-subtext1);
+}
+._20zaWZN0_SubSection.Panel.Focusable.gpfocuswithin > div._20zaWZN0_SubSectionDesc.Panel.Focusable > div > div > div,
+._20zaWZN0_SubSectionDesc.Panel.Focusable > div > div > div {
+  color: var(--ctp-subtext1);
+}
+._20zaWZN0_UGCControls ._20zaWZN0_VoteIcon._20zaWZN0_ThumbsUpColor {
+  color: var(--ctp-green);
+}
+._20zaWZN0_UGCControls ._20zaWZN0_VoteIcon._20zaWZN0_ThumbsDownColor {
+  color: var(--ctp-red);
+}
+._20zaWZN0_GuideDetails ._20zaWZN0_TableOfContents ._20zaWZN0_TOCEntry {
+  background: none;
+  border-bottom: 1px solid var(--ctp-surface0);
+  color: var(--ctp-subtext1);
+}
+._xfZ18oWU_AppColumn {
+  background-color: var(--ctp-base);
+}
+._20zaWZN0_GuideDetails ._20zaWZN0_GuideSubSections ._20zaWZN0_SubSectionDesc {
+  color: var(--ctp-subtext0);
+}
+/* in-guide headers */
+._2LYsFAwy8wdRJQTNJOUcsT {
+  color: var(--ctp-text);
+}
+/* Spoiler */
+._BSZpBQPp_Spoiler {
+  background-color: var(--ctp-crust);
+}
+._BSZpBQPp_Spoiler:hover, ._BSZpBQPp_Spoiler._BSZpBQPp_Revealed {
+  color: var(--ctp-text);
+}
+
+/* Notes */
+._1Ve4VFO2EEkeNZdel_Asky {
+  background: var(--ctp-mantle);
+  box-shadow: none;
+}
+._1AL7l2CN6z-vuLfp1iCLa {
+  color: var(--ctp-text);
+}
+
+/* Game Recording */
+/* sperators */
+._3uxju288OAPaHnHl8ViA-P {
+  background-color: var(--ctp-surface0);
+}
+/* shortcut descriptions */
+._1rBjwru6vKnQD7tfRGRa5c ._3ESlaOMKmQxjHr9E7NDNq2 {
+  color: var(--ctp-text);
+}
+
+/*
 VOLUME OVERLAY
 */
 
 /* background */
 ._4u8F8i3C_VolumePopin {
   background: var(--ctp-crust);
+}
+
+
+/*
+LOGIN SCREEN
+*/
+
+/* header text */
+._3IMA7pkt2GXbDp4p2tDT8S {
+  color: var(--ctp-text);
+}
+._1oQc7CkRGrMsSiVUiYTHc9 {
+  color: var(--ctp-subtext1);
+}
+/* profile name */
+._3iVOCDb8eFFTeqiopupsej, ._1448SH49Bc8Zr5Bzzc5qkt {
+  color: var(--ctp-text);
+}
+/* profile border */
+.l_0WJ2pzm_5Zp7gfT_UZz ._3nhzM2H8Opkomzs5OG5oux {
+  border: 2px solid var(--ctp-surface0)
+}
+/* select border */
+.l_0WJ2pzm_5Zp7gfT_UZz:focus ._3nhzM2H8Opkomzs5OG5oux, .l_0WJ2pzm_5Zp7gfT_UZz:hover ._3nhzM2H8Opkomzs5OG5oux,
+._1mt2mPMVEDfpOhhWePy9hc:focus .IfVUbt19eXIqaAuGh2i63, ._1mt2mPMVEDfpOhhWePy9hc:hover .IfVUbt19eXIqaAuGh2i63 {
+  border: 2px solid var(--ctp-accent-color);
+}
+/* add profile button */
+._1mt2mPMVEDfpOhhWePy9hc .IfVUbt19eXIqaAuGh2i63 {
+  color: var(--ctp-text);
+  background: var(--ctp-surface0);
+}
+
+/*
+SIGN IN
+*/
+
+/* header text */
+.zqPJLxva3XPjYcTir05Ab {
+  color: var(--ctp-text);
+}
+/* qr instrutions */
+._1sc-BFvGe6huemAE5yVozQ .pPqm0Cd3nTDM56emaoNIW ._2TrSjYb9DT8dGB3TUBMi-H, ._1sc-BFvGe6huemAE5yVozQ .pPqm0Cd3nTDM56emaoNIW .lG0sAcLlXHRB9XRI0e7yl, ._1sc-BFvGe6huemAE5yVozQ .HdqevXhfe5oON8S7byE-A ._2TrSjYb9DT8dGB3TUBMi-H, ._1sc-BFvGe6huemAE5yVozQ .HdqevXhfe5oON8S7byE-A .lG0sAcLlXHRB9XRI0e7yl {
+  color: var(--ctp-subtext1);
+}
+._1sc-BFvGe6huemAE5yVozQ ._2OcpijqE_9aBlckaDvvYai {
+  color: var(--ctp-blue);
+}
+/* qr code border */
+.xlEVpBeYO1h2tOqErt9fj.J3DO-HZVloRroBWQ4LcSK {
+  border-color: var(--ctp-surface0);
+}
+/* sign in box descriptions */
+._13F1y-ZfvltMjWySrReruK .DialogLabel {
+  color: var(--ctp-text);
+}
+
+/*
+WELCOME/SETUP OVERLAY
+*/
+
+/* highlighted text */
+._3jVF1K6rjo9QNtGDM4j_L_ {
+  color: var(--ctp-blue);
+}
+/* progress dots */
+._3yc1HWeo3r0NEKZDWLfK95._3dgLyDGvg0Xifttzo46wAK {
+  background-color: var(--ctp-accent-color);
+}
+._3yc1HWeo3r0NEKZDWLfK95 {
+  background-color: var(--ctp-surface0);
+}
+/* hightlight animation */
+.PVXAA8K7W59k1ZLVWAPy9 ._33nAFYa-4M0coUprfk3WqL, .PVXAA8K7W59k1ZLVWAPy9 ._2pLSojgHqkjUtB38scov5A {
+  border-color: var(--ctp-accent-color);
+}
+/* speaker icon */
+.SVGIcon_Button {
+  fill: var(--ctp-text);
 }
 
 /*
@@ -1801,14 +2498,21 @@ DECKY LOADER
 .deckyStoreCardDescriptionRootLink {
   color: var(--ctp-yellow) !important;
 }
+/* update status text */
+.Mlgx-ApV1rLC2F6xc4J4- .p0xxKK3ZUU1muQIFKd-DZ ._1-WaO6kg_B8sblq-HefuBh {
+  color: var(--ctp-subtext0) !important;
+}
 /* css loader */
 /* store */
 .bg-storeBg {
-  background: var(--ctp-crust) !important;
+  background: var(--ctp-mantle) !important;
 }
 /* background */
-._awNNWnmm_TabContents {
+._2RXNRKWY8jL7xwgGYUfLfU div:has(style) {
   background: var(--ctp-base);
+}
+.CSSLoader_ThemeCard_Container {
+  background-color: var(--ctp-surface0) !important;
 }
 .theme-data-container {
   background: var(--ctp-base) !important;
@@ -1920,6 +2624,46 @@ DECKY LOADER
 OTHER
 */
 
+/* loading animation */
+._3sa1NXudhvcc1U7HrlLdNQ img._39-WTtOSEPJqAEjOcNGE3j {
+  filter: var(--ctp-text-filter);
+}
+.loadingthrobber_Container_3sa1N.loadingthrobber_PreloadThrobber_1-epa,
+.loadingthrobber_Container_3sa1N.loadingthrobber_ContainerBackground_2ngG3 {
+  background: var(--ctp-base) !important;
+}
+._3rAIymq-pEYFB9bIdm-Aoz {
+  color: var(--ctp-text) !important;
+}
+
+/* Footer */
+._3AYJPRJR_BasicFooter {
+  backdrop-filter: blur(var(--ctp-blur));
+  background-color: rgba(var(--ctp-crust-rgb)var(--ctp-opacity));
+  border-color: var(--ctp-crust);
+}
+
+/* button shortcuts overlay */
+/* shortcut title */
+._3TvBVwaH8eIBabTdki35oe ._1O63m479uRdCfjFTOT-cQv {
+  color: var(--ctp-text);
+}
+/* background */
+._2j2euz2tuOpFxV07yJS1Q6 ._3TvBVwaH8eIBabTdki35oe {
+  background: var(--ctp-mantle);
+}
+/* seperator */
+._2j2euz2tuOpFxV07yJS1Q6 ._27Q1TQNf9VysifeaxYFyyU {
+  border-color: var(--ctp-surface0);
+}
+
+/* user profile button highlight */
+button.TEWmsM70ZLEOxLAjDMpcv._2rd6kyE9QIMeIPPOJ19fOq ._3wadwgMy2-9k8uOKh3iSdT,
+button.TEWmsM70ZLEOxLAjDMpcv._2rd6kyE9QIMeIPPOJ19fOq svg,
+button.TEWmsM70ZLEOxLAjDMpcv._2rd6kyE9QIMeIPPOJ19fOq ._3Wb9yDmYPUJksCr7HmaT9H {
+  color: var(--ctp-base);
+}
+
 /* Navigation */
 ._22Zq8BkS_Menu {
   background: var(--ctp-base);
@@ -1943,32 +2687,6 @@ OTHER
 ._EifR99lo_FieldDescription {
   color: var(--ctp-subtext1);
 }
-button._EifR99lo_Button.DialogButton,
-button._EifR99lo_Button.DialogButton.Primary, 
-button._EifR99lo_Button.DialogButton:enabled, 
-button._EifR99lo_Button.DialogButton:enabled.Primary, 
-button._EifR99lo_Button.DialogButton:active, 
-button._EifR99lo_Button.DialogButton:active.Primary, 
-button._EifR99lo_Button.DialogButton:hover, 
-button._EifR99lo_Button.DialogButton:hover.Primary, 
-button._EifR99lo_Button.DialogButton:enabled:active:hover,
-button._EifR99lo_Button.DialogButton:enabled:active:hover.Primary {
-  background: var(--ctp-surface0) !important;
-  color: var(--ctp-text);
-}
-button._EifR99lo_Button.DialogButton.gpfocus, 
-button._EifR99lo_Button.DialogButton:active, 
-button._EifR99lo_Button.DialogButton:enabled.gpfocus, 
-button._EifR99lo_Button.DialogButton:enabled:active, 
-button._EifR99lo_Button.DialogButton:active.gpfocus, 
-button._EifR99lo_Button.DialogButton:active:active, 
-button._EifR99lo_Button.DialogButton:hover.gpfocus, 
-button._EifR99lo_Button.DialogButton:hover:active, 
-button._EifR99lo_Button.DialogButton:enabled:active:hover.gpfocus, 
-button._EifR99lo_Button.DialogButton:enabled:active:hover:active {
-  background: var(--ctp-accent-color) !important;
-  color: var(--ctp-base);
-}
 .basiccontextmenu_contextMenuItem_3PqLg {
   background: var(--ctp-mantle);
 }
@@ -1976,10 +2694,6 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active {
   background: var(--ctp-accent-color);
   color: var(--ctp-base);
 }
-/* Power menu */ /* Commented out for now
-._J5rxTYCm_GamepadDialogOverlay .ModalOverlayBackground {
-  background: var(--ctp-base);
-} */
 
 /* Search */
 ._ztqcVOAa_GamepadSearch {
@@ -2032,10 +2746,14 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active {
 ._duAGi5fn_Details ._duAGi5fn_IncorrectPIN {
   color: var(--ctp-peach);
 }
-/* Footer */
-._3AYJPRJR_BasicFooter {
-  background: var(--ctp-crust);
+/* reset pin dialog */
+.mRPNNmT-dIaBARu0lIxjh b {
+  color: var(--ctp-blue);
 }
+._1ur8gz7auRZSLqkJM3L_tZ {
+  color: var(--ctp-peach);
+}
+
 ._EifR99lo_Field._EifR99lo_HighlightOnFocus.gpfocus,
 ._EifR99lo_Field._EifR99lo_HighlightOnFocus.gpfocuswithin {
   background: var(--ctp-surface0) !important;
@@ -2173,23 +2891,10 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active {
   color: var(--ctp-subtext0);
 }
 
-/* Specific Controller settings */
-._zjA7UbA1_ControllerConfiguratorSummary ._zjA7UbA1_DirectAccessButton:focus {
-  background-color: var(--ctp-surface0);
-}
-._zjA7UbA1_ControllerInputDisplay ._zjA7UbA1_StandardControl,
-._zjA7UbA1_ControllerInputDisplay ._zjA7UbA1_ActivatorText,
-._zjA7UbA1_ControlsListSection ._zjA7UbA1_StandardControl {
-  color: var(--ctp-subtext0);
-}
-._zjA7UbA1_ControlsListSection ._zjA7UbA1_Title {
-  color: var(--ctp-subtext1);
-}
-
 /* Search Bar Fix */
 input[type="search" i],
 ._GXJzUoT6_SearchFieldBackground._GXJzUoT6_WhiteBackground{
-  background-color: var(--ctp-crust);
+  background: transparent;
   color: var(--ctp-text) !important;
   caret-color: var(--ctp-text) !important;
 }
@@ -2239,7 +2944,7 @@ svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
   color: var(--ctp-green);
 }
 .GamepadMode.friendlist .FriendsListTab.gpfocus { /* This one is a big maybe*/
-  color: var(--ctp-text);
+  color: var(--ctp-accent-color);
   background-color: var(--ctp-surface1);
   border-radius: 10%;
 }
@@ -2288,33 +2993,8 @@ svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
 .friend.ingame.awayOrSnooze._og3AOADP_hoverParent.friendStatusHover.Panel.Focusable.gpfocus.gpfocuswithin {
   background-color: var(--ctp-surface0);
 }
-/* Main Menu Fix */
-._22Zq8BkS_ItemIcon, ._22Zq8BkS_ItemLabel {
-  color: var(--ctp-text) !important;
-}
-._Kp4Buf0X_EventType._Kp4Buf0X_EventType28 {
-  color: var(--ctp-yellow);
-}
-._Kp4Buf0X_EventType._Kp4Buf0X_EventType13 {
-  color: var(--ctp-blue);
-}
-._Kp4Buf0X_EventType._Kp4Buf0X_EventType11, 
-._Kp4Buf0X_EventType._Kp4Buf0X_EventType23, 
-._Kp4Buf0X_EventType._Kp4Buf0X_EventType35 {
-  color: var(--ctp-green);
-}
-._Kp4Buf0X_EventType._Kp4Buf0X_EventType14 {
-  color: var(--ctp-flamingo);
-}
-/* mainmenu fix by GrodanBool */
-.BasicUI ._22Zq8BkS_Container ._3apLK4XGwOjawDa-8X1CUadiv, div[role=menuitem] ._sk5Sf7Mo_Content {
-  color: var(--ctp-text);
-}
-.BasicUI ._22Zq8BkS_Container ._3apLK4XGwOjawDa-8X1CUadiv, div[role=menuitem] svg {
-  color: var(--ctp-text);
-}
-.BasicUI ._22Zq8BkS_Container ._3apLK4XGwOjawDa-8X1CUadiv, div[role=menuitem] div:first-child:nth-last-child(3) {
-  background: var(--ctp-accent-color);
+._23IDiI-F_FxXotrgpY71r8 {
+  background: var(--ctp-mantle);
 }
 
 /* Whats New Fix */
@@ -2518,41 +3198,6 @@ svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
   border-top-color: var(--ctp-base);
 }
 
-/* Game Context Menu */
-._Bg3uEpqC_BasicContextMenuHeader {
-  color: var(--ctp-text);
-}
-._Bg3uEpqC_contextMenuItem.Stream, 
-._Bg3uEpqC_contextMenuItem.Connect, 
-._Bg3uEpqC_contextMenuItem._Zo4CIgjo_Launch, 
-._Bg3uEpqC_contextMenuItem.PlayMusic, 
-._Bg3uEpqC_contextMenuItem.Play, 
-._Bg3uEpqC_contextMenuItem.Resume, 
-._Bg3uEpqC_contextMenuItem.BorrowApp, 
-._Bg3uEpqC_contextMenuItem.Download, 
-._Bg3uEpqC_contextMenuItem.Update, 
-._Bg3uEpqC_contextMenuItem.PreLoad, 
-._Bg3uEpqC_contextMenuItem.Install, 
-._Bg3uEpqC_contextMenuItem.Pause, 
-._Bg3uEpqC_contextMenuItem.Stop, 
-._Bg3uEpqC_contextMenuItem._OOy9OAIj_moderation_cancel {
-  color: var(--ctp-text);
-  background-color: var(--ctp-base);
-}
-._Bg3uEpqC_contextMenuItem._Bg3uEpqC_SubMenu .SVGIcon_DownArrowContextMenu {
-  fill: var(--ctp-text);
-}
-._Bg3uEpqC_contextMenuItem._Bg3uEpqC_SubMenu.gpfocuswithin .SVGIcon_DownArrowContextMenu {
-  fill: var(--ctp-base);
-}
-._Bg3uEpqC_contextMenuItem._Bg3uEpqC_SubMenu._Bg3uEpqC_active {
-  background-color: var(--ctp-accent-color);
-  color: var(--ctp-base);
-}
-[id^="ModalDialogOverlay_Modal_"] > div > div.BasicUIContextMenu._Bg3uEpqC_BasicContextMenuModal > div._Bg3uEpqC_BasicContextMenuContainer.Panel.Focusable.gpfocuswithin > div:nth-child(1) > div._Bg3uEpqC_SubMenu._Bg3uEpqC_active._Bg3uEpqC_contextMenuItem.contextMenuItem.Panel.Focusable > div._Bg3uEpqC_Arrow > svg {
-  fill: var(--ctp-base) !important;
-}
-
 /* New Collection Menu */
 .DialogLabel, .DialogLabelStrong {
   color: var(--ctp-text);
@@ -2683,23 +3328,6 @@ svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
     fill: var(--ctp-base);
 }
 
-/* Patch Notes Fix */
-._9fJg6nf6_PatchNotes {
-  background-color: var(--ctp-mantle);
-}
-._9fJg6nf6_PatchNotes ._9fJg6nf6_PostedTime {
-  color: var(--ctp-subtext0)
-}
-._9fJg6nf6_PatchNotes ._9fJg6nf6_EventDetailTitle {
-  color: var(--ctp-text);
-}
-._9fJg6nf6_PatchNotes ._9fJg6nf6_EventDetailsBody {
-  color: var(--ctp-subtext1);
-}
-#Main > div > div._z07lj6nf_TopLevelTransitionSwitch > div > div > div > div > div > div > div._4hESt2MY_PagedSettingsDialog_PageListColumn.PageListColumn.Panel.Focusable.gpfocuswithin > div > div._4hESt2MY_PagedSettingsDialog_PageListItem._4hESt2MY_Active.Panel.Focusable.gpfocus.gpfocuswithin > div._4hESt2MY_PageListItem_Icon > svg > path:nth-child(1) {
-  fill: var(--ctp-base);
-}
-
 /* Game Menu */
 .BasicUI ._cuOVbdpY_CloudStatusLabel {
   color: var(--ctp-subtext1);
@@ -2724,7 +3352,8 @@ svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
 ._b5AGtz9j_PartnerEventType, ._b5AGtz9j_PartnerEventMediumImage_Title {
   color: var(--ctp-text);
 }
-._b5AGtz9j_PartnerEventMediumImage_Summary {
+._b5AGtz9j_PartnerEventMediumImage_Summary,
+body, body._2LxgdMcpWJRjkxZKbmeEEb {
   color: var(--ctp-subtext1);
 }
 ._b5AGtz9j_PartnerEventTextOnly_Container.Panel.Focusable {
@@ -2742,31 +3371,11 @@ svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
 ._b5AGtz9j_PartnerEventLargeImage_Summary {
   color: var(--ctp-subtext1);
 }
-._b5AGtz9j_LeftSideMajorUpdateBar {
-  background: linear-gradient(to right, #199fff00 0%, var(--ctp-blue) 58px);
-}
 ._SWtPeIkJ_ActivityFeedContainer ._SWtPeIkJ_EndofFeed ._SWtPeIkJ_EndText {
   color: var(--ctp-subtext0);  
 }
 ._SWtPeIkJ_ActivityFeedContainer ._SWtPeIkJ_EndofFeed ._SWtPeIkJ_EndRule {
   background-color: var(--ctp-surface0);
-}
-/* hover */
-._xfZ18oWU_NavigationMenuItem.gpfocus {
-  animation-name: none;
-  mix-blend-mode: normal;
-  background-color: var(--ctp-surface0);
-}
-/* footer color */
-._3AYJPRJR_BasicFooter ._3AYJPRJR_FooterLegend {
- background-color: var(--ctp-crust);
-}
-._3AYJPRJR_BasicFooter._3AYJPRJR_Opaque {
-  background-color: var(--ctp-crust);
-}
-/* header color */
-._ehWSiALG_Header._ehWSiALG_HeaderOpaque {
-  background-color: var(--ctp-crust);
 }
 
 /* Your Stuff */
@@ -2878,7 +3487,7 @@ svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
 }
 ._xfZ18oWU_NavigationColumn {
   background: var(--ctp-base);
-  border: 1px solid var(--ctp-surface0);
+  border: none;
 }
 ._xfZ18oWU_NavigationColumn:before {
   background: none;
@@ -2906,89 +3515,6 @@ svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
 }
 ._9fJg6nf6_UpdateScreen.mainmenuapprunning_MenuOpen_2xotn.Panel.Focusable.gpfocuswithin {
   background-color: var(--ctp-base);
-}
-
-/* Guides */
-._20zaWZN0_GuideList,
-._20zaWZN0_GuideListItemBase,
-._20zaWZN0_GuidesHomeHeader,
-._xfZ18oWU_AppColumn._xfZ18oWU_FocusedColumn {
-  background-color: var(--ctp-base);
-}
-._20zaWZN0_GuideListItemBase {
-  border-top: 1px solid var(--ctp-surface0);
-}
-._20zaWZN0_GuideTitle,
-._20zaWZN0_ListTitle {
-  color: var(--ctp-text);
-}
-._20zaWZN0_GuideAuthor {
-  color: var(--ctp-accent-color);
-}
-._20zaWZN0_GuideDescription,
-._20zaWZN0_UGCRatingStars > svg,
-._20zaWZN0_GuideList ._20zaWZN0_NoGuides{
-  color: var(--ctp-subtext0)
-}
-._20zaWZN0_OverlayGuidesHome ._20zaWZN0_GuidesHomeHeader ._20zaWZN0_AppName {
-  color: var(--ctp-text);
-}
-._20zaWZN0_OverlayGuidesHome ._20zaWZN0_GuidesHomeHeader ._20zaWZN0_GuidesHomeHeaderDesc,
-._20zaWZN0_PageNumber,
-._20zaWZN0_UGCRating ._20zaWZN0_UGCTotalRatings {
-  color: var(--ctp-subtext1);
-}
-._20zaWZN0_GuidesHomeHeader {
-  border-bottom: 1px solid var(--ctp-surface0);
-}
-._20zaWZN0_GuideDetails ._20zaWZN0_GuideDetailsHeader,
-._20zaWZN0_GuideDetails ._20zaWZN0_TableOfContents,
-._BSZpBQPp_Table ._BSZpBQPp_TableRow,
-._BSZpBQPp_Table ._BSZpBQPp_TableData,
-._BSZpBQPp_TableHeader,
-._BSZpBQPp_Table ._BSZpBQPp_TableData {
-  border-color: var(--ctp-surface0) !important;
-}
-._20zaWZN0_GuideDetails ._20zaWZN0_GuideDetailsTitle {
-  color: var(--ctp-text);
-}
-._20zaWZN0_GuideDetails ._20zaWZN0_GuideDetailsDesc {
-  color: var(--ctp-subtext1);
-}
-._20zaWZN0_GuideDetails ._20zaWZN0_GuideSubSections ._20zaWZN0_SubSectionTitle {
-  color: var(--ctp-accent-color);
-}
-._BSZpBQPp_TableHeader {
-  color: var(--ctp-subtext1);
-}
-._20zaWZN0_SubSection.Panel.Focusable.gpfocuswithin > div._20zaWZN0_SubSectionDesc.Panel.Focusable > div > div > div,
-._20zaWZN0_SubSectionDesc.Panel.Focusable > div > div > div {
-  color: var(--ctp-subtext1);
-}
-._20zaWZN0_UGCControls ._20zaWZN0_VoteIcon._20zaWZN0_ThumbsUpColor {
-  color: var(--ctp-green);
-}
-._20zaWZN0_UGCControls ._20zaWZN0_VoteIcon._20zaWZN0_ThumbsDownColor {
-  color: var(--ctp-red);
-}
-._20zaWZN0_GuideDetails ._20zaWZN0_TableOfContents ._20zaWZN0_TOCEntry {
-  background: none;
-  border-bottom: 1px solid var(--ctp-surface0);
-  color: var(--ctp-subtext1);
-}
-._xfZ18oWU_AppColumn {
-  background-color: var(--ctp-base);
-}
-._20zaWZN0_GuideDetails ._20zaWZN0_GuideSubSections ._20zaWZN0_SubSectionDesc {
-  color: var(--ctp-subtext0);
-}
-
-/* Spoiler */
-._BSZpBQPp_Spoiler {
-  background-color: var(--ctp-crust);
-}
-._BSZpBQPp_Spoiler:hover, ._BSZpBQPp_Spoiler._BSZpBQPp_Revealed {
-  color: var(--ctp-text);
 }
 
 /* Game Review Fix */
@@ -3037,62 +3563,6 @@ svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
 }
 ._ebV80Z5s_RadioButton {
     background-color: var(--ctp-base);
-}
-
-/* Achievement Fix */
-._GWYRkBdJ_UnlockedLabel,
-._GWYRkBdJ_AchivementCarouselItemDetails ._GWYRkBdJ_Name,
-._GWYRkBdJ_LockedAchievementsLabel,
-._SGp2bsv8_AchievementTitle {
-    color: var(--ctp-text);
-}
-._GWYRkBdJ_UnlockedLabelPercent,
-._SGp2bsv8_AchievementGlobalPercentage {
-    color: var(--ctp-overlay0);
-}
-._GWYRkBdJ_AchivementCarouselItemDetails ._GWYRkBdJ_Description,
-._GWYRkBdJ_AchivementCarouselItemDetails ._GWYRkBdJ_Achieved,
-._SGp2bsv8_AchievementDescription,
-._SGp2bsv8_ListTitle,
-._SGp2bsv8_ProgressCount,
-._sTODxRjF_Stat ._sTODxRjF_StatLabelAndValue ._sTODxRjF_Label,
-._SGp2bsv8_HeaderText,
-._SGp2bsv8_GlobalAchievementListItem ._SGp2bsv8_Content ._SGp2bsv8_Percent {
-    color: var(--ctp-subtext1)
-}
-._SGp2bsv8_AchievementListItemBase,
-._SGp2bsv8_AchievementList {
-    background-color: var(--ctp-base);
-}
-._SGp2bsv8_UnlockDate {
-    color: var(--ctp-accent-color)
-}
-._UFB1IzGN_ProgressBar {
-    background-color: var(--ctp-surface0);
-}
-._UFB1IzGN_ProgressBar ._UFB1IzGN_Percent {
-    background-color: var(--ctp-accent-color) !important;
-}
-._gZW9SP73_HiddenLabel,
-._sTODxRjF_Container ._sTODxRjF_Title,
-._SGp2bsv8_GlobalAchievementListItem ._SGp2bsv8_Content ._SGp2bsv8_Info ._SGp2bsv8_Title {
-    color: var(--ctp-text);
-}
-.BasicUI ._gZW9SP73_HiddenLabel {
-    background: var(--ctp-surface0)
-}
-._sTODxRjF_Stat ._sTODxRjF_StatLabelAndValue ._sTODxRjF_TextValue,
-._SGp2bsv8_GlobalAchievementListItem ._SGp2bsv8_Content ._SGp2bsv8_Info ._SGp2bsv8_Description {
-    color: var(--ctp-subtext0);
-}
-._SGp2bsv8_GlobalAchievementListItem {
-    background-color: var(--ctp-mantle)
-}
-._SGp2bsv8_GlobalAchievementListItem ._SGp2bsv8_Content ._SGp2bsv8_ProgressFill {
-    background-color: var(--ctp-surface0);
-}
-._SGp2bsv8_GlobalAchievementListItem ._SGp2bsv8_UnlockContainer svg {
-    color: var(--ctp-accent-color);
 }
 
 /* Trading Cards Fix */
@@ -3182,8 +3652,8 @@ svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
 }
 /* media view background */
 ._mP9RJOCZ_FloatingItemControls {
-  background: rgba(0, 0, 0, 0);
-  backdrop-filter: opacity(0);
+  background: rgba(var(--ctp-base-rgb), 0.5);
+  backdrop-filter: blur(10px);
 }
 /* media view icon background */
 ._mP9RJOCZ_ButtonBox._mP9RJOCZ_Secondary {

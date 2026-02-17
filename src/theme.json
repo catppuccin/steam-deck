@@ -10,19 +10,20 @@
 			"SP",
 			"MainMenu",
 			"QuickAccess",
-			"SteamLibraryWindow|Steam",
 			"~https://store.steampowered.com/~"
 		],
 		"svg.css": [
 			"SP",
 			"MainMenu",
 			"QuickAccess"
-		],
-		"store.css": [
-			"~https://store.steampowered.com/~"
 		]
 	},
-	"dependencies": {},
+	"dependencies": {
+		"Better Blur": {
+			"Blur Strength": "3",
+			"Opacity": "0.4"
+		}
+	},
 	"patches": {
 		"Flavor": {
 			"type": "slider",
@@ -195,6 +196,19 @@
 			},
 			"components": []
 		},
+		"Theme steam store": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"store.css": [
+						"~https://store.steampowered.com/~"
+					]
+				},
+				"No": {}
+			},
+			"components": []
+		},
 		"Accented play button ": {
 			"type": "checkbox",
 			"default": "No",
@@ -204,6 +218,19 @@
 						"SP",
 						"MainMenu",
 						"QuickAccess"
+					]
+				},
+				"No": {}
+			},
+			"components": []
+		},
+		"Darker play bar": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"tweaks/darker_playbar.css": [
+						"SP"
 					]
 				},
 				"No": {}
@@ -240,18 +267,157 @@
 			},
 			"components": []
 		},
-		"Better Blur compatability": {
+		"Colored overlay blur": {
 			"type": "checkbox",
 			"default": "Yes",
 			"values": {
 				"Yes": {
-					"tweaks/blur.css": [
+					"tweaks/better-blur.css": [
 						"SP",
 						"MainMenu",
 						"QuickAccess"
 					]
 				},
 				"No": {}
+			},
+			"components": []
+		},
+		"Background Blur Amount": {
+			"type": "slider",
+			"default": "15px",
+			"values": {
+				"None": {
+					"--ctp-blur": [
+						"0px",
+						"SP"
+					]
+				},
+				"3px": {
+					"--ctp-blur": [
+						"3px",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"5px": {
+					"--ctp-blur": [
+						"5px",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"10px": {
+					"--ctp-blur": [
+						"10px",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"15px": {
+					"--ctp-blur": [
+						"15px",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"20px": {
+					"--ctp-blur": [
+						"20px",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"30px": {
+					"--ctp-blur": [
+						"30px",
+						"SP",
+						"MainMenu"
+					]
+				}
+			},
+			"components": []
+		},
+		"Backgroud Blur Opacity": {
+			"type": "slider",
+			"default": "0.9",
+			"values": {
+				"1": {
+					"--ctp-opacity": [
+						", 1",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"0.9": {
+					"--ctp-opacity": [
+						", 0.9",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"0.8": {
+					"--ctp-opacity": [
+						", 0.8",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"0.7": {
+					"--ctp-opacity": [
+						", 0.7",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"0.6": {
+					"--ctp-opacity": [
+						", 0.6",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"0.5": {
+					"--ctp-opacity": [
+						", 0.5",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"0.4": {
+					"--ctp-opacity": [
+						", 0.4",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"0.3": {
+					"--ctp-opacity": [
+						", 0.3",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"0.2": {
+					"--ctp-opacity": [
+						", 0.2",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"0.1": {
+					"--ctp-opacity": [
+						", 0.1",
+						"SP",
+						"MainMenu"
+					]
+				},
+				"0": {
+					"--ctp-opacity": [
+						", 0",
+						"SP",
+						"MainMenu"
+					]
+				}
 			},
 			"components": []
 		}
