@@ -24,6 +24,7 @@ HOME PAGE
 ._QcGXoqZ7_TabbedContent {
   background: var(--ctp-base);
 }
+/* DO NOT TOUCH THIS VALUE, CHANGING IT WILL BREAK STUFF!!! */
 ._awNNWnmm_TabContentsScroll._TabContentsScroll._otzIPpej_ScrollPanel._otzIPpej_ScrollY.Panel.Focusable,
 .WDa0_WKNSWIa38S26gl_T {
   background-color: transparent !important;
@@ -54,7 +55,7 @@ HOME PAGE
   background-color: rgba(var(--ctp-surface0-rgb), 0.7);
   backdrop-filter: blur(30px);
 }
-/* platform icon */
+/* platform icons */
 ._1dzQL1mVR8GTmmSi_kpDgr {
   filter: var(--ctp-text-filter);
 }
@@ -185,6 +186,11 @@ HOME PAGE
 ._owwS4zpa_StoreSalePriceWidgetContainer ._owwS4zpa_StoreSaleNewItem {
   background-color: var(--ctp-blue);
   color: var(--ctp-surface0);
+}
+._2s-O5T3qJJYR2AUq4b9jIN._2xCT1pUf2c9TICHoMcQE0d:not(.Discounted) ._3j4dI1yA7cRfCvK8h406OB {
+  background: transparent;
+  padding-right: 8px;
+  padding: 0px 0px;
 }
 
 /* discovery queue overlay */
@@ -389,7 +395,7 @@ LIBRARY
 ._awNNWnmm_GamepadTabbedPage._awNNWnmm_IsUnderHeader ._awNNWnmm_TabHeaderRowWrapper::before, ._awNNWnmm_TabHeaderRowWrapper._awNNWnmm_ScrolledDown::before {
   backdrop-filter: blur(var(--ctp-blur));
   background: rgba(var(--ctp-crust-rgb)var(--ctp-opacity));
-  box-shadow: 0px 10px 10px rgba(var(--ctp-crust-rgb), .8);
+  box-shadow: 0px 8px 10px rgba(var(--ctp-crust-rgb), .8);
 }
 /* library tab highlight */
 ._3eEbSktrstBdLk0dVpnKVI.gpfocus {
@@ -557,11 +563,10 @@ GAME DETAILS
 */
 
 ._L3jh3XgZ_AppDetailsRoot {
-  background: var(--ctp-base) !important;
+  background: rgba(var(--ctp-base-rgb), .65) !important;
 }
-.BasicUI ._3scbHORkYB7utTUGfkMCC_,
-.QvHky2-yJGOkPJG16qeRL {
-  background: var(--ctp-mantle);
+._3FmxxjyWNHU1PrBGnBe6tm._2l416KfEtI4CL0mCUEmOBw {
+  background-image: radial-gradient(100% 100% at 45% 35%, var(--ctp-surface0) 0%, var(--ctp-base) 100%);
 }
 .BasicUI ._cuOVbdpY_PlayBarDetailLabel,
 .BasicUI ._cuOVbdpY_LastPlayed ._cuOVbdpY_LastPlayedInfo,

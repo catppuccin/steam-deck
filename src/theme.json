@@ -16,12 +16,14 @@
 			"SP",
 			"MainMenu",
 			"QuickAccess"
-		],
-		"store.css": [
-			"~https://store.steampowered.com/~"
 		]
 	},
-	"dependencies": {},
+	"dependencies": {
+		"Better Blur": {
+			"Blur Strength": "3",
+			"Opacity": "0.4"
+		}
+	},
 	"patches": {
 		"Flavor": {
 			"type": "slider",
@@ -194,6 +196,19 @@
 			},
 			"components": []
 		},
+		"Theme steam store": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"store.css": [
+						"~https://store.steampowered.com/~"
+					]
+				},
+				"No": {}
+			},
+			"components": []
+		},
 		"Accented play button ": {
 			"type": "checkbox",
 			"default": "No",
@@ -203,6 +218,19 @@
 						"SP",
 						"MainMenu",
 						"QuickAccess"
+					]
+				},
+				"No": {}
+			},
+			"components": []
+		},
+		"Darker play bar": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"tweaks/darker_playbar.css": [
+						"SP"
 					]
 				},
 				"No": {}
@@ -239,12 +267,12 @@
 			},
 			"components": []
 		},
-		"Better Blur compatability": {
+		"Colored overlay blur": {
 			"type": "checkbox",
 			"default": "Yes",
 			"values": {
 				"Yes": {
-					"tweaks/blur.css": [
+					"tweaks/better-blur.css": [
 						"SP",
 						"MainMenu",
 						"QuickAccess"
@@ -254,9 +282,9 @@
 			},
 			"components": []
 		},
-		"Blur Amount": {
+		"Background Blur Amount": {
 			"type": "slider",
-			"default": "10px",
+			"default": "15px",
 			"values": {
 				"None": {
 					"--ctp-blur": [
@@ -309,9 +337,9 @@
 			},
 			"components": []
 		},
-		"Blur Opacity": {
+		"Backgroud Blur Opacity": {
 			"type": "slider",
-			"default": "0.8",
+			"default": "0.9",
 			"values": {
 				"1": {
 					"--ctp-opacity": [
