@@ -1,0 +1,5 @@
+/* makes play-bar darker to improve contrast on buttons, needed as visibility can be extremly low on banners comprised of mostly a singular colour */
+.BasicUI ._3scbHORkYB7utTUGfkMCC_,
+.QvHky2-yJGOkPJG16qeRL {
+  background: rgba(var(--ctp-crust-rgb), .18);
+}

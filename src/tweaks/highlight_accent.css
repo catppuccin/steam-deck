@@ -1,0 +1,14 @@
+:root {
+  --flangrande-base-highlight-color: var(--ctp-accent-color) !important;
+  --flangrande-blinked-highlight-color: var(--ctp-accent-color) !important;
+  --flangrande-start-highlight-color: var(--ctp-accent-color) !important;
+}
+/* media menu over */
+._wEPhzApt_ListItem.gpfocus:not(:hover) {
+  border-color: transparent;
+  outline: 2px solid var(--flangrande-base-highlight-color);
+  animation:
+  appportrait_growOutline_3wk3d .4s ease,
+  appportrait_fadeOutline_1FLuV 1.4s ease,
+  appportrait_blinker_2tSbN 1.2s ease-in-out .4s 20;
+}
