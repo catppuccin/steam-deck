@@ -962,11 +962,20 @@ button._EifR99lo_Button.DialogButton:enabled.gpfocus {
 svg.mUVZQDTqjhboROo1iwpnz {
   filter: none;
 }
-._3H05CHzkfz75-vnlsMa-p5 svg path[fill="#EEEEEE"]{
-  fill: var(--ctp-subtext0);
+/* single button icon */
+._3H05CHzkfz75-vnlsMa-p5 svg g path[fill="white"] {
+  fill: var(--ctp-text);
+}
+._3H05CHzkfz75-vnlsMa-p5 svg g path[fill="#FFC82C"] {
+  fill: var(--ctp-accent-color);
+}
+/* virtual menu types */
+._3H05CHzkfz75-vnlsMa-p5 svg path[fill="#EEEEEE"],
+._3H05CHzkfz75-vnlsMa-p5 svg rect[fill="#EEEEEE"] {
+  fill: var(--ctp-text);
 }
 ._3H05CHzkfz75-vnlsMa-p5 svg path[fill="#AAAAAA"]{
-  fill: var(--ctp-surface2);
+  fill: var(--ctp-overlay0);
 }
 
 /* Layout Menu */
