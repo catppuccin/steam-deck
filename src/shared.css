@@ -375,12 +375,11 @@ TOP BAR
   color: var(--ctp-text);
 }
 /* Updates indicator */
-#header > [aria-label="Update Available"] > svg path + path {
+#header > [aria-label="Update Available"] > svg path[fill="#FFC82C"] {
   fill: var(--ctp-yellow);
 }
-/* offline mode indicator */
-#header > [aria-label="Internet Settings"] > svg path[fill="#AD66BB"] {
-  fill: var(--ctp-mauve);
+#header > ._2HnVd7wV6yVaTiXfrBe3gq.gpfocuswithin > svg path[fill="#FFC82C"] {
+  fill: var(--ctp-surface1);
 }
 
 /*
