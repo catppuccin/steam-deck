@@ -58,6 +58,12 @@ HOME PAGE
 }
 
 /* badges */
+/* new to library */
+.N8aJrSpxQ6II4CY_aFdYI {
+  background-color: var(--ctp-blue);
+  color: var(--ctp-base);
+  box-shadow: 0px 1px 8px 0px var(--ctp-base);
+}
 /* background */
 ._3VPnvw_CDKU-PQKK1pSDlN {
   background-color: rgba(var(--ctp-surface0-rgb), 0.7);
@@ -621,10 +627,24 @@ GAME DETAILS
 .BasicUI ._PCGLx3qM_SummaryCarouselContainer {
   background: var(--ctp-surface0);
 }
+/* Post Game summary card */
 .BasicUI ._b5AGtz9j_Event ._b5AGtz9j_EventHeadline {
   background: var(--ctp-mantle);
   color: var(--ctp-subtext0);
 }
+.BasicUI ._b5AGtz9j_Event ._b5AGtz9j_EventBody {
+  background: var(--ctp-surface0);
+  box-shadow: inset 0px 17px 20px rgba(var(--ctp-crust-rgb), 0.2);
+}
+/* dot before/after images */
+._1ms0i1dxwTqiqcXV59nenw {
+  background-color: var(--ctp-surface1);
+}
+/* screenshot shadow */
+._22q2XMkRbHZD96i_GXOaHh {
+  box-shadow: 2px 2px 8px var(--ctp-crust);
+}
+
 ._b5AGtz9j_Event ._b5AGtz9j_EventHeadline a:-webkit-any-link {
   color: var(--ctp-subtext1);
 }
@@ -652,12 +672,12 @@ GAME DETAILS
 ._GWYRkBdJ_AchievementCarouselItem._GWYRkBdJ_Detailed {
   background: var(--ctp-surface1);
 }
+
+/* your stuff card backgrounds */
 .BasicUI ._e6Lzgg6v_AppDetailsSectionContainer._e6Lzgg6v_RightColumnSection {
-  background: var(--ctp-surface0);
+  background: color-mix(in oklab, var(--ctp-surface0) 70%, var(--ctp-base));
 }
-.BasicUI ._b5AGtz9j_Event ._b5AGtz9j_EventBody {
-  background: var(--ctp-surface0);
-}
+
 ._b5AGtz9j_PartnerEventMediumImage_Container {
   background: var(--ctp-surface0);
 }
@@ -695,6 +715,15 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover.gpfocus.Primary,
 button._EifR99lo_Button.DialogButton:enabled:active:hover:active.Primary {
   background: var(--ctp-blue);
   color: var(--ctp-base);
+}
+/* community page */
+.BasicUI ._-85o5-M_cGo-fefOuWwER ._23Pup1qLf91kwjALd-jFGc,
+._-85o5-M_cGo-fefOuWwER .xsBpzsjWWv0lqaQr0yzrG {
+  color: var(--ctp-subtext0);
+}
+.BasicUI ._1aP1bu_l_kDbKMN7XDNmzg ._3uabislt81gdMksbxzc-iN {
+  background: rgba(var(--ctp-base-rgb), 0.65);
+  backdrop-filter: blur(1px);
 }
 /* install glyph */
 :not(._wGpIi7EP_Disabled)>._wGpIi7EP_ButtonChild svg {
@@ -817,6 +846,18 @@ button._EifR99lo_Button.DialogButton:enabled:active:hover:active.Primary {
 ._2mwbdnqm9Lk1-Bzs8FIdCU {
   background-color: var(--ctp-surface0);
 }
+/* demo stuff */
+.xYbDdgox9mzrraWWYN3_- {
+  background: radial-gradient(100% 80% at 64% 95%, color-mix(in oklab, var(--ctp-surface0) 30%, transparent) 0%, color-mix(in oklab, var(--ctp-surface2) 50%, transparent) 40%, color-mix(in oklab, var(--ctp-surface0) 30%, transparent) 100%);
+}
+.xYbDdgox9mzrraWWYN3_- ._1AazHUNJbyL5SIWE5jC4Tz ._2rPfS5ipeg-YiBbwGz1Uzb {
+  color: var(--ctp-text);
+}
+._3EXklzsbt_QeypOM4_vp1K {
+  background: var(--ctp-green);
+  color: var(--ctp-base);
+}
+
 /* protondb */
 .protondb-decky-indicator {
   border-radius: 3px;
