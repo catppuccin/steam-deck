@@ -326,7 +326,8 @@ svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
 /* cursor blink */
 input[type="search" i] {
   color: var(--ctp-text) !important;
-  caret
+  caret-color: var(--ctp-text) !important;
+}
 /* urlbar */
 ._LlewZgR3_URLBar ._LlewZgR3_StatusIcon, ._LlewZgR3_URLBar ._LlewZgR3_URL {
   color: var(--ctp-subtext0);
