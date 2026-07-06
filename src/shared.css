@@ -954,6 +954,82 @@ button._EifR99lo_Button.DialogButton:enabled.gpfocus {
 ._1jkc-kgGF6F094o5S1bLPR {
   color: var(--ctp-blue);
 }
+/* virtual menus icon */
+._3f2IOwoVFEcJNNmmRXIMK8 svg rect {
+  fill: var(--ctp-text);
+}
+._2mL2HfT5AkDXRi1YBnRWKa._1ELdDY5kb5jxjXe-FpWBo5 ._3oALQTKb_fq_yVJAuTkwdb ._3f2IOwoVFEcJNNmmRXIMK8 svg path[fill="#AAAAAA"] {
+  fill: var(--ctp-subtext0);
+}
+._3f2IOwoVFEcJNNmmRXIMK8 svg path[fill="#AAAAAA"] {
+  fill: var(--ctp-overlay0);
+}
+
+/* input type drop-down */
+svg.mUVZQDTqjhboROo1iwpnz {
+  filter: none;
+}
+/* single button icon */
+._3H05CHzkfz75-vnlsMa-p5 svg g path[fill="white"] {
+  fill: var(--ctp-text);
+}
+._3H05CHzkfz75-vnlsMa-p5 svg g path[fill="#FFC82C"] {
+  fill: var(--ctp-accent-color);
+}
+/* virtual menu types */
+._3H05CHzkfz75-vnlsMa-p5 svg path[fill="#EEEEEE"],
+._3H05CHzkfz75-vnlsMa-p5 svg rect[fill="#EEEEEE"] {
+  fill: var(--ctp-text);
+}
+._3H05CHzkfz75-vnlsMa-p5 svg path[fill="#AAAAAA"]{
+  fill: var(--ctp-overlay0);
+}
+
+/* Layout Menu */
+/* unselected layout */
+._2luCNihqvaHXeE1nGg0AXj {
+  background: var(--ctp-surface0);
+}
+/* layout selected background effect */
+._2luCNihqvaHXeE1nGg0AXj.Gp6XGVynhqerKkZQrWoeo,
+._2luCNihqvaHXeE1nGg0AXj._2v9eLFWF0ktRTlXWzGMij1 {
+  color: var(--ctp-text);
+  border-left: 2px solid var(--ctp-text);
+  background: linear-gradient(90deg in oklab, var(--ctp-surface1) 0%, var(--ctp-surface0) 20%);
+}
+._2luCNihqvaHXeE1nGg0AXj.Gp6XGVynhqerKkZQrWoeo.gpfocus {
+  background: var(--ctp-accent-color);
+  color: var(--ctp-base);
+}
+/* focused layout */
+._tSXd7x61_ConfigurationButton._tSXd7x61_Recommended.gpfocus,
+._tSXd7x61_ConfigurationButton.gpfocus {
+  background: var(--ctp-accent-color);
+  border-left: 2px solid var(--ctp-accent-color);
+  color: var(--ctp-base);
+}
+.gpfocus ._3XAvqbR9DJNn4oQ0U7VE-v,
+.gpfocus .EI1IQ18YtMAcExga8nmll,
+.gpfocus ._1dzOHECUtTrYr0AdBzvYZg,
+.gpfocus ._25G91syHs9A2C8sCON_Pe {
+  color: var(--ctp-base) !important;
+}
+/* layout card text */
+._tSXd7x61_OuterColumn h1 {
+  color: var(--ctp-text);
+}
+._tSXd7x61_OuterColumn p {
+  color: var(--ctp-subtext0);
+}
+._tSXd7x61_ConfigurationButton, ._tSXd7x61_Title {
+  color: var(--ctp-subtext1);
+}
+._tSXd7x61_InfoSection,
+._tSXd7x61_Author,
+._tSXd7x61_Description {
+  color: var(--ctp-subtext0);
+}
+
 /* input settings */
 /* input settings sidebar background */
 ._69bNVq98_PageListColumn {
@@ -1054,7 +1130,8 @@ button._EifR99lo_Button.DialogButton:enabled.gpfocus {
 ._C0tg64pn_TriggerButton, ._C0tg64pn_BumperButton, ._C0tg64pn_SelectButton, ._C0tg64pn_StartButton, ._C0tg64pn_MouseKey, ._C0tg64pn_KeyboardKey, ._C0tg64pn_ControllerActionKey, ._C0tg64pn_CameraAngleKey,
 ._19SMSHLlXqSLnXM3NjDNBS.CX4Dp8XyHswkGEEnWeUpq,
 .NoRFSLSfwRijJQt7R51OT.CX4Dp8XyHswkGEEnWeUpq,
-._3yP_pf4vx1Q4W0mt2DR32P.CX4Dp8XyHswkGEEnWeUpq {
+._3yP_pf4vx1Q4W0mt2DR32P.CX4Dp8XyHswkGEEnWeUpq,
+._2MjBd1kKOEyVfqBN5OQOb1.CX4Dp8XyHswkGEEnWeUpq, ._2swvcAycL4d0UoHFDoe6-d.CX4Dp8XyHswkGEEnWeUpq {
   border-color: var(--ctp-surface0);
   background-color: var(--ctp-surface0);
 }
@@ -1064,6 +1141,27 @@ button._EifR99lo_Button.DialogButton:enabled.gpfocus {
 }
 ._C0tg64pn_CameraAngleKey {
   color: var(--ctp-text);
+}
+/* reset camera icon */
+._3VoPb4fjRPVGkVfr7yjxuS svg path[fill="#D9D9D9"] {
+  fill: var(--ctp-text);
+}
+._3VoPb4fjRPVGkVfr7yjxuS svg path[fill="#8B929A"] {
+  fill: var(--ctp-subtext0);
+}
+._3VoPb4fjRPVGkVfr7yjxuS svg path[fill="#B8BCBF"] {
+  fill: var(--ctp-subtext1);
+}
+/* turn camera icon */
+._3OGzUdD_w34cs9CggEMsWn svg path[stroke="#67707B"] {
+  stroke: var(--ctp-overlay2);
+}
+._3OGzUdD_w34cs9CggEMsWn svg path[stroke="#8B929A"] {
+  stroke: var(--ctp-subtext0);
+}
+._3OGzUdD_w34cs9CggEMsWn svg rect[fill="#D9D9D9"],
+._3OGzUdD_w34cs9CggEMsWn svg ellipse[fill="#D9D9D9"] {
+  fill: var(--ctp-text);
 }
 /* input borders */
 ._C0tg64pn_CardinalButtonGroup._C0tg64pn_Circle::before,
@@ -1077,12 +1175,21 @@ button._EifR99lo_Button.DialogButton:enabled.gpfocus {
 }
 /* controller image */
 ._C0tg64pn_GamepadPreview {
-  color: var(--ctp-text);
+  color: var(--ctp-overlay0);
 }
-._C0tg64pn_MouseCenterImage {
-  filter: var(--ctp-text-filter);
+._C0tg64pn_MouseCenterImage svg path {
+  stroke: var(--ctp-overlay0);
 }
-/*  button icons */
+._C0tg64pn_MouseCenterImage svg rect {
+  fill: var(--ctp-text);
+  stroke: var(--ctp-text);
+}
+._C0tg64pn_MouseCenterImage svg > :nth-child(5) {
+  stroke: none;
+  fill: var(--ctp-overlay0);
+}
+
+/* button icons */
 ._C0tg64pn_CardinalButtonGroupButton ._C0tg64pn_KeyboardKeyLabel {
   color: var(--ctp-subtext0);
 }
@@ -3015,39 +3122,6 @@ button.TEWmsM70ZLEOxLAjDMpcv._2rd6kyE9QIMeIPPOJ19fOq ._3Wb9yDmYPUJksCr7HmaT9H {
 ._RY1VfH6B_ControlLabel {
   background-color: var(--ctp-accent-color);
   color: var(--ctp-base);
-}
-
-/* Layout Menu */
-._tSXd7x61_OuterColumn h1 {
-  color: var(--ctp-text);
-}
-._tSXd7x61_OuterColumn p {
-  color: var(--ctp-subtext0);
-}
-._tSXd7x61_ConfigurationButton._tSXd7x61_Recommended,
-._tSXd7x61_ConfigurationButton {
-  background: var(--ctp-base);
-  border-top: 1px solid var(--ctp-surface0);
-  border-bottom: 1px solid var(--ctp-surface0);
-}
-._tSXd7x61_ConfigurationButton._tSXd7x61_Recommended {
-  border-left-color: var(--ctp-accent-color);
-}
-._tSXd7x61_ConfigurationButton, ._tSXd7x61_Title {
-  color: var(--ctp-subtext1);
-}
-._tSXd7x61_ConfigurationButton._tSXd7x61_Recommended.gpfocus,
-._tSXd7x61_ConfigurationButton.gpfocus {
-  background: var(--ctp-accent-color);
-  color: var(--ctp-base);
-}
-._tSXd7x61_ConfigurationButton {
-  background: none;
-}
-._tSXd7x61_InfoSection,
-._tSXd7x61_Author,
-._tSXd7x61_Description {
-  color: var(--ctp-subtext0);
 }
 
 /* Search Bar Fix */
