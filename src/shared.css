@@ -310,12 +310,29 @@ TOP BAR
 ._GXJzUoT6_SearchAndTitleContainer ._GXJzUoT6_SearchIconLeft {
   color: var(--ctp-text);
 }
-/* search bar background */
-._GXJzUoT6_SearchAndTitleContainer._GXJzUoT6_ShowingSearch:not(._GXJzUoT6_VR):hover {
+/* hover */
+._2HnVd7wV6yVaTiXfrBe3gq.gpfocus, ._2HnVd7wV6yVaTiXfrBe3gq.gpfocuswithin {
+  background: var(--ctp-accent-color);
+  color: var(--ctp-base);
+}
+/* search box */
+._GXJzUoT6_SearchAndTitleContainer._GXJzUoT6_ShowingSearch:not(._GXJzUoT6_VR):hover,
+._GXJzUoT6_SearchAndTitleContainer._GXJzUoT6_ForceExpanded:not(.gpfocuswithin) ._GXJzUoT6_SearchFieldBackground._GXJzUoT6_WhiteBackground,
+#header > div.searchbar_SearchContainer_161Tj._GXJzUoT6_ForceExpanded.Panel.Focusable.gpfocuswithin > input,
+input[type="search" i],
+._GXJzUoT6_SearchFieldBackground._GXJzUoT6_WhiteBackground {
   background-color: transparent;
 }
-._GXJzUoT6_SearchAndTitleContainer._GXJzUoT6_ForceExpanded:not(.gpfocuswithin) ._GXJzUoT6_SearchFieldBackground._GXJzUoT6_WhiteBackground {
-  background-color: transparent;
+input[type="search" i]::placeholder {
+  color: var(--ctp-subtext0);
+}
+svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
+  fill: var(--ctp-text);
+}
+/* cursor blink */
+input[type="search" i] {
+  color: var(--ctp-text) !important;
+  caret-color: var(--ctp-text) !important;
 }
 /* urlbar */
 ._LlewZgR3_URLBar ._LlewZgR3_StatusIcon, ._LlewZgR3_URLBar ._LlewZgR3_URL {
@@ -371,11 +388,19 @@ TOP BAR
   background: var(--ctp-red);
   border: none;
 }
+/* offline mode indicator */
+#header > [aria-label="Internet Settings"] > svg path[fill="#AD66BB"] {
+  fill: var(--ctp-mauve);
+}
 /* battery */
 ._ehWSiALG_BatteryIcon svg svg rect,
 ._b5GQsn5s_BatteryIcon svg svg rect {
   fill: var(--ctp-green);
   color: var(--ctp-base);
+}
+._ehWSiALG_BatteryIcon svg svg rect[fill="#E01D79"],
+._b5GQsn5s_BatteryIcon svg svg rect[fill="#E01D79"] {
+  fill: var(--ctp-red);
 }
 ._ehWSiALG_HeaderItem._ehWSiALG_BatteryIcon {
   color: var(--ctp-text);
@@ -3165,24 +3190,37 @@ button.TEWmsM70ZLEOxLAjDMpcv._2rd6kyE9QIMeIPPOJ19fOq ._3Wb9yDmYPUJksCr7HmaT9H {
   color: var(--ctp-base);
 }
 
-/* Search Bar Fix */
-input[type="search" i],
-._GXJzUoT6_SearchFieldBackground._GXJzUoT6_WhiteBackground{
-  background: transparent;
-  color: var(--ctp-text) !important;
-  caret-color: var(--ctp-text) !important;
-}
-._GXJzUoT6_SearchBox.gpfocus, .searchbar_SearchContainer_161Tj._GXJzUoT6_ForceExpanded ._GXJzUoT6_SearchBox {
+/* Layout Menu */
+._tSXd7x61_OuterColumn h1 {
   color: var(--ctp-text);
 }
-svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
-  fill: var(--ctp-text);
+._tSXd7x61_OuterColumn p {
+  color: var(--ctp-subtext0);
 }
-._tSXd7x61_SearchBoxContainer {
-  border: 1px solid var(--ctp-surface2);
+._tSXd7x61_ConfigurationButton._tSXd7x61_Recommended,
+._tSXd7x61_ConfigurationButton {
+  background: var(--ctp-base);
+  border-top: 1px solid var(--ctp-surface0);
+  border-bottom: 1px solid var(--ctp-surface0);
 }
-#header > div.searchbar_SearchContainer_161Tj._GXJzUoT6_ForceExpanded.Panel.Focusable.gpfocuswithin > input {
-  background-color: transparent;
+._tSXd7x61_ConfigurationButton._tSXd7x61_Recommended {
+  border-left-color: var(--ctp-accent-color);
+}
+._tSXd7x61_ConfigurationButton, ._tSXd7x61_Title {
+  color: var(--ctp-subtext1);
+}
+._tSXd7x61_ConfigurationButton._tSXd7x61_Recommended.gpfocus,
+._tSXd7x61_ConfigurationButton.gpfocus {
+  background: var(--ctp-accent-color);
+  color: var(--ctp-base);
+}
+._tSXd7x61_ConfigurationButton {
+  background: none;
+}
+._tSXd7x61_InfoSection,
+._tSXd7x61_Author,
+._tSXd7x61_Description {
+  color: var(--ctp-subtext0);
 }
 
 /* Quick Access Fix */
