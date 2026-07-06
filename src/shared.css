@@ -374,6 +374,13 @@ TOP BAR
 ._ehWSiALG_HeaderItem._ehWSiALG_BatteryIcon {
   color: var(--ctp-text);
 }
+/* Updates indicator */
+#header > [aria-label="Update Available"] > svg path[fill="#FFC82C"] {
+  fill: var(--ctp-yellow);
+}
+#header > ._2HnVd7wV6yVaTiXfrBe3gq.gpfocuswithin > svg path[fill="#FFC82C"] {
+  fill: var(--ctp-surface1);
+}
 
 /*
 LIBRARY
@@ -1651,6 +1658,19 @@ button._EifR99lo_Button.DialogButton.Disabled, button._EifR99lo_Button.DialogBut
   background-color: var(--ctp-accent-color);
 }
 
+/* System */
+/* software update gradient */
+.Evi7gq_iuz9HbjzrCjgUG::after {
+  box-shadow: inset 0px -15px 10px -10px var(--ctp-crust);
+}
+/* deck with ! sidebar */
+.gNwozyl1BAcDyyhUKvx1Y > :nth-child(1) ._3oALQTKb_fq_yVJAuTkwdb ._3f2IOwoVFEcJNNmmRXIMK8 svg path {
+  fill: var(--ctp-text);
+}
+.gNwozyl1BAcDyyhUKvx1Y > :nth-child(1) ._3oALQTKb_fq_yVJAuTkwdb ._3f2IOwoVFEcJNNmmRXIMK8 svg path + path {
+  fill: var(--ctp-yellow);
+}
+
 /* Internet */
 /* ip address header */
 .BasicUI ._EifR99lo_GamepadDialogContent .DialogControlsSectionHeader {
@@ -2329,6 +2349,10 @@ STEAM MENU
   0%, 100% {
     background: transparent;
   }
+}
+/* update settings cog ! */
+[aria-label="Settings"] [class="_3xZ3ZujYllkNRr5UdDfNmz"] svg path + path {
+  fill: var(--ctp-yellow);
 }
 
 /* in-game menus */
@@ -3411,13 +3435,6 @@ svg._GXJzUoT6_SearchIconLeft._GXJzUoT6_WhiteBackground > path {
 }
 .recentchatssteamdeck_RecentChatsList_2-4f0 .recentchatssteamdeck_RecentChatElement_1-Coz .recentchatssteamdeck_Time_20ewu {
   color: var(--ctp-subtext0);
-}
-/* Updates Coloration fix */
-#header > div._ehWSiALG_HeaderItem._ehWSiALG_Clickable._ehWSiALG_UpdatesIcon.Panel.Focusable > svg > path:nth-child(2), 
-#header > div._ehWSiALG_HeaderItem._ehWSiALG_Clickable._ehWSiALG_UpdatesIcon.Panel.Focusable > svg > path:nth-child(3),
-#MainNavMenuContainer > div > div:nth-child(7) > div > div._22Zq8BkS_ItemIcon > svg > path:nth-child(2),
-#MainNavMenuContainer > div > div:nth-child(7) > div > div._22Zq8BkS_ItemIcon > svg > path:nth-child(3) {
-    fill: var(--ctp-yellow);
 }
 
 /* Patch Notes Fix */
