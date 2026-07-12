@@ -4,13 +4,12 @@
 	"author": "ozwaldorf, Luna-Terra-CG, soradotwav",
 	"target": "System-Wide",
 	"version": "v1.1.3",
-	"manifest_version": 5,
+	"manifest_version": 9,
 	"inject": {
 		"shared.css": [
 			"SP",
 			"MainMenu",
-			"QuickAccess",
-			"~https://store.steampowered.com/~"
+			"QuickAccess"
 		],
 		"svg.css": [
 			"SP",
@@ -36,32 +35,28 @@
 					"flavors/mocha.css": [
 						"SP",
 						"MainMenu",
-						"QuickAccess",
-						"~https://store.steampowered.com/~"
+						"QuickAccess"
 					]
 				},
 				"Macchiato": {
 					"flavors/macchiato.css": [
 						"SP",
 						"MainMenu",
-						"QuickAccess",
-						"~https://store.steampowered.com/~"
+						"QuickAccess"
 					]
 				},
 				"Frappe": {
 					"flavors/frappe.css": [
 						"SP",
 						"MainMenu",
-						"QuickAccess",
-						"~https://store.steampowered.com/~"
+						"QuickAccess"
 					]
 				},
 				"Latte": {
 					"flavors/latte.css": [
 						"SP",
 						"MainMenu",
-						"QuickAccess",
-						"~https://store.steampowered.com/~"
+						"QuickAccess"
 					]
 				}
 			},
@@ -72,115 +67,115 @@
 			"default": "Rosewater",
 			"values": {
 				"Rosewater": {
-					"accents/rosewater.css": [
+					"--ctp-accent-color": [
+						"var(--ctp-rosewater);",
 						"SP",
 						"MainMenu",
-						"QuickAccess",
-						"~https://store.steampowered.com/~"
+						"QuickAccess"
 					]
 				},
 				"Flamingo": {
-					"accents/flamingo.css": [
+					"--ctp-accent-color": [
+						"var(--ctp-flamingo);",
 						"SP",
 						"MainMenu",
-						"QuickAccess",
-						"~https://store.steampowered.com/~"
+						"QuickAccess"
 					]
 				},
 				"Pink": {
-					"accents/pink.css": [
+					"--ctp-accent-color": [
+						"var(--ctp-pink);",
 						"SP",
 						"MainMenu",
-						"QuickAccess",
-						"~https://store.steampowered.com/~"
+						"QuickAccess"
 					]
 				},
 				"Mauve": {
-					"accents/mauve.css": [
+					"--ctp-accent-color": [
+						"var(--ctp-mauve);",
 						"SP",
 						"MainMenu",
-						"QuickAccess",
-						"~https://store.steampowered.com/~"
+						"QuickAccess"
 					]
 				},
 				"Red": {
-					"accents/red.css": [
+					"--ctp-accent-color": [
+						"var(--ctp-red);",
 						"SP",
 						"MainMenu",
-						"QuickAccess",
-						"~https://store.steampowered.com/~"
+						"QuickAccess"
 					]
 				},
 				"Maroon": {
-					"accents/maroon.css": [
+					"--ctp-accent-color": [
+						"var(--ctp-maroon);",
 						"SP",
 						"MainMenu",
-						"QuickAccess",
-						"~https://store.steampowered.com/~"
+						"QuickAccess"
 					]
 				},
 				"Peach": {
-					"accents/peach.css": [
+					"--ctp-accent-color": [
+						"var(--ctp-peach);",
 						"SP",
 						"MainMenu",
-						"QuickAccess",
-						"~https://store.steampowered.com/~"
+						"QuickAccess"
 					]
 				},
 				"Yellow": {
-					"accents/yellow.css": [
+					"--ctp-accent-color": [
+						"var(--ctp-yellow);",
 						"SP",
 						"MainMenu",
-						"QuickAccess",
-						"~https://store.steampowered.com/~"
+						"QuickAccess"
 					]
 				},
 				"Green": {
-					"accents/green.css": [
+					"--ctp-accent-color": [
+						"var(--ctp-green);",
 						"SP",
 						"MainMenu",
-						"QuickAccess",
-						"~https://store.steampowered.com/~"
+						"QuickAccess"
 					]
 				},
 				"Teal": {
-					"accents/teal.css": [
+					"--ctp-accent-color": [
+						"var(--ctp-teal);",
 						"SP",
 						"MainMenu",
-						"QuickAccess",
-						"~https://store.steampowered.com/~"
+						"QuickAccess"
 					]
 				},
 				"Sky": {
-					"accents/sky.css": [
+					"--ctp-accent-color": [
+						"var(--ctp-sky);",
 						"SP",
 						"MainMenu",
-						"QuickAccess",
-						"~https://store.steampowered.com/~"
+						"QuickAccess"
 					]
 				},
 				"Sapphire": {
-					"accents/sapphire.css": [
+					"--ctp-accent-color": [
+						"var(--ctp-sapphire);",
 						"SP",
 						"MainMenu",
-						"QuickAccess",
-						"~https://store.steampowered.com/~"
+						"QuickAccess"
 					]
 				},
 				"Blue": {
-					"accents/blue.css": [
+					"--ctp-accent-color": [
+						"var(--ctp-blue);",
 						"SP",
 						"MainMenu",
-						"QuickAccess",
-						"~https://store.steampowered.com/~"
+						"QuickAccess"
 					]
 				},
 				"Lavender": {
-					"accents/lavender.css": [
+					"--ctp-accent-color": [
+						"var(--ctp-lavender);",
 						"SP",
 						"MainMenu",
-						"QuickAccess",
-						"~https://store.steampowered.com/~"
+						"QuickAccess"
 					]
 				}
 			},
@@ -193,19 +188,6 @@
 				"Yes": {
 					"keyboard.css": [
 						"SP"
-					]
-				},
-				"No": {}
-			},
-			"components": []
-		},
-		"Theme steam store": {
-			"type": "checkbox",
-			"default": "No",
-			"values": {
-				"Yes": {
-					"store.css": [
-						"~https://store.steampowered.com/~"
 					]
 				},
 				"No": {}
