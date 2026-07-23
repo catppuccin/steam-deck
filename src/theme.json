@@ -20,7 +20,7 @@
 	"dependencies": {
 		"Better Blur": {
 			"Blur Strength": "3",
-			"Opacity": "0.4"
+			"Opacity": "0.5"
 		},
 		"Focus Highlight Color": {
 			"Round Compatibility": "No"
