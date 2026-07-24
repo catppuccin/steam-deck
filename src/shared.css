@@ -2760,6 +2760,83 @@ STEAM MENU
 }
 
 /*
+GAME NEWS
+*/
+
+/* hover effects */
+._1n_1Xh8vasUIYlvQ1wpeO1 {
+  background-color: color-mix(in oklab, var(--ctp-accent-color) 60%, var(--ctp-base));
+}
+.gpfocus ._1n_1Xh8vasUIYlvQ1wpeO1 {
+  opacity: 1;
+}
+.gpfocus ._116GSq2HSaJGGhM2mcocSl {
+  filter: blur(3px) grayscale(50%);
+}
+.UE_Mse5yL68-_H3qFd0Mm {
+  text-shadow: 2px 2px 10px var(--ctp-crust);
+  color: var(--ctp-text);
+}
+/* background */
+._1KsYSVzmvIfRivBTcx-_GE {
+  background-image: radial-gradient(ellipse at top left, var(--ctp-surface0), var(--ctp-base));
+  background-color: var(--ctp-base);
+}
+._3_SEiDNs-lzwV7cTF6gcgt ._3z2NYCkFizMu4fMvWTIBUG,
+.mKmrOjr9bGjKAolgp9NoD {
+  background: rgba(var(--ctp-surface0-rgb), 0.4);
+}
+.GamepadMode ._32mHvRSmD7AVK9OIOPlaFu {
+  background: rgba(var(--ctp-base-rgb), 0.4);
+}
+/* title section */
+.TqEPC9bhvVpZ1rb3Z8Mbd {
+  color: var(--ctp-text);
+}
+._3_SEiDNs-lzwV7cTF6gcgt ._2KsEbGy9kiSDeQpcqEc9DG,
+._2WwG2r8yZuu2EMJgFTQZp8 > ._2VqeQaZVaUkkEWaiLkmqmT {
+  color: var(--ctp-subtext1) !important;
+}
+._2WwG2r8yZuu2EMJgFTQZp8 > span {
+  color: var(--ctp-accent-color) !important;
+}
+._20f2sKS2M7PlPSnPCinT26 {
+  color: var(--ctp-subtext1);
+}
+._7kr7kB5ui-hc8_6J6g5v0 {
+  color: var(--ctp-text);
+}
+/* main portion */
+.A_A2B6fTn_MPLlGCmsLtd {
+  color: var(--ctp-text);
+}
+h1.SPYFj8pCLpNmnuQJEDobC, h2.QuKtTJ4LCPUlQeWYfLNyX, h3._3s7cUqglDds9wzcWb7OLz6 {
+  color: var(--ctp-text);
+}
+.A_A2B6fTn_MPLlGCmsLtd a:not(.LinkButton,.WidgetTag) {
+  color: var(--ctp-blue);
+}
+/* footer */
+._3Kelh1-_v6xHfRjF68n7NB, ._3ctGqQID5-8adtd7HlZ3YM, ._16xC0mtOWoLbvSQbmo_ycv {
+  background-color: rgba(var(--ctp-surface0-rgb), 0.9);
+}
+._1ABCOz8DSrl-YJdh1xD-m0._1dDpSuaJBGZzS41s0SPk4c {
+  background: var(--ctp-surface1);
+  color: var(--ctp-text);
+  box-shadow: 0px 8px 12px 3px rgba(var(--ctp-crust-rgb), .5);
+}
+._3csl-MPe-hKuT8hQpOqEG5, .QQy4BCjcpjCfAvTKAqBq3, ._3csl-MPe-hKuT8hQpOqEG5>svg, .QQy4BCjcpjCfAvTKAqBq3>svg {
+  color: var(--ctp-accent-color);
+  fill: var(--ctp-accent-color);
+}
+._2akzufsslA5YAnC95zYx0K {
+  fill: var(--ctp-text);
+}
+._3ZqxxB_poSsEYBW1s4t1OY {
+  fill: var(--ctp-subtext1);
+}
+
+/*
 VOLUME OVERLAY
 */
 

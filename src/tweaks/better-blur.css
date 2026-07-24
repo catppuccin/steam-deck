@@ -6,6 +6,11 @@
 .gamepadui_GamepadDialogOverlay_34Euf .ModalOverlayBackground {
     background: rgba(var(--ctp-base-rgb), var(--betterBlur-opacity)) !important;
 }
+/* game news */
+._1iFoUdlf4eWRnUfm9lfwUt ._3pmmeZm2b_6kUeJTwyjxod {
+    background: rgba(var(--ctp-base-rgb), var(--betterBlur-opacity)) !important;
+    backdrop-filter: blur(var(--betterBlur-strength)) !important;
+
 /* library */
 ._1gRvMhACGZzSj_qxHzdgX4.pdiNoMktGJLVpNnwRlzK9 {
     background: rgba(var(--ctp-base-rgb), var(--betterBlur-opacity)) !important;
