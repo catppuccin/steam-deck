@@ -6,3 +6,8 @@
 .gamepadui_GamepadDialogOverlay_34Euf .ModalOverlayBackground {
     background: rgba(var(--ctp-base-rgb), var(--betterBlur-opacity)) !important;
 }
+/* library */
+._1gRvMhACGZzSj_qxHzdgX4.pdiNoMktGJLVpNnwRlzK9 {
+    background: rgba(var(--ctp-base-rgb), var(--betterBlur-opacity)) !important;
+    backdrop-filter: blur(var(--betterBlur-strength)) !important
+}
