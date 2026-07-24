@@ -451,6 +451,45 @@ LIBRARY
   color: inherit;
 }
 
+/* collections */
+/* Old, does something??? */
+.DialogLabel, .DialogLabelStrong {
+  color: var(--ctp-text);
+}
+.DialogLabel._satZ1WsX_Required {
+  color: var(--ctp-red);
+}
+._satZ1WsX_Description {
+  background: var(--ctp-base);
+}
+
+/* collection icon */
+.BasicUI ._3IWn-2rn7x98o5fDd0rAxb:focus, .BasicUI ._3IWn-2rn7x98o5fDd0rAxb {
+  background: var(--ctp-surface0);
+  box-shadow: 0px 16px 24px 0px rgba(var(--ctp-crust-rgb), .5);
+}
+.BasicUI ._rKoMOS7e_Collection:focus ._rKoMOS7e_CollectionLabel, .BasicUI ._rKoMOS7e_Collection ._rKoMOS7e_CollectionLabel {
+  color: var(--ctp-text);
+  text-shadow: 0px 2px 4px rgba(var(--ctp-crust-rgb), .5);
+}
+._rKoMOS7e_Collection ._rKoMOS7e_CollectionLabel ._rKoMOS7e_CollectionLabelCount {
+  color: var(--ctp-subtext0);
+}
+/* collection label */
+._1UuM8B1MkiPFqJqO5XkYeZ {
+  color: var(--ctp-text);
+}
+/* delete collection dialog */
+._16sYNwqxz6giarbVaRUl7R .DialogBodyText > span {
+  color: var(--ctp-accent-color) !important;
+}
+.nYduuEpqjIl1jVi5_1sTt ._143lqhMH9fhmkssX-K0UVM svg line, .nYduuEpqjIl1jVi5_1sTt .f9KxlFlc-4JworDwROXxk svg line {
+  stroke: var(--ctp-red);
+}
+.nYduuEpqjIl1jVi5_1sTt ._143lqhMH9fhmkssX-K0UVM svg line {
+  stroke: var(--ctp-crust);
+}
+
 /* library sorting filters */
 /* filters background */
 ._s6ZVhnwz_CompatFilterDialog {
@@ -3587,17 +3626,6 @@ button.TEWmsM70ZLEOxLAjDMpcv._2rd6kyE9QIMeIPPOJ19fOq ._3Wb9yDmYPUJksCr7HmaT9H {
   border-top-color: var(--ctp-base);
 }
 
-/* New Collection Menu */
-.DialogLabel, .DialogLabelStrong {
-  color: var(--ctp-text);
-}
-.DialogLabel._satZ1WsX_Required {
-  color: var(--ctp-red);
-}
-._satZ1WsX_Description {
-  background: var(--ctp-base);
-}
-
 /* Friends Menu Fix */
 .offline ._4ZxDBJu4_richPresenceLabel, 
 .offline ._4ZxDBJu4_gameName._4ZxDBJu4_richPresenceLabel a, 
@@ -4135,15 +4163,4 @@ button._guvuNVRL_FatButton ._guvuNVRL_Details {
 }
 ._GWYRkBdJ_Featured ._GWYRkBdJ_TextSection ._GWYRkBdJ_Stats {
   color: var(--ctp-overlay0);
-}
-
-/* Collections Fix */
-.BasicUI ._rKoMOS7e_Collection:focus ._rKoMOS7e_CollectionLabel, .BasicUI ._rKoMOS7e_Collection ._rKoMOS7e_CollectionLabel {
-  color: var(--ctp-text);
-}
-.BasicUI ._rKoMOS7e_Collection:focus, .BasicUI ._rKoMOS7e_Collection {
-  background-color: var(--ctp-base);
-}
-._rKoMOS7e_Collection ._rKoMOS7e_CollectionLabel ._rKoMOS7e_CollectionLabelCount {
-  color: var(--ctp-subtext0);
 }
