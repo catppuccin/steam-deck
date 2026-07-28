@@ -2551,6 +2551,10 @@ STEAM MENU
 /* mainmenu highlight */
 [class="_1BbM8Qq8OL5N8gL4PYH397"]:has(.gpfocus) {
   background: var(--ctp-surface0);
+
+  [class="_1uLVHdiiCg78BRnhqLxUID"] {
+		background: var(--ctp-accent-color);
+	}
 }
 @keyframes _1HnqFT3fbAw0ADaVlUzeNn {
   0%, 100% {
