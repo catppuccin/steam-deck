@@ -40,4 +40,5 @@
   --ctp-crust-rgb: 220, 224, 232;
   
   --ctp-contrast-text: var(--ctp-surface1);
+  --ctp-darker-playbar: rgba(var(--ctp-surface0-rgb), .28);
 }
