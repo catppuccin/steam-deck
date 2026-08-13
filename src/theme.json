@@ -57,6 +57,11 @@
 						"SP",
 						"MainMenu",
 						"QuickAccess"
+					],
+					"tweaks/latte.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
 					]
 				}
 			},

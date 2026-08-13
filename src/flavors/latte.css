@@ -38,7 +38,4 @@
   --ctp-mantle-filter: brightness(0%) invert(96%) sepia(8%) saturate(165%) hue-rotate(185deg) brightness(99%) contrast(89%);
   --ctp-crust: #dce0e8;
   --ctp-crust-rgb: 220, 224, 232;
-  
-  --ctp-contrast-text: var(--ctp-surface1);
-  --ctp-darker-playbar: rgba(var(--ctp-surface0-rgb), .28);
 }

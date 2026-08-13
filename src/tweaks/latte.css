@@ -1,0 +1,8 @@
+/* fix contrast and whatnot on latte */
+:root {
+    --ctp-darker-playbar: rgba(var(--ctp-surface0-rgb), .28) !important;
+}
+
+.UE_Mse5yL68-_H3qFd0Mm {
+    color: var(--ctp-base);
+}
